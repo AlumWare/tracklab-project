@@ -178,4 +178,21 @@ __TB1__
 8. __[Anexos](#anexos)__  
 
 ---
+# Capítulo I: Introducción
+
+## 1.1 Startup Profile
+
+### 1.1.1. Descripción de la Startup
+
+La startup, presentada bajo el nombre de AlumWare, tiene como objetivo transformar digitalmente la gestión logística entre empresas en el Perú. A través de una plataforma web intuitiva y especializada, AlumWare permite a empresas clientes registrar y hacer seguimiento a sus órdenes de compra, mientras que las empresas logísticas pueden gestionar la recepción, agrupación, trazabilidad y entrega de la carga mediante tecnología de escaneo con códigos QR.  
+
+La solución se centra en resolver la fragmentación y falta de visibilidad en el flujo de carga entre múltiples actores (proveedores, operadores logísticos, empresas en campo), permitiendo un control preciso desde el origen hasta el destino final, incluyendo almacenes intermedios, rutas de transporte y procesos de consolidación de carga.  
+
+La trazabilidad completa de cada unidad de carga, incluso cuando esta se agrupa en contenedores mayores, representa una de las principales ventajas competitivas del sistema. Además, AlumWare contempla dashboards interactivos para el análisis de datos operativos, facilitando la toma de decisiones estratégicas tanto para empresas logísticas como para sus clientes.
+
+Misión: Digitalizar y optimizar la trazabilidad logística B2B mediante una plataforma web intuitiva, segura y eficiente para empresas peruanas.  
+
+Visión: AlumWare aspira a consolidarse como la solución tecnológica líder en gestión logística empresarial en Latinoamérica, facilitando la transformación digital del sector logístico con un enfoque en trazabilidad, transparencia y control de operaciones.  
+
+### 1.1.2. Perfiles de integrantes del equipo
 
