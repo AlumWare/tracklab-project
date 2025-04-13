@@ -204,3 +204,55 @@ Carrera: Ingeniería de Software
 
 Al iniciar el curso, poseo ciertos conocimientos de diseño y programación de páginas web adquirido en el curso anterior, IHC, así como bases en cuanto a la aplicación del enfoque DDD. Siento que, a parte de apoyar en el desarrollo con mis conocimientos previos y los adquiridos durante clase, puedo colaborar con mi grupo al promover el trabajo en equipo y organizar nuestras actividades pendientes para poder desarrollarlas de la mejor forma posible en el tiempo establecido.
 
+<div>
+  <p><img src="assets/md-images/natalia-foto.png" alt="Natalia" width="150px" /></p>
+</div>
+
+#### 1.1.2.2. Angelo Hector Solano Armas
+
+Código: U20231b775
+
+Carrera: Ingeniería de Software
+
+Al iniciar este curso, cuento con una base en diseño, programación web y patrones de software, adquirida en el curso de IHC. Aunque mi experiencia aún no es muy amplia, estoy comprometido a seguir aprendiendo y mejorando a lo largo del ciclo. Además de lo técnico, me considero una persona que puede aportar en la organización del equipo, ayudando a planificar nuestras tareas y asegurando que avancemos de forma ordenada y colaborativa para cumplir con los objetivos en los tiempos establecidos.
+
+<div>
+  <p><img src="assets/md-images/angelo-foto.png" alt="Angelo" width="150px" /></p>
+</div>
+
+#### 1.1.2.3. Sergio Sebastián Iglesias Pérez
+
+Código: u202316118
+
+Carrera: Ingeniería de Software
+
+Hola, soy Sergio Iglesias. En relación con este proyecto, cuento con experiencia en desarrollo web mediante un stack diferente al del curso; por ello, confío en poder adaptar mis conocimientos e incorporar buenas prácticas de desarrollo de software, teniendo siempre en cuenta los atributos de calidad. Me agradan tanto los entornos competitivos —donde surgen grandes oportunidades de aprendizaje— como el trabajo en equipo. En ambos casos, espero contribuir de forma proactiva para alcanzar las metas del proyecto y fomentar un ambiente de aprendizaje colaborativo.
+
+<div>
+  <p><img src="assets/md-images/sergio-foto.png" alt="Sergio" width="150px" /></p>
+</div>
+
+#### 1.1.2.4. Santiago Armando Baldeón Vivar
+
+Código: U202319881
+
+Carrera: Ingeniería de Software
+
+Mi nombre es Santiago Armando Baldeon y tengo 18 años. Actualmente estoy cursando la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. En mi caso elegí esta carrera porque desde chico sentí gran pasión por la tecnología y siempre quise ser alguien importante en este mundo, brindando mis aportes a la humanidad. Creo que voy por buen camino y espero en un futuro cumplir estos sueños y objetivos que tengo.
+
+<div>
+  <p><img src="assets/md-images/santiago-foto.png" alt="Santiago" width="150px" /></p>
+</div>
+
+#### 1.1.2.5. Jarod Jack Céspedes Pillco
+
+Código: U202318588
+
+Carrera: Ingeniería de Software
+
+Actualmente estoy cursando el quinto ciclo de la carrera Ingeniería de Software. Considero que soy atento, creativo y colaborador, siempre intentando apoyar a mi equipo en lo más que puedo. Además, tengo conocimientos en varios lenguajes de programación como C++, C#, Python y Java.
+
+<div>
+  <p><img src="assets/md-images/jarod-foto.png" alt="Jarod" width="150px" /></p>
+</div>
+
