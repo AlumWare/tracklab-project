@@ -196,3 +196,11 @@ Visión: AlumWare aspira a consolidarse como la solución tecnológica líder en
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+#### 1.1.2.1. Natalia Bertha Roman Cruz
+
+Código: U202310148
+
+Carrera: Ingeniería de Software
+
+Al iniciar el curso, poseo ciertos conocimientos de diseño y programación de páginas web adquirido en el curso anterior, IHC, así como bases en cuanto a la aplicación del enfoque DDD. Siento que, a parte de apoyar en el desarrollo con mis conocimientos previos y los adquiridos durante clase, puedo colaborar con mi grupo al promover el trabajo en equipo y organizar nuestras actividades pendientes para poder desarrollarlas de la mejor forma posible en el tiempo establecido.
+
