@@ -658,3 +658,90 @@ Tácticas:
 - Crear material de soporte proactivo (como videos, ayuda interactiva o chat de soporte) para acompañar el uso desde el primer día.  
 - Desarrollar una interfaz móvil optimizada, clara y sin curva de aprendizaje, para que el personal de campo la adopte sin fricción.
 
+
+## 2.2. Entrevistas
+
+### 2.2.1. Diseño de entrevista
+
+#### Segmento objetivo #1: Administradores de empresas proveedoras (envíos industriales)
+
+Preguntas Demográficas y de Perfil
+
+- ¿Cuál es su rol en la empresa y cuántos años de experiencia tiene en el sector logístico?
+- ¿Podría describir brevemente el tamaño de su empresa (número de empleados y volumen de operaciones mensuales)?
+- ¿En qué región o distrito se concentra mayormente su actividad operativa?
+
+Preguntas sobre Procesos Actuales y Herramientas
+
+- ¿Cómo gestionan actualmente el registro y seguimiento de la carga?
+- ¿Qué método o sistema utilizan para garantizar la trazabilidad de cada operación?
+- ¿Qué herramientas digitales o software emplean en su día a día para el seguimiento de envíos?
+
+Preguntas sobre Desafíos y Frustraciones
+
+- ¿Cuáles son los principales cuellos de botella que enfrenta en la gestión logística?
+- ¿Qué dificultades encuentra al mantener un seguimiento preciso de las órdenes y la carga?
+- ¿Qué aspectos de su sistema actual le resultan más frustrantes o poco eficientes?
+
+Preguntas sobre Expectativas y Necesidades Tecnológicas
+
+- ¿Qué características considera imprescindibles en una solución digital de trazabilidad y seguimiento?
+- ¿Cómo espera que se integre una nueva plataforma con sus procesos y dispositivos actuales
+- ¿Qué nivel de soporte técnico y capacidad de escalabilidad valora al elegir una nueva herramienta?
+
+Preguntas Finales y de Retroalimentación
+
+- ¿Estaría dispuesto a adoptar tecnologías como códigos QR o dashboards interactivos? ¿Por qué?
+- ¿Cómo gestionan y analizan actualmente los datos operativos, y qué mejoras desearía ver?
+- Si pudiera cambiar algoaspecto de su sistema actual, ¿cuál sería y por qué?
+
+#### Segmento objetivo #2: Administrador de empresa cliente (solicita envíos)
+
+Preguntas Demográficas y de Perfil
+
+- ¿Cuál es su rol y responsabilidad dentro de la empresa en relación con la logística?
+- ¿Podría describir brevemente el tamaño de su empresa y el sector (minería, construcción, agroindustria, etc.) en que opera?
+- ¿En qué regiones o distritos se centra principalmente su actividad?
+
+Preguntas sobre Procesos Actuales y Herramientas
+
+- ¿Cómo se gestionan actualmente las órdenes de compra y el seguimiento de envíos en su organización?
+- ¿Qué herramientas o software utiliza para monitorear el estado de sus pedidos?
+- ¿Qué dispositivos (móvil, tablet, PC) utiliza su equipo para interactuar con estas herramientas?
+
+Preguntas sobre Desafíos y Frustraciones
+
+- ¿Cuáles son los mayores desafíos que enfrenta en el seguimiento de sus envíos o pedidos?
+- ¿Qué aspectos del proceso actual cree que generan ineficiencias o retrasos?
+- ¿Ha experimentado frustraciones con el sistema actual que utiliza para el seguimiento? ¿Cuáles?
+
+Preguntas sobre Expectativas y Necesidades Tecnológicas
+
+- ¿Qué funcionalidades le gustaría que incorporara una nueva plataforma de seguimiento?
+- ¿Qué tipo de informes o dashboards serían más útiles para su toma de decisiones?
+- ¿Cómo espera que se integre una nueva solución con sus sistemas existentes?
+
+Preguntas Finales y de Retroalimentación
+
+- ¿Qué mejoras específicas cree que podrían optimizar el proceso de seguimiento en su empresa?
+- ¿Ha usado anteriormente soluciones digitales de seguimiento? Si es así, ¿cuál fue su experiencia y por qué?
+- ¿Qué recomendación o característica adicional consideraría esencial en una plataforma de trazabilidad?
+
+### 2.2.2. Registro de entrevistas
+
+# FALTA REGISTRO DE ENTREVISTAS
+
+### 2.2.3. Análisis de entrevistas
+
+# FALTA ANALISIS DE ENTREVISTAS
+
+
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+#### 2.3.1.1. User persona de administrador de empresa proveedora
+
+<div>
+  <p align="center"><img src="assets/md-images/gabriel-user.png" alt="Canvas" width="700px" /></p>
+</div>
