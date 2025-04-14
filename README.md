@@ -962,3 +962,20 @@ Enlace para visualizar en [Miro](https://miro.com/app/board/uXjVIDT9LS4=/?share_
 # 3. Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
+
+A continuación, mostraremos los To-Be Scenario Mapping que creamos para mostrar el cambio en las actividades que realizarían nuestros segmentos objetivos en comparación a aquellas que realizan ahora, resaltando no solo el aumento en la eficiencia de las tareas sino también como mejora el sentir de los involucrados en los nuevos procesos.
+
+#### 3.1.1. Administrador de empresa proveedora
+
+<div>
+  <p align="center"><img src="assets/md-images/tobe1.png" alt="Canvas" width="700px" /></p>
+</div>
+
+#### 3.1.2. Administrador de empresa cliente
+
+<div>
+  <p align="center"><img src="assets/md-images/tobe2.png" alt="Canvas" width="700px" /></p>
+</div>
+
+Enlace para visualizar en [Miro](https://miro.com/app/board/uXjVIDT9LS4=/?share_link_id=400490575884)
+
