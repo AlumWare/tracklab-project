@@ -1356,3 +1356,10 @@ Las epics y user stories nos sirven para traducir aquellas ideas y necesidades q
     <td>No corresponde</td>
   </tr>
 </table>
+
+## 3.3 Impact Mapping
+
+<div>
+  <p align="center"><img src="assets/md-images/Impact-Map-Web.jpg" alt="ImpactMap" width="700px" /></p>
+</div>
+
