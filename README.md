@@ -382,3 +382,65 @@ __¿Cómo debe verse nuestro producto y cómo debe comportarse?__
 
 Nuestro producto debe contar con una interfaz intuitiva, visual y de fácil uso, diseñada especialmente para el personal operativo, de modo que no requiera capacitaciones complejas. Debe ser modular y flexible, capaz de adaptarse a distintos tipos de envío, sectores logísticos y modelos operativos. La visualización debe incluir mapas en tiempo real, alertas automáticas e indicadores por eventos, facilitando el seguimiento y control del traslado. A nivel funcional, el sistema debe ser estable, rápido y seguro, con acceso controlado para proteger los datos sensibles tanto de la empresa como de los usuarios.
 
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+Hypothesis Statement 01
+
+**Creemos** que los supervisores y operadores logísticos estarán dispuestos a adoptar nuestra plataforma para registrar digitalmente cada fase del envío.  
+**Sabremos** que hemos tenido éxito  
+**cuando** al menos el 80% de los usuarios activos registren el seguimiento completo de los envíos en la primera etapa de implementación.
+
+Hypothesis Statement 02
+
+**Creemos** que permitir el acceso compartido a la información del envío entre empresas emisoras y receptoras mejorará la coordinación y reducirá malentendidos.  
+**Sabremos** que hemos tenido éxito  
+**cuando** se observe una reducción del 40% en reclamos o llamadas de seguimiento por parte de empresas receptoras.
+
+Hypothesis Statement 03
+
+**Creemos** que el uso de códigos QR en puntos críticos de carga y descarga disminuirá errores en la asignación de destinos.  
+**Sabremos** que hemos tenido éxito  
+**cuando** se logre una reducción del 70% en entregas erróneas o envíos extraviados durante los primeros tres meses.
+
+Hypothesis Statement 04
+
+**Creemos** que mostrar la ubicación y estado del envío en tiempo real aumentará la confianza del cliente y reducirá la incertidumbre operativa.  
+**Sabremos** que hemos tenido éxito  
+**cuando** se registre una mejora del 35% en la satisfacción del cliente en encuestas posteriores a la entrega.
+
+Hypothesis Statement 05
+
+**Creemos** que generar alertas automáticas ante retrasos, desvíos o fallas permitirá acciones preventivas más rápidas por parte del equipo logístico.  
+**Sabremos** que hemos tenido éxito  
+**cuando** el tiempo promedio de respuesta ante incidentes logísticos se reduzca en un 40%.
+
+Hypothesis Statement 06
+
+**Creemos** que ofrecer un historial detallado del envío mejorará los procesos de auditoría y análisis de errores logísticos.  
+**Sabremos** que hemos tenido éxito  
+**cuando** al menos el 70% de las auditorías internas utilicen la información de la plataforma como fuente principal.
+
+Hypothesis Statement 07
+
+**Creemos** que la integración con sistemas ERP o WMS existentes aumentará la eficiencia y reducirá la duplicidad de tareas.  
+**Sabremos** que hemos tenido éxito  
+**cuando** el tiempo promedio de registro y consulta de datos se reduzca en un 50% gracias a la integración.
+
+Hypothesis Statement 8
+
+**Creemos** que incluir la posibilidad de registrar incidencias durante el traslado (como demoras, desvíos o manipulaciones indebidas) ayudará a mejorar la trazabilidad y a prevenir futuros errores logísticos.  
+**Sabremos** que hemos tenido éxito  
+**cuando** al menos el 60% de los envíos con incidencias registradas logren ser resueltos o corregidos antes de la entrega final gracias a la información aportada por la plataforma.
+
+Hypothesis Statement 09
+
+**Creemos** que permitir registrar condiciones del envío con fotos y observaciones reducirá conflictos y mejorará la transparencia del proceso.  
+**Sabremos** que hemos tenido éxito  
+**cuando** el número de reclamos por daños sin evidencia se reduzca en un 50%.
+
+Hypothesis Statement 10
+
+**Creemos** que brindar reportes analíticos en tiempo real facilitará la toma de decisiones estratégicas por parte de los gestores logísticos.
+**Sabremos** que hemos tenido éxito  
+**cuando** al menos el 75% de los usuarios administrativos utilicen la herramienta de reportes cada semana.
+
