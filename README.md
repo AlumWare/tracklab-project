@@ -751,3 +751,157 @@ Preguntas Finales y de Retroalimentación
 <div>
   <p align="center"><img src="assets/md-images/hector-user.png" alt="Canvas" width="700px" /></p>
 </div>
+
+### 2.3.2. User Task Matrix
+
+A continuamos, se presenta el User Task Matrix que hemos elaborado, a través del cual se pueden ver las actividades que realizarán nuestros segmentos objetivos, tanto en común como por separado según sus deseos y necesidades.
+
+<table>
+  <tbody>
+    <tr>
+      <td rowspan="2">TASK</td>
+      <td colspan="2">Administrador de empresa proveedora</td>
+      <td colspan="2">Administrador de empresa cliente</td>
+    </tr>
+    <tr>
+      <td>Frequency</td>
+      <td>Importance</td>
+      <td>Frequency</td>
+      <td>Importance</td>
+    </tr>
+    <tr>
+      <td>Realizar pedido</td>
+      <td>Never</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Especificar requisitos de pedido</td>
+      <td>Rarely</td>
+      <td>High</td>
+      <td>Often</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Registrar nuevo pedido</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Never</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Registrar cumplimiento de requisitos</td>
+      <td>Often</td>
+      <td>High</td>
+      <td>Never</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Enviar pedido a almacenes</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Never</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Registrar salida de pedido</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Never</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Registrar ubicación del pedido</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Never</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Registrar estado del pedido</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Never</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Verificar contenido de la carga</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Never</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Actualizar dashboard</td>
+      <td>Always</td>
+      <td>Medium</td>
+      <td>Never</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Visualizar dashboard</td>
+      <td>Rarely</td>
+      <td>Medium</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Desplegar dashboard</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Never</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Realizar validación QR</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Never</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Enviar consulta</td>
+      <td>Never</td>
+      <td>Low</td>
+      <td>Often</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Responder consultas</td>
+      <td>Often</td>
+      <td>Medium</td>
+      <td>Never</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Registrar llegada del pedido</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Never</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Validar estado del pedido en la llegada</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Filtrar pedidos</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+      <td>Never</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Cerrar pedidos</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Never</td>
+      <td>Medium</td>
+    </tr>
+  </tbody>
+</table>
+
