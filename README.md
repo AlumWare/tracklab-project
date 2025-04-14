@@ -180,7 +180,7 @@ __TB1__
 ---
 # Capítulo I: Introducción
 
-## 1.1 Startup Profile
+## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
 
@@ -255,4 +255,70 @@ Actualmente estoy cursando el quinto ciclo de la carrera Ingeniería de Software
 <div>
   <p><img src="assets/md-images/jarod-foto.png" alt="Jarod" width="150px" /></p>
 </div>
+
+
+## 1.2. Solution Profile
+
+### 1.2.1. Antecedentes y problemática
+
+Para explicar el origen e impacto del problema identificado en la actualidad, emplearemos la técnica de los 5W2H, de forma que podamos dar con las principales causas que lo provocan y ello nos permita plantear una mejor solución.
+
+#### 1.2.1.1. What
+
+__¿Cuál es el problema__
+
+El problema radica en que tanto quienes se encargan del envío como de la recepción de paquetes de manera industrial tienen dificultades para mantenerse al tanto de la condición del envío, considerando desde su ubicación hasta si este se encuentra en un estado óptimo. Esto supone cierta desconfianza al realizar envíos, así como incertidumbre en cuanto al momento y calidad de la entrega. Aquí, se puede notar que existe una necesidad por ambos lados de mantenerse al tanto del paquete y su seguridad.
+
+Al lograr que todos los interesados en el envío puedan acceder a los datos completos sobre el mismo en cualquier momento, se lograrán evitar situaciones como la pérdida de paquetería, retrasos inadvertidos o envío a una ubicación incorrecta.
+
+#### 1.2.1.2. Who
+
+__¿Quiénes están involucrados en el problema?__
+
+Dentro de este problema, podemos destacar dos partes: la empresa que provee la paquetería y aquella que la solicita. La empresa encargada del envío almacena materiales o artefactos en gran cantidad para venderlos y que estos sean distribuídos hacia las empresas que los necesitan, mismas que realizan su pedido y esperan que este llegue en condiciones óptimas y en el tiempo indicado. Ambas empresas, en este caso, buscan saber la mayor cantidad de información del paquete posible y pueden surgir adversidades si alguna no posee los datos necesarios sobre el envío, dado que la empresa receptora puede presentar dudas y realizar reclamos frente a la preocupación, mientras que la emisora no sabría responder claramente.
+
+#### 1.2.1.3. Where
+
+__¿En dónde se presenta el problema?__
+
+Al considerar únicamente operaciones a nivel nacional, se puede mencionar que este problema ocurre en Perú, más específicamente en los almacenes o centros de envío y recepción de pedidos de las empresas que solicitan estos servicios. Esto, dado que existe una falta de transmisión de información desde que este es colocado en su medio de transporte hasta que finalmente es entregado, momento en el que al fin se puede verificar su estado. Asimismo, el problema continúa en las oficinas de los dos tipos de empresas antes mencionados, dado que una reclama al desear más información y la otra no puede dársela ya que tampoco la posee.
+
+#### 1.2.1.4. When
+
+__¿Cuándo se presenta el problema?__
+
+Este problema se presenta cuando la empresa proveedora inicia un envío hacia el lugar indicado por la empresa solicitante, dado que no guarda la información necesaria durante el trayecto del mismo. El problema continúa cuando el o los elementos solicitados son empaquetados y trasladados, dado que la empresa que espera recibirlos no sabe su ubicación ni si estos fueron correctamente asegurados. Por último, pueden presentarse problemas adicionales cuando el pedido es entregado, como que este haya llegado fuera de tiempo, situación que mantuviera a la empresa receptora en incertidumbre; que el paquete no haya llegado en condiciones óptimas dado un mal empaquetado o pobre seguimiento de las indicaciones de traslado; o que el paquete haya sido dejado en un lugar incorrecto, lo que retrasaría aún más su llegada y subiría sus gastos de traslado.
+
+#### 1.2.1.5. Why
+
+__¿Por qué surge el problema?__
+
+Cómo se ha mencionado antes y se puede concluir a partir de las respuestas escritas anteriormente, la principal causa del problema es la falta de seguimiento del proceso de traslado de los paquetes enviados. Ahora bien, esto puede ocurrir por falta de organización de la empresa proveedora como por falta de herramientas tecnologías, mismas que facilitarían el monitoreo requerido.
+
+Los problemas derivados surgen a causa, precisamente, de la falta de información en cuanto a la paqueteria. Por ejemplo, al no tener la información detallada del tipo de empaquetado que ciertos productos necesitan, los trabajadores pueden cometer errores. Lo mismo ocurre en cuanto a la ubicación a la que deben llegar, al no tener forma de verificarlo o alguna alerta, el escenario se presta a que cualquier paquete termine en la ciudad incorrecta.
+
+Por último, la intranquilidad y desconfianza de la empresa solicitante también son causadas por la falta de información que se le provee. Esto, por ejemplo, cuando ocurre un retraso y le es imposible a la empresa saber en donde se encuentra su pedido.
+
+#### 1.2.1.6. How
+
+__¿Cómo ocurre el problema?__
+
+El problema ocurre frente a la falta de organización y de transferencia de información, lo que repercute en que se produzca una mayor cantidad de errores en el proceso de traslado del paquete en cuestión, lo que afecta a ambas empresas involucradas.
+
+__¿En qué condiciones los usuarios usarán nuestro producto?__
+
+Los usuarios utilizarán nuestro producto cuando se necesite trasladar algún envío y estar pendiente de los movimientos y condiciones del mismo. La empresa encargada del envío usará nuestro producto para verificar la salida del pedido, tomando en cuenta que se estén cumpliendo las medidas de seguridad especificadas y que este se encuentre en camino al destino correcto. Por otro lado, la empresa receptora podrá seguir el traslado paso a paso, verificar la ubicación y mantenerse tranquila frente a la espera de su llegada contando con la seguridad de que viaja en las condiciones ideales.
+
+#### 1.2.1.7. How much
+
+__¿Cuánto impacto genera el problema?__
+
+En la última edición del PADE Internacional en Operaciones y Logística de la Universidad ESAN, el docente Freddy Alvarado Vargas señala como algunas de las causas más comunes de las fallas en los procesos de traslado y entrega de productos a la deficiente organización física de los productos, el poco soporte tecnológico para la compañía, ubicación y selección de los productos a entregar, y el uso de equipos de manipulación inadecuados. Se menciona que esto afecta tanto la confianza y operaciones de la empresa solicitante como la imagen de la empresa que envía los productos.
+
+A partir de lo mencionado, se señala que el implementar un seguimiento utilizando herramientas tecnológicas mostraría una ventaja competitiva para la empresa que opte por esta idea. Asimismo, cabe mencionar que actualmente el Gobierno del Perú desea impulsar el mercado de transporte y logística nacionalmente para que este cierre el presente año con ganancias de más de 15 mil millones de dólares, logrando una tasa de crecimiento anual compuesta de 5,92% en los próximos cinco años. Sin embargo, esta meta se ve lejana considerando las constantes fallas de las empresas de transporte de mercancía a nivel industrial, lo que, según los datos expuestos, no solo la daña a sí misma, sino también frena el crecimiento económico nacional.
+
+
+### 1.2.2. Lean UX Process
+
+#### 1.2.2.1. Lean UX Problem Statements
 
