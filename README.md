@@ -979,3 +979,380 @@ A continuación, mostraremos los To-Be Scenario Mapping que creamos para mostrar
 
 Enlace para visualizar en [Miro](https://miro.com/app/board/uXjVIDT9LS4=/?share_link_id=400490575884)
 
+## 3.2. User Stories
+
+Las epics y user stories nos sirven para traducir aquellas ideas y necesidades que expresan nuestros posibles próximos usarios en requisitos funcionales y no funcionales que podemos aplicar en la implementación de nuestro produto. Estas deben ser construídas adecuadamente, con un lenguaje comprensible por los encargados de ejecutarlas y siempre siguiente el patrón persona. A continuación, Alumware presenta las user stories que considerará en la elaboración de su producto TrackLab.  
+
+<table>
+  <thead>
+    <td>Epic/User Story ID</td>
+    <td>Título</td>
+    <td>Descripción</td>
+    <td>Criterios de aceptaciónD</td>
+    <td>Criterios de aceptación</td>
+  </thead>
+  <tr>
+    <td>EP01</td>
+    <td>Contacto</td>
+    <td>Como visitante de la landing page Quiero ponerme en contacto con los desarrolladores de la aplicación TrackLab Para hacerles llegar mis sugerencias y consultas en cuanto a su producto.</td>
+    <td>No corresponde</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>EP02</td>
+    <td>Información sobre la aplicación</td>
+    <td>Como visitante de la landing page quiero tener acceso a una sección de preguntas frecuentes en dónde se expliquen las funcionalidades y beneficios de la aplicación Para comprender el propósito del producto y usarlo de forma óptima</td>
+    <td>No corresponde</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>EP03</td>
+    <td>Conectar la landing page con la aplicación</td>
+    <td>Como visitante de la landing page Quiero ingresar a diferentes secciones de la aplicación a través de componentes Para utilizar las funciones y beneficios ofrecidas por TrackLab</td>
+    <td>No corresponde</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>EP04</td>
+    <td>Registrar solicitud de envío</td>
+    <td>Como administrador de la empresa cliente Quiero realizar solicitudes de envío de carga a través de la aplicación TrackLab Para ser atendido por la empresa proveedora y recibir la carga que necesito</td>
+    <td>No corresponde</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>EP05</td>
+    <td>Procesar solicitud de envío</td>
+    <td>Como administrador de la empresa proveedora Quiero procesar las solicitudes de envío recibidas Para comenzar a prepararlas considerando todos los requisitos del cliente</td>
+    <td>No corresponde</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>EP06</td>
+    <td>Confirmación de carga lista para envío</td>
+    <td>Como administrador de la empresa proveedora Quiero confirmar si todas las especificaciones en cuanto a la carga fueron cumplidas antes de transportarla a su destino Para que la entrega se realice de forma exitosa</td>
+    <td>No corresponde</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>EP07</td>
+    <td>Monitoreo del envío</td>
+    <td>Como administrador de la empresa proveedora Quiero monitorear el estado de la carga durante su trayecto Para asegurarme de que llegará en condiciones óptimas al ser entregada</td>
+    <td>No corresponde</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>EP08</td>
+    <td>Registro de usuarios</td>
+    <td>Como administrador de la empresa proveedora o cliente Quiero registrarme en la aplicación de TrackLab Para acceder a todas sus funcionalidades</td>
+    <td>No corresponde</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>EP09</td>
+    <td>Visualización de panel de gestión</td>
+    <td>Como administrador de la empresa cliente Quiero tener acceso al panel de gestión del envío solicitado Para revisar la información sobre el estado y localización del mismo</td>
+    <td>No corresponde</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>EP10</td>
+    <td>Confirmación de entrega</td>
+    <td>Como administrador de la empresa proveedora o cliente Quiero confirmar si la entrega fue realizada exitosamente Para cerrar el envío de forma satisfactoria</td>
+    <td>No corresponde</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Contactar a la startup</td>
+    <td>Como visitante de la landing page Quiero contar con un medio a través del cual escribirle a los desarrolladores Para hacerles llegar mis comentarios y sugerencias en cuánto a la aplicación</td>
+    <td>Escenario 1: Ingresar a opción de envío de mensajes<br> Dado que el visitante ha ingresado al landing page<br> Cuando el visitante seleccione la opción “Enviar sugerencia”<br> Entonces el sistema abrirá un pequeño cuestionario<br><br> Escenario 2: Enviar mensaje a los desarrolladores<br> Dado que el visitante se encuentra dentro del cuestionario de “Enviar sugerencia”<br> Cuando el visitante ingrese el mensaje que desea enviar<br> Y el visitante presione el botón “Enviar”<br> Entonces el sistema enviará el mensaje escrito al correo de los desarrolladores</td>
+    <td>EP01</td>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Obtener información sobre el uso de la aplicación</td>
+    <td>Como visitante de la landing page Quiero contar con un espacio que me permita conocer las funcionalidades y beneficios de la aplicación Para usarlos con facilidad cuando lo necesite</td>
+    <td>Escenario 1: Visualizar sección informativa<br> Dado que el visitante ha ingresado al landing page<br> Cuando el visitante seleccione el ícono de signo de interrogación<br> Entonces el visitante será redirigido a una pantalla con las funcionalidades y beneficios descritos</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Acceder a la aplicación desde el landing page</td>
+    <td>Como visitante de la landing page Quiero ingresar a la aplicación desde la landing page Para acceder fácilmente a las funcionalidades de la aplicación</td>
+    <td>Escenario 1: Ingreso exitoso<br> Dado que el visitante ha ingresado al landing page<br> Cuando el visitante seleccione la opción “Iniciar sesión”<br> Y el visitante ingrese correctamente su usuario y contraseña<br> Entonces el sistema redirigirá al usuario a su cuenta dentro de la aplicación<br><br> Escenario 2: Error en el ingreso<br> Dado que el usuario ha ingresado al landing page<br> Cuando el visitante seleccione la opción “Iniciar sesión”<br> Y el visitante ingrese su usuario o su contraseña incorrectamente<br> Entonces el sistema mostrará el mensaje “Datos ingresados incorrectamente, favor de reintentar”</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Ingreso como cliente</td>
+    <td>Como administrador de la empresa cliente Quiero ingresar a la aplicación con una cuenta de cliente Para revisar mis pedidos anteriores y realizar nuevos</td>
+    <td>Escenario 1: Ingreso de cliente exitoso<br> Dado que el administrador de la empresa cliente ha ingresado a la aplicación<br> Cuando el administrador de la empresa cliente ingrese correctamente su usuario y contraseña<br> Entonces el sistema permitirá su acceso a la aplicación<br> Y el sistema le mostrará las opciones habilitadas para clientes<br><br> Escenario 2: Error en ingreso de cliente<br> Dado que el administrador de la empresa cliente ha ingresado a la aplicación<br> Cuando el administrador de la empresa cliente ingrese su usuario o contraseña incorrectamente<br> Entonces el sistema mostrará un mensaje de advertencia<br> Y contará el número de intento errado<br><br> Escenario 3: Múltiples ingresos errados<br> Dado que el administrador de la empresa cliente ha ingresado a la aplicación<br> Cuando el administrador de la empresa cliente ingrese su usuario o contraseña incorrectamente por quinta vez<br> Entonces el sistema mostrará el mensaje “Se bloqueará la cuenta por exceso de intentos fallidos”<br> Y el sistema bloqueará la cuenta del usuario</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td>US05</td>
+    <td>Visualización de productos disponible</td>
+    <td>Como administrador de la empresa cliente Quiero visualizar los productos disponibles y su información Para decidir cuales comprar</td>
+    <td>Escenario 1: Ingreso a pantalla de productos<br> Dado que el administrador de la empresa cliente ha ingresado a la aplicación con su cuenta<br> Cuando el administrador de la empresa cliente seleccione la opción “Productos”<br> Entonces el sistema lo redirigirá a la pantalla de productos<br><br> Escenario 2: Visualización de detalles de un producto<br> Dado que el administrador de la empresa cliente se encuentra dentro de la pantalla de Productos<br> Cuando el administrador de la empresa cliente seleccione uno de los productos presentados<br> Entonces el sistema mostrará el perfil de producto<br><br> Escenario 3: Selección de un producto<br> Dado que el administrador de la empresa cliente se encuentra dentro del perfil de un producto<br> Cuando el administrador de la empresa cliente ingrese un número mayor a cero en el recuadro “Cantidad”<br> Y el administrador de la empresa cliente seleccione la opción “Agregar a pedido”<br> Entonces el sistema guardará el registro de ese producto con la cantidad seleccionada como posible pedido</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td>US06</td>
+    <td>Búsqueda de productos disponibles</td>
+    <td>Como administrador de la empresa cliente Quiero buscar productos mediante palabras Para encontrar los productos que deseo en menos tiempo</td>
+    <td>Escenario 1: Ingreso a pantalla de productos<br> Dado que el administrador de la empresa cliente ha ingresado a la aplicación con su cuenta<br> Cuando el administrador de la empresa cliente seleccione la opción “Productos”<br> Entonces el sistema lo redirigirá a la pantalla de productos<br><br> Escenario 2: Búsqueda exitosa de un producto<br> Dado que el administrador de la empresa cliente se encuentra dentro de la pantalla de productos<br> Cuando el administrador de la empresa cliente seleccione la barra de búsqueda<br> Y el administrador de la empresa cliente ingrese texto en la barra de búsqueda<br> Y el administrador de la empresa cliente presione el ícono de lupa<br> Y el sistema encuentre productos que coinciden con la búsqueda<br> Entonces el sistema mostrará todos los productos cuyo nombre coincide con el texto ingresado<br><br> Escenario 3: Búsqueda no exitosa de un producto<br> Dado que el administrador de la empresa cliente se encuentra dentro de la pantalla de productos<br> Cuando el administrador de la empresa cliente seleccione la barra de búsqueda<br> Y el administrador de la empresa cliente ingrese texto en la barra de búsqueda<br> Y el administrador de la empresa cliente presione el ícono de lupa<br> Y el sistema no encuentre productos que coinciden con la búsqueda<br> Entonces el sistema mostrará el mensaje “No se han encontrado coincidencias”</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td>US07</td>
+    <td>Registro de datos de envío</td>
+    <td>Como administrador de la empresa cliente Quiero registrar los datos de mi envío al solicitarlo Para que llegue exactamente como lo deseo</td>
+    <td>Escenario 1: Realizar pedido<br> Dado que el administrador de la empresa cliente se encuentra dentro de la aplicación<br> Cuando el administrador de la empresa cliente selecciona la opción “Realizar pedido”<br> Entonces el sistema lo redirigirá a la pantalla de registro de pedido<br> Y el sistema mostrará todos los productos antes seleccionados<br><br> Escenario 2: Eliminación de productos<br> Dado que el administrador de la empresa cliente se encuentra de la pantalla Realizar pedido<br> Cuando el administrador de la empresa cliente seleccione el ícono de basurero al lado de un artículo<br> Entonces el sistema quitará el artículo del pedido<br><br> Escenario 3: Registrar datos del envío<br> Dado que el administrador de la empresa cliente se encuentra dentro de la pantalla “Realizar pedido”<br> Cuando el administrador de la empresa cliente presione el botón “Datos de envío”<br> Y el administrador de la empresa cliente complete correctamente los datos de dirección, número de contacto, correo electrónico y especificaciones adicionales<br> Y el administrador de la empresa cliente marque las casillas de aceptación del precio del pedido y aceptación de términos y condiciones<br> Entonces el sistema registrará su pedido<br><br> Escenario 4: Registro incorrecto de datos<br> Dado que el administrador de la empresa cliente se encuentra dentro de la pantalla “Realizar pedido”<br> Cuando el administrador de la empresa cliente presione el botón “Datos de envío”<br> Y el administrador de la empresa cliente complete incorrectamente los datos de dirección, número de contacto o correo electrónico<br> Entonces el sistema mostrará el mensaje “Datos inválidos ingresados, intentar nuevamente”</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td>US08</td>
+    <td>Confirmación de pedido realizado</td>
+    <td>Como administrador de la empresa cliente Quiero recibir una confirmación de que mi pedido fue registrado con éxito Para estar seguro de que lo recibiré tal cual lo especifiqué</td>
+    <td>Escenario 1: Pedido correctamente realizado<br> Dado que el administrador de la empresa cliente ha realizado un pedido a través de la aplicación<br> Cuando el sistema registre los datos correctamente<br> Entonces el administrador de la empresa cliente observará un mensaje indicando “Pedido realizado y envío en proceso”<br><br> Escenario 2: Pedido incorrectamente realizado<br> Dado que el administrador de la empresa cliente ha realizado un pedido a través de la aplicación<br> Cuando el sistema no logre registrar la información correctamente<br> Entonces el administrador de la empresa cliente observará el mensaje “No se pudo registrar su pedido, inténtelo de nuevo más tarde”</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td>US09</td>
+    <td>Recepción de solicitud</td>
+    <td>Como administrador de la empresa proveedora Quiero recibir una notificación cuando ingresa una nueva solicitud de envío Para procesarla y empezar con el pedido</td>
+    <td>Escenario 1: Notificación de solicitud<br> Dado que el administrador de la empresa proveedora se encuentra registrado en la aplicación como administrador<br> Cuando un administrador de una empresa cliente registre una solicitud de envío con datos válidos<br> Entonces el administrador de la empresa proveedora recibirá una notificación en su cuenta dentro de la aplicación<br><br> Escenario 2: Ingreso a solicitud<br> Dado que el administrador de la empresa proveedora ha recibido la notificación de que llegó una nueva solicitud de envío<br> Y que el administrador de la empresa proveedora se encuentra dentro de la aplicación<br> Cuando el administrador de la empresa proveedora seleccione la opción “Notificaciones”<br> Y administrador de la empresa proveedora seleccione una notificación listada<br> Entonces el administrador de la empresa proveedora podrá ver los datos del cliente y detalles el envío solicitado</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td>US10</td>
+    <td>Solicitud en almacén</td>
+    <td>Como administrador de la empresa proveedora Quiero enviar la solicitud del pedido al almacén correspondiente Para que los trabajadores comiencen a preparar la entrega</td>
+    <td>Escenario 1: Creación de solicitud a almacén<br> Dado que el administrador de la empresa proveedora se encuentra dentro de su cuenta en la aplicación<br> Y que el administrador de la empresa proveedora ha seleccionado una notificación<br> Cuando el administrador de la empresa proveedora seleccione la opción “Agregar solicitud a almacén”<br> Entonces el sistema abrirá un cuestionario de solicitud a almacén<br><br> Escenario 2: Completar solicitud a almacén correctamente<br> Dado que el administrador de la empresa proveedora ha seleccionado la opción “Agregar solicitud a almacén”<br> Y que el sistema ha abierto un cuestionario de solicitud a almacén<br> Cuando el administrador de la empresa proveedora ingrese los datos de código de almacén, producto(s), cantidad, especificaciones y dirección de envío correctamente<br> Y seleccione la opción “Guardar solicitud”<br> Entonces el sistema mostrará el mensaje “Solicitud guardada”<br> Y el sistema permitirá que se añada una nueva solicitud<br><br> Escenario 3: Completar solicitud a almacén incorrectamente<br> Dado que el administrador de la empresa proveedora ha seleccionado la opción “Agregar solicitud a almacén”<br> Y que el sistema ha abierto un cuestionario de solicitud a almacén<br> Cuando el administrador de la empresa proveedora ingrese los datos de código de almacén, producto(s), cantidad, especificaciones o dirección de envío de forma inválida<br> Y seleccione la opción “Guardar solicitud”<br> Entonces el sistema mostrará el mensaje “Los datos ingresados no son válidos”<br><br> Escenario 4: Envío de solicitudes a almacén<br> Dado que el administrador de la empresa proveedora ha completado sus solicitudes a almacén<br> Y que las solicitudes a almacén contienen datos válidos<br> Cuando el administrador de la empresa proveedora seleccione la opción “Enviar solicitudes”<br> Entonces el sistema enviará las solicitudes al almacén<br> Y el administrador de la empresa proveedora en almacén recibirá las solicitudes</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td>US11</td>
+    <td>Registro de datos del comprador</td>
+    <td>Como administrador de la empresa proveedora Quiero guardar los datos del comprador Para asegurarme de que su pedido sea entregado correctamente</td>
+    <td>Escenario 1: Registro de envío pendiente<br> Dado que el administrador de la empresa proveedora ha recibido una nueva solicitud de envío<br> Y que el administrador de la empresa proveedora ha ingresado a la solicitud de envío<br> Cuando el administrador de la empresa proveedora seleccione la opción “Registrar como pendiente”<br> Entonces el sistema mostrará los datos a guardar<br> Y el sistema permitirá que el administrador de la empresa proveedora edite o registre los datos del comprador<br><br> Escenario 2: Guardar envío pendiente<br> Dado que el administrador de la empresa proveedora ha seleccionado la opción “Envío pendiente”<br> Y que el administrador de la empresa proveedora ha completado los datos del cliente<br> Cuando el administrador de la empresa proveedora seleccione la opción “Guardar cliente”<br> Entonces el sistema habilitará un espacio de texto opcional para agregar requisitos</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td>US12</td>
+    <td>Registro de requisitos de envío</td>
+    <td>Como administrador de la empresa proveedora Quiero registrar los requisitos del envío ingresados por el cliente Para asegurar que se cumplan al preparar el envío</td>
+    <td>Escenario 1: Ingreso de requisitos<br> Dado que el administrador de la empresa proveedora ha seleccionado la opción “Envío pendiente”<br> Y que el administrador de la empresa proveedora ha completado la información del cliente<br> Y que el administrador de la empresa proveedora ha seleccionado la opción “Guardar cliente”<br> Cuando el administrador de la empresa proveedora complete la sección de requisitos con los requisitos del envío<br> Y el administrador de la empresa proveedora selecciona la opción “Guardar”<br> Entonces el envío pendiente será guardado con sus requisitos en la base de datos de la empresa</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td>US13</td>
+    <td>Habilitar dashboard para el cliente</td>
+    <td>Como administrador de la empresa proveedora Quiero habilitar un dashboard para el cliente que solicitó un envío Para permitirle contar con el seguimiento de su pedido</td>
+    <td>Escenario 1: Creación del dashboard<br> Dado que el administrador de la empresa proveedora ha creado un nuevo envío pendiente<br> Cuando el administrador de la empresa proveedora ingrese a la opción “Dashboards”<br> Y el administrador de la empresa proveedora seleccione la opción “Nuevo dashboard”<br> Entonces mostrará la lista de pedidos pendiente<br> Y el sistema permitirá al administrador de la empresa proveedora seleccionar uno de los pedidos pendientes<br><br> Escenario 2: Guardar dashboard<br> Dado que el administrador de la empresa proveedora ha seleccionado la opción “Nuevo Dashboard”<br> Cuando el administrador de la empresa proveedora seleccione un pedido pendiente<br> Y el administrador de la empresa proveedora seleccione la opción “Confirmar”<br> Entonces el sistema creará un dashboard de dicho pedido<br> Y el sistema notificará al cliente que su dashboard ha sido creado<br><br> Escenario 3: Actualizar dashboard<br> Dado que el administrador de la empresa proveedora ha creado un nuevo Dashboard<br> Cuando el administrador de la empresa proveedora ingrese al dashboard creado<br> Y seleccione la opción “Actualizar estado”<br> Entonces el sistema le permitirá escoger el nuevo estado del envío</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td>US14</td>
+    <td>Empaquetar y etiquetar carga</td>
+    <td>Como administrador de la empresa proveedora Quiero supervisar los procesos de empaquetado y etiquetado de la carga a través de la aplicación Para asegurarme de que el envío se está realizando correctamente</td>
+    <td>Escenario 1: Generación de QR<br> Dado que el administrador de la empresa proveedora se encuentra dentro de la aplicación<br> Y que la solicitud de envío fue enviada al almacén<br> Cuando el administrador de la empresa proveedora ingrese a la solicitud enviada <br> Y el administrador de la empresa proveedora seleccione la opción “Generar QR”<br> Entonces se creará un QR con los datos del envío y el cliente<br><br> Escenario 2: Colocación de QR<br> Dado que el administrador de la empresa proveedora generó un QR<br> Y que el envío fue empaquetado en el almacén<br> Cuando el administrador de la empresa proveedora confirme el contenido correcto de la carga<br> Entonces el administrador de la empresa proveedora podrá pegar el QR para identificar la carga</td>
+    <td>EP06</td>
+  </tr>
+  <tr>
+    <td>US15</td>
+    <td>Cumplimiento de requisitos</td>
+    <td>Como administrador de la empresa proveedora Quiero registrar el cumplimiento de todos los requisitos Para asegurar que el envío llegará según lo que desea el cliente</td>
+    <td>Escenario 1: Visualización de requisitos<br> Dado que el administrador de la empresa proveedora ha ingresado requisitos en la solicitud a almacén de un envío<br> Cuando el administrador de la empresa proveedora en almacén ingrese a la solicitud<br> Entonces el sistema le mostrará los detalles del pedido<br> Y el sistema mostrará los requisitos ingresados para el pedido<br><br> Escenario 2: Marcar requisito como completado<br> Dado que el administrador de la empresa proveedora en almacén se encuentra visualizando los requisitos de un pedido<br> Cuando el administrador de la empresa proveedora en almacén marque la casilla frente a un requisito<br> Entonces el sistema registrará que el requisito fue completado<br> Y el sistema guardará la hora y fecha en que el requisito fue guardado<br><br> Escenario 3: Requisitos completados<br> Dado que el administrador de la empresa proveedora en almacén se encuentra visualizando los requisitos de un pedido<br> Cuando el administrador de la empresa proveedora en almacén haya marcado como completados todos los requisitos<br> Entonces el sistema registrará el pedido como “Listo para entrega”</td>
+    <td>EP06</td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Registro de datos iniciales de envío</td>
+    <td>Como administrador de la empresa proveedora Quiero registrar la información del pedido antes de que inicie su traslado Para poseer y mostrar el estado en el que está saliendo del almacén</td>
+    <td>Escenario 1: Ingreso a registros de salida<br> Dado que el sistema ha registrado un pedido como “Listo para entrega”<br> Cuando el administrador de la empresa proveedora seleccione la opción “Registro de salida”<br> Entonces el sistema mostrará un cuestionario solicitando los datos del pedido<br><br> Escenario 2: Registro de datos de salida correctamente<br> Dado que el administrador de la empresa proveedora en almacén ha seleccionado la opción “Registro de salida”<br> Cuando el administrador de la empresa proveedora en almacén complete con datos válidos los campos de contenido de carga, peso total, estado de empaquetado, número de vehículo y número de almacén<br> Y el administrador de la empresa proveedora firme el pedido digitalmente a su nombre<br> Y el administrador de la empresa proveedora seleccione la opción “Guardar”<br> Entonces el sistema guardará la información<br> Y el sistema abrirá la sección de escaneo por QR<br><br> Escenario 3: Registro de datos de salida incorrectamente<br> Dado que el administrador de la empresa proveedora en almacén ha seleccionado la opción “Registro de salida”<br> Cuando el administrador de la empresa proveedora en almacén complete con datos inválidos los campos de contenido de carga, peso total, estado de empaquetado, número de vehículo o número de almacén<br> Y el administrador de la empresa proveedora firme el pedido digitalmente a su nombre<br> Y el administrador de la empresa proveedora seleccione la opción “Guardar”<br> Entonces el sistema mostrará el mensaje “Ingresar datos válidos”</td>
+    <td>EP06</td>
+  </tr>
+  <tr>
+    <td>US17</td>
+    <td>Confirmación por QR</td>
+    <td>Como administrador de la empresa proveedora Quiero registrar la carga que está siendo cargada mediante QR Para asegurarme de que esta llegue al destino correcto</td>
+    <td>Escenario 1: Lectura de QR correctamente<br> Dado que el administrador de la empresa proveedora ha registrado los datos de salida correctamente<br> Y que la aplicación ha abierto la sección de escáner QR<br> Cuando el administrador de la empresa proveedora escanée el QR de la carga empaquetada<br> Y el sistema reconozca que los datos registrados coinciden con los datos del QR de la carga<br> Entonces el sistema actualizará el estado del pedido a “En proceso”<br><br> Escenario 2: Lectura de QR incorrectamente<br> Dado que el administrador de la empresa proveedora ha registrado los datos de salida correctamente<br> Y que la aplicación ha abierto la sección de escáner QR<br> Cuando el administrador de la empresa proveedora escanée el QR de la carga empaquetada<br> Y el sistema no reconozca que los datos registrados coinciden con los datos del QR de la carga<br> Entonces el sistema mostrará el mensaje “Datos inconsistentes”</td>
+    <td>EP06</td>
+  </tr>
+  <tr>
+    <td>US18</td>
+    <td>Activación de ubicación en tiempo real</td>
+    <td>Como administrador de la empresa proveedora Quiero activar la ubicación en tiempo real del envío Para contar con acceso a la misma en todo momento y revisar su progreso</td>
+    <td>Escenario 1: Activación de la ubicación<br> Dado que el administrador de la empresa proveedora registró el QR correcto<br> Y que el sistema actualizó el estado de la entrega a “En proceso”<br> Cuando el administrador de la empresa proveedora seleccione la opción “Activar ubicación”<br> Entonces el sistema permitirá que el administrador de la empresa proveedora visualice la ubicación en tiempo real desde la aplicación<br> Y el sistema habilitará la ubicación en tiempo real en el dashboard de la empresa cliente</td>
+    <td>EP06</td>
+  </tr>
+  <tr>
+    <td>US19</td>
+    <td>Visualización de datos actualizados en tiempo real</td>
+    <td>Como administrador de la empresa proveedora Quiero visualizar la información del envío en tiempo real Para tomar acciones inmediatas de manera informada en caso se necesite</td>
+    <td>Escenario 1: Visualización de datos de salida<br> Dado que el administrador de la empresa proveedora ha ingresado a la aplicación con su cuenta <br> Cuando el administrador de la empresa proveedora seleccione la opción “Dashboard” dentro del perfil de un pedido<br> Entonces el sistema mostrará el dashboard con los datos de salida del envío<br><br> Escenario 2: Información en tiempo real<br> Dado que el administrador de la empresa proveedora se encuentra dentro del Dashboard <br> Y que el estado del pedido ha sido actualizado a “En proceso”<br> Cuando el administrador de la empresa proveedora observe la sección “Ubicación en tiempo real”<br> Entonces el administrador de la empresa proveedora verá el mapa con el punto de ubicación del transporte que lleva la carga en movimiento<br><br> Escenario 3: Actualización de estado de la carga<br> Dado que el administrador de la empresa proveedora se encuentra dentro del Dashboard <br> Y que el estado del pedido ha sido actualizado a “En proceso”<br> Cuando el administrador de la empresa proveedora visualice la sección “Estado de la carga”<br> Entonces el  administrador de la empresa proveedora podrá ver si el estado sigue siendo “Óptimo” o si ocurre un problema que atender</td>
+    <td>EP07</td>
+  </tr>
+  <tr>
+    <td>US20</td>
+    <td>Respuesta a consultas de compradores</td>
+    <td>Como administrador de la empresa proveedora Quiero contestar las consultas de los compradores Para mantenerlos informados y confiados en cuanto a su entrega</td>
+    <td>Escenario 1: Notificación de mensaje<br> Dado que un administrador de la empresa cliente ha enviado una consulta<br> Y que el administrador de la empresa proveedora se encuentra dentro de la aplicación<br> Cuando el administrador de la empresa proveedora se dirija a la sección “Notificaciones”<br> Entonces el administrador de la empresa proveedora podrá ver la notificación de nuevo mensaje indicando el pedido del que viene<br><br> Escenario 2: Ingreso a consulta<br> Dado que el administrador de la empresa proveedora se encuentra dentro de la sección “Notificaciones”<br> Cuando el administrador de la empresa proveedora seleccione la notificación de un mensaje<br> Entonces el sistema lo redirigirá al Dashboard del pedido sobre el que se manda el mensaje<br> Y el sistema mostrará el mensaje en la parte inferior<br><br> Escenario 3: Responder consulta<br> Dado que el administrador de la empresa proveedora ha seleccionado un mensaje<br> Y que el sistema lo redirigió al Dashboard del pedido<br> Cuando el administrador de la empresa proveedora ingrese su respuesta en el cuadro de texto<br> Y el administrador de la empresa proveedora seleccione la opción “Responder”<br> Entonces el sistema enviará su respuesta al administrador de la empresa cliente</td>
+    <td>EP07</td>
+  </tr>
+  <tr>
+    <td>US21</td>
+    <td>Registro de empresa proveedora</td>
+    <td>Como administrador de la empresa proveedora Quiero registrarme en la aplicación Para utilizar el sistema en la organización de los envíos que mi empresa realiza</td>
+    <td>Escenario 1: Creación válida de cuenta de empresa<br> Dado que el administrador de la empresa proveedora ha ingresado al landing page<br> Cuando el administrador de la empresa proveedora seleccione la opción “Crear cuenta”<br> Y el administrador de la empresa proveedora ingrese correctamente el nombre de la empresa, RUC de la empresa, nombre completo, contraseña y correo electrónico<br> Y el administrador de la empresa proveedora seleccione “Proveedor” como tipo de cuenta<br> Y el administrador de la empresa proveedora seleccione la opción “Continuar”<br> Entonces el sistema guardará su información<br> Y el sistema lo redirigirá a la sección de planes<br><br> Escenario 2: Creación inválida de cuenta de empresa<br> Dado que el administrador de la empresa proveedora ha ingresado al landing page<br> Cuando el administrador de la empresa proveedora seleccione la opción “Crear cuenta”<br> Y el administrador de la empresa proveedora ingrese incorrectamente el nombre de la empresa, RUC de la empresa, nombre completo, contraseña o correo electrónico<br> Y el administrador de la empresa proveedora seleccione “Proveedor” como tipo de cuenta<br> Y el administrador de la empresa proveedora seleccione la opción “Continuar”<br> Entonces el sistema mostrará el mensaje “Información inválida, por favor volver a ingresar los datos”<br><br> Escenario 3: Selección de plan<br> Dado que el administrador de la empresa proveedora registró información válida en su registro<br> Y que el administrador de la empresa proveedora se encuentra en la sección de planes<br> Y que el sistema muestra los planes de pago disponibles<br> Cuando el administrador de la empresa proveedora seleccione un plan de pago<br> Y el administrador de la empresa proveedora seleccione la opción continuar<br> Entonces el sistema guardará el plan seleccionado<br> Y el sistema lo redirigirá a la sección de pago<br><br> Escenario 4: Pago válido del plan<br> Dado que el administrador de la empresa proveedora ha seleccionado un plan de pago<br> Y que el administrador de la empresa proveedora se encuentra en la sección de pago<br> Cuando el administrador de la empresa proveedora ingrese correctamente los datos de la cuenta bancaria desde la que se pagará<br> Y el administrador de la empresa proveedora seleccione la opción “Crear cuenta de empresa con el paquete seleccionado”<br> Entonces el sistema procederá con el cobro<br> Y el sistema creará la cuenta de la empresa<br> Y el sistema registrará la información en la base de datos<br><br> Escenario 5: Pago inválido del plan<br> Dado que el administrador de la empresa proveedora ha seleccionado un plan de pago<br> Y que el administrador de la empresa proveedora se encuentra en la sección de pago<br> Cuando el administrador de la empresa proveedora ingrese incorrectamente los datos de la cuenta bancaria desde la que se pagará<br> Y el administrador de la empresa proveedora seleccione la opción “Crear cuenta de empresa con el paquete seleccionado”<br> Entonces el sistema mostrará el mensaje “Datos inválidos, volver a ingresarlos”</td>
+    <td>EP08</td>
+  </tr>
+  <tr>
+    <td>US22</td>
+    <td>Registro de empresa cliente</td>
+    <td>Como administrador de la empresa cliente Quiero registrar a mi empresa en la aplicación Para realizar pedidos con facilidad</td>
+    <td>Escenario 1: Creación de la cuenta con datos válidos<br> Dado que el administrador de la empresa cliente se encuentra en la landing page<br> Cuando el administrador de la empresa cliente seleccione la opción “Crear cuenta”<br> Y el administrador de la empresa cliente ingrese correctamente el nombre de la empresa, RUC de la empresa, nombre completo, contraseña y correo electrónico<br> Y el administrador de la empresa cliente seleccione “Cliente” como tipo de cuenta<br> Y el administrador de la empresa cliente seleccione la opción “Continuar”<br> Entonces el sistema guardará su información en la base de datos<br> Y el sistema creará la cuenta <br><br> Escenario 2: Creación de la cuenta con datos inválidos<br> Dado que el administrador de la empresa cliente se encuentra en la landing page<br> Cuando el administrador de la empresa cliente seleccione la opción “Crear cuenta”<br> Y el administrador de la empresa cliente ingrese incorrectamente el nombre de la empresa, RUC de la empresa, nombre completo, contraseña y correo electrónico<br> Y el administrador de la empresa cliente seleccione “Cliente” como tipo de cuenta<br> Y el administrador de la empresa cliente seleccione la opción “Continuar”<br> Entonces el sistema mostrará el mensaje “Datos inválidos, por favor volver a ingresarlos”</td>
+    <td>EP08</td>
+  </tr>
+  <tr>
+    <td>US23</td>
+    <td>Registro de administrador</td>
+    <td>Como administrador de una empresa con cuenta existente Quiero registrarme dentro la aplicación Para utilizarla como miembro de la empresa</td>
+    <td>Escenario 1: Creación de cuenta<br> Dado que el administrador de una empresa con cuenta existente se encuentra en el landing page <br> Y que el administrador de una empresa con cuenta existente ha seleccionado la opción “Crear cuenta”<br> Y que el administrador de una empresa con cuenta existente ha seleccionado la opción “Empleado” como tipo de cuenta<br> Cuando el administrador de una empresa con cuenta existente ingrese correctamente el RUC y contraseña de la cuenta de la empresa<br> Y el administrador de una empresa con cuenta existente seleccione la opción “Continuar”<br> Entonces el sistema lo redirigirá a la sección “Cuenta de empleado”<br><br> Escenario 2: Cuenta de empleado<br> Dado que el administrador de una empresa con cuenta existente se encuentra en la sección “Cuenta de empleado”<br> Cuando el administrador de una empresa con cuenta existente ingrese un número de usuario, correo electrónico y contraseña válidos<br> Y el administrador de una empresa con cuenta existente seleccione la opción crear<br> Entonces el sistema creará su cuenta<br> Y el sistema guardará su información en la base de datos</td>
+    <td>EP08</td>
+  </tr>
+  <tr>
+    <td>US24</td>
+    <td>Visualización de panel en tiempo real</td>
+    <td>Como administrador de la empresa cliente Quiero visualizar los datos de mi pedido en tiempo real Para monitorear su entrega</td>
+    <td>Escenario 1: Ingreso a dashboard<br> Dado que el administrador de la empresa cliente ha ingresado a la aplicación con su cuenta <br> Cuando el administrador de la empresa cliente seleccione la opción “Dashboard”<br> Entonces el sistema mostrará el dashboard con los datos del envío<br><br> Escenario 2: Actualización de datos<br> Dado que el administrador de la empresa cliente se encuentra dentro del “Dashboard de su pedido”<br> Cuando el pedido se encuentre en estado “En proceso”<br> Entonces el sistema mostrará los datos de salida del pedido<br> Y el sistema actualizará la información del trayecto del pedido en tiempo real (estado de la carga, ubicación)</td>
+    <td>EP09</td>
+  </tr>
+  <tr>
+    <td>US25</td>
+    <td>Registro de consulta en el panel de gestión</td>
+    <td>Como administrador de la empresa cliente Quiero escribir consultas hacia la empresa proveedora Para resolver mis dudas o preocupaciones sobre mi pedido</td>
+    <td>Escenario 1: Creación de consulta<br> Dado que el administrador de la empresa cliente se encuentra en el dashboard de su pedido<br> Cuando el administrador de la empresa cliente seleccione la opción “Enviar mensaje”<br> Entonces el sistema abrirá una sección para ingresar texto<br><br> Escenario 2: Envío de consulta<br> Dado que el administrador de la empresa cliente se encuentra dentro del Dashboard<br> Y que el administrador de la empresa cliente ha seleccionado la opción “Enviar mensaje”<br> Y que el administrador de la empresa cliente ha ingresado texto<br> Cuando el administrador de la empresa cliente seleccione la opción “Enviar”<br> Entonces el sistema enviará su mensaje a la empresa proveedora</td>
+    <td>EP09</td>
+  </tr>
+  <tr>
+    <td>US26</td>
+    <td>Registro de datos de llegada</td>
+    <td>Como administrador de la empresa proveedora Quiero poder registrar los datos de llegada del pedido Para asegurarme de que no sufrió desperfectos durante el trayecto</td>
+    <td>Escenario 1: Datos de llegada válidos<br> Dado que el envío ha llegado a su destino<br> Cuando el envío sea revisado<br> Y el administrador de la empresa proveedora registre los datos de llegada<br> Y el sistema verifique que los datos de llegada coinciden con los datos de salida<br> Entonces el sistema actualizará el estado del pedido a “Entregado”<br><br> Escenario 2: Datos de llegada inválidos<br> Dado que el envío ha llegado a su destino<br> Cuando el envío sea revisado<br> Y el administrador de la empresa proveedora registre los datos de llegada<br> Y el sistema verifique que los datos de llegada no coinciden con los datos de salida<br> Entonces el sistema mostrará los datos que no coinciden</td>
+    <td>EP10</td>
+  </tr>
+  <tr>
+    <td>US27</td>
+    <td>Confirmación de recepción del cliente</td>
+    <td>Como administrador de la empresa cliente Quiero confirmar que recibí mi pedido conforme Para culminar con el proceso de envío</td>
+    <td>Escenario 1: Pedido recibido conforme<br> Dado que el administrador de la empresa cliente ha recibido el pedido según lo solicitado<br> Cuando el administrador de la empresa cliente seleccione la opción “Pedido recibido conforme” dentro del Dashboard<br> Entonces el sistema actualizará el estado del pedido a “Culminado”<br><br> Escenario 2: Pedido recibido inconforme<br> Dado que el administrador de la empresa cliente ha recibido el pedido no según lo solicitado<br> Cuando el administrador de la empresa cliente seleccione la opción “Pedido recibido inconforme” dentro del Dashboard<br> Entonces el sistema enviará el caso a la empresa proveedora para ser revisado</td>
+    <td>EP10</td>
+  </tr>
+  <tr>
+    <td>US28</td>
+    <td>Cierre del envío</td>
+    <td>Como administrador de la empresa proveedora Quiero cerra el envío una vez entregado Para que este no interfiera con los pedidos incompletos</td>
+    <td>Escenario 1: Pedido culminado<br> Dado que el pedido se encuentra en estado “Culminado”<br> Cuando el administrador de la empresa proveedora seleccione la opción “Cerrar pedido” dentro del Dashboard<br> Y el administrador de la empresa proveedora seleccione la opción emergente “Confirmar cierre”<br> Entonces el Dashboard se cerrará<br> Y el pedido ya no aparecerá en la lista de pedidos.<br><br> Escenario 2: Pedido no culminado<br> Dado que el pedido se encuentra en estado “Culminado”<br> Cuando el administrador de la empresa proveedora seleccione la opción “Cerrar pedido” dentro del Dashboard<br> Y el administrador de la empresa proveedora seleccione la opción emergente “Revertir cierre”<br> Entonces el administrador de la empresa proveedora volverá al Dashboard</td>
+    <td>EP</td>
+  </tr>
+  <tr>
+    <td>TS01</td>
+    <td>Post Supplier company</td>
+    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero registrar una nueva empresa proveedora mediante una API Para visualizar las empresas proveedoras afiliadas a nuestra aplicación</td>
+    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de registro de empresas proveedoras<br> Cuando envío una solicitud con datos válidos de una nueva empresa proveedora<br> Entonces la empresa proveedora se registra exitosamente en la base de datos <br> Y recibo un mensaje de confirmación<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de registro de empresas proveedoras<br> Cuando envío una solicitud con datos inválidos de una nueva empresa proveedora<br> Entonces la solicitud es rechazada<br> Y recibo un mensaje de error adecuado</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>TS02</td>
+    <td>Get Supplier company</td>
+    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de una empresa proveedora mediante una API Para mostrarla cuando se solicite</td>
+    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de obtención de información de empresas proveedoras<br> Cuando solicito la información de una empresa proveedora existente<br> Entonces recibo la información de la empresa proveedora en el formato esperado<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de obtención de información de empresas proveedoras<br> Cuando solicito la información de una empresa proveedora que no existe<br> Entonces recibo un mensaje de error adecuado</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>TS03</td>
+    <td>Post Client company</td>
+    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero registrar una nueva empresa cliente mediante una API Para visualizar las empresas cliente afiliadas a nuestra aplicación</td>
+    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de registro de empresas cliente<br> Cuando envío una solicitud con datos válidos de una nueva empresa cliente<br> Entonces la empresa cliente se registra exitosamente en la base de datos <br> Y recibo un mensaje de confirmación<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de registro de empresas cliente<br> Cuando envío una solicitud con datos inválidos de una nueva empresa cliente<br> Entonces la solicitud es rechazada<br> Y recibo un mensaje de error adecuado</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>TS04</td>
+    <td>Get Client company</td>
+    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de una empresa cliente mediante una API Para mostrarla cuando se solicite</td>
+    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de obtención de información de empresas cliente<br> Cuando solicito la información de una empresa cliente existente<br> Entonces recibo la información de la empresa cliente en el formato esperado<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de obtención de información de empresas cliente<br> Cuando solicito la información de una empresa cliente que no existe<br> Entonces recibo un mensaje de error adecuado</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>TS05</td>
+    <td>Post User</td>
+    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero registrar un nuevo usuario mediante una API Para visualizar los usuarios afiliados a nuestra aplicación</td>
+    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de registro de usuarios<br> Cuando envío una solicitud con datos válidos de un nuevo usuario<br> Entonces el usuario se registra exitosamente en la base de datos<br> Y recibo un mensaje de confirmación<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de registro de usuarios<br> Cuando envío una solicitud con datos inválidos de un nuevo usuario<br> Entonces la solicitud es rechazada<br> Y recibo un mensaje de error adecuado</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>TS06</td>
+    <td>Get User</td>
+    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de un usuario mediante una API Para mostrarla cuando se solicite</td>
+    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de obtención de información de usuarios<br> Cuando solicito la información de un usuario existente<br> Entonces recibo la información del usuario en el formato esperado<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de obtención de información de usuarios<br> Cuando solicito la información de un usuario que no existe<br> Entonces recibo un mensaje de error adecuado</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>TS07</td>
+    <td>Post Payment Card</td>
+    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero registrar la información de pago de las empresa proveedora mediante una API Para guardar la información para futuros pagos</td>
+    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de registro de tarjetas de pago<br> Cuando envío una solicitud con datos válidos de una tarjeta de pago de una empresa proveedora<br> Entonces la tarjeta de pago se registra exitosamente en la base de datos<br> Y recibo un mensaje de confirmación<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de registro de tarjetas de pago<br> Cuando envío una solicitud con datos inválidos de una tarjeta de pago de una empresa proveedora<br> Entonces la solicitud es rechazada<br> Y recibo un mensaje de error adecuado</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>TS08</td>
+    <td>Get Payment Card</td>
+    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de pago de las empresas proveedoras mediante una API Para recibir los pagos en la aplicación cuando sea necesario</td>
+    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de obtención de información de tarjetas de pago<br> Cuando solicito la información de tarjeta de pago registrada de una empresa proveedora<br> Entonces recibo la información de la tarjeta de pago en el formato esperado<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de obtención de información de tarjetas de pago<br> Cuando solicito la información de tarjeta de pago de una empresa proveedora sin tarjeta de pago registrada<br> Entonces recibo un mensaje de error indicando que no existen tarjetas de pago registradas</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>TS09</td>
+    <td>Get company by type</td>
+    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de las empresas mediante una API Para brindar la diferenciación de funcionalidades en la aplicación según su tipo</td>
+    <td>Escenario 1: Tipo válido<br> Dado que tengo acceso a la API de obtención de empresas por tipo<br> Cuando solicito la información de empresas por un tipo existente<br> Entonces recibo la información de las empresas en el formato esperado<br><br> Escenario 2: Tipo inválido<br> Dado que tengo acceso a la API de obtención de empresas por tipo<br> Cuando solicito la información de empresas por un tipo inexistente<br> Entonces recibo un mensaje de error adecuado</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>TS10</td>
+    <td>Post order</td>
+    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero registrar un nuevo pedido mediante una API Para mantener el registro de los pedidos</td>
+    <td>Escenario 1: Registro válido<br> Dado que tengo acceso a la API de registro de pedidos<br> Cuando envío una solicitud con datos válidos de un nuevo pedido<br> Entonces el pedido se registra exitosamente en la base de datos<br> Y recibo un mensaje de confirmación<br><br> Escenario 2: Registro inválido<br> Dado que tengo acceso a la API de registro de pedidos<br> Cuando envío una solicitud con datos inválidos de un nuevo pedido<br> Entonces la solicitud es rechazada<br> Y recibo un mensaje de error adecuado</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>TS11</td>
+    <td>Get order</td>
+    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de los pedidos mediante una API Para mostrarla en la aplicación cuando se solicite</td>
+    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de obtención de información de pedidos<br> Cuando solicito la información de un pedido existente<br> Entonces recibo la información del pedido en el formato esperado<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de obtención de información de pedidos<br> Cuando solicito la información de un pedido que no existe<br> Entonces recibo un mensaje de error adecuado</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>TS12</td>
+    <td>Get order by state</td>
+    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información los pedidos según su estado mediante una API Para mostrarla en la aplicación cuando se solicite</td>
+    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de obtención de información de pedidos según su estado<br> Cuando solicito la información de pedidos según un estado existente<br> Entonces recibo la información de los pedidos en dicho estado en el formato esperado<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de obtención de información de pedidos según su estado<br> Cuando solicito la información de pedidos según un estado inexistente<br> Entonces recibo un mensaje de error adecuado</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>TS13</td>
+    <td>Get order by Client company</td>
+    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de qué empresa cliente registró un pedido mediante una API Para mostrarla en la aplicación cuando se solicite</td>
+    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de obtención de información de pedidos por empresa cliente<br> Cuando solicito la información de qué empresa cliente registra un pedido<br> Entonces recibo la información de las empresas cliente en el formato esperado<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de obtención de información de pedidos por empresa cliente<br> Cuando solicito la información de qué empresa cliente registra un pedido<br> Y no existen registros<br> Entonces recibo un mensaje indicando que no existen registros de empresas clientes realizando pedidos</td>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <td>TS14</td>
+    <td>Get order by QR code</td>
+    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de un pedido según su código QR Para usarla en la aplicación cuando sea necesario</td>
+    <td>Escenario 1: QR válido<br> Dado que tengo acceso a la API de obtención de información de pedidos según código QR<br> Cuando solicito la información de un pedido usando un código QR válido<br> Entonces recibo la información del pedido en el formato esperado<br><br> Escenario 2: QR inválido<br> Dado que tengo acceso a la API de obtención de información de pedidos según código QR<br> Cuando solicito la información de un pedido usando un código QR inválido<br> Entonces recibo un mensaje de error adecuado</td>
+    <td>No corresponde</td>
+  </tr>
+</table>
