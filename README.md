@@ -925,3 +925,14 @@ En la siguiente sección, se mostrarán los end-to-end journey maps para ilustra
 
 ### 2.3.4. Empathy Mapping
 
+#### 2.3.4.1. Administrador de empresa proveedora
+
+<div>
+  <p align="center"><img src="assets/md-images/gabriel-empathy.png" alt="Canvas" width="700px" /></p>
+</div>
+
+#### 2.3.4.2. Administrador de empresa cliente
+
+<div>
+  <p align="center"><img src="assets/md-images/hector-empathy.png" alt="Canvas" width="700px" /></p>
+</div>
