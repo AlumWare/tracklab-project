@@ -905,3 +905,23 @@ A continuamos, se presenta el User Task Matrix que hemos elaborado, a través de
   </tbody>
 </table>
 
+Se puede observar que las tareas que se realizan con mayor frecuencia y que poseen mayor importancia son aquellas realizadas por los administradores de las empresas proveedroas dado que ellos están encargados de armar y trasladar el envío mientras mantienen al cliente informado. Asimismo, necesitan comunicarse con otros administradores para realizar sus tareas exitosamente. También puede observarse que las tareas de validación son aquellas más resaltantes, dado que el sistema propuesta busca precisamente, validar que se cumplan las indicaciones del envío para reducir los errores.
+
+### 2.3.3. User Journey Mapping
+
+En la siguiente sección, se mostrarán los end-to-end journey maps para ilustrar como es que el usuario empieza a usar la aplicación desde que la conoce y crea su cuenta hasta que llega a completar las actividades que deseaba, pasando por su proceso de experimentar con las funcionalidades que se le ofrecen.
+
+#### 2.3.3.1. Administrador de empresa proveedora
+
+<div>
+  <p align="center"><img src="assets/md-images/gabriel-journey.png" alt="Canvas" width="700px" /></p>
+</div>
+
+#### 2.3.3.2. Administrador de empresa cliente
+
+<div>
+  <p align="center"><img src="assets/md-images/hector-journey.png" alt="Canvas" width="700px" /></p>
+</div>
+
+### 2.3.4. Empathy Mapping
+
