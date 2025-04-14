@@ -448,3 +448,112 @@ Hypothesis Statement 10
 
 Lean UX Canvas es una de las herramientas que hemos utilizado para conmprender a nuestros posibles usuarios y sus necesidades. Esta es usada en el campo del diseño centrado en el usuario y la metodología Lean con la intención de desarrollar productos de forma eficientes y práctica para los usuarios. A su vez, esta puede ser utilizada por equipos multidisciplinarios para que colaboración de forma ordenada dentro un marco estructurado.
 
+<div>
+  <p align="center"><img src="assets/md-images/canvas-web.png" alt="Canvas" width="700px" /></p>
+</div>
+
+Enlace para acceder al [Canvas](https://www.canva.com/design/DAGjqMusdhM/D6-Qc0v9JioQbOugM7qnXQ/edit?utm_content=DAGjqMusdhM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+## 1.3 Segmentos Objetivos
+
+# FALTA SEGEMENTOS OBJETIVOS
+
+
+# 2. Capítulo II: Requirements Elicitation & Analysis
+
+## 2.1 Competidores
+
+### 2.1.1. Análisis competitivo
+
+A continuación, realizamos un análisis competitivo para identificar oportunidades, amenazas, ventajas y posibles desventajas que podemos tener dentro del mercado en comparación a otras empresas que realicen actividades similares a las nuestras. De esta forma, podremos prepararnos para resaltar frente a los consumidores.
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="5"><b>Competitive Analysis Landscape</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" align="center">¿Por qué llevar a cabo este análisis?</td>
+      <td colspan="3" align="center">Con el análisis competitivo podemos entender el mercado, identificar las oportunidades y diferenciarnos de la competencia. Ayudándonos a tomar decisiones correctas, minimizar riesgos y fortalecer nuestra posición en el mercado, asegurándonos una ventaja estratégica y un crecimiento constante y sostenible.</td>
+    </tr>
+    <tr>
+      <td colspan="2">PERFIL</td>
+      <td><picture><p align="center"><img src="assets/md-images/copera.png" alt="Copera" height="50" width="200"></p> </picture></td>
+      <td><picture><p align="center"><img src="assets/md-images/servadmi.png" alt="Servadmi" height="50" width="200"></p></picture></td>
+      <td><picture><p align="center"><img src="assets/md-images/uniflex.png" alt="Uniflexe" width="50" width="200"></p></picture></td>
+    </tr>
+    <tr>
+      <td rowspan="2">Perfil</td>
+      <td>Overview</td>
+      <td>COPERA es un software de trazabilidad dirigido a cadenas de suministro de productos agrícolas como café, cacao y frutas. Abarcando la gestión productiva, de almacén y administrativa, proporcionando herramientas para el seguimiento detallado de productos desde su origen hasta el consumidor final.</td>
+      <td>Servadmi Packing es una solución de software desarrollada por SinfoPerú, orientada a empresas empacadoras de frutas. Este servicio cubre todo el proceso de empaque, desde la recepción de materia prima hasta el despacho del contenedor, ofreciendo informes en tiempo real para la toma de decisiones.</td>
+      <td>Uniflex ofrece soluciones de software ERP dirigidas a empresas de consumo y distribución masivas. Integra módulos para la gestión de logística, administración, distribución y más, con el objetivo de optimizar y automatizar procesos empresariales.</td>
+    </tr>
+    <tr>
+      <td>Ventaja Competitiva ¿Qué valor ofrece a los clientes?</td>
+      <td>- Ofrece un servicio especializado en trazabilidad agrícola, asegurando cumplimiento de normativas de exportación.<br>- Integración con sistemas de certificación y estándares de calidad, facilitando la exportación de productos agrícolas.</td>
+      <td>- Ofrece un proceso de empaque optimizado, reduciendo errores y tiempos de operación.<br>- Ofrece controles de calidad y trazabilidad automatizados, evitando problemas en exportaciones.</td>
+      <td>- Ofrece acceso en tiempo real a la información, facilitando la toma de decisiones operativas y estratégicas.<br>- Ofrece una integración total con ERP y logística, permitiendo una gestión eficiente de toda la cadena de suministro.</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Perfil de Marketing</td>
+      <td>Mercado objetivo</td>
+      <td>Dirigido a empresas agrícolas, especialmente productoras y exportadoras de café, cacao y frutas.</td>
+      <td>Dirigido a plantas empacadoras de frutas y empresas de agroexportación.</td>
+      <td>Dirigido a empresas de consumo y distribución masivas.</td>
+    </tr>
+    <tr>
+      <td>Estrategias de Marketing</td>
+      <td>Uso de marketing B2B (Business to Business), ferias agrícolas, alianzas con cooperativas y asociaciones de exportadores.</td>
+      <td>Enfoque en eficiencia operativa, marketing digital y referencias dentro del sector agroindustrial.</td>
+      <td>Presencia en ferias empresariales, marketing B2B (Business to Business) y demostraciones en vivo del sistema.</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Perfil del Producto</td>
+      <td>Productos & Servicios</td>
+      <td>Software de trazabilidad para la cadena de suministro agrícola.</td>
+      <td>Software para optimización de empaques y trazabilidad en plantas empacadoras.</td>
+      <td>Software ERP con módulos de logística y distribución.</td>
+    </tr>
+    <tr>
+      <td>Precios & Costos</td>
+      <td>Modelo de suscripción con tarifas ajustadas según la cantidad de productores o el volumen de exportación.</td>
+      <td>Planes ajustados al tamaño de la planta y el volumen de procesamiento de productos.</td>
+      <td>Modelo de licenciamiento y suscripción mensual según la cantidad de usuarios.</td>
+    </tr>
+    <tr>
+      <td>Canales de Distribución (web / móvil)</td>
+      <td>Plataforma web y móvil con acceso en tiempo real.</td>
+      <td>Plataforma web e integración a dispositivos móviles.</td>
+      <td>Plataforma web y aplicaciones móviles para gestión en campo.</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Análisis SWOT</td>
+      <td>Fortalezas</td>
+      <td>Especialización en la trazabilidad agrícola y cumplimiento de normativas de exportación</td>
+      <td>Solución especializada en procesos de empaque y optimización de costos y tiempos.</td>
+      <td>Amplia integración con procesos empresariales y soluciones móviles para operaciones.</td>
+    </tr>
+    <tr>
+      <td>Debilidades</td>
+      <td>- Alcance limitado a sectores específicos.<br>- Posible dificultad en adopción tecnológica por parte de productores pequeños.</td>
+      <td>- Dependencia de la infraestructura tecnológica de la planta y una curva de aprendizaje inicial.</td>
+      <td>- Costos iniciales elevados.<br>- Resistencia al cambio por parte de las empresas tradicionales.</td>
+    </tr>
+    <tr>
+      <td>Oportunidades</td>
+      <td>Expansión a otros sectores agroindustriales e integración con plataformas de comercio internacional.</td>
+      <td>Expansión a otros mercados de empaque como lácteos o carnes.</td>
+      <td>Expansión a mercados internacionales y sectores como retail o manufactura.</td>
+    </tr>
+    <tr>
+      <td>Amenazas</td>
+      <td>Competencia con soluciones más amplias como ERPs agrícolas.</td>
+      <td>Competencia con sistemas que incluyen módulos de trazabilidad</td>
+      <td>Competencia con ERPs globales como S.A.P. (empresa alemana) o Microsoft Dynamics</td>
+    </tr>
+  </tbody>
+</table>
