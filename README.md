@@ -444,3 +444,7 @@ Hypothesis Statement 10
 **Sabremos** que hemos tenido éxito  
 **cuando** al menos el 75% de los usuarios administrativos utilicen la herramienta de reportes cada semana.
 
+#### 1.2.2.4. Lean UX Canvas
+
+Lean UX Canvas es una de las herramientas que hemos utilizado para conmprender a nuestros posibles usuarios y sus necesidades. Esta es usada en el campo del diseño centrado en el usuario y la metodología Lean con la intención de desarrollar productos de forma eficientes y práctica para los usuarios. A su vez, esta puede ser utilizada por equipos multidisciplinarios para que colaboración de forma ordenada dentro un marco estructurado.
+
