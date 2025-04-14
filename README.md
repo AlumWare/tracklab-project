@@ -936,3 +936,29 @@ En la siguiente sección, se mostrarán los end-to-end journey maps para ilustra
 <div>
   <p align="center"><img src="assets/md-images/hector-empathy.png" alt="Canvas" width="700px" /></p>
 </div>
+
+### 2.3.5. As-is Scenario Mapping
+
+Conociendo todos los datos mostrados anteriormente, realizamos un As-Is Scenario Mapping para plantear los procesos que seguían nuestros segmentos objetivos en este momento, resaltando las dificultades que están enfrentando en el día a día y su sentir hacia las mismas.
+
+#### 2.3.5.1. Administrador de empresa proveedora
+
+<div>
+  <p align="center"><img src="assets/md-images/asis1.png" alt="Canvas" width="700px" /></p>
+</div>
+
+#### 2.3.5.2. Administrador de empresa cliente
+
+<div>
+  <p align="center"><img src="assets/md-images/asis2.png" alt="Canvas" width="700px" /></p>
+</div>
+
+Enlace para visualizar en [Miro](https://miro.com/app/board/uXjVIDT9LS4=/?share_link_id=400490575884)
+
+## 2.4. Ubiquitous Language
+
+# FALTA UBIQUITOUS LANGUAGE
+
+# 3. Capítulo III: Requirements Specification
+
+## 3.1. To-Be Scenario Mapping
