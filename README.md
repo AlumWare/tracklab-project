@@ -1360,6 +1360,7 @@ Las epics y user stories nos sirven para traducir aquellas ideas y necesidades q
 ## 3.3 Impact Mapping
 
 <div>
-  <p align="center"><img src="assets/md-images/Impact-Map-Web.jpg" alt="ImpactMap" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/Impact-Map-Web.jpg" alt="ImpactMap" width="800px" /></p>
 </div>
 
+Enlace para acceder a [Miro](https://miro.com/app/board/uXjVICzj2Tg=/?share_link_id=950798437690)
