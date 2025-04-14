@@ -459,6 +459,7 @@ Enlace para acceder al [Canvas](https://www.canva.com/design/DAGjqMusdhM/D6-Qc0v
 
 # FALTA SEGEMENTOS OBJETIVOS
 
+---
 
 # 2. Capítulo II: Requirements Elicitation & Analysis
 
@@ -557,3 +558,103 @@ A continuación, realizamos un análisis competitivo para identificar oportunida
     </tr>
   </tbody>
 </table>
+
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+Afrontando las fortalezas de nuestros competidores:
+
+- Tienen experiencia previa en sectores específicos como agroindustria, manufactura o comercio.  
+- Algunos ya cuentan con clientes fidelizados y soluciones implementadas.  
+- Su trayectoria les otorga cierta credibilidad en el mercado local.
+
+Comprendemos que nuestras fortalezas son:
+
+- Somos una solución más especializada en trazabilidad logística operativa, desde el origen hasta la entrega.  
+- Ofrecemos verificación en tiempo real con tecnologías como QR y alertas automáticas.  
+-  Nos enfocamos en visualización colaborativa, permitiendo que tanto proveedores como receptores vean el estado del envío en todo momento.
+
+Entonces podemos aplicar las siguientes estratégicas y tácticas:
+
+Estrategias:  
+
+- En lugar de competir directamente con ERP o CRM, nos posicionamos como un complemento útil, más ágil y accesible.  
+- Participar en sectores donde nuestros competidores no tienen presencia sólida (como la minería, energía, distribución y manufactura).
+
+Tácticas:  
+
+- Realizar campañas B2B (Business to Business) enfocadas en personal técnico y operativo, no solo en directivos o áreas comerciales.  
+- Participar en ferias, eventos logísticos y publicaciones del sector con ejemplos claros de eficiencia, integración y resultados.  
+
+Afrontando las debilidades de nuestros competidores: 
+
+- Nuestros competidores se enfocan en procesos previos al transporte (como el empaquetado o registro comercial), pero no hacen seguimiento durante el traslado.  
+- No contemplan tecnologías como QR o fotos para verificar carga y entrega.  
+- Tienen integraciones limitadas o cerradas, dificultando su conexión con otros sistemas existentes.  
+- Tienen interfaces complejas o poco intuitivas, pensadas para usuarios administrativos más que operativos.
+
+Comprendemos que nuestras debilidades son:  
+
+- Dependemos del registro correcto por parte del personal de campo, lo que puede representar un riesgo si no se hace bien.  
+- Podemos enfrentar una resistencia al cambio por parte de empresas acostumbradas a métodos manuales o sistemas internos.
+
+Entonces podemos aplicar las siguientes estratégicas y tácticas:  
+
+Estrategias:  
+
+- Demostrar valor con pruebas piloto reales, reduciendo las dudas sobre el uso en campo.  
+- Construir confianza mediante resultados concretos, reportes claros y facilidad de implementación.  
+
+Tácticas:  
+
+- Participar en ferias, eventos sectoriales y espacios digitales (como LinkedIn, YouTube, etc.) para ganar visibilidad y posicionamiento.  
+- Lanzar demos gratuitas con empresas logísticas o clientes iniciales estratégicos.  
+
+Afrontando las oportunidades de nuestros competidores:
+
+- Digitalización acelerada de procesos logísticos, especialmente tras la pandemia.  
+- Demanda de trazabilidad por normativas de calidad y exportación, sobre todo en sectores como agroindustria y manufactura.  
+- Creciente interés por soluciones integradas (ERP, CRM, WMS) para unificar la operación.  
+
+Comprendemos que nuestras oportunidades son:  
+
+- Existe una necesidad no cubierta de trazabilidad completa y validación operativa en sectores con alta rotación de envíos.  
+- Hay brechas en la trazabilidad entre el punto de embarque y la recepción final, donde ocurren muchos errores y retrasos.  
+- Hay una oportunidad de liderar en facilidad de uso y visualización en tiempo real, con tecnologías como QR, mapas, y alertas automáticas.  
+
+Entonces podemos aplicar las siguientes estratégicas y tácticas:
+
+Estrategias:  
+
+- Anticiparnos a las tendencias ofreciendo desde ya una solución digital ágil, móvil y modular, que funcione en múltiples sectores.  
+- Ofrecer integración rápida con sistemas internos para facilitar la transición digital de las empresas.  
+
+Tácticas:  
+
+- Promocionar casos de uso en sectores poco cubiertos por los competidores tradicionales (como minería y energía).  
+- Activar una estrategia de visibilidad digital en ferias, webinars y contenidos en LinkedIn, posicionando nuestra solución como el nuevo estándar en trazabilidad operativa.  
+
+Afrontando las amenazas de nuestros competidores:  
+
+- Clientes que buscan personalización y agilidad, lo que puede ser difícil para soluciones robustas pero rígidas.  
+- Incremento de la competencia extranjera con soluciones más modernas, livianas o con mejor UX.  
+- Desconfianza hacia sistemas poco transparentes, que dificultan la integración o migración de datos.  
+
+Comprendemos que nuestras amenazas son:
+
+- Que los clientes prefieran quedarse con sistemas “que ya conocen”, aunque sean menos eficientes.  
+- El riesgo de baja adopción por parte del personal de campo, por desconocimiento o resistencia al cambio.  
+- La entrada de grandes soluciones internacionales con presupuestos de marketing y presencia consolidada.  
+
+Entonces podemos aplicar las siguientes estratégicas y tácticas:  
+
+Estrategias:  
+
+- Enfocarnos en la experiencia de usuario y facilidad de uso como diferenciador clave frente a soluciones más complejas.  
+- Construir confianza desde el primer día con pilotos, resultados medibles y soporte cercano.  
+
+Tácticas:
+
+- Crear material de soporte proactivo (como videos, ayuda interactiva o chat de soporte) para acompañar el uso desde el primer día.  
+- Desarrollar una interfaz móvil optimizada, clara y sin curva de aprendizaje, para que el personal de campo la adopte sin fricción.
+
