@@ -745,3 +745,9 @@ Preguntas Finales y de Retroalimentación
 <div>
   <p align="center"><img src="assets/md-images/gabriel-user.png" alt="Canvas" width="700px" /></p>
 </div>
+
+#### 2.3.1.2. User persona de administrador de empresa cliente
+
+<div>
+  <p align="center"><img src="assets/md-images/hector-user.png" alt="Canvas" width="700px" /></p>
+</div>
