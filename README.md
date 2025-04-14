@@ -322,3 +322,63 @@ A partir de lo mencionado, se señala que el implementar un seguimiento utilizan
 
 #### 1.2.2.1. Lean UX Problem Statements
 
+Nuestra solución busca proveer un espacio digital a través del cuál puedan registrarse los pasos que deben ser realizados para asegurar el correcto traslado de un paquete desde su embarque hasta su llegada al lugar indicado.
+
+Hemos observado que, al no contar con un registro adecuado de los paquetes a enviar y sus requerimientos de traslado, suelen ocurrir errores al momento del empaquetado y colocación de los mismos en su transporte correspondiente, lo que repercute en la calidad de la entrega final.
+
+__¿Cómo puede nuestro producto registrar el cumplimiento de cada fase de traslado del paquete?__
+
+Nuestra solución busca que ambas empresas involucradas puedan observar la posición geográfica del paquete trasladado, su estado y su fecha prevista de llegada de forma sencilla y en cualquier momento.
+
+Hemos observado que las empresas receptoras se ven afectadas en sus operaciones al no saber con certeza cuándo llegará el paquete solicitado, así como la empresa proveedora ve su imagen perjudicada a falta de información en base a la cual tomar decisiones. 
+
+__¿Cómo podemos permitir que ambas empresas tengan acceso a la ubicación e información general de un paquete en tiempo real?__
+
+Nuestra solución busca proveer un sistema de verificación mediante QR para asegurar que los paquetes son ingresados al vehículo correcto y que, por ende, son trasladados al destino solicitado.
+
+Hemos observado que el no contar con un sistema de verificación al embarcar el vehículo es probable que se presenten errores dada la cantidad de envíos siendo colocados simultáneamente. Esto puede llegar a repercutir en que se envíen paquetes a destinos incorrectos, ocasionando problemas entre las empresas y pérdidas de tiempo y dinero.
+
+__¿Cómo podemos implementar un sistema de verificación mediante QRs que asegure que cada paquete está siendo embarcado hacia el destino correcto?__
+
+#### 1.2.2.2. Lean UX Assumptions
+
+__Business Assumptions:__
+
+- __Creemos que nuestros usuarios necesitan__ tener visibilidad y control en tiempo real sobre los envíos, sin importar su tipo o tamaño.
+- __Estas necesidades se pueden satisfacer__ con una solución digital que registre, actualice y comparta el estado, ubicación y condiciones del envío durante todo su trayecto.
+- __Nuestros clientes iniciales serán__ empresas proveedoras o compañías que trasladan productos o insumos entre sedes, y las empresas clientes que solicitan estos envíos.
+- __El valor más importante que un cliente quiere de nuestros servicios es__ la trazabilidad integral de cada envío, desde el origen hasta su destino.
+- __El cliente también va a obtener__ reducción de errores, mejora en la comunicación interempresa y soporte en la toma de decisiones logísticas.
+- __Vamos a obtener la mayoría de los clientes mediante__ alianzas estratégicas con empresas logísticas, presentaciones en eventos del sector y marketing digital B2B.
+- __Vamos a obtener ingresos mediante__ suscripciones mensuales escalables según número de envíos o integración con ERP/logística.
+- __Nuestra competencia en el mercado serán__ soluciones de rastreo parcial, herramientas internas no estandarizadas o software caro y poco flexible.
+- __Vamos a tener ventaja frente a nuestra competencia debido a__ la flexibilidad para adaptarse a distintos tipos de envío, verificación digital (QR, fotos), y visualización colaborativa.
+- __El mayor riesgo del servicio es__ que el personal de campo (almacén, transporte) no registre correctamente las etapas del envío.
+- __Lo resolveremos realizando__ pruebas piloto con usuarios reales, interfaz simple y adaptable, y sesiones de entrenamiento orientadas al flujo operativo real.
+
+__User Assumptions:__
+
+__¿Quién es el usuario?__
+
+Los usuarios principales son el personal administrativo y/o gerencial de empresas que gestionan envíos industriales por vía terrestre en Perú, así como el personal de estos mismos puestos de las empresas que realizan los pedidos. Si la plataforma tiene éxito en este sector, se plantea su extensión a todo el ecosistema logístico nacional e internacional, incluyendo sectores como manufactura, minería, agroindustria, energía y distribución masiva.
+
+__¿Qué problemas tiene nuestro producto? ¿Resolver?__
+
+Actualmente, muchas empresas enfrentan problemas relacionados con la falta de visibilidad en tiempo real, el desconocimiento del estado o condición de un envío, y la dificultad para verificar si los envíos fueron realizados correctamente o llegaron a destino. En muchos casos, los registros son manuales, aislados o poco confiables. El producto busca resolver estos problemas mediante la automatización de la trazabilidad, integrando el monitoreo de ubicación, estado físico del envío, y validaciones digitales durante todo el trayecto.
+
+__¿Qué características son importantes?__
+
+Las funcionalidades clave del producto incluyen el registro y seguimiento digital de cada fase del traslado, permitiendo un control detallado desde el origen hasta el destino. Ofrece visualización en tiempo real de la ubicación y condiciones del envío, y verificación de carga y descarga mediante tecnologías como códigos QR, lo que reduce errores y garantiza trazabilidad. El sistema emite alertas automáticas ante desvíos, demoras o incidencias, y almacena un historial completo del envío, registrando quién lo manipuló, cuándo, dónde y cómo. Además, se integra con sistemas internos como ERP, WMS o CRM, consolidando procesos logísticos. Estas funcionalidades no solo previenen pérdidas económicas, sino que también permiten generar reportes analíticos, tomar decisiones informadas y establecer mejores prácticas logísticas a futuro.
+
+__¿Dónde encaja nuestro producto en su trabajo o vida?__
+
+El producto se integra directamente en los procesos diarios de logística operativa, tanto en planta como en transporte y recepción de envíos. Facilita el control operativo, mejora la comunicación entre áreas o empresas involucradas y permite evaluar el rendimiento logístico en tiempo real, impulsando la eficiencia, la calidad del servicio y la rentabilidad.
+
+__¿Cuándo y cómo es nuestro producto? ¿Usado?__
+
+El sistema es utilizado desde el momento en que se prepara un envío, se realiza el traslado físico, y finaliza con la confirmación de entrega en destino. También se usa en etapas de auditoría interna, evaluación de indicadores logísticos, análisis de errores y mejoras de procesos. Puede ser accedido en cualquier momento desde móviles, tablets o estaciones de trabajo, según el rol del usuario (operativo o administrativo).
+
+__¿Cómo debe verse nuestro producto y cómo debe comportarse?__
+
+Nuestro producto debe contar con una interfaz intuitiva, visual y de fácil uso, diseñada especialmente para el personal operativo, de modo que no requiera capacitaciones complejas. Debe ser modular y flexible, capaz de adaptarse a distintos tipos de envío, sectores logísticos y modelos operativos. La visualización debe incluir mapas en tiempo real, alertas automáticas e indicadores por eventos, facilitando el seguimiento y control del traslado. A nivel funcional, el sistema debe ser estable, rápido y seguro, con acceso controlado para proteger los datos sensibles tanto de la empresa como de los usuarios.
+
