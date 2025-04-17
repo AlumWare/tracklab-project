@@ -1364,3 +1364,218 @@ Las epics y user stories nos sirven para traducir aquellas ideas y necesidades q
 </div>
 
 Enlace para acceder a [Miro](https://miro.com/app/board/uXjVICzj2Tg=/?share_link_id=950798437690)
+
+## 3.4 Product Backlog
+
+<table>
+  <thead>
+    <td># Orden</td>
+    <td>User Story ID</td>
+    <td>Título</td>
+    <td>Descripción</td>
+    <td>Story Points</td>
+  </thead>
+  <tr>
+    <td>1</td>
+    <td>US03</td>
+    <td>Acceder a la aplicación desde el landing page</td>
+    <td>Como visitante de la landing page Quiero ingresar a la aplicación desde la landing page Para acceder fácilmente a las funcionalidades de la aplicación</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>US01</td>
+    <td>Contactar a la startup</td>
+    <td>Como visitante de la landing page Quiero contar con un medio a través del cual escribirle a los desarrolladores Para hacerles llegar mis comentarios y sugerencias en cuánto a la aplicación</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>US02</td>
+    <td>Obtener información sobre el uso de la aplicación</td>
+    <td>Como visitante de la landing page Quiero contar con un espacio que me permita conocer las funcionalidades y beneficios de la aplicación Para usarlos con facilidad cuando lo necesite</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>US04</td>
+    <td>Ingreso como cliente</td>
+    <td>Como administrador de la empresa cliente Quiero ingresar a la aplicación con una cuenta de cliente Para revisar mis pedidos anteriores y realizar nuevos</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>US06</td>
+    <td>Búsqueda de productos disponibles</td>
+    <td>Como administrador de la empresa cliente Quiero buscar productos mediante palabras Para encontrar los productos que deseo en menos tiempo</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td><US05/td>
+    <td>Visualización de productos disponibles</td>
+    <td>Como administrador de la empresa cliente Quiero visualizar los productos disponibles y su información Para decidir cuales comprar</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>US07</td>
+    <td>Registro de datos de envío</td>
+    <td>Como administrador de la empresa cliente Quiero registrar los datos de mi envío al solicitarlo Para que llegue exactamente como lo deseo</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>US08</td>
+    <td>Confirmación de pedido realizado</td>
+    <td>Como administrador de la empresa cliente Quiero recibir una confirmación de que mi pedido fue registrado con éxito Para estar seguro de que lo recibiré tal cual lo especifiqué</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>US09</td>
+    <td>Recepción de solicitud</td>
+    <td>Como administrador de la empresa proveedora Quiero recibir una notificación cuando ingresa una nueva solicitud de envío Para procesarla y empezar con el pedido</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>US10</td>
+    <td>Solicitud en almacén</td>
+    <td>Como administrador de la empresa proveedora Quiero enviar la solicitud del pedido al almacén correspondiente Para que los trabajadores comiencen a preparar la entrega</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>US11</td>
+    <td>Registro de datos del comprador</td>
+    <td>Como administrador de la empresa proveedora Quiero guardar los datos del comprador Para asegurarme de que su pedido sea entregado correctamente</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>US12</td>
+    <td>Registro de requisitos de envío</td>
+    <td>Como administrador de la empresa proveedora Quiero registrar los requisitos del envío ingresados por el cliente Para asegurar que se cumplan al preparar el envío</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>US13</td>
+    <td>Habilitar dashboard para el cliente</td>
+    <td>Como administrador de la empresa proveedora Quiero habilitar un dashboard para el cliente que solicitó un envío Para permitirle contar con el seguimiento de su pedido</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>US14</td>
+    <td>Empaquetar y etiquetar carga</td>
+    <td>Como administrador de la empresa proveedora Quiero supervisar los procesos de empaquetado y etiquetado de la carga a través de la aplicación Para asegurarme de que el envío se está realizando correctamente</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>US16</td>
+    <td>Registro de datos iniciales de envío</td>
+    <td>Como administrador de la empresa proveedora Quiero registrar la información del pedido antes de que inicie su traslado Para poseer y mostrar el estado en el que está saliendo del almacén</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>US17</td>
+    <td>Confirmación por QR</td>
+    <td>Como administrador de la empresa proveedora Quiero registrar la carga que está siendo cargada mediante QR Para asegurarme de que esta llegue al destino correcto</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>US18</td>
+    <td>Activación de ubicación en tiempo real</td>
+    <td>Como administrador de la empresa proveedora Quiero activar la ubicación en tiempo real del envío Para contar con acceso a la misma en todo momento y revisar su progreso</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>US19</td>
+    <td>Visualización de datos actualizados en tiempo real</td>
+    <td>Como administrador de la empresa proveedora Quiero visualizar la información del envío en tiempo real Para tomar acciones inmediatas de manera informada en caso se necesite</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>US20</td>
+    <td>Respuesta a consultas de compradores</td>
+    <td>Como administrador de la empresa proveedora Quiero contestar las consultas de los compradores Para mantenerlos informados y confiados en cuanto a su entrega</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>US21</td>
+    <td>Registro de empresa proveedora</td>
+    <td>Como administrador de la empresa proveedora Quiero registrarme en la aplicación Para utilizar el sistema en la organización de los envíos que mi empresa realiza</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>US22</td>
+    <td>Registro de empresa cliente</td>
+    <td>Como administrador de la empresa cliente Quiero registrar a mi empresa en la aplicación Para realizar pedidos con facilidad</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>US24</td>
+    <td>Visualización de panel en tiempo real</td>
+    <td>Como administrador de la empresa cliente Quiero visualizar los datos de mi pedido en tiempo real Para monitorear su entrega</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>US25</td>
+    <td>Registro de consulta en el panel de gestión</td>
+    <td>Como administrador de la empresa cliente Quiero escribir consultas hacia la empresa proveedora Para resolver mis dudas o preocupaciones sobre mi pedido</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>US26</td>
+    <td>Registro de datos de llegada</td>
+    <td>Como administrador de la empresa proveedora Quiero poder registrar los datos de llegada del pedido Para asegurarme de que no sufrió desperfectos durante el trayecto</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>US27</td>
+    <td>Confirmación de recepción del cliente</td>
+    <td>Como administrador de la empresa cliente Quiero confirmar que recibí mi pedido conforme Para culminar con el proceso de envío</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>US28</td>
+    <td>Cierre del envío</td>
+    <td>Como administrador de la empresa proveedora Quiero cerra el envío una vez entregado Para que registrar la entrega exitosa y que este no interfiera con los pedidos incompletos</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>TS02</td>
+    <td>Get Supplier company</td>
+    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de una empresa proveedora mediante una API Para mostrarla cuando se solicite</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>TS03</td>
+    <td>Post Client company</td>
+    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero registrar una nueva empresa cliente mediante una API Para visualizar las empresas cliente afiliadas a nuestra aplicación</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>TS05</td>
+    <td>Post User</td>
+    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero registrar un nuevo usuario mediante una API Para visualizar los usuarios afiliados a nuestra aplicación</td>
+    <td>3</td>
+  </tr>
+</table>
