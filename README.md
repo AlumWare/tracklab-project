@@ -457,9 +457,43 @@ Enlace para acceder al [Canvas](https://www.canva.com/design/DAGjqMusdhM/D6-Qc0v
 
 ## 1.3 Segmentos Objetivos
 
-# FALTA SEGEMENTOS OBJETIVOS
+La solución propuesta se centra en dos segmentos claves dentro del ámbito logístico, respaldados por datos que evidencian la urgencia de digitalizar los procesos de trazabilidad y registro de operaciones:
 
----
+### Segmento 1: Empresas logísticas
+
+#### Desccripción general
+
+Organizaciones dedicadas a la gestión, transporte, consolidación y distribución de carga. Este segmento enfrenta diariamente desafíos en el seguimiento y registro de operaciones, donde los sistemas tradicionales generan errores y cuellos de botella en los procesos.
+
+#### Perfil operativo
+
+Sus directivos y gerentes suelen tener entre 30 y 55 años, con presencia fuerte en zonas urbanas e industriales de Perú (por ejemplo, Lima, Arequipa y Trujillo).
+
+#### Datos del sector
+
+Según SERGroup, aproximadamente el 63% de las empresas logísticas reconoce la digitalización como una herramienta clave para mejorar la eficiencia operativa, y cerca del 73% está en proceso de adoptar tecnologías de rastreo y control para optimizar su cadena de suministro.
+
+#### Necesidad
+
+La integración de soluciones digitales, como el seguimiento en tiempo real mediante códigos QR y dashboards interactivos, es vista como esencial para reducir errores y mejorar la visibilidad de cada operación.
+
+### Segmento 2: Empresas cliente (B2B)
+
+#### Desccripción general
+
+Compañías de sectores como minería, construcción, agroindustria y comercio, que dependen críticamente de servicios logísticos para asegurar la entrega oportuna de sus productos.
+
+#### Perfil gerencial
+
+Los responsables de cadena de suministro y logística en estas empresas suelen tener entre 35 y 60 años y operan en regiones con alta densidad industrial.
+
+#### Datos del sector
+
+De acuerdo con SERGroup, alrededor del 70% de las empresas en sectores vinculados a la logística demandan información en tiempo real para tomar decisiones estratégicas, mientras que casi el 78% manifiesta la necesidad de soluciones digitales integradas que permitan un seguimiento continuo y preciso de sus envíos.
+
+#### Necesidad
+
+Contar con herramientas que ofrezcan informes claros y en tiempo real, optimizando la toma de decisiones y reduciendo retrasos y costos generados por sistemas manuales o poco integrados.
 
 # 2. Capítulo II: Requirements Elicitation & Analysis
 
