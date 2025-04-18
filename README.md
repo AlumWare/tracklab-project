@@ -1655,3 +1655,36 @@ Enlace para acceder a [Miro](https://miro.com/app/board/uXjVICzj2Tg=/?share_link
     <td>3</td>
   </tr>
 </table>
+
+
+# 4. Capítulo IV: Product Design  
+
+## 4.1. Style Guidelines - FALTA TODO 4.1.
+
+### 4.1.1. General Style Guidelines
+
+### 4.1.2. Web Style Guidelines
+
+
+
+
+
+
+## 4.2. Information Architecture
+
+El concepto de software que Alumware está planteando a través de su proyecto, TrackLab, es precisamente con el propósito de mejorar la organización dentro de una empresa transportadora. En este mismo sentido, deseamos plantear un flujo de funcionalidades ordenado e intuitivo, de forma de que sea sencillo para los usuarios considerados utilizar la aplicación web. La información será de fácil acceso y se permitirá realizar búsquedas dentro de los bancos de información, logrando que no se pierda tiempo en ello. Asimismo, se seguirán algunos patrones para distribuir los elementos en la pantalla de forma que se vea atractiva y organizada, pero sobre todo no sobrecargada. En la parte superior se incluirán las opciones principales para que sea más sencillo navegar entre pantallas y funcionalidad. De esta forma, se habrá alcanzado facilitar los procesos de la empresa para los empleados, consiguiendo una reducción de errores significativa.
+
+### 4.2.1. Organization Systems
+
+La organización que presentamos en pantalla se encuentra organizada de distintas formas dependiendo de la sección y necesidades de la misma. En un primer punto, puede mencionarse que nuestra landing page se encuentra organizada de forma jerárquica, puesto que presenta la información primordial en la parte superior, misma que incluye nuestro logo, eslogan y opciones primordiales, resaltando la de “Solicitar Demo”, que sirve para comprar y comenzar a trabajar dentro de nuestra aplicación.
+
+Continuando con la landing page, en las secciones en que la información presentada posee igual importancia, optamos por presentar los elementos de forma horizontal, como es el caso de la sección de “Beneficios principales” y de “Para quién es TrackLab”. En el caso de las secciones de “Contacto” y “¿Cómo funciona TrackLab”, dividimos la pantalla a la mitad verticalmente para presentarle al usuario tramos relacionados de información de forma simultánea.
+
+Pasando directamente a la aplicación web vista en formato desktop, se puede ver que se deja cierto espacio entre los elementos con el fin de no sobrecargar las pantallas. De la misma forma, se le da un espacio adecuado a cada elemento por sí mismo, evitando reducir sus datos con el fin de ahorrar espacio. Esto se puede ver en la pantalla “Iniciar un pedido nuevo”, en donde los elementos están colocados lado a lado y cuenta con una barra de búsqueda en la parte superior. 
+
+En cuanto a pantallas como “Aceptar pedidos” y “Responder consultas”, se opta por un orden que apila los elementos mostrados de forma horizontal basándose en la antigüedad de los mismos. Así, el administrador usuario podrá ver las notificaciones más recientes en la parte superior. Por último, en pantallas como la de registro, se organizan los elementos de forma que resalten los recuadros que deben ser completados por el autor.
+
+Prosiguiendo con la aplicación web con vista mobile, hemos cambiado parte de la organización de la estructura dado el espacio reducido ahora prefiriendo la organización vertical, de forma que esta siga siendo agradable a la vista y sencilla de comprender. Asimismo, se han aumentado las subopciones para que los detalles respecto a los pedidos puedan verse con mayor precisión. 
+
+### 4.2.2. Labeling Systems
+
