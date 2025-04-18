@@ -991,7 +991,49 @@ Enlace para visualizar en [Miro](https://miro.com/app/board/uXjVIDT9LS4=/?share_
 
 ## 2.4. Ubiquitous Language
 
-# FALTA UBIQUITOUS LANGUAGE
+### Glosario de Términos del Dominio
+
+__Purchase Order (Orden de Compra)__  
+_Definición:_ Solicitud formal emitida por la empresa cliente para iniciar el proceso de transporte de mercancías, en la que se especifican los productos o servicios requeridos.  
+
+__Shipment (Envío)__  
+_Definición:_ Conjunto de mercancías transportadas de un punto de origen a otro, de acuerdo con una Orden de Compra.  
+
+__Cargo (Carga)__  
+_Definición:_ Totalidad de bienes o mercancías que se transportan en una operación logística, ya sea de forma individual o agrupada.   
+
+__Parcel (Bulto))__  
+_Definición:_ Unidad individual de carga que compone el envío, pudiendo representar una pieza o un conjunto de piezas homogéneas   
+
+__Container (Contenedor)__  
+_Definición:_ Unidad mayor en la que se agrupan varios bultos o mercancías para facilitar el transporte, manejo y consolidación de la carga.   
+
+__Traceability (Trazabilidad)__  
+_Definición:_ Capacidad para seguir y documentar el recorrido completo de la carga a lo largo de la cadena logística, desde su origen hasta la entrega final.  
+
+__Tracking (Seguimiento)__  
+_Definición:_ Acción de monitorear en tiempo real el estado y la ubicación de la carga durante su transporte, asegurando visibilidad en cada etapa del proceso.  
+
+__Delivery (Entrega)__  
+_Definición:_ Proceso final en el que la carga es trasladada al destino establecido, completando el ciclo logístico de manera satisfactoria para la empresa cliente.  
+
+__Logistics Provider (Empresa Logística)__  
+_Definición:_ Organización dedicada a gestionar y ejecutar servicios de transporte, almacenamiento y consolidación de carga para terceros.  
+
+__Client Company (Empresa Cliente)__  
+_Definición:_ Empresa que contrata servicios logísticos para el traslado de sus mercancías y que requiere de seguimiento y control del estado de sus envíos.  
+
+__Consolidation (Consolidación)__  
+_Definición:_ Proceso mediante el cual se agrupan múltiples bultos o cargas pequeñas en un contenedor mayor, con el objetivo de optimizar el transporte y reducir costos.  
+
+__Route (Ruta)__  
+_Definición:_ Acción de liberar o enviar la carga desde el almacén u origen, iniciando su tránsito hacia el destino.  
+
+__Logistics Operation (Operación Logística)__  
+_Definición:_ Conjunto de actividades coordinadas para planificar, ejecutar y controlar el flujo, manejo y almacenamiento de mercancías a lo largo de la cadena de suministro.  
+
+__Status (Estado)__  
+_Definición:_ Indicador que refleja la situación actual de la carga en cada fase del proceso logístico, tales como “en proceso”, “en tránsito” o “entregado”.  
 
 # 3. Capítulo III: Requirements Specification
 
