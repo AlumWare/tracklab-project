@@ -1718,3 +1718,6 @@ En cuanto a sistemas de búsqueda, deseamos que las funcionalidades y pantallas 
 
 ### 4.2.5. Navigation Systems
 
+Por último, buscamos que los sistemas de navegación sean lo más claros posible, estableciendo un flujo sencillo de recorrer y siempre conectado a las opciones principales a través del menú desplegable. Puede resaltarse la forma en que se navegará de la landing page hacia la aplicación web en sí. Esto se hará al iniciar sesión, siempre y cuando ya exista una sesión contratada, en la cuenta personal del usuario. Una vez dentro se valide la contraseña y/o correo empleados, el usuario podrá hacer uso de todas las funcionalidades ya sea en un dispositivo mobile o desktop. Finalmente, los botones incluídos facilitan la navegación, dado que logran que el usuario llegue a la información o funcionalidad que desea en pocos pasos.
+
+## 4.3. Landing Page UI Design
