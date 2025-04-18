@@ -1713,3 +1713,8 @@ Estas son las meta etiquetas que usamos en nuestra página web:
 (*code sample, se pondrá en Github*)
 
 ### 4.2.4. Searching Systems
+
+En cuanto a sistemas de búsqueda, deseamos que las funcionalidades y pantallas principales sean de fácil acceso por lo que no es necesario buscarlas, sino que aparecen en el menú desplegable en la parte lateral. Centrándonos más en la búsqueda en sí, en las pantallas en las que aparecen varios elementos uno detrás de otro, hemos implementado barras de búsqueda que filtrarán aquellos elementos que coincidan con las palabras ingresadas por el usuario, tanto para la aplicación web vista desde desktop como en mobile. Este es el caso de la pantalla “Iniciar un nuevo pedido”, en donde se encuentra una barra de búsqueda para encontrar pedidos con mayor rapidez. 
+
+### 4.2.5. Navigation Systems
+
