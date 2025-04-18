@@ -1688,3 +1688,28 @@ Prosiguiendo con la aplicación web con vista mobile, hemos cambiado parte de la
 
 ### 4.2.2. Labeling Systems
 
+Para el nombramiento de opciones, buscamos utilizar nombres claros y comprensibles que detallen brevemente la funcionalidad u opción a la que dirigen. Esto puede reflejarse en la barra lateral en la que se nombren los accesos con palabras comunes como “Home”, “Pedidos” o “Notificaciones”. De la misma forma, los títulos son “Iniciar un pedido nuevo” o “Seguimiento de pedidos”, frases que nos describen a que está destinada esa pantalla. En el caso de los botones, estos son nombrados como “Detalles”, “Registrar”, “Pedir”, entre otros; siempre un sustantivo o verbo del lenguaje común que indica a la perfección la acción que ejecuta.
+
+
+### 4.2.3. SEO Tags and Meta Tags
+
+Los Meta Tags o SEO Tags son datos de las páginas web que se encuentran almacenadas en la cabecera del sitio, pero, en la mayor parte, no son visibles. Estas etiquetas proveen información sobre el contenido de la página a los navegadores y motores de búsqueda, ayudándonos en el posicionamiento de nuestra plataforma.
+
+Estas son las meta etiquetas que usamos en nuestra página web:
+
+- Title: Esta etiqueta es el título de la página web que aparece en los resultados de búsqueda en los navegadores.  
+(*code sample, se pondrá en Github*)
+
+- Description: Esta etiqueta es la descripción que aparece debajo del título de la página web en los resultados de búsqueda en los navegadores.  
+(*code sample, se pondrá en Github*)
+
+- Charset: Esta etiqueta ajusta la codificación de carácteres de la página web, logrando que los carácteres especiales se muestren correctamente.  
+(*code sample, se pondrá en Github*)
+
+- Keywords: Esta etiqueta almacena las palabras clave que están relacionadas al contenido de la página web. Nos ayuda a que nuestra página tenga una mejor oportunidad de visibilidad.  
+(*code sample, se pondrá en Github*)
+
+- Author & Copyright: Estas etiquetas registran la información del autor de la página web y los derechos de autor.  
+(*code sample, se pondrá en Github*)
+
+### 4.2.4. Searching Systems
