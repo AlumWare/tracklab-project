@@ -1721,3 +1721,32 @@ En cuanto a sistemas de búsqueda, deseamos que las funcionalidades y pantallas 
 Por último, buscamos que los sistemas de navegación sean lo más claros posible, estableciendo un flujo sencillo de recorrer y siempre conectado a las opciones principales a través del menú desplegable. Puede resaltarse la forma en que se navegará de la landing page hacia la aplicación web en sí. Esto se hará al iniciar sesión, siempre y cuando ya exista una sesión contratada, en la cuenta personal del usuario. Una vez dentro se valide la contraseña y/o correo empleados, el usuario podrá hacer uso de todas las funcionalidades ya sea en un dispositivo mobile o desktop. Finalmente, los botones incluídos facilitan la navegación, dado que logran que el usuario llegue a la información o funcionalidad que desea en pocos pasos.
 
 ## 4.3. Landing Page UI Design
+
+### 4.3.1. Landing Page Wireframe
+
+A continuación, presentaremos nuestro landing page wireframe, en donde hemos considerado la presentación de la estructura quw tendrá nuestra lansing page final. En ese sentido, se resaltan los espacios en los que irán nuestros elemntos como imágenes y texto explicativo, así como la ubicación de nuestros botones. En el caso de los títulos, decidimos incluirlos desde ahora con el fin de organizar cada sección en el lugar adecuado.
+
+<div>
+  <p align="center"><img src="assets/md-images/landing-wireframes.png" alt="landing-wireframes.png" width="700px" /></p>
+</div>
+
+### 4.3.1. Landing Page Mock-up
+
+En el caso de nuestro mock-up, aquí ya estamos incluyendo los texto que deseamos mostrar a nuestros usuarios, lo que incluye explicaciones en cuanto a las funcionalidades y mención de nuestros beneficios. De la misma manera, se incluyen imágenes referenciales y opción ya nombradas. Ejemple de ello es la sección de "Preguntas frecuentes", la cual cuenta con respuestas que serán desplegables más adelante. 
+
+<div>
+  <p align="center"><img src="assets/md-images/landing-mockup.png" alt="landing-mockup.png" width="700px" /></p>
+</div>
+
+## 4.4. Web Applications UX/UI Design
+
+### 4.4.1. Web Applications Wireframes
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+### 4.4.2. Web Applications Mock-ups
+
+### 4.4.2. Web Applications User Flow Diagrams
+
+## 4.5. Web Applications Prototyping
+
