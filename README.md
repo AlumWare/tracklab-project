@@ -362,7 +362,7 @@ __¿Quién es el usuario?__
 
 Los usuarios principales son el personal administrativo y/o gerencial de empresas que gestionan envíos industriales por vía terrestre en Perú, así como el personal de estos mismos puestos de las empresas que realizan los pedidos. Si la plataforma tiene éxito en este sector, se plantea su extensión a todo el ecosistema logístico nacional e internacional, incluyendo sectores como manufactura, minería, agroindustria, energía y distribución masiva.
 
-__¿Qué problemas tiene nuestro producto? ¿Resolver?__
+__¿Qué problemas tiene nuestro producto que resolver?__
 
 Actualmente, muchas empresas enfrentan problemas relacionados con la falta de visibilidad en tiempo real, el desconocimiento del estado o condición de un envío, y la dificultad para verificar si los envíos fueron realizados correctamente o llegaron a destino. En muchos casos, los registros son manuales, aislados o poco confiables. El producto busca resolver estos problemas mediante la automatización de la trazabilidad, integrando el monitoreo de ubicación, estado físico del envío, y validaciones digitales durante todo el trayecto.
 
@@ -374,7 +374,7 @@ __¿Dónde encaja nuestro producto en su trabajo o vida?__
 
 El producto se integra directamente en los procesos diarios de logística operativa, tanto en planta como en transporte y recepción de envíos. Facilita el control operativo, mejora la comunicación entre áreas o empresas involucradas y permite evaluar el rendimiento logístico en tiempo real, impulsando la eficiencia, la calidad del servicio y la rentabilidad.
 
-__¿Cuándo y cómo es nuestro producto? ¿Usado?__
+__¿Cuándo y cómo es nuestro producto usado?__
 
 El sistema es utilizado desde el momento en que se prepara un envío, se realiza el traslado físico, y finaliza con la confirmación de entrega en destino. También se usa en etapas de auditoría interna, evaluación de indicadores logísticos, análisis de errores y mejoras de procesos. Puede ser accedido en cualquier momento desde móviles, tablets o estaciones de trabajo, según el rol del usuario (operativo o administrativo).
 
