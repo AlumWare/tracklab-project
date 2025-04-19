@@ -1804,9 +1804,9 @@ En primer lugar, el administrador de la empresa proveedora debe ingresar a la ap
   <p align="center"><img src="assets/md-images/wireflow6-web.png" alt="wireflow6.png" width="700px" /></p>
 </div>
 
-### 4.4.2. Web Applications Mock-ups
+### 4.4.3. Web Applications Mock-ups
 
-### 4.4.2. Web Applications User Flow Diagrams
+### 4.4.4. Web Applications User Flow Diagrams
 
 ## 4.5. Web Applications Prototyping
 
@@ -1822,7 +1822,7 @@ En primer lugar, el administrador de la empresa proveedora debe ingresar a la ap
 
 ### 4.7.1. Class Diagrams
 
-### 4.7.1. Class Dictionary
+### 4.7.2. Class Dictionary
 
 ## 4.8. Database Design
 
@@ -1897,6 +1897,16 @@ Convenciones de Commits: Para hacer commits claros y estructurados en nuestro pr
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint
+
+| **Nombre**                       | **Actividades** |
+| ---------------------------------|------------|
+| Roman Cruz, Natalia Bertha       | Implementación de secciones "Problemáhtica y Solución" y "Elige tu plan" |
+| Solano Armas, Angelo Hector      | Implementación de secciones "¿Cómo funciona TrackLab?" y de presentación |
+| Iglesias Pérez, Sergio Sebastián | Implementación de secciones "Contacto", "Preguntas frecuentes" y footer |
+| Baldeón Vivar, Santiago Armando  | Implementación de sección "Sobre nosotros" |
+| Céspedes Pillco, Jarod Jack      | Implementación de header y de secciones "Beneficios principales" y "¿Para quién es TrackLab"? |
+
+# FALTA PEGAR SS DE GITHUB
 
 # 6. Conclusiones
 
