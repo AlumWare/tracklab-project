@@ -1872,6 +1872,18 @@ Convenciones de Commits: Para hacer commits claros y estructurados en nuestro pr
 
 ### 5.2.1.1. Sprint Planning 1
 
+| Sprint # | Sprint 1 |
+|----------|---------|
+| Date | 2025 - 04 - 12 |
+| Time | 11:45 PM |
+| Location | Reunión virtual a través de discord | 
+| Prepared by | Roman Cruz, Natalia Bertha | 
+| Attendees (to planning meeting) | Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando y Céspedes Pillco, Jarod Jack | 
+| Sprint n – 1 Review Summary | No existe sprint previo | 
+| Sprint 1 Goal | Our focues is on deploying our landing page. We believe it delivers satisfaction and confidence to our team and future users. This will be confirmed when all the members of the team and a user navigates our landing page without issues | 
+| Sprint 1 Velocity | 20 story points | 
+| Sum of story points | 20 story points |
+
 ### 5.2.1.2. Aspect Leaders and Collaborators.
 
 ### 5.2.1.3. Sprint Backlog 1
