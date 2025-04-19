@@ -1810,3 +1810,88 @@ En primer lugar, el administrador de la empresa proveedora debe ingresar a la ap
 
 ## 4.5. Web Applications Prototyping
 
+## 4.6. Domain-Driven Software Architecture
+
+### 4.6.1. Software Architecture Context Diagram
+
+### 4.6.2. Software Architecture Container  Diagram
+
+### 4.6.3. Software Architecture Components  Diagram
+
+## 4.7. Software Object-Oriented Design
+
+### 4.7.1. Class Diagrams
+
+### 4.7.1. Class Dictionary
+
+## 4.8. Database Design
+
+### 4.8.1. Database Diagram
+
+
+# 5. Capítulo V: Product Implementation, Validation & Deployment
+
+## 5.1. Software Configuration Management
+
+### 5.1.1. Software Development Environment Configuration
+
+### 5.1.2. Source Code Management
+
+Nuestro proyecto se mantendrá en línea con las convenciones de flujo de trabajo definidas por el modelo GitFlow para el control de versiones de desarrollo. Teniendo a GitHub como plataforma y sistema de control de versiones.
+
+A continuación, detallaremos la implementación del modelo GitFlow y se proporcionará los URL de los repositorios de GitHub de cada producto del trabajo.
+
+__Repositorios de GitHub:__
+
+- Organización en GitHub
+- Landing Page
+- Frontend Web Application
+
+Flujo de Trabajo GitFlow: GitFlow es un modelo de flujo de trabajo para administrar y gestionar branches en un proyecto Git, propuesto por Vincent Driessen, diseñado para facilitar el desarrollo colaborativo.
+
+Estructuras de branches: Actualmente solo consideramos 3 ramas de las mombradas, pero pensamos trabajabar con todas las siguientes para las próximas entregas.
+
+- Master branch: Es la rama principal de la aplicación, contiene las versiones estables y sin errores listas para ser lanzadas públicamente.
+- Develop branch: Es la rama base para el desarrollo activo, aquí se integran todas las funcionalidades nuevas antes de que se considere un lanzamiento.
+- Feature branch: Es la rama que se usa para desarrollar nuevas funcionalidades o mejoras específicas del proyecto.
+- Release branch: Es la rama que se utiliza para preparar una versión estable del proyecto donde se corrigen bug menores, se actualizan versiones y se ajustan las configuraciones necesarias.
+- Hotfix branch: Es la rama donde se resuelven errores críticos encontrados en la aplicación lanzada. Esta rama se crea directamente del main, ya que necesitan una solución urgente sin pasar por el ciclo completo de desarrollo.
+- Readme-updates: Es la rama mediante la cual se enviarán las actualizaciones hacia el informe en el readme.md.
+
+Versionamiento Semántico: Aplicaremos el sistema de versionamiento semántico (Semantic Versioning) para dar nombre a los releases de nuestra aplicación.
+
+Convenciones de Commits: Para hacer commits claros y estructurados en nuestro proyecto, utilizaremos la especificación Conventional Commits, inspirada en las Angular Commit Guidelines.
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+### 5.1.4. Software Deployment Configuration
+
+## 5.2. Landing Page, Services & Applications Implementation
+
+### 5.2.1. Sprint 1
+
+### 5.2.1.1. Sprint Planning 1
+
+### 5.2.1.2. Aspect Leaders and Collaborators.
+
+### 5.2.1.3. Sprint Backlog 1
+
+### 5.2.1.4. Development Evidence for Sprint Review
+
+### 5.2.1.5. Execution Evidence for Sprint Review
+
+### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+### 5.2.1.8. Team Collaboration Insights during Sprint
+
+# 6. Conclusiones
+
+## 6.1. Conclusiones
+
+## 6.2. Recomendaciones
+
+# 7. Bibliografía 
+
+# 8. Anexos 
