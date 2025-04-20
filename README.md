@@ -1912,6 +1912,26 @@ Convenciones de Commits: Para hacer commits claros y estructurados en nuestro pr
 
 ## 6.1. Conclusiones
 
+__Enfoque centrado en el usuario__
+
+Podemos concluir que las historias de usuario que presentamos retratan de forma clara y realista las necesidades de nuestros usuarios, considerando tanto lo que desean los encargados de enviar pedidos al organizarlos, como aquellos que los recibirán.
+
+__Diseño orientado a la experiencia del usuario__
+
+Nuestra landing page y aplicación web han sido diseñadas buscando ser lo más útiles posibles para el usuario. En el caso de la landing page, consideramos que esta incluya todos los aspectos necesarios para que el posible pueda conocernos, entender la función del producto y enterarse de los beneficios de forma de que no le surjan dudas al iniciar. Asimismo, en la aplicación se están considerando secciones y funciones pensadas específicamente para cubrir las necesidades de nuestro público objetivo.
+
+__Impacto estratégico__
+
+Concluimos que el uso del impact map nos permitió reconocer las funcionalidades que causan más impacto en las necesidades de nuestros usuarios, de forma que podemos enfocarnos más en ellas en cuanto a priorización, tiempo y recursos.
+
+__Priorización en el product backlog__
+
+Al estructurar el product backlog logramos darle un valor a cada una de las tareas que se realizarían y sopesar ello con su valor para el cliente de forma que logremos decidir con qué tareas iniciar. El trabajo e importancia que concierne a cada una nos ayudó a mejorar en nuestra organización interna.
+
+__Diseño visual agradable y organizado__
+
+Al diseñar nuestros wireframes y mockups decidimos emplear patrones de diseño que nos ayudaran a mostrar la información de forma ordenada, pero sin sobrecargar la vista del usuario. De este modo, logramos que el usuario logre ingresar a las secciones que le interesan sin dificultad. Al mismo tiempo, se incluyen opciones precisas que facilitan la navegación.
+
 ## 6.2. Recomendaciones
 
 # 7. Bibliografía 
