@@ -1697,20 +1697,21 @@ Los Meta Tags o SEO Tags son datos de las páginas web que se encuentran almacen
 
 Estas son las meta etiquetas que usamos en nuestra página web:
 
-- Title: Esta etiqueta es el título de la página web que aparece en los resultados de búsqueda en los navegadores.  
-(*code sample, se pondrá en Github*)
+- __Title:__ Esta etiqueta es el título de la página web que aparece en los resultados de búsqueda en los navegadores.  
+`<title>TrackLab: Logística y Tracking Avanzado</title>`
 
-- Description: Esta etiqueta es la descripción que aparece debajo del título de la página web en los resultados de búsqueda en los navegadores.  
-(*code sample, se pondrá en Github*)
+- __Description:__ Esta etiqueta es la descripción que aparece debajo del título de la página web en los resultados de búsqueda en los navegadores.  
+`<meta charset="utf-8">`
 
-- Charset: Esta etiqueta ajusta la codificación de carácteres de la página web, logrando que los carácteres especiales se muestren correctamente.  
-(*code sample, se pondrá en Github*)
+- __Charset:__ Esta etiqueta ajusta la codificación de carácteres de la página web, logrando que los carácteres especiales se muestren correctamente.  
+`<meta name="description" content="TrackLab es un sistema de logística especializada en el transporte y seguimiento de cargas." />`
 
-- Keywords: Esta etiqueta almacena las palabras clave que están relacionadas al contenido de la página web. Nos ayuda a que nuestra página tenga una mejor oportunidad de visibilidad.  
-(*code sample, se pondrá en Github*)
+- __Keywords:__ Esta etiqueta almacena las palabras clave que están relacionadas al contenido de la página web. Nos ayuda a que nuestra página tenga una mejor oportunidad de visibilidad.  
+`<meta name="keywords" content="logistics, transport, tracking, tracking number, b2b, business, load" />`
 
-- Author & Copyright: Estas etiquetas registran la información del autor de la página web y los derechos de autor.  
-(*code sample, se pondrá en Github*)
+- __Author & Copyright:__ Estas etiquetas registran la información del autor de la página web y los derechos de autor.  
+`<meta name="author" content="AlumWare" />`   
+`<meta name="copyright" content="Copyright AlumWare 2025" />`
 
 ### 4.2.4. Searching Systems
 
@@ -1807,6 +1808,66 @@ En primer lugar, el administrador de la empresa proveedora debe ingresar a la ap
 ### 4.4.3. Web Applications Mock-ups
 
 ### 4.4.4. Web Applications User Flow Diagrams
+
+#### 4.4.4.1. User Flow Diagram 1
+
+__User Goal:__ Registrar empresa proveedora   
+__User Persona:__ Administrador de Empresa Proveedora   
+__Explicación del Flujo:__ En primer lugar, el administrador de la empresa proveedora debe haber seleccionado la opción de registro en el landing page para lograr acceder a la aplicación web. Una vez allí, debe dirigirse a la opción “Registrarse” ubicada en la esquina superior derecha. Al darle ahí pasará a la ventana de registro, en donde deberá elegir la opción “Proveedor” y darle click al botón “Register”. De esta forma, será guiado a una nueva pantalla en donde deberá completar su email corporativo, introducir una contraseña dos veces y seleccionar un plan de pago, opción para la cual existirá un menú desplegable. Al haber completado todos los datos correctamente, podrá pasar a la pantalla de “Información de pago”, en donde deberá ingresar su información bancaria. Al presionar “Register” por última vez, su cuenta habrá sido creada y el ahora usuario llegará a la pantalla de inicio.
+
+<div>
+  <p align="center"><img src="assets/md-images/userflow1-web.png" alt="userflow1.png" width=700px /></p>
+</div>
+
+#### 4.4.4.2. User Flow Diagram 2
+
+__User Goal:__ Realizar un pedido   
+__User Persona:__ Administrador de Empresa Cliente   
+__Explicación del Flujo:__ En primer lugar, el administrador de la empresa cliente debe ingresar a la aplicación web con su correo y contraseña correctos. Una vez dentro, debe seleccionar dentro del menú desplegable lateral la opción “Productos”. Una vez dentro de la ventana de pedidos, puede escribir una o más palabras para realizar una búsqueda rápida del pedido que desea. Al tener el producto que desea ordenar, debe seleccionar la opción “Agregar”. Al hacer esto, se abrirá un cuestionario pidiendo los datos del envío, tales como dirección, nombre del solicitante, cantidad, requerimientos, medio de pago, entre otros. Al seleccionar la opción “Pedir”, el pedido quedará registrado y podrá visualizar este pedido en su historial de pedidos como “Activo”.
+
+<div>
+  <p align="center"><img src="assets/md-images/userflow2-web.png" alt="userflow2-png" width=700px /></p>
+</div>
+
+#### 4.4.4.3. User Flow Diagram 3
+
+__User Goal:__ Realizar una consulta   
+__User Persona:__ Administrador de Empresa Cliente   
+__Explicación del Flujo:__ En primer lugar, el administrador de la empresa cliente debe ingresar a la aplicación web con su correo y contraseña correctos. Una vez dentro, debe seleccionar dentro del menú desplegable lateral la opción “Pedidos” o en su pantalla dar en el botón “Ver” en la sección “Seguimiento de pedidos”. A continuación, será redirigido a la pantalla “Seguimiento de pedidos”, en donde verá todos los pedidos que tiene pendientes. Al seleccionar la opción “Detalles “ de alguno se abrirá su dashboard y, dentro del dashboard, podrá ver la opción “Realizar consulta”. Al seleccionar dicha opción será llevado a un cuestionario en donde podrá rellenar los campos de su consulta y enviarla al seleccionar la opción “Enviar”. De la misma forma, verá sus consultas previas al lado izquierdo.
+
+<div>
+  <p align="center"><img src="assets/md-images/userflow3-web.png" alt="userflow3.png" width=700px /></p>
+</div>
+
+#### 4.4.4.4. User Flow Diagram 4
+
+__User Goal:__ Contestar una consulta   
+__User Persona:__ Administrador de Empresa Proveedora   
+__Explicación del Flujo:__ En primer lugar, el administrador de la empresa proveedora debe ingresar a la aplicación web con su correo y contraseña correctos. Una vez dentro, debe seleccionar dentro del menú desplegable lateral la opción “Consultas” o “Ver” en la sección de ese mismo nombre en la pantalla principal. Allí, podrá ver todas las consultas realizadas. Al seleccionar la opción “Responder” en una se le mostrará una nueva pantalla con información del pedido a un lado y un espacio para contestar en el otro. Al presionar el botón “Responder” nuevamente, la respuesta será enviada.
+
+<div>
+  <p align="center"><img src="assets/md-images/userflow4-web.png" alt="userflow4.png" width=700px /></p>
+</div>
+
+#### 4.4.4.5. User Flow Diagram 5
+
+__User Goal:__ Ingresar a detalles de un pedido activo   
+__User Persona:__ Administrador de Empresa Proveedora   
+__Explicación del Flujo:__ En primer lugar, el administrador de la empresa proveedora debe ingresar a la aplicación web con su correo y contraseña correctos. Una vez dentro, debe seleccionar dentro del menú desplegable lateral la opción “Pedidos” o “Ver” en la sección “Seguimiento de pedidos”. A continuación, será guiado a la pantalla “Seguimiento de pedidos”, en donde verá todos los pedidos activos, su estado según el proceso en el que vaya y la opción “Detalles” de cada uno. Al darle click, podrá ver el seguimiento del pedido según los pasos y rastrearlo si lo necesita.
+
+<div>
+  <p align="center"><img src="assets/md-images/userflow5-web.png" alt="userflow5.png" width=700px /></p>
+</div>
+
+#### 4.4.4.6. User Flow Diagram 6
+
+__User Goal:__ Aceptar un pedido   
+__User Persona:__ Administrador de Empresa Proveedora   
+__Explicación del Flujo:__ En primer lugar, el administrador de la empresa proveedora debe ingresar a la aplicación web con su correo y contraseña correctos. Una vez dentro, debe seleccionar dentro del menú desplegable lateral la opción “Pedidos pendientes”. A continuación, será guiado a la pantalla “Pedidos pendientes”, en donde verá todos los pedidos activos, su estado según el proceso en el que vaya y la opción “Detalles” de cada uno. Al dar click en la opción “Detalles” de uno, dado que está pendiente, la aplicación lo guiará a la sección “Aceptar pedido”. En esta pestaña, el administrador podrá tomar el pedido a su cargo y enviar las solicitudes pertinentes al almacén. Para guardar todo presiona la opción “Proceder”.
+
+<div>
+  <p align="center"><img src="assets/md-images/userflow6-web.png" alt="userflow6.png" width=700px /></p>
+</div>
 
 ## 4.5. Web Applications Prototyping
 
