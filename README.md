@@ -1934,6 +1934,14 @@ Al diseñar nuestros wireframes y mockups decidimos emplear patrones de diseño 
 
 ## 6.2. Recomendaciones
 
+Al haber finalizado esta entrega del presente trabajo, nos gustaría ofrecer algunas recomendaciones frente a puntos que nos hubiera gustado modificar o hacia los que nos gustaría expandir la idea centrar en un futuro:
+
+- Incluir una versión de prueba gratis que pueda probarse con un cierto cambio de información precargada y cuya versión pueda solicitarse  a través de la landing page. De esta forma, los usuarios podrán probar por sí mismos las funcionalidades de la aplicación web y su desempeño, lo que podría aumentar las ventas del producto en cuanto a nuevas suscripciones.
+
+- Realizar reuniones mensuales con un representante por cada empresa que haya contratado alguno de los planes que ofrecemos para pedirle sugerencias de mejoras hacia la aplicación, así como nos reporte posibles problemas o dificultades que hayan surgido. Así, logramos mejorar los aspectos que más les interesan a los usuarios de forma precisa y podremos evaluar su evolución de forma cercana.
+
+- Agregar una alerta hacia las empresas consumidoras que las notifique cuando un material o producto que han estado buscando ha sido agregado o se encuentra en oferta. De la misma manera, podría implementarse inteligencia artificial para armar ejemplares de pedidos hacia las empresas clientes mensualmente. Esto aumentaría las transacciones al facilitarle a las empresas el proceso de búsqueda y selección de productos, por lo que sería más atractivo para las empresas proveedoras contratar nuestro producto.
+
 # 7. Bibliografía 
 
 # 8. Anexos 
