@@ -1944,4 +1944,8 @@ Al haber finalizado esta entrega del presente trabajo, nos gustaría ofrecer alg
 
 # 7. Bibliografía 
 
+Esan. (s.f.). Los problemas más comunes en la distribución física de productos. https://www.esan.edu.pe/conexion-esan/los-problemas-mas-comunes-en-la-distribucion-fisica-de-productos
+
+Superintendencia Nacional de Aduanas y de Administración Tributaria (SUNAT). (2023). Estudio de tiempos de despacho - Perú 2023: Informe. https://cdn.www.gob.pe/uploads/document/file/5402455/4763608-estudio-de-tiempos-de-despacho-peru-2023-informe.pdf
+
 # 8. Anexos 
