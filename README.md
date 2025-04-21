@@ -2039,6 +2039,18 @@ __Explicación del Flujo:__ En primer lugar, el administrador de la empresa prov
 
 ## 4.5. Web Applications Prototyping
 
+A continuación, presentamos el prototipo que hemos elaborado para nuestra aplicación, el cual considera tanto el modelo mobile como el desktop. Para la elaboración del mismo, estamos considerando el modelo de navegación antes propuesto. Este considera el movimiento del usuario a través de las pantallas por medio de los botones, así como por medio del menú desplegable. Los fundamentos que hemos considerando para ello son:
+
+1. __Diseño responsive:__ Tanto nuestra landing page como las secciones presentadas tendrán un diseño responsive que se adaptará al tamaño de la pantalla del usuario sin desorganizar la información considerada, de forma que siga siendo agradable a la vista sin importar el entorno.  
+2. __Facilidad de uso:__ Buscamos que el diseño presentado sea lo más sencillo de usar para el usuario, de forma de que no surgan confusoiones mientras se utiliza la aplicación. Así, la adaptación al nuevo sistema será más rápida y autónoma para los empleados de las empresas que nos contraten.
+3. __Estructura de la información:__ La información se presenta utilizando ciertos patrones que resulten agradables hacia el usuario. De la misma forma, se prioriza colocar en las pantallas de acceso más corto la información principal, de forma que el usuario solo ingrese a las pantallas más lejanas si desea imformación puntual. De esta forma, las pantallas se mantienen limpias y la organización clara.
+
+<div>
+  <p align="center"><img src="assets/md-images/prototype-open.png" alt="userflow6.png" width=700px /></p>
+</div>
+
+Enlace para ingresar al prototype en [Figma](https://www.figma.com/design/FiXNVmUHGmRFeyI2OiVeeQ/Landing-Page?node-id=0-1&m=dev)
+
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Software Architecture Context Diagram
