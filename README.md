@@ -108,7 +108,7 @@ __TB1__
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.3. [Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.4. [Lean UX Canvas](#1224-lean-ux-canvas)  
    1.3. [Segmentos objetivo](#13-segmentos-objetivo)  
-2. __[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)__
+2. __[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)__  
    2.1. [Competidores](#21-competidores)  
    &nbsp;&nbsp;&nbsp;&nbsp;2.1.1. [Análisis competitivo](#211-análisis-competitivo)  
    &nbsp;&nbsp;&nbsp;&nbsp;2.1.2. [Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
@@ -155,8 +155,8 @@ __TB1__
    &nbsp;&nbsp;&nbsp;&nbsp;4.7.2. [Class Dictionary](#472-class-dictionary)  
    4.8. [Database Design](#48-database-design)  
    &nbsp;&nbsp;&nbsp;&nbsp;4.8.1. [Database Diagram](#481-database-diagram)  
-5. __[Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)__
-5.1. [Software Configuration Management](#51-software-configuration-management)  
+5. __[Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)__  
+   5.1. [Software Configuration Management](#51-software-configuration-management)  
    &nbsp;&nbsp;&nbsp;&nbsp;5.1.1. [Software Development Environment Configuration](#511-software-development-environment-configuration)  
    &nbsp;&nbsp;&nbsp;&nbsp;5.1.2. [Source Code Management](#512-source-code-management)  
    &nbsp;&nbsp;&nbsp;&nbsp;5.1.3. [Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)  
@@ -2046,7 +2046,7 @@ A continuación, presentamos el prototipo que hemos elaborado para nuestra aplic
 3. __Estructura de la información:__ La información se presenta utilizando ciertos patrones que resulten agradables hacia el usuario. De la misma forma, se prioriza colocar en las pantallas de acceso más corto la información principal, de forma que el usuario solo ingrese a las pantallas más lejanas si desea imformación puntual. De esta forma, las pantallas se mantienen limpias y la organización clara.
 
 <div>
-  <p align="center"><img src="assets/md-images/prototype-open.png" alt="userflow6.png" width=700px /></p>
+  <p align="center"><img src="assets/md-images/prototype-open.png" alt="prototype-open.png" width=700px /></p>
 </div>
 
 Enlace para ingresar al prototype en [Figma](https://www.figma.com/design/FiXNVmUHGmRFeyI2OiVeeQ/Landing-Page?node-id=0-1&m=dev)
