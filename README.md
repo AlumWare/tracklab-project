@@ -1764,13 +1764,78 @@ Para el desarrollo de la plataforma se ha seleccionado la tipografía **“Inter
   <img src="assets/md-images/TYPOGRAPHY.png" alt="TYPOGRAPHY" width="600px" />
 </p>
 
-
-
 ### 4.1.2. Web Style Guidelines
 
+### Enfoque general
+
+El enfoque de **TrackLab** para la aplicación web se basa en la eficiencia operativa, claridad visual y experiencia de usuario optimizada para entornos logísticos empresariales. Las distintas secciones del sistema están organizadas para guiar al usuario en sus tareas mediante pantallas amplias, bloques funcionales bien distribuidos, navegación lateral fija y elementos visuales claramente jerarquizados. El diseño responde a una estética limpia y profesional, acorde con el segmento B2B al que se dirige la plataforma, evitando distracciones visuales y priorizando la información clave.
+
+### Tarjetas
+
+Las tarjetas son uno de los componentes visuales más utilizados en la interfaz. Se emplean para representar productos, pedidos, tareas y consultas en diferentes vistas del sistema. Estas tarjetas contienen títulos en jerarquía destacada, subtítulos, descripciones breves y botones de acción que permiten iniciar, confirmar o revisar procesos. En muchos casos incluyen imágenes representativas de los productos o pedidos, lo que facilita la identificación visual, especialmente útil cuando el usuario gestiona múltiples operaciones. Su diseño contempla fondos blancos o celestes, bordes redondeados y disposición vertical u horizontal según el contexto. Se utilizan en vistas como "Inicio del Receptor", "Nuevo Pedido" y "Historial de Pedidos".
+
+### Imágenes
+
+El uso de imágenes dentro de la plataforma tiene fines estrictamente funcionales. En la pantalla de inicio de sesión, por ejemplo, se presenta el logotipo de TrackLab en una composición limpia que transmite identidad desde el primer momento. En otras vistas como los formularios de pedido o el historial, se muestran imágenes asociadas a cada producto para reforzar el reconocimiento visual. Las imágenes se encuentran siempre alineadas a componentes relevantes, ya sea como miniatura en tarjetas o como contenido destacado en pantallas de detalle. No se utilizan fondos decorativos en las vistas internas de la aplicación, salvo en la de inicio de sesión, que incluye un fondo institucional alineado con la identidad de la marca.
+
+### Botones
+
+Los botones son elementos clave dentro del flujo interactivo de TrackLab. Permiten al usuario ejecutar acciones como confirmar pedidos, iniciar procesos, cancelar tareas o visualizar detalles. Están diseñados con esquinas redondeadas, colores contrastantes (principalmente azul para acciones positivas y rojo para funciones destructivas) y tipografía blanca centrada en estilo Inter. Se ubican en posiciones estratégicas dentro de cada vista, como al pie de formularios, en las esquinas inferiores de tarjetas o al final de filas dentro de tablas.
+
+### Tablas
+
+Las tablas son componentes esenciales para la visualización de datos en TrackLab. Se utilizan en secciones como consultas, historial de pedidos y seguimiento de entregas. Cada fila representa una instancia de registro y está compuesta por columnas que contienen datos como ID, nombre del producto, cantidad, empresa, fecha, destino y estado actual. Las tablas alternan colores claros para mejorar la legibilidad y mantienen una estructura compacta que permite al usuario revisar múltiples registros sin perder claridad. En algunos casos, se incluyen botones en la última columna para ejecutar acciones rápidas.
+
+### Pantallas emergentes
+
+Las pantallas emergentes o pop-ups están diseñadas para validar acciones críticas que requieren confirmación del usuario. Estas ventanas se presentan al centro de la pantalla, sobre un fondo atenuado que oscurece el resto del contenido. Se utilizan en situaciones como el envío de pedidos, la aceptación de condiciones o la confirmación de tareas logísticas. Cada pop-up incluye texto explicativo claro, botones diferenciados por color y, en algunos casos, elementos visuales complementarios como íconos o imágenes pequeñas.
+
+### Dashboard y seguimiento
+
+El diseño del dashboard y del seguimiento de pedidos permite visualizar el avance del proceso logístico en tiempo real. Las etapas están organizadas por pasos visuales, cada uno con un color representativo que indica su estado (verde para completado, amarillo para pendiente, gris para no iniciado). Además, se integran códigos QR, ubicación actual y botones de validación o confirmación, según el tipo de operación en curso.
+
+### Estilo general de web 
+
+En general, el estilo visual de la plataforma web de TrackLab responde a los principios de simplicidad, jerarquía y eficiencia. Se prioriza el uso de tipografía Inter, colores contrastantes bien definidos, tarjetas reutilizables y tablas claras para la gestión de datos. La navegación es fluida, los formularios están optimizados para la acción y cada componente fue diseñado pensando en usuarios que requieren rapidez, precisión y claridad en sus tareas logísticas.
 
 
+### 4.1.3. Mobile Style Guidelines
 
+### Enfoque general
+
+El enfoque elegido para la vista móvil web de la aplicación **TrackLab** mantiene los principios de simplicidad, claridad operativa y elegancia visual. La interfaz ha sido optimizada para adaptarse a pantallas reducidas sin sacrificar funcionalidad. Cada pantalla conserva la jerarquía de información, botones de acción accesibles y navegación intuitiva.
+
+### Pantalla de inicio
+
+La pantalla de inicio de sesión presenta el logotipo institucional acompañado de campos simples para ingresar el correo y la contraseña. El botón "Sign In" se ubica de manera centrada, con suficiente separación para evitar errores táctiles.
+
+### Navegación
+
+Una vez dentro, el usuario accede a un menú lateral desplegable que contiene accesos a las funciones principales: nuevo pedido, historial, consultas y seguimiento. Este menú se oculta automáticamente al desplazarse por las vistas. Los botones son grandes y espaciados, optimizados para uso táctil.
+
+### Vista del receptor
+
+La pantalla de inicio del rol **Receptor** presenta dos bloques: “Últimos Pedidos” y “Pedidos Activos”, organizados en tarjetas verticales. Se muestra información como empresa, fecha y destino, con contraste visual y separación entre bloques.
+
+### Pedidos
+
+En "Nuevo Pedido", los productos se presentan como tarjetas horizontales con imagen, descripción y botón de acción. Luego, un formulario permite ingresar los datos de envío. Todos los campos están alineados y optimizados para pantallas táctiles. El botón "Pedir" se encuentra al final.
+
+### Consultas
+
+La sección de consultas presenta en la parte superior un historial en tarjetas con estados de color (verde y amarillo). Debajo, un formulario para enviar nuevas consultas.
+
+### Seguimiento de pedidos
+
+La vista de seguimiento muestra los detalles del envío en tarjetas. Se utiliza una línea de progreso con pasos de colores. Al final, un mapa muestra la ubicación actual del pedido.
+
+### Vista del proveedor
+
+El rol **Proveedor** ve una tabla vertical con pedidos asociados. Cada fila contiene empresa, fecha y destino. Se incluye un botón para ver todos los pedidos.
+
+### Estilo general de web movil
+
+Toda la interfaz está diseñada para el uso con el pulgar. Botones, formularios y tarjetas están escalados y distribuidos adecuadamente. Se mantiene coherencia de colores, íconos y tipografía Inter. El diseño garantiza una experiencia fluida y funcional desde dispositivos móviles.
 
 
 ## 4.2. Information Architecture
