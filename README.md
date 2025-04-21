@@ -1657,11 +1657,114 @@ Enlace para acceder a [Miro](https://miro.com/app/board/uXjVICzj2Tg=/?share_link
 </table>
 
 
-# 4. Capítulo IV: Product Design  
+# 4. Capítulo IV: Product Design
 
-## 4.1. Style Guidelines - FALTA TODO 4.1.
+## 4.1. Style Guidelines
 
 ### 4.1.1. General Style Guidelines
+
+Un _“style guideline”_ o guía de estilo es un conjunto de reglas y pautas que establecen la forma en que se deben escribir, diseñar o presentar documentos, contenido web, software o cualquier otro tipo de trabajo creativo. A continuación, se detallan los parámetros implementados en la estructura visual y conceptual del proyecto **AlumWare** y **TrackLab**.
+
+
+### **Branding**
+
+#### **Brand Overview – AlumWare**
+
+La startup, presentada bajo el nombre de **AlumWare**, tiene como objetivo transformar digitalmente la gestión logística entre empresas en el Perú. A través de una plataforma web intuitiva y especializada, AlumWare permite a empresas clientes registrar y hacer seguimiento a sus órdenes de compra, mientras que las empresas logísticas pueden gestionar la recepción, agrupación, trazabilidad y entrega de la carga mediante tecnología de escaneo con códigos QR.
+
+La solución se centra en resolver la fragmentación y falta de visibilidad en el flujo de carga entre múltiples actores (proveedores, operadores logísticos, empresas en campo), permitiendo un control preciso desde el origen hasta el destino final, incluyendo almacenes intermedios, rutas de transporte y procesos de consolidación de carga.
+
+La trazabilidad completa de cada unidad de carga, incluso cuando esta se agrupa en contenedores mayores, representa una de las principales ventajas competitivas del sistema. Además, AlumWare contempla dashboards interactivos para el análisis de datos operativos, facilitando la toma de decisiones estratégicas tanto para empresas logísticas como para sus clientes.
+
+#### **Misión**
+
+Digitalizar y optimizar la trazabilidad logística B2B mediante una plataforma web intuitiva, segura y eficiente para empresas peruanas.
+
+#### **Visión**
+
+AlumWare aspira a consolidarse como la solución tecnológica líder en gestión logística empresarial en Latinoamérica, facilitando la transformación digital del sector logístico con un enfoque en trazabilidad, transparencia y control de operaciones.
+
+<p align="center">
+  <img src="assets/md-images/logo%20AlumWare.png" alt="Logo de AlumWare" width="250px" />
+</p>
+
+
+#### **Brand Name – TrackLab**
+
+El nombre de la solución propuesta es **TrackLab**, una fusión entre las palabras _“Track”_ (rastrear, seguir) y _“Lab”_ (laboratorio), lo cual transmite la idea de una solución innovadora, técnica y precisa orientada al análisis y mejora continua en los procesos logísticos. Este nombre representa el enfoque tecnológico de la plataforma para lograr una trazabilidad completa de los envíos logísticos en tiempo real.
+
+TrackLab busca ser identificado como una herramienta moderna, confiable y de fácil uso para empresas logísticas y proveedoras que requieren un control riguroso sobre sus operaciones de transporte, almacenamiento y entrega.
+
+<p align="center">
+  <img src="assets/md-images/Logo%20TrackLab.png" alt="Logo de TrackLab" width="380px" />
+</p>
+
+
+### **Colores**
+
+Los colores representan un componente fundamental en la primera impresión visual que recibe el usuario al interactuar con **TrackLab**. Por ello, siguiendo los principios de la **psicología del color**, se ha elegido el **azul** como tonalidad principal en la implementación de la plataforma.
+
+El azul simboliza **confianza, tecnología, transparencia y eficiencia**, cualidades que reflejan los valores de la startup y su enfoque hacia la trazabilidad logística en tiempo real. Además, este color está estrechamente vinculado con los entornos digitales y de servicios empresariales, lo cual refuerza la percepción de fiabilidad e innovación ante los usuarios.
+
+Como tonalidades **secundarias**, se ha integrado una gama complementaria compuesta por variantes de **amarillo**, **verde**, **blanco** y **gris**, los cuales permiten destacar estados operativos, jerarquías visuales y elementos de navegación. Estas combinaciones buscan proporcionar una experiencia visual clara, intuitiva y coherente en todos los módulos de la aplicación.
+
+<p align="center">
+  <img src="assets/md-images/Colors.png" alt="Paleta de colores TrackLab" width="600px" />
+</p>
+
+### Tipografía
+
+La tipografía cumple una función fundamental en la interfaz de usuario de **TrackLab**, no solo por su valor estético, sino porque facilita la jerarquía visual y mejora la experiencia de navegación. Ayuda a dirigir la atención del usuario, mejorar la comprensión del contenido y reforzar la identidad del producto.
+
+Para el desarrollo de la plataforma se ha seleccionado la tipografía **“Inter”**, una fuente moderna, versátil y altamente legible en dispositivos digitales. Se utilizan principalmente los estilos **Regular** y **Medium** para cubrir distintos niveles jerárquicos del contenido.
+
+<div align="center">
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center;">Nivel</th>
+      <th style="text-align: center;">Uso principal</th>
+      <th style="text-align: center;">Estilo</th>
+      <th style="text-align: center;">Tamaño</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Heading 01</strong></td>
+      <td>Títulos principales, secciones clave</td>
+      <td>Inter</td>
+      <td>70 px</td>
+    </tr>
+    <tr>
+      <td><strong>Heading 02</strong></td>
+      <td>Subtítulos, bloques destacados</td>
+      <td>Inter</td>
+      <td>40 px</td>
+    </tr>
+    <tr>
+      <td><strong>Heading 03</strong></td>
+      <td>Encabezados internos, tarjetas o módulos</td>
+      <td>Inter</td>
+      <td>25 px</td>
+    </tr>
+    <tr>
+      <td><strong>Body Text</strong></td>
+      <td>Texto general, descripciones, formularios</td>
+      <td>Inter</td>
+      <td>16 px</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+
+<p align="center">
+  <img src="assets/md-images/TYPOGRAPHY.png" alt="TYPOGRAPHY" width="600px" />
+</p>
+
+
 
 ### 4.1.2. Web Style Guidelines
 
