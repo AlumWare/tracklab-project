@@ -2093,6 +2093,111 @@ Convenciones de Commits: Para hacer commits claros y estructurados en nuestro pr
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+
+Uno de los principios fundamentales que aplicamos durante el desarrollo de **TrackLab** fue la importancia de mantener un código ordenado, legible y escalable. Más allá de simplemente escribir funciones que “funcionen”, nos propusimos adoptar una cultura de desarrollo consciente, donde cada línea de código aporte claridad, coherencia y mantenibilidad a largo plazo.
+
+Estas convenciones fueron aplicadas en todos los lenguajes y entornos utilizados, no solo como estándares técnicos, sino como reflejo de un compromiso profesional por la calidad. Aquí presentamos nuestras buenas prácticas organizadas por bloques clave: HTML, CSS, Gherkin y otras reglas generales que estructuraron el backend visual de nuestra plataforma.
+
+#### HTML
+
+1. **Semántica primero:** Siempre usamos etiquetas semánticas como `<section>`, `<nav>`, `<aside>` y `<article>` para reflejar la estructura lógica del contenido.
+
+2. **Jerarquía clara de encabezados:** Se respeta el orden de los encabezados (`<h1>` a `<h6>`) de forma progresiva, evitando saltos arbitrarios para facilitar la accesibilidad y el SEO.
+
+3. **Cierre correcto de etiquetas:** Todas las etiquetas deben cerrarse explícitamente. Ejemplo: `<p>Esto es un párrafo.</p>`
+
+4. **Uso uniforme de minúsculas:** Todos los elementos y atributos se escriben en minúsculas para mantener una estructura visual limpia.
+
+5. **Atributos con comillas dobles:** Siempre que se asignen valores a los atributos, estos deben ir entre comillas dobles. Ejemplo: `<input type="text" placeholder="Ingrese su nombre">`
+
+6. **Atributos alt y dimensiones en imágenes:** Las etiquetas `<img>` deben incluir `alt`, `width` y `height` para mejorar la accesibilidad y el rendimiento de carga.  
+   Ejemplo: `<img src="logo.png" alt="Logo de TrackLab" width="128" height="128">`
+
+7. **Estructura clara y sin anidamientos innecesarios:** Se evita el uso excesivo de `<div>` y se promueve un HTML limpio y fácil de entender.
+
+8. **Uso de atributos ARIA:** Para accesibilidad en botones, formularios y componentes interactivos.
+
+9. **Carga diferida de imágenes:** Se utiliza `loading="lazy"` para optimizar la experiencia del usuario.
+
+#### CSS
+
+1. **Clases descriptivas y reutilizables:** Se usan nombres como `.tarjeta-envio`, `.btn-confirmar`, en lugar de nombres genéricos como `.caja1`.
+
+2. **Guiones como separador estándar:** Ejemplo: `#form-contacto`, `.texto-secundario`.
+
+3. **Variables CSS:** Se definen variables como `--color-primario`, `--font-base` para mejorar la mantenibilidad.
+
+4. **BEM (Block Element Modifier):** Se sigue esta metodología para estructurar componentes. Ejemplo: `.card__title`, `.modal--activo`.
+
+5. **Evitar unidades en valores cero:** Se escribe `margin: 0;` y no `margin: 0px;`.
+
+6. **Separación visual de reglas:** Cada selector se escribe en líneas distintas y con llaves bien identificadas.
+
+7. **Animaciones suaves:** Uso de `transition: all 0.3s ease-in-out;` para efectos visuales sin sobrecargar la experiencia.
+
+8. **Organización modular:** Se separan los estilos por funcionalidad (`_botones.scss`, `_formularios.scss`, etc.) y se importan al archivo global.
+
+9. **Desarrollo mobile-first:** Se diseña para pantallas pequeñas y luego se adaptan los estilos con media queries.
+
+#### Gherkin (BDD)
+
+1. **Lenguaje orientado al usuario:** Todos los escenarios se redactan desde la perspectiva de operarios y supervisores logísticos.
+
+2. **Formato estándar Given–When–Then:** Estructura clara para comprender el comportamiento esperado de cada funcionalidad.
+
+3. **Uso de Background:** Se aplica cuando hay pasos comunes en varios escenarios.
+
+4. **Separación visual y legibilidad:** Se insertan saltos de línea y sangrías para distinguir escenarios y pasos.
+
+5. **Escenarios negativos incluidos:** También se especifica lo que no debería pasar.  
+   Ejemplo: `Then el sistema no debe registrar el pedido si no hay productos seleccionados.`
+
+6. **Uso de Scenario Outline con Examples:** Para validar múltiples combinaciones de datos sin repetir la lógica.
+
+#### Convenciones generales de desarrollo
+
+1. **Naming conventions:**
+   - Archivos en minúsculas y separados por guiones. Ej: `nuevo-pedido.js`
+   - Componentes en PascalCase. Ej: `ModalConfirmacion`, `TarjetaProducto`
+   - Variables descriptivas. Evitamos `x`, `tmp`, y usamos `estadoPedido`, `usuarioActual`
+
+2. **Estructura de carpetas:**
+   src/ ├── assets/ ├── components/ ├── layouts/ ├── pages/ ├── services/ ├── styles/ └── tests/
+3. **Componentes reutilizables:** Creamos elementos como `BotonSecundario`, `FormularioConsulta`, `TarjetaHistorial`, lo que agiliza el desarrollo y mejora la coherencia visual.
+
+4. **Seguridad básica en front-end:**
+- Validación de entradas de usuario.
+- Confirmación de acciones destructivas con alertas visuales.
+- Prevención de doble envío de formularios.
+
+5. **Testing automatizado (Cypress + Gherkin):**
+- Validación de login, escaneo de QR, seguimiento de pedidos.
+- Automatización de flujos completos tipo “happy path” y errores comunes.
+
+6. **Documentación en el código:**
+- Comentarios en funciones y bloques de lógica compleja.
+- Estilo estándar de JSDoc:
+  ```js
+  /**
+   * Valida si el pedido se encuentra activo.
+   * @param {string} id - ID del pedido
+   * @returns {boolean}
+   */
+  ```
+
+7. **Versionado y commits semánticos:**
+- Ramas tipo `feature/seguimiento`, `fix/formulario-envio`.
+- Commits como:
+  - `feat: agregar validación al botón de escaneo`
+  - `fix: resolver error en pantalla emergente`
+  - `docs: actualizar convenciones de estilo`
+
+
+
+
+
+
+
 ### 5.1.4. Software Deployment Configuration
 
 ## 5.2. Landing Page, Services & Applications Implementation
