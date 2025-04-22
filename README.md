@@ -1907,9 +1907,189 @@ En el caso de nuestro mock-up, aquí ya estamos incluyendo los texto que deseamo
   <p align="center"><img src="assets/md-images/landing-mockup.png" alt="landing-mockup.png" width="700px" /></p>
 </div>
 
-## 4.4. Web Applications UX/UI Design - FALTA
+## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
+
+#### Web Application Wireframes para desktop
+
+__Iniciar sesión como administrador de empresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-1.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-2.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-3.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-4.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Home para administrador de emppresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-16.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Aceptar pedidos para administrador de empresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-17.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-18.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Responder consultas para administrador de empresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-19.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-20.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Ver pedidos para administrador de empresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-21.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-22.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Iniciar sesión como administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-13.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-14.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-15.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Home para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-5.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Iniciar un pedido nuevo para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-6.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-7.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Consultas para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-8.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Historial de pedidos para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-9.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-10.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Seguimiento de pedidos para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-11.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-web-12.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+#### Web Application Wireframes para mobile
+
+__Iniciar sesión como administrador de empresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-web-7.png" alt="wireframe-mobile-web-1.png" width="700px" /></p>
+</div>
+
+__Home para administrador de emppresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-web-8.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Aceptar pedidos para administrador de empresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-web-9.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Responder consultas para administrador de empresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-web-10.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Ver pedidos para administrador de empresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-web-11.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Iniciar sesión como administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-web-1.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Home para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-web-2.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Iniciar un pedido nuevo para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-web-3.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Consultas para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-web-4.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Historial de pedidos para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-web-5.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Seguimiento de pedidos para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-web-6.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -1975,6 +2155,190 @@ En primer lugar, el administrador de la empresa proveedora debe ingresar a la ap
 
 ### 4.4.3. Web Applications Mock-ups
 
+#### Web Application Mock-ups para desktop
+
+__Iniciar sesión como administrador de empresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-1.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-2.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-3.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-4.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Home para administrador de emppresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-17.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Aceptar pedidos para administrador de empresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-18.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-19.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Responder consultas para administrador de empresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-20.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-21.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Ver pedidos para administrador de empresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-22.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-23.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Iniciar sesión como administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-14.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-15.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-16.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Home para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-5.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Iniciar un pedido nuevo para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-6.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-7.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Consultas para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-8.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Historial de pedidos para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-9.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-10.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Seguimiento de pedidos para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-11.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-12.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-web-13.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+#### Web Application Mock-ups para mobile
+
+__Iniciar sesión como administrador de empresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-web-6.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Home para administrador de emppresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-web-7.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Aceptar pedidos para administrador de empresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-web-8.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Responder consultas para administrador de empresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-web-9.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Ver pedidos para administrador de empresa proveedora__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-web-10.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Iniciar sesión como administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-web-1.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Home para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-web-2.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Iniciar un pedido nuevo para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-web-3.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Consultas para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-web-4.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Historial de pedidos para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-web-5.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
+__Seguimiento de pedidos para administrador de empresa cliente__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-web-5b.png" alt="wireframe-desktop-web-1.png" width="700px" /></p>
+</div>
+
 ### 4.4.4. Web Applications User Flow Diagrams
 
 #### 4.4.4.1. User Flow Diagram 1
@@ -2039,17 +2403,7 @@ __Explicación del Flujo:__ En primer lugar, el administrador de la empresa prov
 
 ## 4.5. Web Applications Prototyping
 
-A continuación, presentamos el prototipo que hemos elaborado para nuestra aplicación, el cual considera tanto el modelo mobile como el desktop. Para la elaboración del mismo, estamos considerando el modelo de navegación antes propuesto. Este considera el movimiento del usuario a través de las pantallas por medio de los botones, así como por medio del menú desplegable. Los fundamentos que hemos considerando para ello son:
 
-1. __Diseño responsive:__ Tanto nuestra landing page como las secciones presentadas tendrán un diseño responsive que se adaptará al tamaño de la pantalla del usuario sin desorganizar la información considerada, de forma que siga siendo agradable a la vista sin importar el entorno.  
-2. __Facilidad de uso:__ Buscamos que el diseño presentado sea lo más sencillo de usar para el usuario, de forma de que no surgan confusoiones mientras se utiliza la aplicación. Así, la adaptación al nuevo sistema será más rápida y autónoma para los empleados de las empresas que nos contraten.
-3. __Estructura de la información:__ La información se presenta utilizando ciertos patrones que resulten agradables hacia el usuario. De la misma forma, se prioriza colocar en las pantallas de acceso más corto la información principal, de forma que el usuario solo ingrese a las pantallas más lejanas si desea imformación puntual. De esta forma, las pantallas se mantienen limpias y la organización clara.
-
-<div>
-  <p align="center"><img src="assets/md-images/prototype-open.png" alt="prototype-open.png" width=700px /></p>
-</div>
-
-Enlace para ingresar al prototype en [Figma](https://www.figma.com/design/FiXNVmUHGmRFeyI2OiVeeQ/Landing-Page?node-id=0-1&m=dev)
 
 ## 4.6. Domain-Driven Software Architecture
 
@@ -2104,7 +2458,6 @@ Versionamiento Semántico: Aplicaremos el sistema de versionamiento semántico (
 Convenciones de Commits: Para hacer commits claros y estructurados en nuestro proyecto, utilizaremos la especificación Conventional Commits, inspirada en las Angular Commit Guidelines.
 
 ### 5.1.3. Source Code Style Guide & Conventions
-
 
 Uno de los principios fundamentales que aplicamos durante el desarrollo de **TrackLab** fue la importancia de mantener un código ordenado, legible y escalable. Más allá de simplemente escribir funciones que “funcionen”, nos propusimos adoptar una cultura de desarrollo consciente, donde cada línea de código aporte claridad, coherencia y mantenibilidad a largo plazo.
 
