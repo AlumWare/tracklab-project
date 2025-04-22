@@ -127,7 +127,7 @@ __TB1__
    3.2. [User Stories](#32-user-stories)  
    3.3. [Impact Mapping](#33-impact-mapping)  
    3.4. [Product Backlog](#34-product-backlog)
-4. __[Capítulo IV: Product Design](#capítulo-iv-product-design)__
+4. __[Capítulo IV: Product Design](#capítulo-iv-product-design)__  
    4.1. [Style Guidelines](#41-style-guidelines)  
    &nbsp;&nbsp;&nbsp;&nbsp;4.1.1. [General Style Guidelines](#411-general-style-guidelines)  
    &nbsp;&nbsp;&nbsp;&nbsp;4.1.2. [Web Style Guidelines](#412-web-style-guidelines)  
