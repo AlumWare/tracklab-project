@@ -2440,6 +2440,48 @@ Enlace para ingresar al prototipo en [Figma](https://www.figma.com/proto/MB4nZve
 
 ### 5.1.1. Software Development Environment Configuration
 
+1. **Project Management**
+
+- **Trello**: Gestión de tableros Kanban para organizar tareas y sprints. https://trello.com/es
+
+2. **Requirements Management**
+
+- **Pivotal Tracker**: Registro y priorización de historias de usuario. https://www.pivotaltracker.com/  
+- **Miro**: Diagramas colaborativos (mapas de empatía, user‑flows). https://miro.com/signup
+
+3. **Product UX/UI Design**
+
+- **Figma**: Prototipado de alta fidelidad y mock‑ups responsivos. https://www.figma.com/login
+
+4. **Software Development**
+
+- **WebStorm**: IDE para Vue.js (JS, CSS, HTML). https://www.jetbrains.com/webstorm/download/  
+- **Rider**: IDE para ASP .NET Core (C#). https://www.jetbrains.com/rider/download/  
+- **Node.js & npm**: Entorno y gestor de paquetes para la SPA en Vue.js. https://nodejs.org/  
+- **Vue CLI**: Scaffold y scripts de desarrollo (vue create, vue serve). Instalación: npm install -g @vue/cli  
+- **Vue.js**: Framework progresivo para la SPA. https://vuejs.org/  
+- **JavaScript, CSS y HTML**: Lenguajes base de la interfaz cliente.  
+&nbsp;&nbsp;&nbsp;&nbsp; - **JS**: https://developer.mozilla.org/es/docs/Web/JavaScript  
+&nbsp;&nbsp;&nbsp;&nbsp; - **CSS**: https://developer.mozilla.org/es/docs/Web/CSS  
+&nbsp;&nbsp;&nbsp;&nbsp; - **HTML**: https://developer.mozilla.org/es/docs/Web/HTML  
+- **.NET (C#)**: Compilación y ejecución de la API en ASP .NET Core. https://dotnet.microsoft.com/download  
+- **Postman**: Pruebas manuales de endpoints REST y validación Swagger. https://www.postman.com/downloads  
+
+5. **Software Deployment**
+
+- **Azure CLI**: Automatización de despliegues y gestión de recursos. https://docs.microsoft.com/cli/azure/install-azure-cli  
+- **Azure Resources**: https://portal.azure.com/  
+&nbsp;&nbsp;&nbsp;&nbsp; - **Azure App Service (Web Service)**: Hosting de la API ASP .NET Core.  
+&nbsp;&nbsp;&nbsp;&nbsp; - **Azure Static Web Apps**: Publicación de la Landing y SPA bundles.  
+&nbsp;&nbsp;&nbsp;&nbsp; - **Azure SQL Database**: Base de datos relacional en la nube.  
+
+6. **Software Documentation**
+
+- **Git**: Control de versiones y gestión de ramas (GitFlow). https://git-scm.com/  
+- **GitHub**: Plataforma SaaS para repositorios Git y CI/CD con Actions. https://github.com/  
+- **LucidChart**: Plataforma SaaS de diagramación que permite crear de forma colaborativa diagramas. Se elaboró el diagrama de base de datos. https://lucidchart.com/  
+- **VisualParadigm**: Versión en la nube de la suite Visual Paradigm, enfocada en diseño de software y modelado de procesos. Se utilizó para el modelo C4. https://online.visual-paradigm.com/  
+
 ### 5.1.2. Source Code Management
 
 Nuestro proyecto se mantendrá en línea con las convenciones de flujo de trabajo definidas por el modelo GitFlow para el control de versiones de desarrollo. Teniendo a GitHub como plataforma y sistema de control de versiones.
