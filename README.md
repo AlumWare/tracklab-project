@@ -2403,7 +2403,17 @@ __Explicación del Flujo:__ En primer lugar, el administrador de la empresa prov
 
 ## 4.5. Web Applications Prototyping
 
+Siguiendo con nuestra aplicación web, a continuación presentaremos el prototipo que hemos elaborado. Este busca mostrar la interacción entre los elementos y pantallas mostradas a través de los mock-ups. De esta forma, podrá verse el flujo que existe para que el usuario llegue a cada opción. Asimismo, deseamos mencionar algunos de los aspectos considerados para la elaboración de nuestro prototipo.
 
+1. __Diseño responsive:__ Buscamos que nuestro diseño sea adaptable a pantallas de cualquier tamaño, por lo que estamos implementando un diseño responsive que pueda seguir mostrando todos los elementos considerados sin problema antes pantallas de tamaños diferentes a las nuestras. Esto también podrá apreciarse en nuestra landing page.  
+2. __Facilidad de uso:__ Como hemos mencionado antes, estamos considerando la implementación de un diseño intuitivo junto con lenguaje de uso diario para facilitar el entendimiento del usuario. Al tener también las opciones de navegación resaltadas, el usuario podrá sentirse cómodo empleando las funcionalidades ofrecidas desde el primer uso.  
+3. __Estructura de la información:__ Para presentar la información incluida se está considerando el uso de algunos patrones de diseño, de forma que la pantalla no quede sobrecargada y de que el mensaje deseado pueda llegar claramente al usuario. Así, en la mayoría de secciones optamos por colocar títulos e imágenes representativas en la parte superior, de forma que las opciones menos relevantes o enlistadas queden en la parte inferior. Esto ayudará al usuario a ubicarse inmediatamente al llegar a una nueva pantalla.  
+
+<div>
+  <p align="center"><img src="assets/md-images/prototype-web.png" alt="prototype-web.png" width=500px /></p>
+</div>
+
+Enlace para ingresar al prototipo en [Figma](https://www.figma.com/proto/MB4nZveyOkL2LDNa1tYtHT/Landing-Page?node-id=0-1&t=GEaJ7FIlLPZtta1A-1)
 
 ## 4.6. Domain-Driven Software Architecture
 
