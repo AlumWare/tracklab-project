@@ -2609,13 +2609,65 @@ Estas convenciones fueron aplicadas en todos los lenguajes y entornos utilizados
   - `fix: resolver error en pantalla emergente`
   - `docs: actualizar convenciones de estilo`
 
-
-
-
-
-
-
 ### 5.1.4. Software Deployment Configuration
+
+__Prerrequisitos comunes:__
+
+- Tener una suscripción activa de Azure y permisos para crear recursos.  
+- Disponer de los tres repositorios separados (landing‑page, frontend, backend) con sus ramas principales definidas.  
+- Contar con Azure CLI (o acceso al Portal) configurado con tu cuenta.  
+
+__Creación del grupo de recursos:__ Es preferible que nuestros recursos compartan un único grupo para facilitar el proceso de CORS.
+
+En el portal de Azure, ingresamos a la sección  de grupo de recursos y creamos uno:
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-1.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+Aquí es dónde crearemos cada uno de los recursos necesarios.
+
+__Landing Page Deployment__
+
+__Paso 1:__ En el Portal de Azure, vamos a crear un recurso y buscamos la opción Static Web Application:
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-2.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+__Paso 2:__ Seleccionamos Crear y asignamos la suscripción y el grupo de recursos creado previamente. Además, asignamos el nombre del recurso
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-3.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+Seleccionamos el plan gratuito por fines académicos y en Detalles de implementación elegimos GitHub
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-4.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+Iniciamos sesión en nuestra cuenta de GitHub y damos acceso a la organización:
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-5.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+Seleccionamos el repositorio para la landing page y configuramos la ubicación de salida de la siguiente manera, respetando gitFlow: 
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-6.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+__Paso 3:__ Al seleccionar la opción Revisar y crear, se hará un commit sobre la rama main añadiendo el archivo .yml para la publicación automática (on-push)
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-7.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-8.png" alt="deployment-1.png" width="700px" /></p>
+</div>
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
