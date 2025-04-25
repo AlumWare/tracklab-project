@@ -2689,19 +2689,16 @@ __Paso 3:__ Al seleccionar la opción Revisar y crear, se hará un commit sobre 
 
 ### 5.2.1.2. Aspect Leaders and Collaborators.
 
-Durante el Sprint 1, el equipo **AlumWare** mostró una fuerte cohesión y organización, lo que permitió alcanzar satisfactoriamente el objetivo de desplegar la landing page del proyecto **TrackLab**. A continuación, se detalla el rol desempeñado por cada integrante del equipo:
+En este sprint se busca completar la landing page de TrackLab,   incluyendo el diseño y su despliegue. Para lograr una correcta comunicación, se ha creado la matriz de liderazgo y colaboración (LACX), en la cual se define quien lidera y quien colabora en cada aspecto del sprint.
 
-- **Natalia Bertha Roman Cruz (U202310148)** asumió un rol de liderazgo en la planificación general del sprint. Fue la encargada de organizar los pendientes, distribuir las tareas entre los miembros del equipo y asegurar que se cumplieran los tiempos establecidos. Gracias a su gestión, el equipo trabajó con claridad de objetivos desde el inicio.
+| Team Member                         | GitHub username     | Diseño Landing Page | Despliegue Landing Page |
+|------------------------------------|----------------------|----------------------|--------------------------|
+| Roma Cruz, Natalia Bertha          | natRC2005            | L                    | C                        |
+| Sonano Armas, Angelo Hector        | Angelo5214           | C                    | C                        |
+| Iglesias Perez, Sergio Sebastian   | ghostrider101218     | C                    | L                        |
+| Baldeon Vivar, Santiago Armando    | Santibal11           | C                    | C                        |
+| Adrianzen Flores, Carlos Arturo    | choliwys             | C                    | C                        |
 
-- **Santiago Armando Baldeón Vivar (U202319881)** tuvo a su cargo la construcción técnica de la landing page. Diseñó la estructura base del sitio, maquetó las secciones principales y adaptó la interfaz para que fuera coherente con la identidad visual del proyecto.
-
-- **Sergio Sebastián Iglesias Pérez (U202316118)** elaboró el bosquejo inicial sobre cómo debía organizarse funcionalmente la aplicación web, definiendo su enfoque en la trazabilidad logística y los módulos prioritarios. Además, redactó la documentación técnica del sprint, con el apoyo de **Jarod Céspedes**, quien contribuyó revisando y completando detalles de formato, estructura y presentación.
-
-- **Angelo Hector Solano Armas (U20231B775)** diseñó la **guía de estilos visuales** utilizada como base para la construcción del landing page. Esta incluyó la elección de la tipografía, colores, espaciado y estructura jerárquica, asegurando uniformidad visual en el diseño de interfaz.
-
-- **Jarod Jack Céspedes Pillco (U202318588)** colaboró activamente con Sergio en la documentación, aportando tanto en la redacción como en la revisión de contenido. También participó en las tareas de validación funcional de la landing page, verificando que todos los elementos visuales y de navegación respondieran correctamente.
-
-La ejecución del sprint se coordinó mediante reuniones virtuales en Discord, con el respaldo de herramientas colaborativas como Google Docs para redacción conjunta y GitHub como repositorio de control de versiones. Esta experiencia colaborativa permitió consolidar un equipo sincronizado, con roles bien definidos, y establecer una base sólida para los siguientes ciclos de desarrollo.
 
 ### 5.2.1.3. Sprint Backlog 1
 
