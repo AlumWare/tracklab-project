@@ -2488,6 +2488,593 @@ Diagrama de clases basado en bounded contexts:
 
 ### 4.7.2. Class Dictionary
 
+# Diccionario de Clases
+
+A continuación se documentan todas las clases, interfaces y enums del diagrama de clases de **TrackLab**, agrupadas por _Bounded Context_.
+
+---
+
+## Security Context
+
+### User  
+**Descripción**: Representa un usuario de la aplicación, asociado a una cuenta o cliente y con credenciales para autenticación.  
+**Atributos**:
+
+| Nombre         | Tipo      | Visibilidad | Descripción                                    |
+| -------------- | --------- | ----------- | ---------------------------------------------- |
+| `id`           | `UUID`    | private     | Identificador único del usuario.               |
+| `username`     | `String`  | private     | Nombre de usuario para iniciar sesión.         |
+| `email`        | `String`  | private     | Correo electrónico del usuario.                |
+| `passwordHash` | `String`  | private     | Hash de la contraseña.                         |
+
+**Métodos**:
+
+| Firma                                 | Visibilidad | Descripción                                                  |
+| ------------------------------------- | ----------- | ------------------------------------------------------------ |
+| `checkPassword(raw:String): boolean`  | public      | Verifica si la contraseña en texto plano coincide con `passwordHash`. |
+
+### Role  
+**Descripción**: Define un rol de acceso asignable a usuarios.  
+**Atributos**:
+
+| Nombre    | Tipo     | Visibilidad | Descripción                         |
+| --------- | -------- | ----------- | ----------------------------------- |
+| `id`      | `UUID`   | private     | Identificador único del rol.        |
+| `name`    | `String` | private     | Nombre del rol (p.ej. ADMIN).      |
+
+**Métodos**:
+
+| Firma                       | Visibilidad | Descripción                              |
+| --------------------------- | ----------- | ---------------------------------------- |
+| `assignTo(user:User): void` | public      | Asigna este rol al usuario especificado. |
+
+### Permission  
+**Descripción**: Permiso atómico para controlar acceso a funcionalidades.  
+**Atributos**:
+
+| Nombre | Tipo     | Visibilidad | Descripción                         |
+| ------ | -------- | ----------- | ----------------------------------- |
+| `id`   | `UUID`   | private     | Identificador único del permiso.    |
+| `name` | `String` | private     | Nombre del permiso (p.ej. READ_TASK). |
+
+### AuthController  
+**Descripción**: Punto de entrada para autenticación de usuarios.  
+**Métodos**:
+
+| Firma                                            | Visibilidad | Descripción                                        |
+| ------------------------------------------------ | ----------- | -------------------------------------------------- |
+| `login(username:String, password:String): String` | public    | Autentica al usuario y retorna un token JWT.       |
+| `logout(): void`                                 | public    | Invalida la sesión del usuario.                    |
+| `refreshToken(token:String): String`             | public    | Genera un nuevo token JWT a partir de uno válido.  |
+
+### UserService  
+**Descripción**: Lógica de negocio para gestión de usuarios.  
+**Métodos**:
+
+| Firma                                               | Visibilidad | Descripción                             |
+| --------------------------------------------------- | ----------- | --------------------------------------- |
+| `register(user:User): User`                         | public      | Registra un nuevo usuario.             |
+| `updateProfile(user:User): User`                    | public      | Actualiza la información de un usuario. |
+| `changePassword(userId:UUID, newPassword:String): void` | public | Cambia la contraseña de un usuario.    |
+
+### JwtProvider  
+**Descripción**: Manejo de tokens JWT.  
+**Métodos**:
+
+| Firma                              | Visibilidad | Descripción                              |
+| ---------------------------------- | ----------- | ---------------------------------------- |
+| `generateToken(user:User): String` | public      | Genera un token JWT para un usuario.     |
+| `validateToken(token:String): boolean` | public  | Valida la integridad y expiración del token. |
+| `getUserFromToken(token:String): User` | public   | Extrae el usuario desde un token JWT.    |
+
+### PasswordHasher  
+**Descripción**: Encapsula la lógica de hashing de contraseñas.  
+**Métodos**:
+
+| Firma                               | Visibilidad | Descripción                                |
+| ----------------------------------- | ----------- | ------------------------------------------ |
+| `hash(raw:String): String`          | public      | Genera el hash de una contraseña.          |
+| `verify(raw:String, hashed:String): boolean` | public | Verifica un texto plano contra su hash.    |
+
+### UserRepository  
+**Descripción**: Interfaz para operaciones de persistencia de usuarios.  
+**Métodos clave**:
+
+| Firma                                            | Descripción                               |
+| ------------------------------------------------ | ----------------------------------------- |
+| `findByUsername(username:String): Optional<User>` | Busca un usuario por nombre de usuario.   |
+| `save(user:User): User`                          | Persiste un usuario y retorna la entidad. |
+
+---
+
+## Order Context
+
+### OrderStatus  
+**Descripción**: Enumera los estados posibles de una orden de compra.  
+**Valores**:
+- `NEW`
+- `APPROVED`
+- `SHIPPED`
+- `DELIVERED`
+- `CANCELLED`
+
+### PurchaseOrder  
+**Descripción**: Representa una orden de compra creada por un cliente para un proveedor.  
+**Atributos**:
+
+| Nombre      | Tipo          | Visibilidad | Descripción                             |
+| ----------- | ------------- | ----------- | --------------------------------------- |
+| `id`        | `UUID`        | private     | Identificador único de la orden.        |
+| `createdAt` | `LocalDate`   | private     | Fecha de creación de la orden.          |
+| `status`    | `OrderStatus` | private     | Estado actual de la orden.              |
+
+**Métodos**:
+
+| Firma                 | Visibilidad | Descripción                                     |
+| --------------------- | ----------- | ----------------------------------------------- |
+| `validate(): boolean` | public      | Valida si la orden cumple reglas de negocio.    |
+
+### OrderItem  
+**Descripción**: Detalle de un ítem dentro de una orden de compra.  
+**Atributos**:
+
+| Nombre        | Tipo     | Visibilidad | Descripción                   |
+| ------------- | -------- | ----------- | ----------------------------- |
+| `id`          | `UUID`   | private     | Identificador único del ítem. |
+| `description` | `String` | private     | Descripción del artículo.     |
+| `quantity`    | `int`    | private     | Cantidad solicitada.          |
+| `qrCode`      | `String` | private     | Código QR asociado al ítem.   |
+
+**Métodos**:
+
+| Firma                      | Visibilidad | Descripción                             |
+| -------------------------- | ----------- | --------------------------------------- |
+| `generateQRCode(): String` | public      | Genera y retorna un código QR único.    |
+
+### OrderController  
+**Descripción**: Exposición de endpoints REST para órdenes de compra.  
+**Métodos**:
+
+| Firma                                         | Visibilidad | Descripción                              |
+| --------------------------------------------- | ----------- | ---------------------------------------- |
+| `createOrder(dto): PurchaseOrder`             | public      | Crea una nueva orden de compra.          |
+| `updateOrder(id:UUID, dto): PurchaseOrder`    | public      | Actualiza una orden existente.           |
+| `getOrder(id:UUID): PurchaseOrder`            | public      | Obtiene una orden por su identificador.  |
+
+### OrderService  
+**Descripción**: Lógica de negocio para procesamiento de órdenes.  
+**Métodos**:
+
+| Firma                                                | Visibilidad | Descripción                                    |
+| ---------------------------------------------------- | ----------- | ---------------------------------------------- |
+| `createOrder(order:PurchaseOrder): PurchaseOrder`    | public      | Persiste una nueva orden en el repositorio.    |
+| `updateOrder(order:PurchaseOrder): PurchaseOrder`    | public      | Actualiza datos de una orden existente.        |
+| `getOrderHistory(orderId:UUID): List<TrackingEvent>` | public      | Recupera el historial de tracking de la orden. |
+
+### ItemFactory  
+**Descripción**: Fabrica instancias de `OrderItem`.  
+**Métodos**:
+
+| Firma                                              | Visibilidad | Descripción                                 |
+| -------------------------------------------------- | ----------- | ------------------------------------------- |
+| `createItem(description:String, quantity:int): OrderItem` | public | Crea un `OrderItem` con descripción y cantidad dadas. |
+
+### OrderRepository  
+**Descripción**: Interfaz para persistencia de órdenes de compra.  
+**Métodos clave**:
+
+| Firma                                    | Descripción                               |
+| ---------------------------------------- | ----------------------------------------- |
+| `save(order:PurchaseOrder): PurchaseOrder`   | Guarda o actualiza una orden.         |
+| `findById(id:UUID): Optional<PurchaseOrder>` | Busca una orden por su ID.            |
+
+---
+
+## Tracking Context
+
+### TrackingEvent  
+**Descripción**: Evento de seguimiento geolocalizado de una carga o pedido.  
+**Atributos**:
+
+| Nombre      | Tipo            | Visibilidad | Descripción                              |
+| ----------- | --------------- | ----------- | ---------------------------------------- |
+| `id`        | `UUID`          | private     | Identificador único del evento.          |
+| `timestamp` | `LocalDateTime` | private     | Fecha y hora del evento.                 |
+| `latitude`  | `double`        | private     | Latitud donde ocurrió el evento.        |
+| `longitude` | `double`        | private     | Longitud donde ocurrió el evento.       |
+| `status`    | `String`        | private     | Estado o descripción breve del evento.   |
+
+**Métodos**:
+
+| Firma                      | Visibilidad | Descripción                             |
+| -------------------------- | ----------- | --------------------------------------- |
+| `getLocation(): GeoPoint`  | public      | Devuelve un objeto con latitud/longitud. |
+
+### Order  
+**Descripción**: Representación lógica de una orden de compra para tracking.  
+**Atributos**:
+
+| Nombre      | Tipo        | Visibilidad | Descripción                             |
+| ----------- | ----------- | ----------- | --------------------------------------- |
+| `id`        | `UUID`      | private     | Identificador único de la orden.        |
+| `reference` | `String`    | private     | Código de referencia de la orden.       |
+| `createdAt` | `LocalDate` | private     | Fecha de creación de la orden.          |
+
+**Métodos**:
+
+| Firma                               | Visibilidad | Descripción                              |
+| ----------------------------------- | ----------- | ---------------------------------------- |
+| `getEvents(): List<TrackingEvent>`  | public      | Obtiene todos los eventos asociados.     |
+
+### Load  
+**Descripción**: Entidad que agrupa ítems físicos en una carga.  
+**Atributos**:
+
+| Nombre       | Tipo     | Visibilidad | Descripción                          |
+| ------------ | -------- | ----------- | ------------------------------------ |
+| `id`         | `UUID`   | private     | Identificador único de la carga.     |
+| `description`| `String` | private     | Descripción de la carga.            |
+| `weight`     | `double` | private     | Peso total de la carga.             |
+
+**Métodos**:
+
+| Firma                               | Visibilidad | Descripción                                   |
+| ----------------------------------- | ----------- | --------------------------------------------- |
+| `getEvents(): List<TrackingEvent>`  | public      | Devuelve eventos de tracking de esta carga.   |
+
+### TrackingController  
+**Descripción**: Endpoints para registrar y consultar eventos de tracking.  
+**Métodos**:
+
+| Firma                                           | Visibilidad | Descripción                                           |
+| ----------------------------------------------- | ----------- | ----------------------------------------------------- |
+| `registerEvent(dto): TrackingEvent`             | public      | Registra un nuevo evento de seguimiento.             |
+| `getHistory(orderId:UUID): List<TrackingEvent>` | public      | Obtiene historial de eventos de una orden.           |
+| `getHistoryByLoad(loadId:UUID): List<TrackingEvent>` | public  | Obtiene historial de eventos de una carga.         |
+
+### TrackingService  
+**Descripción**: Lógica para procesamiento de eventos de tracking.  
+**Métodos**:
+
+| Firma                                           | Visibilidad | Descripción                               |
+| ----------------------------------------------- | ----------- | ----------------------------------------- |
+| `registerEvent(event:TrackingEvent): TrackingEvent` | public  | Persiste el evento de tracking.         |
+| `getEventsForOrder(orderId:UUID): List<TrackingEvent>` | public | Recupera eventos de una orden.         |
+| `getEventsForLoad(loadId:UUID): List<TrackingEvent>` | public | Recupera eventos de una carga.         |
+
+### GeoEnrichmentService  
+**Descripción**: Servicio para enriquecimiento geográfico (reverse-geocoding).  
+**Métodos**:
+
+| Firma                                     | Visibilidad | Descripción                              |
+| ----------------------------------------- | ----------- | ---------------------------------------- |
+| `reverseGeocode(lat:double, lon:double): Address` | public | Convierte coordenadas en dirección.     |
+
+### TrackingRepository  
+**Descripción**: Interfaz para persistencia de eventos de tracking.  
+**Métodos clave**:
+
+| Firma                                           | Descripción                              |
+| ----------------------------------------------- | ---------------------------------------- |
+| `save(event:TrackingEvent): TrackingEvent`      | Guarda un evento de tracking.            |
+| `findByOrderId(orderId:UUID): List<TrackingEvent>` | Busca eventos por orden.         |
+| `findByLoadId(loadId:UUID): List<TrackingEvent>`  | Busca eventos por carga.          |
+
+---
+
+## Billing Context
+
+### SubscriptionPlan  
+**Descripción**: Plan de suscripción con precio y periodo.  
+**Atributos**:
+
+| Nombre    | Tipo         | Visibilidad | Descripción                                  |
+| --------- | ------------ | ----------- | -------------------------------------------- |
+| `id`      | `UUID`       | private     | Identificador único del plan.                |
+| `name`    | `String`     | private     | Nombre descriptivo del plan.                |
+| `price`   | `BigDecimal` | private     | Precio asociado al plan.                     |
+| `period`  | `Duration`   | private     | Duración del ciclo de facturación.           |
+
+**Métodos**:
+
+| Firma                                                       | Visibilidad | Descripción                                              |
+| ----------------------------------------------------------- | ----------- | -------------------------------------------------------- |
+| `calculateProratedAmount(changeDate:LocalDate): BigDecimal` | public      | Calcula importe prorrateado al cambiar de plan.          |
+
+### Invoice  
+**Descripción**: Factura generada para una cuenta.  
+**Atributos**:
+
+| Nombre      | Tipo         | Visibilidad | Descripción                           |
+| ----------- | ------------ | ----------- | ------------------------------------- |
+| `id`        | `UUID`       | private     | Identificador único de la factura.    |
+| `accountId` | `UUID`       | private     | Identificador de la cuenta facturada. |
+| `date`      | `LocalDate`  | private     | Fecha de emisión.                     |
+| `amount`    | `BigDecimal` | private     | Monto total de la factura.            |
+| `status`    | `String`     | private     | Estado (ISSUED, PAID, OVERDUE).       |
+
+**Métodos**:
+
+| Firma                    | Visibilidad | Descripción                              |
+| ------------------------ | ----------- | ---------------------------------------- |
+| `generatePdf(): byte[]`  | public      | Genera el PDF de la factura.             |
+
+### Payment  
+**Descripción**: Registro de cobros o reembolsos.  
+**Atributos**:
+
+| Nombre      | Tipo         | Visibilidad | Descripción                               |
+| ----------- | ------------ | ----------- | ----------------------------------------- |
+| `id`        | `UUID`       | private     | Identificador único del pago.             |
+| `invoiceId` | `UUID`       | private     | Factura asociada al pago.                 |
+| `amount`    | `BigDecimal` | private     | Monto cobrado o reembolsado.              |
+| `date`      | `LocalDate`  | private     | Fecha de la transacción.                  |
+| `status`    | `String`     | private     | Estado (SUCCESS, FAILED, REFUNDED).       |
+
+**Métodos**:
+
+| Firma              | Visibilidad | Descripción                  |
+| ------------------ | ----------- | ---------------------------- |
+| `process(): void`  | public      | Ejecuta el cobro o reembolso.|
+
+### SubscriptionRepository  
+**Descripción**: Interfaz para persistencia de planes.  
+**Métodos clave**:
+
+| Firma                                          | Descripción                          |
+| ---------------------------------------------- | ------------------------------------ |
+| `save(plan:SubscriptionPlan): SubscriptionPlan` | Guarda o actualiza un plan.         |
+| `findById(id:UUID): Optional<SubscriptionPlan>` | Busca un plan por su ID.           |
+
+### InvoiceRepository  
+**Descripción**: Interfaz para persistencia de facturas.  
+**Métodos clave**:
+
+| Firma                                    | Descripción                         |
+| ---------------------------------------- | ----------------------------------- |
+| `save(invoice:Invoice): Invoice`          | Guarda o actualiza una factura.     |
+| `findById(id:UUID): Optional<Invoice>`    | Busca una factura por su ID.        |
+
+### BillingController  
+**Descripción**: Endpoints para suscripción y facturación.  
+**Métodos**:
+
+| Firma                                                        | Visibilidad | Descripción                             |
+| ------------------------------------------------------------ | ----------- | --------------------------------------- |
+| `subscribe(planId:UUID, userId:UUID): SubscriptionPlan`      | public      | Suscribe un usuario a un plan.          |
+| `getInvoice(invoiceId:UUID): Invoice`                        | public      | Obtiene una factura por su ID.          |
+
+### SubscriptionService  
+**Descripción**: Lógica para gestión de suscripciones.  
+**Métodos**:
+
+| Firma                                                        | Visibilidad | Descripción                              |
+| ------------------------------------------------------------ | ----------- | ---------------------------------------- |
+| `subscribe(plan:SubscriptionPlan, userId:UUID): SubscriptionPlan` | public | Ejecuta la suscripción de un usuario. |
+| `cancelSubscription(subscriptionId:UUID): void`              | public      | Cancela una suscripción activa.          |
+
+### InvoiceService  
+**Descripción**: Lógica para generación y manejo de facturas.  
+**Métodos**:
+
+| Firma                                   | Visibilidad | Descripción                              |
+| --------------------------------------- | ----------- | ---------------------------------------- |
+| `createInvoice(accountId:UUID): Invoice` | public     | Crea una factura para una cuenta.        |
+| `handleStripeWebhook(payload): void`    | public     | Procesa notificaciones de Stripe.        |
+
+### StripeAdapter  
+**Descripción**: Adaptador para integrarse con Stripe.  
+**Métodos**:
+
+| Firma                                                       | Visibilidad | Descripción                                |
+| ----------------------------------------------------------- | ----------- | ------------------------------------------ |
+| `charge(accountId:String, amount:BigDecimal): String`       | public      | Realiza un cobro y retorna el ID de pago.  |
+| `refund(paymentId:String): boolean`                         | public      | Emite un reembolso para un pago existente. |
+
+---
+
+## Notification Context
+
+### NotificationStatus  
+**Descripción**: Enumera los estados posibles de una notificación.  
+**Valores**:
+- `PENDING`
+- `SENT`
+- `FAILED`
+
+### NotificationTemplate  
+**Descripción**: Plantilla que define el contenido de las notificaciones.  
+**Atributos**:
+
+| Nombre    | Tipo     | Visibilidad | Descripción                                |
+| --------- | -------- | ----------- | ------------------------------------------ |
+| `id`      | `UUID`   | private     | Identificador único de la plantilla.       |
+| `channel` | `String` | private     | Canal de envío (EMAIL, SMS).               |
+| `subject` | `String` | private     | Asunto del mensaje.                        |
+| `body`    | `String` | private     | Cuerpo del mensaje con placeholders.       |
+
+### Notification  
+**Descripción**: Entidad que representa una notificación encolada.  
+**Atributos**:
+
+| Nombre       | Tipo                 | Visibilidad | Descripción                         |
+| ------------ | -------------------- | ----------- | ----------------------------------- |
+| `id`         | `UUID`               | private     | Identificador único.                |
+| `templateId` | `UUID`               | private     | FK → NotificationTemplate.          |
+| `timestamp`  | `LocalDateTime`      | private     | Fecha y hora de creación.           |
+| `status`     | `NotificationStatus` | private     | Estado de la notificación.          |
+| `payload`    | `Map<String,String>` | private     | Datos para rellenar placeholders.   |
+
+**Métodos**:
+
+| Firma                              | Visibilidad | Descripción                                |
+| ---------------------------------- | ----------- | ------------------------------------------ |
+| `enqueue(): void`                  | public      | Encola la notificación para envío.         |
+| `markSent(): void`                 | public      | Marca la notificación como enviada.        |
+| `markFailed(reason:String): void`  | public      | Marca la notificación como fallida.        |
+
+### NotificationLog  
+**Descripción**: Registro histórico de envíos de notificaciones.  
+**Atributos**:
+
+| Nombre          | Tipo            | Visibilidad | Descripción                             |
+| --------------- | --------------- | ----------- | --------------------------------------- |
+| `id`            | `UUID`          | private     | Identificador único del registro.       |
+| `notificationId`| `UUID`          | private     | FK → Notification.                     |
+| `timestamp`     | `LocalDateTime` | private     | Marca temporal del envío.              |
+| `result`        | `String`        | private     | Resultado recibido (OK, error…).        |
+
+### NotificationRepository  
+**Descripción**: Interfaz para persistencia de notificaciones.  
+**Métodos clave**:
+
+| Firma                                        | Descripción                           |
+| -------------------------------------------- | ------------------------------------- |
+| `save(notification:Notification): Notification` | Guarda o actualiza una notificación. |
+| `findPending(): List<Notification>`          | Recupera notificaciones pendientes.   |
+
+### NotificationController  
+**Descripción**: Endpoints para manejar notificaciones.  
+**Métodos**:
+
+| Firma                                        | Visibilidad | Descripción                                   |
+| -------------------------------------------- | ----------- | --------------------------------------------- |
+| `triggerNotification(payload): Notification` | public      | Crea y encola una nueva notificación.         |
+| `getStatus(id:UUID): NotificationStatus`     | public      | Obtiene el estado de una notificación.        |
+
+### NotificationService  
+**Descripción**: Lógica para envío y registro de notificaciones.  
+**Métodos**:
+
+| Firma                                  | Visibilidad | Descripción                              |
+| -------------------------------------- | ----------- | ---------------------------------------- |
+| `send(notification:Notification): void` | public      | Envía la notificación según su canal.    |
+| `log(notification:Notification): void`  | public      | Registra el envío en el historial.       |
+
+### EmailSender  
+**Descripción**: Adaptador para envío de correos electrónicos.  
+**Métodos**:
+
+| Firma                                            | Visibilidad | Descripción                           |
+| ------------------------------------------------ | ----------- | ------------------------------------- |
+| `send(to:String, subject:String, body:String): void` | public  | Envía un correo electrónico.         |
+
+### SmsSender  
+**Descripción**: Adaptador para envío de SMS.  
+**Métodos**:
+
+| Firma                       | Visibilidad | Descripción                   |
+| --------------------------- | ----------- | ----------------------------- |
+| `send(to:String, text:String): void` | public      | Envía un mensaje SMS.         |
+
+---
+
+## Resource Context
+
+### VehicleStatus  
+**Descripción**: Enumera los estados posibles de un vehículo.  
+**Valores**:
+- `AVAILABLE`
+- `MAINTENANCE`
+- `ASSIGNED`
+
+### Vehicle  
+**Descripción**: Representa un vehículo o máquina disponible para operaciones de campo.  
+**Atributos**:
+
+| Nombre        | Tipo            | Visibilidad | Descripción                             |
+| ------------- | --------------- | ----------- | --------------------------------------- |
+| `id`          | `UUID`          | private     | Identificador único del vehículo.       |
+| `plateNumber` | `String`        | private     | Matrícula o identificador del vehículo. |
+| `status`      | `VehicleStatus` | private     | Estado actual del vehículo.             |
+
+**Métodos**:
+
+| Firma                                 | Visibilidad | Descripción                              |
+| ------------------------------------- | ----------- | ---------------------------------------- |
+| `setStatus(status:VehicleStatus): void` | public      | Actualiza el estado del vehículo.        |
+
+### Warehouse  
+**Descripción**: Representa un almacén físico donde se gestionan cargas.  
+**Atributos**:
+
+| Nombre     | Tipo     | Visibilidad | Descripción                          |
+| ---------- | -------- | ----------- | ------------------------------------ |
+| `id`       | `UUID`   | private     | Identificador único del almacén.     |
+| `name`     | `String` | private     | Nombre descriptivo del almacén.      |
+| `location` | `String` | private     | Ubicación física o dirección.        |
+| `capacity` | `int`    | private     | Capacidad máxima del almacén.        |
+
+**Métodos**:
+
+| Firma                        | Visibilidad | Descripción                           |
+| ---------------------------- | ----------- | ------------------------------------- |
+| `storeLoad(load:Load): void` | public      | Registra una carga en el almacén.     |
+
+### Load  
+**Descripción**: Unidad de carga que agrupa ítems físicos o contenedores.  
+**Atributos**:
+
+| Nombre        | Tipo     | Visibilidad | Descripción                             |
+| ------------- | -------- | ----------- | --------------------------------------- |
+| `id`          | `UUID`   | private     | Identificador único de la carga.        |
+| `description` | `String` | private     | Descripción breve de la carga.          |
+| `weight`      | `double` | private     | Peso total de la carga.                 |
+| `qrCode`      | `String` | private     | Código QR asignado para trazabilidad.    |
+
+**Métodos**:
+
+| Firma                       | Visibilidad | Descripción                              |
+| --------------------------- | ----------- | ---------------------------------------- |
+| `assignQRCode(): String`    | public      | Genera y asigna un código QR único.      |
+
+### ResourceController  
+**Descripción**: Endpoints para gestión de recursos físicos.  
+**Métodos**:
+
+| Firma                                   | Visibilidad | Descripción                              |
+| --------------------------------------- | ----------- | ---------------------------------------- |
+| `createVehicle(dto): Vehicle`           | public      | Registra un nuevo vehículo.              |
+| `createWarehouse(dto): Warehouse`       | public      | Registra un nuevo almacén.               |
+| `createLoad(dto): Load`                 | public      | Crea una nueva carga.                    |
+
+### VehicleService  
+**Descripción**: Lógica de negocio para vehículos.  
+**Métodos**:
+
+| Firma                                      | Visibilidad | Descripción                                |
+| ------------------------------------------ | ----------- | ------------------------------------------ |
+| `registerVehicle(vehicle:Vehicle): Vehicle` | public      | Persiste un vehículo en repositorio.       |
+| `updateStatus(id:UUID, status:VehicleStatus): Vehicle` | public | Actualiza estado de un vehículo. |
+
+### WarehouseService  
+**Descripción**: Lógica de negocio para almacenes.  
+**Métodos**:
+
+| Firma                                            | Visibilidad | Descripción                              |
+| ------------------------------------------------ | ----------- | ---------------------------------------- |
+| `registerWarehouse(warehouse:Warehouse): Warehouse` | public    | Persiste un almacén en repositorio.     |
+
+### LoadService  
+**Descripción**: Lógica para creación y agrupación de cargas.  
+**Métodos**:
+
+| Firma                                                 | Visibilidad | Descripción                                 |
+| ----------------------------------------------------- | ----------- | ------------------------------------------- |
+| `groupLoads(parentId:UUID, childIds:List<UUID>): Load` | public    | Agrupa cargas existentes en un contenedor. |
+| `generateQRCode(loadId:UUID): String`                 | public      | Genera QR para una carga.                  |
+
+### ResourceRepository  
+**Descripción**: Interfaz para persistencia de recursos físicos.  
+**Métodos clave**:
+
+| Firma                                    | Descripción                             |
+| ---------------------------------------- | --------------------------------------- |
+| `saveVehicle(vehicle:Vehicle): Vehicle`   | Guarda o actualiza un vehículo.         |
+| `saveWarehouse(warehouse:Warehouse): Warehouse` | Guarda o actualiza un almacén. |
+
+---
+
 
 ## 4.8. Database Design
 
