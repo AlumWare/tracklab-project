@@ -768,10 +768,11 @@ Preguntas Finales y de Retroalimentación
 #### Segmento objetivo #1: Empresas logísticas
 
 ##### Entrevista 1: George Coronel
-- **Edad:** No especificada  
+- **Edad:** 32 años  
 - **Marcas de tiempo de entrevista:** 00:00 – 15:41  
 - **Duración:** 15:41  
-- **Screenshot del video:**  
+- **Screenshot del video:**
+![Entrevista 1 captura de pantalla](assets/md-images/Entrevista1_George%20Coronel.png)
 
 ##### Resumen descriptivo de la entrevista:
 George Coronel trabaja como rigger (y ocasional líder de grupo) en la empresa Cosmos, en el proyecto de Pluspetrol. Lidera cuadrillas para maniobras de carga pesada como isajes. La planificación de actividades llega en formato Excel por parte de supervisores, con actualizaciones manuales en papel durante el día.
@@ -792,10 +793,11 @@ La falta de digitalización hace que el mal clima y tareas no previstas compliqu
 
 
 ##### Entrevista 2: Diego Portocarrero
-- **Edad:** 30
+- **Edad:** 30 años
 - **Marcas de tiempo de entrevista:** 00:00 - 7:57
 - **Duracion:** 7:57
-- **Screenshot del video:**  
+- **Screenshot del video:**
+![Entrevista 2 captura de pantalla](assets/md-images/Entrevista2_Diego%20Portocarrero.png)  
 
 ##### Resumen descriptivo de la entrevista:
 Diego trabaja como gestor de inventario en una empresa del sector minero con operaciones a nivel nacional. Su labor consiste en gestionar las órdenes de pedido, actualmente realizadas por llamadas telefónicas o correo electrónico, métodos que también se emplean para el seguimiento de los envíos.
@@ -832,10 +834,11 @@ o	Comparativas entre proveedores (puntuales vs. recurrentemente retrasados).
 - **Disposición a adoptar tecnología:** Alta; cree que mejoraría notablemente la eficiencia
 
 ##### Entrevista 3: Israel Arenasa
-- **Edad:** No especificada  
+- **Edad:** 30 años  
 - **Marcas de tiempo de entrevista:** 00:00 – 6:54  
 - **Duracion:** 6:54  
-- **Screenshot del video:**  
+- **Screenshot del video:**
+![Entrevista 3 captura de pantalla](assets/md-images/Entrevista3_Israel%20Arenaza.png)    
 
 ##### Resumen descriptivo de la entrevista:
 Israel Arenasa, coordinador logístico de la empresa Petrotank, trabaja en la zona de Bretaña (Órgano 25), dentro del rubro de hidrocarburos. Coordina con contratistas para planificar el tipo y tiempo de llegada de carga, sin usar un software especializado. La empresa evalúa implementar radios y GPS para seguimiento, pero aún no ha adoptado soluciones digitales.
@@ -860,10 +863,11 @@ Propone una solución en la nube que garantice visibilidad y colaboración entre
 #### Segmento objetivo #2: Empresas cliente (B2B)
 
 ##### Entrevista 4: Pedro Horna
-- **Edad:** No especificada  
+- **Edad:** 49 años  
 - **Marcas de tiempo de entrevista:** 00:00 – 18:17  
 - **Duracion:** 18:17  
 - **Screenshot del video:**  
+![Entrevista 4 captura de pantalla](assets/md-images/Entrevista4_Pedro%20Horna.png)
 
 ##### Resumen descriptivo de la entrevista:
 Pedro Horna lidera un proyecto logístico en una zona remota para una empresa petrolera. Gestionan actividades aéreas y fluviales con planificación en Excel con macros. El registro de ejecución se transfiere manualmente a bases de datos. La alta variabilidad por clima y fallas técnicas obliga a reprogramar constantemente, afectando tiempos y generando frustración.
@@ -883,10 +887,11 @@ Pedro valora un sistema que parametrice las solicitudes desde el inicio, minimiz
 - **Disposición a adoptar tecnología:** Alta; busca personalización total
 
 ##### Entrevista 5: Cristel Lavado
-- **Edad:** No especificada  
+- **Edad:** 32 años  
 - **Marcas de tiempo de entrevista:** 00:00 – 7:57  
 - **Duracion:** 7:57  
 - **Screenshot del video:**  
+![Entrevista 5 captura de pantalla](assets/md-images/Entrevista5_Cristel%20Lavado.png)
 
 ##### Resumen descriptivo de la entrevista:
 Cristel trabaja en logística interna y externa en Malvinas, gestionando carga fluvial y aérea. El control se realiza con checklist físicos y consolidación de datos en Excel. Las órdenes de traslado llegan por correo y se procesan manualmente, lo cual genera errores frecuentes por volumen de paquetes.
@@ -906,7 +911,30 @@ Cristel propone un software donde cada empresa tenga un usuario, pueda registrar
 - **Disposición a adoptar tecnología:** Alta; busca justificar con resultados tangibles
 
 ##### Entrevista 6: Kathya Salas
+- **Edad:** 31 años  
+- **Marcas de tiempo de entrevista:** 00:00 - 3:39
+- **Duración:** 3:39
+- **Screenshot del video:** 
+![Entrevista 6 captura de pantalla](assets/md-images/Entrevista6_Kathya%20Salas.png)
 
+##### Resumen descriptivo de la entrevista:
+Kathya Salas, supervisora de logística en una empresa del sector eléctrico, cuenta con 10 años de experiencia. Coordina envíos de materiales como cables de distintos tipos a clientes. La gestión logística se realiza de forma manual mediante checklists físicos o archivos de Excel básico, sin uso de software especializado.
+
+Los principales desafíos son los retrasos en las entregas, afectando los plazos y generando efectos en cadena en otros envíos, debido en parte a paquetes defectuosos. Además, señala problemas de comunicación interna, ya que las incidencias no son reportadas a tiempo.
+
+Kathya está interesada en soluciones que permitan monitoreo en tiempo real del estado de los pedidos para ofrecer fechas de entrega más precisas y así mejorar los cuellos de botella en las operaciones logísticas.
+
+##### Características objetivas:
+- **Rol:** Supervisora de logística  
+- **Herramientas de trabajo:** Checklist manual, Excel básico  
+- **Canal de comunicación:** Manual (correo, teléfono, verbal)  
+- **Tecnología usada:** Sin software especializado  
+
+##### Características subjetivas:
+- **Personalidad:** Proactiva, orientada a la mejora de procesos  
+- **Influencias:** Retrasos en entregas, fallos en calidad de paquetes, comunicación ineficiente  
+- **Necesidades:** Monitoreo en tiempo real de pedidos, mayor precisión en fechas de entrega  
+- **Disposición a adoptar tecnología:** Alta; valora exactitud, visibilidad en tiempo real y mejor comunicación interna  
 
 ### 2.2.3. Análisis de entrevistas
 **Segmento objetivo #1: Empresas Logísticas (B2B – Proveedor de servicios)**  
