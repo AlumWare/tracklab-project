@@ -3780,7 +3780,7 @@ Superintendencia Nacional de Aduanas y de Administración Tributaria (SUNAT). (2
 
 Para acceder a los diferentes recursos del proyecto, puedes visitar los siguientes enlaces:
 
-- Video exposición TB1: [https://youtu.be/BFcNvl_Vn40](https://youtu.be/BFcNvl_Vn40)
+- Video exposición TB1: [https://youtu.be/Jf3-NGdk-AU](https://youtu.be/Jf3-NGdk-AU)
 - Landing Page desplegado del proyecto: [https://purple-bay-07e3cfa0f.6.azurestaticapps.net](https://purple-bay-07e3cfa0f.6.azurestaticapps.net)
 - Repositorio de la Landing Page: [https://github.com/AlumWare/tracklab-landing-page](https://github.com/AlumWare/tracklab-landing-page)
 - Documentación del Proyecto: [https://github.com/AlumWare/tracklab-project](https://github.com/AlumWare/tracklab-project)
