@@ -2417,11 +2417,64 @@ Enlace para ingresar al prototipo en [Figma](https://www.figma.com/proto/MB4nZve
 
 ## 4.6. Domain-Driven Software Architecture
 
+El enfoque **Domain-Driven Design** (DDD) persigue que el software refleje fielmente el dominio de negocio, facilitando la colaboración entre desarrolladores y expertos en la materia. Para ello, DDD propone:
+
+- **Lenguaje ubicuo**: un vocabulario compartido en código y comunicación que evite ambigüedades.  
+- **Bounded Contexts**: particionar el dominio en áreas autónomas, con sus propios modelos y límites bien definidos.  
+- **Patrones estratégicos** (Context Map, Anticorruption Layer) y **tácticos** (Entidades, Value Objects, Repositorios, Servicios de Dominio) que guían tanto la estructura del código como el diseño arquitectónico.
+
+En TrackLab, aplicar DDD nos permite aislar responsabilidades (tracking, manejo de pedidos, notificaciones, facturación, recursos y seguridad) y evolucionar cada parte de forma independiente sin perder la coherencia global.
+
 ### 4.6.1. Software Architecture Context Diagram
+
+Este diagrama muestra en una única vista al sistema Tracklab, sus actores principales y los sistemas externos con los que interactúa:
+
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/tracklab-c1-diagram.png" alt="c1: System Context.png" width="700px" /></p>
+</div>
 
 ### 4.6.2. Software Architecture Container  Diagram
 
+En el C2, se hace "zoom" dentro de el sistema, y se identifican los contenedores. En este caso, con fines de mostrar la aplicación de Domain Driven Design, se añadieron 6 contenedores lógicos representados por hexágonos, los bounded context, pues el API Application es un monolito.
+
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/tracklab-c2-diagram.png" alt="c1: System Context.png" width="700px" /></p>
+</div>
+
 ### 4.6.3. Software Architecture Components  Diagram
+
+En el C3, exploramos más a detalle cada uno de los contenedores que hemos identificado. En este caso, realizamos el C3 para los contenedores lógicos (bounded context)
+
+* Security Context: 
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/tracklab-c3-security-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+</div>
+
+* Billing Context:
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/tracklab-c3-billing-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+</div>
+
+* Notification Context: 
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/tracklab-c3-notification-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+</div>
+
+* Resource Context:
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/tracklab-c3-resource-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+</div>
+
+* Tracking Context:
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/tracklab-c3-tracking-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+</div>
+
+* Order Context:
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/tacklab-c3-order-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+</div>
+
 
 ## 4.7. Software Object-Oriented Design
 
