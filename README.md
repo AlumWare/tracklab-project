@@ -3587,6 +3587,26 @@ En este sprint se busca completar la landing page de TrackLab,   incluyendo el d
 
 ### 5.2.1.3. Sprint Backlog 1
 
+El objetivo principal del Sprint 1 es desarrollar y desplegar una landing page funcional para el proyecto SwiftPort. 
+A continuación se muestra una captura de pantalla de las historias de usuario que se buscan trabajar en este sprint, con sus epicas correspondientes y su estado. 
+
+![Sprint Backlog 1 in pivotalTracker](https://github.com/AlumWare/tracklab-project/blob/ece4cb74e75f84169c73850702131c0beb3fc1f2/assets/md-images/sprint%201.png)
+
+Link PivotalTracker: [OpenSource SwiftPort - Pivotal Tracker](https://www.pivotaltracker.com/n/projects/2740947)
+
+| Sprint # | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (hours) | Assigned To | Status | Story Points |
+|:--------:|:-------------:|:-----------------|:-------:|:-----------|:------------|:------------------:|:------------|:------:|:------------:|
+| Sprint 1 | US01 | Contactar a la startup | T01 | Diseñar formulario de contacto | Crear formulario con campos de nombre, correo y mensaje. | 2 | Solano Armas, Angelo Hector | To Do | 1 |
+| Sprint 1 | US01 | Contactar a la startup | T02 | Conectar formulario con backend | Programar API para enviar los datos al servidor. | 3 | Baldeón Vivar, Santiago Armando | To Do | 1 |
+| Sprint 1 | US01 | Contactar a la startup | T03 | Validar campos del formulario | Agregar validaciones de campos requeridos. | 1 | Roma Cruz, Natalia Bertha | To Do | 1 |
+| Sprint 1 | US02 | Obtener información sobre la aplicación | T04 | Redactar contenido de preguntas frecuentes | Escribir las preguntas y respuestas de la sección FAQ. | 2 | Iglesias Perez, Sergio Sebastian | To Do | 1 |
+| Sprint 1 | US02 | Obtener información sobre la aplicación | T05 | Implementar sección FAQ | Diseñar y programar sección FAQ expandible. | 3 | Roma Cruz, Natalia Bertha | To Do | 1 |
+| Sprint 1 | US02 | Obtener información sobre la aplicación | T06 | Validar diseño responsive FAQ | Asegurar que la FAQ funcione correctamente en movil web. | 1 | Céspedes Pillco, Jarod Jack | To Do | 1 |
+| Sprint 1 | US03 | Acceder a la app desde landing page | T07 | Crear botón de acceso | Diseñar botón "Ingresar a la App" en Hero Section. | 1 | Céspedes Pillco, Jarod Jack | To Do | 2 |
+| Sprint 1 | US03 | Acceder a la app desde landing page | T08 | Programar redirección a login | Programar funcionalidad de enlace a login de TrackLab. | 2 | Iglesias Perez, Sergio Sebastian | To Do | 2 |
+| Sprint 1 | US03 | Acceder a la app desde landing page | T09 | Validar acceso en mobile y desktop | Probar acceso correcto desde todos los dispositivos. | 1 | Solano Armas, Angelo Hector | To Do | 2 |
+
+
 ### 5.2.1.4. Development Evidence for Sprint Review
 
 En esta sección se presentan los avances en la implementación de la solución, específicamente en el desarrollo de la Landing Page correspondiente al alcance del Sprint actual. Se detallan los commits realizados en el repositorio, evidenciando las funcionalidades implementadas, los ajustes de estilo y las mejoras en la interfaz de usuario. A continuación, se muestra una tabla que resume los commits relevantes asociados a este componente.
