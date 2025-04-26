@@ -2427,17 +2427,23 @@ En TrackLab, aplicar DDD nos permite aislar responsabilidades (tracking, manejo 
 
 ### 4.6.1. Software Architecture Context Diagram
 
+Este diagrama muestra en una única vista al sistema Tracklab, sus actores principales y los sistemas externos con los que interactúa:
+
 <div>
   <p align="center"><img src="assets/md-images/c4-model/tracklab-c1-diagram.png" alt="c1: System Context.png" width="700px" /></p>
 </div>
 
 ### 4.6.2. Software Architecture Container  Diagram
 
+En el C2, se hace "zoom" dentro de el sistema, y se identifican los contenedores. En este caso, con fines de mostrar la aplicación de Domain Driven Design, se añadieron 6 contenedores lógicos representados por hexágonos, los bounded context, pues el API Application es un monolito.
+
 <div>
   <p align="center"><img src="assets/md-images/c4-model/tracklab-c2-diagram.png" alt="c1: System Context.png" width="700px" /></p>
 </div>
 
 ### 4.6.3. Software Architecture Components  Diagram
+
+En el C3, exploramos más a detalle cada uno de los contenedores que hemos identificado. En este caso, realizamos el C3 para los contenedores lógicos (bounded context)
 
 * Security Context: 
 <div>
