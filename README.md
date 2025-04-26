@@ -37,13 +37,13 @@
 | --------- | ---------- | ------- | ----------------------------- |
 | 1.0       | 06/04/2025 | Iglesias Pérez, Sergio Sebastián | Creación del repositorio |
 | 1.1       | 13/04/2025 | Roman Cruz, Natalia Bertha       | Capítulos I (sin entrevistas), Capítulo II (ubiquitous language) y Capítulo 3 (hasta 3.2) |
-| 1.2       | 26/04/2025 | Baldeón, Céspedes, Iglesias, Roman, Solano   | Implementación de los capítulos IV y V - Entrevistas, Ubiquitous anguage y Capítulo III completados |
+| 1.2       | 25/04/2025 | Céspedes, Baldeón, Iglesias, Roman, Solano| Implementación de los capítulos IV y V - Entrevistas, Ubiquitous anguage y Capítulo III completados|
 
 ---
 
 ## Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto: FALTA LANDING PAGE
+URL del repositorio para el reporte del proyecto: https://github.com/AlumWare/tracklab-project 
 
 **TB1**
 
@@ -73,16 +73,25 @@ Se puede identificar a los integrantes como:
 - Céspedes Pillco, Jarod Jack: PruebaJJC
 
 Asimismo, se explican las ramas que tenemos hasta el momento: FALTA COMPLETAR E IMAGEN
-- main:
-- readme-updates:
+- main: Aún no se encuentra representada, pues se hace un merge en cada entrega al ser la rama principal del proyecto.
+- develop: Representada por la rama blanca. Se trata de la rama principal para el proceso del desarrollo del proyecto.
+- readme: Representada por la rama morada. Se trata de la rama en la que se han estado realizando las modificaciones al informe.
 
-**ESPACIO PARA LA IMAGEN**
+<div>
+  <p><img src="assets/md-images/network.png" alt="Network Graph TB1" width="700px" /></p>
+</div>
 
 Los siguientes gráficos muestran analíticos en cuanto a los commits que cada integrante del grupo ha estado realizando en el repositorio.
 
 __TB1__
 
-**ESPACIO PARA LA IMAGEN**
+<div>
+  <p><img src="assets/md-images/commits-readme.png" alt="Network Graph TB1" width="700px" /></p>
+</div>
+
+<div>
+  <p><img src="assets/md-images/graficos-readme.png" alt="Network Graph TB1" width="700px" /></p>
+</div>
 
 ---
 
@@ -3693,7 +3702,17 @@ La documentación de servicios será considerada en los siguientes Sprints, una 
 
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+A continuación, se muestra nuestra landing page desplegada:
+
+<div>
+  <p align="center"><img src="assets/md-images/langing-completa-web.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
 ### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la **Landing Page**, dividiéndose por secciones según el diseño y el contenido definido previamente.
+
+A continuación, se detalla la participación específica de cada integrante del equipo:
 
 | **Nombre**                       | **Actividades** |
 | ---------------------------------|------------|
@@ -3703,7 +3722,19 @@ La documentación de servicios será considerada en los siguientes Sprints, una 
 | Baldeón Vivar, Santiago Armando  | Implementación de sección "Sobre nosotros" |
 | Céspedes Pillco, Jarod Jack      | Implementación de header y de secciones "Beneficios principales" y "¿Para quién es TrackLab"? |
 
-# FALTA PEGAR SS DE GITHUB
+> **Nota:** Algunos integrantes colaboraron en secciones compartidas para asegurar consistencia en diseño y funcionalidad.
+
+##### Evidencia de colaboración en GitHub
+
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+![Gráfico de contribuciones](assets/md-images/graficos-landing.png)
+
+##### Repositorio de trabajo:
+
+- [Repositorio de la Landing Page en GitHub](https://github.com/AlumWare/tracklab-landing-page)
+
+Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente con participación de todos los miembros del equipo.
 
 # 6. Conclusiones
 
