@@ -3582,7 +3582,7 @@ En este sprint se busca completar la landing page de TrackLab,   incluyendo el d
 | Sonano Armas, Angelo Hector        | Angelo5214           | C                    | C                        |
 | Iglesias Perez, Sergio Sebastian   | ghostrider101218     | C                    | L                        |
 | Baldeon Vivar, Santiago Armando    | Santibal11           | C                    | C                        |
-| Céspedes Pillco, Jarod Jack        | choliwys             | C                    | C                        |
+| Céspedes Pillco, Jarod Jack        | PruebaJJC            | C                    | C                        |
 
 
 ### 5.2.1.3. Sprint Backlog 1
