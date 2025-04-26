@@ -2439,6 +2439,37 @@ En TrackLab, aplicar DDD nos permite aislar responsabilidades (tracking, manejo 
 
 ### 4.6.3. Software Architecture Components  Diagram
 
+* Security Context: 
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/tracklab-c3-security-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+</div>
+
+* Billing Context:
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/tracklab-c3-billing-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+</div>
+
+* Notification Context: 
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/tracklab-c3-notification-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+</div>
+
+* Resource Context:
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/tracklab-c3-resource-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+</div>
+
+* Tracking Context:
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/tracklab-c3-tracking-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+</div>
+
+* Order Context:
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/tacklab-c3-order-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+</div>
+
+
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
