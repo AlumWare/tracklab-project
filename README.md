@@ -2428,10 +2428,14 @@ En TrackLab, aplicar DDD nos permite aislar responsabilidades (tracking, manejo 
 ### 4.6.1. Software Architecture Context Diagram
 
 <div>
-  <p align="center"><img src="assets/md-images/c4-model/c1-system-context.png" alt="c1: System Context.png" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/c4-model/tracklab-c1-diagram.png" alt="c1: System Context.png" width="700px" /></p>
 </div>
 
 ### 4.6.2. Software Architecture Container  Diagram
+
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/tracklab-c2-diagram.png" alt="c1: System Context.png" width="700px" /></p>
+</div>
 
 ### 4.6.3. Software Architecture Components  Diagram
 
