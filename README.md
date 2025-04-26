@@ -2743,7 +2743,7 @@ En el C3, exploramos más a detalle cada uno de los contenedores que hemos ident
 
 * Order Context:
 <div>
-  <p align="center"><img src="assets/md-images/c4-model/tacklab-c3-order-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/c4-model/tracklab-c3-order-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
 </div>
 
 
