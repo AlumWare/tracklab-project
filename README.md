@@ -3356,6 +3356,26 @@ En este sprint se busca completar la landing page de TrackLab,   incluyendo el d
 
 ### 5.2.1.4. Development Evidence for Sprint Review
 
+En esta sección se presentan los avances en la implementación de la solución, específicamente en el desarrollo de la Landing Page correspondiente al alcance del Sprint actual. Se detallan los commits realizados en el repositorio, evidenciando las funcionalidades implementadas, los ajustes de estilo y las mejoras en la interfaz de usuario. A continuación, se muestra una tabla que resume los commits relevantes asociados a este componente.
+
+| Repository                        | Branch                         | Commit ID | Commit Message                                          | Commit Message Body                                                       | Committed on (Date) |
+|:----------------------------------|:-------------------------------|:---------:|:--------------------------------------------------------|:---------------------------------------------------------------------------|:-------------------:|
+| UPC-GosTech/tracklab-project      | feature/hero-how-sections      | 19d049e   | feat: Minor adjustments on hero and how-it-works sections | Se realizaron ajustes menores en contenido y estilos de las secciones Hero y How it Works. | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/hero-how-sections      | cd2425a   | chore: merge conflict resolved                          | Se resolvieron conflictos de fusión.                                       | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/header-benefits-sections | c1a1169   | feat: add landing-header.vue, about-us.vue and main-benefits.vue | Se agregaron componentes de encabezado, sobre nosotros y beneficios principales. | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/header-benefits-sections | 8abd8f2   | feat: add tracklab-logo.png to assets                    | Se añadió el logo de TrackLab a la carpeta de assets.                      | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/hero-section           | a6e546b   | feat: Creación de hero-section                          | Se creó el componente principal Hero.                                      | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/problem-solution       | bcfe101   | feat: Add problem-solution.vue                          | Se agregó el componente de Problema-Solución.                              | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/choose-plan            | d6e85a0   | feat: Add choose-plan.vue                               | Se desarrolló la sección para elegir planes.                               | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/share-components       | e85e3d3   | feat: Add plan-card.vue                                 | Se agregó el componente de tarjeta de plan (Plan Card).                    | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/folders-structure      | 1c9b6c7   | feat: Add share and sections file                       | Se creó la estructura de carpetas y archivos base.                         | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/assets                 | a7ccc11   | feat: Add truck.png to assets                           | Se añadió la imagen de camión a assets.                                    | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | ci/config                      | 9709808   | ci: stop tracking .vscode folder                        | Se detuvo el seguimiento de la carpeta .vscode.                            | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | main                           | 56f1d03   | ci: add Azure Static Web Apps workflow file             | Archivo de configuración para despliegue automático en Azure Static Web Apps. | 2025-04-21 |
+| UPC-GosTech/tracklab-project      | main                           | e5b231b   | ci: add Azure Static Web Apps workflow file             | Archivo de despliegue inicial agregado.                                    | 2025-04-21 |
+| UPC-GosTech/tracklab-project      | develop                        | 675a44e   | chore: Project setup                                    | Configuración inicial del proyecto TrackLab.                               | 2025-04-20 |
+
+
 ### 5.2.1.5. Execution Evidence for Sprint Review
 
 En el primer sprint, logramos desarrollar parcialmente la implementación del despliegue del landing page. Donde se muestra las diferentes divisiones que el usuario podrá visualizar como lo sería la información sobre el startup y nuestro producto. A continuación mostramos algunas evidencias:
