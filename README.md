@@ -3080,6 +3080,9 @@ A continuación se documentan todas las clases, interfaces y enums del diagrama 
 
 ### 4.8.1. Database Diagram
 
+<div>
+  <p align="center"><img src="assets/md-images/db-diagram/tracklab-db-diagram.png" alt="c3: Execution Context Components.png" width="700px" /></p>
+</div>
 
 # 5. Capítulo V: Product Implementation, Validation & Deployment
 
@@ -3137,9 +3140,11 @@ A continuación, detallaremos la implementación del modelo GitFlow y se proporc
 
 __Repositorios de GitHub:__
 
-- Organización en GitHub
-- Landing Page
-- Frontend Web Application
+- Organización en GitHub: https://github.com/AlumWare
+- Informe: https://github.com/AlumWare/tracklab-project
+- Landing Page: https://github.com/AlumWare/tracklab-landing-page
+- Frontend Web Application: https://github.com/AlumWare/tracklab-frontend
+- Backend: https://github.com/AlumWare/tracklab-backend 
 
 Flujo de Trabajo GitFlow: GitFlow es un modelo de flujo de trabajo para administrar y gestionar branches en un proyecto Git, propuesto por Vincent Driessen, diseñado para facilitar el desarrollo colaborativo.
 
