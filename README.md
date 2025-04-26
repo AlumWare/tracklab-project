@@ -763,12 +763,245 @@ Preguntas Finales y de Retroalimentación
 
 ### 2.2.2. Registro de entrevistas
 
-# FALTA REGISTRO DE ENTREVISTAS
+[**URL del video en Microsoft Stream:** ](https://upcedupe-my.sharepoint.com/personal/u202316118_upc_edu_pe/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fu202316118_upc_edu_pe%2FDocuments%2FWebApps%20-%20Entrevistas&ga=1)
+
+#### Segmento objetivo #1: Empresas logísticas
+
+##### Entrevista 1: George Coronel
+- **Edad:** No especificada  
+- **Marcas de tiempo de entrevista:** 00:00 – 15:41  
+- **Duración:** 15:41  
+- **Screenshot del video:**  
+
+##### Resumen descriptivo de la entrevista:
+George Coronel trabaja como rigger (y ocasional líder de grupo) en la empresa Cosmos, en el proyecto de Pluspetrol. Lidera cuadrillas para maniobras de carga pesada como isajes. La planificación de actividades llega en formato Excel por parte de supervisores, con actualizaciones manuales en papel durante el día.
+
+La falta de digitalización hace que el mal clima y tareas no previstas compliquen la programación diaria. George propone una app móvil o en tablet para registrar actividades en tiempo real, usar sensores IoT para temperatura o vibraciones, y monitorear ubicación del personal por seguridad. Destaca que actualmente todo se maneja en papel y radio, lo cual limita la eficiencia y seguridad.
+
+##### Características objetivas:
+- **Rol:** Rigger / líder de cuadrilla  
+- **Herramientas de trabajo:** Radio, papel, Excel  
+- **Canal de comunicación:** Radio  
+- **Tecnología usada:** Sin software; gestión 100% manual  
+
+##### Características subjetivas:
+- **Personalidad:** Responsable, orientado a seguridad  
+- **Influencias:** Clima, urgencias no programadas, materiales peligrosos  
+- **Necesidades:** Registro digital, sensores de monitoreo, app para planificación móvil  
+- **Disposición a adoptar tecnología:** Muy alta, ve beneficio directo en seguridad
+
+
+##### Entrevista 2: Diego Portocarrero
+- **Edad:** 30
+- **Marcas de tiempo de entrevista:** 00:00 - 7:57
+- **Duracion:** 7:57
+- **Screenshot del video:**  
+
+##### Resumen descriptivo de la entrevista:
+Diego trabaja como gestor de inventario en una empresa del sector minero con operaciones a nivel nacional. Su labor consiste en gestionar las órdenes de pedido, actualmente realizadas por llamadas telefónicas o correo electrónico, métodos que también se emplean para el seguimiento de los envíos.
+
+Menciona diversos problemas en la comunicación, incluyendo:
+-	Respuestas tardías.
+-	Falta de información en tiempo real sobre la ubicación de los pedidos.
+-	Errores frecuentes en el contenido de los envíos.
+  
+Además, indica que no utiliza ningún software especializado, lo que dificulta la eficiencia del proceso. Diego considera que un sistema automatizado permitiría un trabajo más eficiente y dinámico.
+Como parte de su experiencia, destaca incidentes negativos como:
+-	Recepción de pedidos en mal estado.
+-	Errores tanto en el contenido como en la cantidad de productos solicitados.
+
+Respecto a una solución ideal, Diego sugiere incluir en un sistema:
+-	Registro centralizado de órdenes de compra con todos los detalles visibles.
+-	Rastreo en tiempo real del pedido.
+-	Alertas de retrasos o cambios en el pedido.
+-	Dashboards o reportes visuales, por ejemplo:
+o	Porcentaje de cumplimiento de fechas de entrega.
+o	Comparativas entre proveedores (puntuales vs. recurrentemente retrasados).
+
+##### Características objetivas:
+- **Rol:** Gestor de inventario
+- **Herramientas de trabajo:** Correo electrónico, llamadas telefónicas
+- **Canal de comunicación:** Email, teléfono 
+- **Tecnología usada:** No utiliza software especializado  
+- **Conocimiento de IoT:** Órdenes y seguimiento manual, sin automatización
+
+##### Características subjetivas:
+- **Personalidad:** Crítico con los procesos actuales, orientado a la mejora operativa
+- **Influencias:** Ineficiencia del sistema manual actual, errores frecuentes
+- **Necesidades:** Centralización, trazabilidad, visualización de métricas clave
+- **Disposición a adoptar tecnología:** Alta; cree que mejoraría notablemente la eficiencia
+
+##### Entrevista 3: Israel Arenasa
+- **Edad:** No especificada  
+- **Marcas de tiempo de entrevista:** 00:00 – 6:54  
+- **Duracion:** 6:54  
+- **Screenshot del video:**  
+
+##### Resumen descriptivo de la entrevista:
+Israel Arenasa, coordinador logístico de la empresa Petrotank, trabaja en la zona de Bretaña (Órgano 25), dentro del rubro de hidrocarburos. Coordina con contratistas para planificar el tipo y tiempo de llegada de carga, sin usar un software especializado. La empresa evalúa implementar radios y GPS para seguimiento, pero aún no ha adoptado soluciones digitales.
+
+Los principales desafíos son la falta de seguimiento en tiempo real, la geografía fluvial y el clima variable. Israel desea una plataforma que integre información como nave, carga, ruta, y roles del personal, con una interfaz amigable adaptada a usuarios con distintos niveles de experiencia.
+
+Propone una solución en la nube que garantice visibilidad y colaboración entre todos los usuarios. Solicita dashboards con tiempos de entrega, capacidad de carga por viaje y otros indicadores que mejoren la eficiencia y el control de información entre áreas.
+
+##### Características objetivas:
+- **Rol:** Coordinador logístico  
+- **Herramientas de trabajo:** Radio, GPS (en evaluación)  
+- **Canal de comunicación:** Directo con contratistas  
+- **Tecnología usada:** Sin software especializado  
+- **Flujo de trabajo:** Coordinación manual y radial  
+
+##### Características subjetivas:
+- **Personalidad:** Colaborador, abierto a la innovación tecnológica  
+- **Influencias:** Clima y geografía fluvial compleja  
+- **Necesidades:** Seguimiento en tiempo real, registro detallado de carga y personal  
+- **Disposición a adoptar tecnología:** Alta; valora centralización y acceso colaborativo
+
+#### Segmento objetivo #2: Empresas cliente (B2B)
+
+##### Entrevista 4: Pedro Horna
+- **Edad:** No especificada  
+- **Marcas de tiempo de entrevista:** 00:00 – 18:17  
+- **Duracion:** 18:17  
+- **Screenshot del video:**  
+
+##### Resumen descriptivo de la entrevista:
+Pedro Horna lidera un proyecto logístico en una zona remota para una empresa petrolera. Gestionan actividades aéreas y fluviales con planificación en Excel con macros. El registro de ejecución se transfiere manualmente a bases de datos. La alta variabilidad por clima y fallas técnicas obliga a reprogramar constantemente, afectando tiempos y generando frustración.
+
+Pedro valora un sistema que parametrice las solicitudes desde el inicio, minimizando la necesidad de revalidaciones. También considera clave integrar sensores IoT en equipos como grúas y lanchas para obtener datos de temperatura, velocidad y vibraciones. Busca que el sistema soporte análisis de brechas entre lo planificado y lo ejecutado.
+
+##### Características objetivas:
+- **Rol:** Gestor logístico de proyecto  
+- **Herramientas de trabajo:** Excel con macros, radio, base de datos  
+- **Canal de comunicación:** Radio  
+- **Tecnología usada:** Sin software especializado; soluciones internas limitadas  
+
+##### Características subjetivas:
+- **Personalidad:** Metódico, orientado al análisis  
+- **Influencias:** Entornos remotos, clima, precisión de datos  
+- **Necesidades:** Parametrización de solicitudes, trazabilidad de ejecución, sensores conectados  
+- **Disposición a adoptar tecnología:** Alta; busca personalización total
+
+##### Entrevista 5: Cristel Lavado
+- **Edad:** No especificada  
+- **Marcas de tiempo de entrevista:** 00:00 – 7:57  
+- **Duracion:** 7:57  
+- **Screenshot del video:**  
+
+##### Resumen descriptivo de la entrevista:
+Cristel trabaja en logística interna y externa en Malvinas, gestionando carga fluvial y aérea. El control se realiza con checklist físicos y consolidación de datos en Excel. Las órdenes de traslado llegan por correo y se procesan manualmente, lo cual genera errores frecuentes por volumen de paquetes.
+
+Cristel propone un software donde cada empresa tenga un usuario, pueda registrar sus pedidos con detalles (fragilidad, manipulación, destino, empresa solicitante, etc.) y obtener confirmaciones en tiempo real. Espera que esto optimice tiempos y reduzca errores, mejorando la imagen de la empresa frente al cliente.
+
+##### Características objetivas:
+- **Rol:** Encargada de logística interna y externa  
+- **Herramientas de trabajo:** Checklist físico, Excel  
+- **Canal de comunicación:** Correo  
+- **Tecnología usada:** Sin software especializado  
+
+##### Características subjetivas:
+- **Personalidad:** Organizada, comprometida con eficiencia  
+- **Influencias:** Alta carga operativa, variedad de métodos de transporte  
+- **Necesidades:** Plataforma colaborativa, detalle de pedidos, estados del envío  
+- **Disposición a adoptar tecnología:** Alta; busca justificar con resultados tangibles
+
+##### Entrevista 6: Kathya Salas
+
 
 ### 2.2.3. Análisis de entrevistas
+**Segmento objetivo #1: Empresas Logísticas (B2B – Proveedor de servicios)**  
+#### Características Objetivas:
+1. **Herramientas utilizadas**:
+   - La planificación y coordinación operativa se realiza principalmente a través de **Excel**, **correo electrónico**, **radio** y **WhatsApp**.
+   - No existen plataformas integradas ni herramientas digitales específicas para la gestión de operaciones, monitoreo de rutas o solicitudes de servicio.
+   - El registro de tareas y actividades se hace en hojas de cálculo independientes o en papel, generando duplicidad de trabajo.
 
-# FALTA ANALISIS DE ENTREVISTAS
+2. **Tiempo dedicado**:
+   - La planificación logística toma **2 a 4 horas semanales**, con una dedicación diaria a la replanificación ante imprevistos.
+   - Las desviaciones e imprevistos afectan entre un **30% y un 40%** de la planificación semanal.
+   - La coordinación de recursos (botes, motores, personal, combustible) requiere contacto frecuente y validación por teléfono o presencialmente.
 
+3. **Reportes y métricas**:
+   - Se realizan reportes sobre **tiempos de viaje**, **capacidad de carga**, **consumo de combustible**, y **horas hombre trabajadas**.
+   - Los reportes se generan **manualmente**, muchas veces con inconsistencias o con datos incompletos debido a la falta de conectividad.
+   - **No existe trazabilidad digital** de las cargas ni visibilidad sobre el estado de las solicitudes en tiempo real.
+
+#### Características Subjetivas:
+1. **Desafíos operativos**:
+   - Gran dificultad para reaccionar a imprevistos (ej. mal clima, crecida de ríos, cambio de prioridad) sin rehacer toda la planificación.
+   - Problemas de comunicación entre áreas y con el cliente, generando cuellos de botella en la asignación de recursos.
+   - No hay claridad ni transparencia respecto al estado de las tareas; esto aumenta la carga operativa y el riesgo de errores humanos.
+
+2. **Satisfacción con el sistema actual**:
+   - Los entrevistados están **insatisfechos** con la forma actual de gestionar las solicitudes: todo pasa por validaciones verbales o correos, sin trazabilidad.
+   - Los métodos manuales **duplican el trabajo** y aumentan el margen de error.
+   - Se mencionó la **necesidad urgente** de automatizar solicitudes, validaciones y generación de reportes.
+
+3. **Expectativas sobre nuevas tecnologías**:
+   - Alto interés en soluciones que funcionen **offline** y permitan el **registro digital desde campo**.
+   - Interés en:
+     - Seguimiento **GPS** de botes y activos.
+     - Registro de entregas y horas hombre mediante app.
+     - Plataforma web que centralice solicitudes, planificación, ejecución y monitoreo.
+   - La adopción tecnológica se ve posible siempre que la solución sea **simple y robusta ante cortes de conectividad**.
+
+**Segmento objetivo #2: Empresas Cliente (B2B – Solicitan servicios logísticos)**  
+#### Características Objetivas:
+1. **Herramientas utilizadas**:
+   - Utilizan **Excel**, **correo electrónico** y **WhatsApp** para coordinar con empresas logísticas.
+   - Los formularios o solicitudes se hacen vía correo o mensajes con archivos adjuntos (no hay una plataforma de registro o seguimiento).
+   - Cada empresa cliente lleva su propio control interno, pero no recibe información automatizada del proveedor.
+
+2. **Tiempo dedicado**:
+   - El tiempo de gestión logística varía, pero puede tomar hasta **1 hora por solicitud** dependiendo del nivel de validación y la urgencia.
+   - Cuando hay cambios (clima, acceso, prioridades), deben volver a coordinar desde cero, llamando o escribiendo al proveedor.
+
+3. **Reportes y métricas**:
+   - No reciben reportes automáticos ni trazabilidad de sus cargas.
+   - La validación de entregas o tareas ejecutadas depende del reporte del proveedor o de verificaciones cruzadas con los supervisores de campo.
+   - No existe un dashboard ni visualización digital del estado de sus solicitudes.
+
+#### Características Subjetivas:
+1. **Desafíos operativos**:
+   - **Falta de visibilidad y trazabilidad**: las empresas cliente no saben con claridad cuándo se ejecutará una tarea o si ya fue completada.
+   - **Demoras en la validación y ejecución**: cualquier cambio implica llamadas, validaciones y ajustes que consumen tiempo valioso.
+   - Las solicitudes urgentes dependen de la disponibilidad de quien las reciba, lo que genera frustración si no hay respuesta inmediata.
+
+2. **Satisfacción con el sistema actual**:
+   - **Baja satisfacción** por la poca transparencia del servicio y la ausencia de trazabilidad.
+   - Les gustaría poder:
+     - Registrar solicitudes en un sistema central.
+     - Ver el avance de las tareas asignadas.
+     - Tener una confirmación clara y oportuna de lo ejecutado.
+
+3. **Expectativas sobre nuevas tecnologías**:
+   - Desean un sistema que permita:
+     - Registrar requerimientos logísticos directamente.
+     - Visualizar el estado de sus cargas, recursos o tareas asignadas.
+     - Recibir reportes automáticos o notificaciones de cambios, ejecución o entrega.
+   - Se mostraron abiertos a plataformas web o apps si facilitan la comunicación y reducen los pasos intermedios.
+
+---
+
+### Conclusión del análisis
+
+El análisis de las entrevistas revela una serie de características comunes que afectan la planificación, coordinación y ejecución de las actividades logísticas en ambos segmentos. Las principales dificultades identificadas incluyen:
+
+1. **Dependencia de herramientas dispersas y procesos manuales**:  
+   El uso predominante de **Excel**, **correo electrónico**, **llamadas telefónicas** y **WhatsApp** genera una carga operativa considerable. La falta de una plataforma centralizada impide automatizar tareas clave como la recepción de solicitudes, la asignación de recursos y la elaboración de reportes, afectando la eficiencia general de la operación.
+
+2. **Alta volatilidad operativa por factores externos e internos**:  
+   Entre un **30% y 40%** de las actividades se ve afectado por eventos no planificados como condiciones climáticas adversas, crecidas de río o cambios en las prioridades de los clientes. Esta inestabilidad obliga a una replanificación frecuente, muchas veces sin información actualizada sobre la disponibilidad de recursos, lo que incrementa la complejidad y los riesgos operativos.
+
+3. **La falta de trazabilidad y visibilidad**:  
+   Las empresas cliente no tienen acceso a información en tiempo real sobre sus solicitudes, lo que genera incertidumbre, retrabajo y dependencia de múltiples validaciones informales. Por su parte, las empresas logísticas también carecen de herramientas que les permitan monitorear el progreso de las tareas desde el campo, especialmente en zonas sin conectividad.
+
+4. **Los problemas de comunicación entre actores**:  
+   Tanto clientes como operadores logísticos enfrentan barreras en la coordinación efectiva. Las solicitudes suelen depender de personas específicas y canales no estandarizados, lo que genera cuellos de botella y confusiones en la ejecución de los servicios.
+
+5. **Apertura a la transformación digital**: Ambos segmentos demuestran una fuerte disposición para incorporar **soluciones tecnológicas** que centralicen la gestión logística, agilicen el registro de solicitudes, permitan monitorear el progreso de las operaciones y generen reportes automáticos. Se destaca la importancia de contar con una herramienta **intuitiva**, **adaptable a contextos con baja conectividad** y con **funcionalidad offline** para garantizar la continuidad operativa en zonas remotas.
+
+Este análisis considera tanto características **objetivas** (tiempos dedicados, herramientas utilizadas, métricas) como características **subjetivas** (dificultades operativas, nivel de satisfacción y expectativas), proporcionando una base robusta para el diseño de soluciones digitales y la construcción de **arquetipos de usuario** que respondan a las necesidades reales de ambos.
 
 ## 2.3. Needfinding
 
