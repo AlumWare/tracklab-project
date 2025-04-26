@@ -3358,6 +3358,13 @@ En este sprint se busca completar la landing page de TrackLab,   incluyendo el d
 
 ### 5.2.1.5. Execution Evidence for Sprint Review
 
+En el primer sprint, logramos desarrollar parcialmente la implementación del despliegue del landing page. Donde se muestra las diferentes divisiones que el usuario podrá visualizar como lo sería la información sobre el startup y nuestro producto. A continuación mostramos algunas evidencias:
+
+- Sección Sobre Nosotros (About Us): En esta sección, damos al usuario una introducción sobre nosotros y nuestro producto, TrackLab.   
+- Sección Funcionamiento (¿Cómo funciona TrackLab?): En esta sección, el usuario puede enterarse del funcionamiento de nuestro producto a través de un video informativo y una pequeña guía de cómo registrarse.   
+- Sección Plan: En esta sección, ofrecemos al usuario diferentes planes en los que se puede suscribir.   
+- Sección Contacto: En esta sección, el usuario puede ingresar sus datos para poder consultarnos algunas dudas que tenga. Además, proveemos nuestro correo, teléfono y redes sociales como otra alternativa de contacto.   
+
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 Durante este Sprint no se desarrollaron ni documentaron Web Services, dado que el enfoque principal estuvo en la implementación de la Landing Page como primer entregable del sistema. Por lo tanto, no se cuenta con endpoints disponibles ni documentación generada en OpenAPI en esta etapa del proyecto.
