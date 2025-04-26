@@ -37,6 +37,7 @@
 | --------- | ---------- | ------- | ----------------------------- |
 | 1.0       | 06/04/2025 | Iglesias Pérez, Sergio Sebastián | Creación del repositorio |
 | 1.1       | 13/04/2025 | Roman Cruz, Natalia Bertha       | Capítulos I (sin entrevistas), Capítulo II (ubiquitous language) y Capítulo 3 (hasta 3.2) |
+| 1.2       | 26/04/2025 | Baldeón, Céspedes, Iglesias, Roman, Solano   | Implementación de los capítulos IV y V - Entrevistas, Ubiquitous anguage y Capítulo III completados |
 
 ---
 
@@ -3745,3 +3746,10 @@ Esan. (s.f.). Los problemas más comunes en la distribución física de producto
 Superintendencia Nacional de Aduanas y de Administración Tributaria (SUNAT). (2023). Estudio de tiempos de despacho - Perú 2023: Informe. https://cdn.www.gob.pe/uploads/document/file/5402455/4763608-estudio-de-tiempos-de-despacho-peru-2023-informe.pdf
 
 # 8. Anexos 
+
+Para acceder a los diferentes recursos del proyecto, puedes visitar los siguientes enlaces:
+
+- Video exposición TB1: [https://youtu.be/BFcNvl_Vn40](https://youtu.be/BFcNvl_Vn40)
+- Landing Page desplegado del proyecto: [https://purple-bay-07e3cfa0f.6.azurestaticapps.net](https://purple-bay-07e3cfa0f.6.azurestaticapps.net)
+- Repositorio de la Landing Page: [https://github.com/AlumWare/tracklab-landing-page](https://github.com/AlumWare/tracklab-landing-page)
+- Documentación del Proyecto: [https://github.com/AlumWare/tracklab-project](https://github.com/AlumWare/tracklab-project)
