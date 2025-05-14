@@ -97,9 +97,9 @@ __TB1__
 __TP__
 
 <div>
-  <p><img src="assets/md-images/commits-readme TP.png" alt="Network Graph TP" width="700px" /></p>
+  <p><img src="assets/md-images/commits - readme TP.png" alt="Network Graph TP" width="700px" /></p>
 </div>
- <p><img src="assets/md-images/graficos-readme TP.png" alt="Network Graph TP" width="700px" /></p>
+ <p><img src="assets/md-images/graficos - readme TP.png" alt="Network Graph TP" width="700px" /></p>
 <div>
   
 </div>
