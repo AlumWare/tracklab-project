@@ -38,6 +38,7 @@
 | 1.0       | 06/04/2025 | Iglesias Pérez, Sergio Sebastián | Creación del repositorio |
 | 1.1       | 13/04/2025 | Roman Cruz, Natalia Bertha       | Capítulos I (sin entrevistas), Capítulo II (ubiquitous language) y Capítulo 3 (hasta 3.2) |
 | 1.2       | 25/04/2025 | Céspedes, Baldeón, Iglesias, Roman, Solano| Implementación de los capítulos IV y V - Entrevistas, Ubiquitous anguage y Capítulo III completados|
+| 1.3       | 13/05/2025 | Céspedes, Baldeón, Iglesias, Roman, Solano| Capítulo V complerado - sprint II junto a evidencias |
 
 ---
 
@@ -93,6 +94,15 @@ __TB1__
   <p><img src="assets/md-images/graficos-readme.png" alt="Network Graph TB1" width="700px" /></p>
 </div>
 
+__TP__
+
+<div>
+  
+</div>
+
+<div>
+  
+</div>
 ---
 
 ## Students Outcomes
