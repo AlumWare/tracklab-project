@@ -3736,6 +3736,411 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 
 Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente con participación de todos los miembros del equipo.
 
+### 5.2.2. Sprint 2
+
+### 5.2.2.1. Sprint Planning 2
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Sprint #</th>
+      <td>Sprint 2</td>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <td>2024-05-01</td>
+    </tr>
+    <tr>
+      <th>Time</th>
+      <td>10:30 PM</td>
+    </tr>
+    <tr>
+      <th>Location</th>
+      <td>Reunión virtual a través de Discord</td>
+    </tr>
+    <tr>
+      <th>Prepared by</th>
+      <td>Roman Cruz, Natalia Bertha e Iglesias Pérez, Sergio Sebastián</td>
+    </tr>
+    <tr>
+      <th>Attendees (to planning meeting)</th>
+      <td>Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando y Céspedes Pillco, Jarod Jack</td>
+    </tr>
+    <tr>
+      <th>Sprint 1 Review Summary</th>
+      <td>In the previous sprint, we focused on deploying our Landing Page. To achieve this, we divided tasks and gave ourselves a deadline, so we could agilize the correct creation and deployment of the Landing Page.</td>
+    </tr>
+    <tr>
+      <th>Sprint 2 Goal</th>
+      <td>Our focues is on deploying the first version of our application frontend. We believe that we’ll accomplish a good frontend for our users to enjoy.</td>
+    </tr>
+    <tr>
+      <th>Sprint 2 Velocity</th>
+      <td>20 story points</td>
+    </tr>
+    <tr>
+      <th>Sum of Story Points</th>
+      <td>20 story points</td>
+    </tr>
+  </table>
+</div>
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+En este sprint se busca crear una primera versión del frontend de nuestr aplicación, TrackLab. Para lograr una buena comunicación y un buen desarrollo de las tareas a hacer, hemos creado una matriz de liderazgo y colaboración (LACX), en donde se define quién lidera y quién colabora en cada aspecto del sprint.
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>Diseño TrackLab Frontend</th>
+      <th>Despliegue TrackLab Frontend</th>
+    </tr>
+    <tr>
+      <td>Roma Cruz, Natalia Bertha</td>
+      <td>natRC2005</td>
+      <td align="center">C</td>
+      <td align="center">L</td>
+    </tr>
+    <tr>
+      <td>Solano Armas, Angelo Héctor</td>
+      <td>Angelo5214</td>
+      <td align="center">C</td>
+      <td align="center">C</td>
+    </tr>
+    <tr>
+      <td>Iglesias Pérez, Sergio Sebastián</td>
+      <td>ghostrider101218</td>
+      <td align="center">L</td>
+      <td align="center">C</td>
+    </tr>
+    <tr>
+      <td>Baldeon Vivar, Santiago Armando</td>
+      <td>Santibal11</td>
+      <td align="center">C</td>
+      <td align="center">C</td>
+    </tr>
+    <tr>
+      <td>Céspedes Pillco, Jarod Jack</td>
+      <td>PruebaJJC</td>
+      <td align="center">C</td>
+      <td align="center">C</td>
+    </tr>
+  </table>
+</div>
+
+### 5.2.2.3. Sprint Backlog 2
+
+El objetivo principal del Sprint 2 es desarrollar y desplegar una primera versión del frontend de nuestro proyecto TrackLab. A continuación se muestra una captura de algunos de los componentes que se buscan trabajar en este Sprint con su código correspondiente y estado.
+
+<div align="center">
+  <img src="unknown" alt="jira-backlog.png" width="550px" height="300px">
+</div>
+
+<div align="center">
+  <table>
+    <!-- <tr></tr>: para filas -->
+    <!-- <th></th>: columna cabecera, usualmente se usa dentro de <tr> -->
+    <!-- <td></td>: columna normal, usualmente se usa dentro de <tr> -->
+    <tr>
+      <th>Sprint #</th>
+      <th>User Story ID</th>
+      <th>User Story Title</th>
+      <th>Task ID</th>
+      <th>Task Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+      <th>Story Points</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</div>
+
+### 5.2.2.4. Development Evidence for Sprint Review
+
+En esta sección presentamos los avances en la implementación de la solución, específicamente en el desarrollo del frontend correspondiente al alcance del Sprint actual.
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>TRAC-18-i-18-n-setup</td>
+      <td>a4944ce</td>
+      <td>chore: i18n setup</td>
+      <td>Setup del i18n completado</td>
+      <td>2025-05-04</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>TRAC-12-creacion-del-componente-payment-card</td>
+      <td>7a64f32</td>
+      <td>feat: complete payment card component</td>
+      <td>Creación del componente Payment Card</td>
+      <td>2025-05-04</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>TRAC-19-creacion-de-la-vista-subscription-plan</td>
+      <td>fcad5af</td>
+      <td>chore: complete subscription-plan</td>
+      <td>Creación de la vista Subscription Plan</td>
+      <td>2025-05-04</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>TRAC-26-login-view</td>
+      <td>b71ed98</td>
+      <td>feat: add login view</td>
+      <td>Creación del Login View</td>
+      <td>2025-05-10</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>TRAC-29-client-order-list-view</td>
+      <td>6cbed9f</td>
+      <td>feat: add view client order list</td>
+      <td>Creación del Client Order List View</td>
+      <td>2025-05-10</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>TRAC-41-register-company-view</td>
+      <td>52af2a8</td>
+      <td>feat: formulario de registro de empresa con validaciones</td>
+      <td>Creación del formulario de Register Company View</td>
+      <td>2025-05-11</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>TRAC-31-admin-user-management-view</td>
+      <td>4b35805</td>
+      <td>feat: creación completa de la vista de administración de usuarios</td>
+      <td>Creación del Admin User Management View</td>
+      <td>2025-05-11</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>TRAC-32-vehicle-management-view</td>
+      <td>627d094</td>
+      <td>feat: creacion del elemento VehicleManagementView</td>
+      <td>Creación del Vehicle Management View</td>
+      <td>2025-05-11</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>TRAC-14-creacion-de-la-entidad-employee</td>
+      <td>5635f36</td>
+      <td>feat: crear entidad Employee con métodos y estados</td>
+      <td>Creación del Employee Entity</td>
+      <td>2025-05-11</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>TRAC-15-creacion-de-la-entidad-vehicle</td>
+      <td>b774aca</td>
+      <td>feat(TRAC-15): creación de la entidad Vehicle con estructura y métodos</td>
+      <td>Creación de Vehicle Entity</td>
+      <td>2025-05-11</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>TRAC-30-client-order-detail-view</td>
+      <td>4af28bb</td>
+      <td>feat: add Client order details view</td>
+      <td>Creación del Client Order Detail View</td>
+      <td>2025-05-11</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>TRAC-28-client-order-creation-view</td>
+      <td>ec56144</td>
+      <td>feat: vista de creación de orden de cliente (TRAC-28)</td>
+      <td>Creación del Client Order Creation View</td>
+      <td>2025-05-11</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>TRAC-36-operation-history-view</td>
+      <td>f8cb713</td>
+      <td>feat: add view Operation History</td>
+      <td></td>
+      <td>2025-05-11</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>feature/main-layout</td>
+      <td>9669ad0</td>
+      <td>N/A</td>
+      <td>Main Layout Merge</td>
+      <td>2025-05-12</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>TRAC-33-warehouse-management-view</td>
+      <td>fb61337</td>
+      <td>feat: agregar vista y estilos de gestión de almacenes</td>
+      <td>Creación del Warehouse Management View</td>
+      <td>2025-05-12</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>TRAC-34-route-planning-view</td>
+      <td>c5a6994</td>
+      <td>feat(TRAC-34): ajustes en la vista de planificación de rutas</td>
+      <td>Creación del Route Planning View</td>
+      <td>2025-05-12</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>fixture/home</td>
+      <td>dd62c71</td>
+      <td>add home view</td>
+      <td>Agregado del Home View</td>
+      <td>2025-05-13</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>TRAC-38-container-detail-view</td>
+      <td>d7fc836</td>
+      <td>feat(TRAC-38): container detail view implementation</td>
+      <td>Creación del Container Detail View</td>
+      <td>2025-05-13</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-frontend</td>
+      <td>TRAC-35-operation-execution-view</td>
+      <td>90c4775</td>
+      <td>feat(TRAC-35): operation execution view implementation</td>
+      <td>Creación del Operation Execution View</td>
+      <td>2025-05-13</td>
+    </tr>
+  </table>
+</div>
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+
+En el segundo sprint, logramos desarrollar la primera versión del frontend de TrackLab. Donde se muestras las diferentes funcionalidades con las que los usuarios podrán visualizar e interactuar. A continuación mostraremos algunas evidencias:
+
+- **Vista de Login (Login View):** En esta sección el usuario podrá ingresar sus credenciales e ingresar a su cuenta.
+
+<div align="center">
+  <img src="unknown" alt="login-view.png" width="550px" height="300px">
+</div>
+
+- **Vista de Registro de Compañía (Register Company View):** Esta sección es un formulario donde el usuario registra su compañía y crea una cuenta con ella.
+
+<div align="center">
+  <img src="unknown" alt="register-company-view.png" width="550px" height="300px">
+</div>
+
+- **Vista de Creación de Órdenes (Client Order Creation View):** En esta sección el cliente peude crear uan order siguiendo una serie de pasos.
+
+<div align="center">
+  <img src="unknown" alt="client-order-creation-view.png" width="550px" height="300px">
+</div>
+
+- **Vista de Lista de Órdenes del Cliente (Client Order List View):** En esta sección el cliente puede ver todas las órdenes que ha hecho, con su estado actual y barra de progreso.
+
+<div align="center">
+  <img src="unknown" alt="client-order-list-view.png" width="550px" height="300px">
+</div>
+
+- **Vista de Gestión del Usuario Administrador (Admin User Management View):** Aquí el usuario puede visualizar una lista de usuarios de la empresa logística.
+
+<div align="center">
+  <img src="unknown" alt="admin-user-management-view.png" width="550px" height="300px">
+</div>
+
+- **Vista de Gestión de Vehículos (Vehicle Management View):** Aquí el usuario puede ver los vehículos que su empresa tiene a disposición con datos como placa, modelo y estado.
+
+<div align="center">
+  <img src="unknown" alt="vehicle-management-view.png" width="550px" height="300px">
+</div>
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+A continuación proporcionaremos algunas evidencias del despliegue de esta primera versión del frontend de nuestro proyecto TrackLab:
+
+<div align="center"> <!-- Tal vez se añada más de una foto... -->
+  <img src="unknown" alt="frontend-deployment-evidence-a.png" width="550px" height="300px">
+  <img src="unknown" alt="frontend-deployment-evidence-b.png" width="550px" height="300px">
+  <!-- ... -->
+</div>
+
+### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la primera versión del frontend de nuestro proyecto TrackLab, dividiéndose por secciones según la vista y funcionalidad definida previamente.   
+A continuación, se detalla la participación específica de cada integrante del equipo:
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Nombre</th>
+      <th>Actividades</th>
+    </tr>
+    <tr>
+      <td>Roman Cruz, Natalia Bertha</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Solano Armas, Angelo Héctor</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Iglesias Pérez, Sergio Sebastián</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Céspedes Pillco, Jarod Jack</td>
+      <td></td>
+    </tr>
+  </table>
+</div>
+
+> **Nota:** Algunos integrantes colaboraron en secciones compartidas para asegurar consistencia en diseño y funcionalidad.
+
+##### Evidencia de Colaboración en GitHub:
+
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+<div align="center">
+  <img src="unknown" alt="team-collaboration.png" width="550px" height="450px">
+</div>
+
+##### Repositorio del trabajo:
+
+- [Repositorio del frontend en GitHub](https://github.com/AlumWare/tracklab-frontend)
+
+Como se evidencia, el equipo ha trabajado colaborativamente, respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente como participación de todos los miembros del equipo.
+
 # 6. Conclusiones
 
 ## 6.1. Conclusiones
