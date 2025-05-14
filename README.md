@@ -3835,37 +3835,121 @@ En este sprint se busca crear una primera versión del frontend de nuestr aplica
 El objetivo principal del Sprint 2 es desarrollar y desplegar una primera versión del frontend de nuestro proyecto TrackLab. A continuación se muestra una captura de algunos de los componentes que se buscan trabajar en este Sprint con su código correspondiente y estado.
 
 <div align="center">
-  <img src="unknown" alt="jira-backlog.png" width="550px" height="300px">
-</div>
-
-<div align="center">
   <table>
     <!-- <tr></tr>: para filas -->
     <!-- <th></th>: columna cabecera, usualmente se usa dentro de <tr> -->
     <!-- <td></td>: columna normal, usualmente se usa dentro de <tr> -->
     <tr>
       <th>Sprint #</th>
-      <th>User Story ID</th>
-      <th>User Story Title</th>
       <th>Task ID</th>
       <th>Task Title</th>
-      <th>Description</th>
-      <th>Estimation (Hours)</th>
       <th>Assigned To</th>
       <th>Status</th>
-      <th>Story Points</th>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Sprint 2</td>
+      <td>T01</td>
+      <td>LoginView</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>T02</td>
+      <td>RegisterCompanyView</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>T03</td>
+      <td>ClientOrderCreationView</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>T04</td>
+      <td>ClientOrderListView</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>T05</td>
+      <td>ClientOrderDetailView</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>T06</td>
+      <td>AdminUserManagementView</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>T07</td>
+      <td>VehicleManagementView</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>T08</td>
+      <td>WarehouseManagementView</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>T09</td>
+      <td>RoutePlanningView</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>T10</td>
+      <td>OperationExecutionView</td>
+      <td>Céspedes Pillco, Jarod Jack</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>T11</td>
+      <td>OperationHistoryView</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>T12</td>
+      <td>LogisticOrderDetailView</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>T13</td>
+      <td>ContainerDetailView</td>
+      <td>Céspedes Pillco, Jarod Jack</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>T14</td>
+      <td>TrackingView</td>
+      <td>Iglesias Perez, Sergio Sebastian</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>T15</td>
+      <td>DashboardView</td>
+      <td>Iglesias Perez, Sergio Sebastian</td>
+      <td>Done</td>
     </tr>
   </table>
 </div>
@@ -3985,7 +4069,7 @@ En esta sección presentamos los avances en la implementación de la solución, 
       <td>TRAC-36-operation-history-view</td>
       <td>f8cb713</td>
       <td>feat: add view Operation History</td>
-      <td></td>
+      <td>Creación del Operation History View</td>
       <td>2025-05-11</td>
     </tr>
     <tr>
@@ -4046,54 +4130,79 @@ En el segundo sprint, logramos desarrollar la primera versión del frontend de T
 - **Vista de Login (Login View):** En esta sección el usuario podrá ingresar sus credenciales e ingresar a su cuenta.
 
 <div align="center">
-  <img src="unknown" alt="login-view.png" width="550px" height="300px">
+  <img src="assets/md-images/login-view.png" alt="login-view.png" width="700px">
 </div>
 
 - **Vista de Registro de Compañía (Register Company View):** Esta sección es un formulario donde el usuario registra su compañía y crea una cuenta con ella.
 
 <div align="center">
-  <img src="unknown" alt="register-company-view.png" width="550px" height="300px">
+  <img src="assets/md-images/register-company-view.png" alt="register-company-view.png" width="700px">
 </div>
 
 - **Vista de Creación de Órdenes (Client Order Creation View):** En esta sección el cliente peude crear uan order siguiendo una serie de pasos.
 
 <div align="center">
-  <img src="unknown" alt="client-order-creation-view.png" width="550px" height="300px">
+  <img src="assets/md-images/client-order-creation-view.png" alt="client-order-creation-view.png" width="700px">
 </div>
 
 - **Vista de Lista de Órdenes del Cliente (Client Order List View):** En esta sección el cliente puede ver todas las órdenes que ha hecho, con su estado actual y barra de progreso.
 
 <div align="center">
-  <img src="unknown" alt="client-order-list-view.png" width="550px" height="300px">
+  <img src="assets/md-images/client-order-list-view.png" alt="client-order-list-view.png" width="700px">
 </div>
 
 - **Vista de Gestión del Usuario Administrador (Admin User Management View):** Aquí el usuario puede visualizar una lista de usuarios de la empresa logística.
 
 <div align="center">
-  <img src="unknown" alt="admin-user-management-view.png" width="550px" height="300px">
+  <img src="assets/md-images/admin-user-management-view.png" alt="admin-user-management-view.png" width="700px">
 </div>
 
 - **Vista de Gestión de Vehículos (Vehicle Management View):** Aquí el usuario puede ver los vehículos que su empresa tiene a disposición con datos como placa, modelo y estado.
 
 <div align="center">
-  <img src="unknown" alt="vehicle-management-view.png" width="550px" height="300px">
+  <img src="assets/md-images/vehicle-management-view.png" alt="vehicle-management-view.png" width="700px">
 </div>
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
+Durante este Sprint no se desarrollaron ni documentaron Web Services, dado que el enfoque principal estuvo en la implementación del FrontEnd de la Aplicación Web, con todas sus vistas. Por lo tanto, no se cuenta con endpoints disponibles ni documentación generada en OpenAPI en esta etapa del proyecto.   
+
+La documentación de servicios será considerada en los siguientes Sprints, una vez que se inicie el desarrollo del backend y se establezca la estructura básica de la API que permitirá la integración con las vistas web implementadas.
+
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-A continuación proporcionaremos algunas evidencias del despliegue de esta primera versión del frontend de nuestro proyecto TrackLab:
+Durante este Sprint se logró desplegar con éxito la aplicación web de SwiftPort en Azure Static Web Apps, siguiendo un enfoque incremental que permite entregar nuevas funcionalidades de forma continua.
+A continuación proporcionaremos algunas evidencias del proceso de despliegue de esta primera versión del frontend de nuestro proyecto TrackLab:
+
+a. **Crear nuevo recurso SPA dentro de mismo grupo de recursos**
 
 <div align="center">
   <img src="assets/md-images/frontend-deployment-evidence-a.png" alt="frontend-deployment-evidence-a.png" width="700px">
+</div>
+
+b. **Selección de plan gratuito y configuraciones**
+
+<div align="center">
   <img src="assets/md-images/frontend-deployment-evidence-b.png" alt="frontend-deployment-evidence-b.png" width="700px">
+</div>
+
+c. **Enlace con GitHub y flujo CI/CD**
+
+<div align="center">
   <img src="assets/md-images/frontend-deployment-evidence-c.png" alt="frontend-deployment-evidence-c.png" width="700px">
+</div>
+
+<div align="center">
   <img src="assets/md-images/frontend-deployment-evidence-d.png" alt="frontend-deployment-evidence-d.png" width="700px">
+</div>
+
+d. **Confirmación de despliegue y acceso al dominio**
+
+<div align="center">
   <img src="assets/md-images/frontend-deployment-evidence-e.png" alt="frontend-deployment-evidence-e.png" width="700px">
 </div>
 
-### 5.2.2.8. Team Collaboration Insights during Sprint
+### 5.2.2.8. Team Collaboration Insights during Sprint 2
 
 Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la primera versión del frontend de nuestro proyecto TrackLab, dividiéndose por secciones según la vista y funcionalidad definida previamente.   
 A continuación, se detalla la participación específica de cada integrante del equipo:
@@ -4106,23 +4215,23 @@ A continuación, se detalla la participación específica de cada integrante del
     </tr>
     <tr>
       <td>Roman Cruz, Natalia Bertha</td>
-      <td></td>
+      <td>Implementación de vistas "Subcription Plan View" y "User Register View"</td>
     </tr>
     <tr>
       <td>Solano Armas, Angelo Héctor</td>
-      <td></td>
+      <td>Implementación de vistas "Register Company View", "Admin User Management View" y "Vehicle Management View"</td>
     </tr>
     <tr>
       <td>Iglesias Pérez, Sergio Sebastián</td>
-      <td></td>
+      <td>Implementación de vistas "Tracking View" y "Dashboard View"</td>
     </tr>
     <tr>
       <td>Baldeón Vivar, Santiago Armando</td>
-      <td></td>
+      <td>Implementación de vistas "Login View", "Client Order Creation View" y "Client Order List View"</td>
     </tr>
     <tr>
       <td>Céspedes Pillco, Jarod Jack</td>
-      <td></td>
+      <td>Implementación de vistas "Operation Execution View" y "Container Detail View"</td>
     </tr>
   </table>
 </div>
