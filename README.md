@@ -4085,10 +4085,12 @@ En el segundo sprint, logramos desarrollar la primera versión del frontend de T
 
 A continuación proporcionaremos algunas evidencias del despliegue de esta primera versión del frontend de nuestro proyecto TrackLab:
 
-<div align="center"> <!-- Tal vez se añada más de una foto... -->
-  <img src="unknown" alt="frontend-deployment-evidence-a.png" width="550px" height="300px">
-  <img src="unknown" alt="frontend-deployment-evidence-b.png" width="550px" height="300px">
-  <!-- ... -->
+<div align="center">
+  <img src="assets/md-images/frontend-deployment-evidence-a.png" alt="frontend-deployment-evidence-a.png" width="700px">
+  <img src="assets/md-images/frontend-deployment-evidence-b.png" alt="frontend-deployment-evidence-b.png" width="700px">
+  <img src="assets/md-images/frontend-deployment-evidence-c.png" alt="frontend-deployment-evidence-c.png" width="700px">
+  <img src="assets/md-images/frontend-deployment-evidence-d.png" alt="frontend-deployment-evidence-d.png" width="700px">
+  <img src="assets/md-images/frontend-deployment-evidence-e.png" alt="frontend-deployment-evidence-e.png" width="700px">
 </div>
 
 ### 5.2.2.8. Team Collaboration Insights during Sprint
@@ -4132,7 +4134,7 @@ A continuación, se detalla la participación específica de cada integrante del
 A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
 
 <div align="center">
-  <img src="unknown" alt="team-collaboration.png" width="550px" height="450px">
+  <img src="assets/md-images/team-collaboration-graphics-sprint-2.png" alt="team-collaboration-sprint-2.png" width="700px">
 </div>
 
 ##### Repositorio del trabajo:
