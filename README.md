@@ -4376,6 +4376,58 @@ __Planificación de rutas__
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
+**Información del proyecto:**
+- **Carrera:** Ingeniería de Software
+- **Curso:** Aplicaciones Web
+- **Auditor:** TrackLab
+- **Cliente:** TrackLab
+- **Aplicación:** TrackLab
+
+**Tareas a evaluar por segmento:**
+
+- **Cliente final:**
+  - Iniciar sesión (login)
+  - Crear un pedido (wizard)
+  - Buscar y filtrar pedidos
+  - Consultar historial de operaciones
+
+- **Administrador interno:**
+  - Gestionar contenedores (añadir items, cerrar)
+  - Planificar y guardar rutas
+  - Ver y filtrar bodegas en el mapa
+  - Navegar entre módulos de administración (usuarios, vehículos, almacenes)
+
+**Nivel de severidad de los problemas:**
+
+| #  | Problema                                                          | Escala de severidad | Heurística                              | Tarea evaluada                        |
+|----|-------------------------------------------------------------------|---------------------|-----------------------------------------|---------------------------------------|
+| 1  | Falta enlace “¿Olvidaste tu contraseña?” al intentar iniciar sesión | 4                   | Prevención de errores / Ayuda y documentación | Iniciar sesión                        |
+| 2  | Los botones “Register Company” y “Register User” compiten visualmente con Login | 2                   | Minimalismo / Consistencia y estándares  | Iniciar sesión                        |
+| 3  | “Quick Actions” en texto plano carecen de botón o icono, pasan desapercibidas | 1                   | Consistencia visual                     | Acceso rápido a acciones (nuevo pedido, rastrear, historial) |
+| 4  | Historial de Operaciones vacío no muestra mensaje “No hay operaciones registradas” | 2                   | Visibilidad del estado del sistema      | Consultar historial de operaciones   |
+| 5  | El placeholder de búsqueda en Mis Órdenes (“producto, destino o cantidad”) es confuso | 2                   | Correspondencia entre el sistema y el mundo real | Buscar pedido                         |
+
+**Detalle de problemas:**
+
+- **Problema #1: Falta enlace “¿Olvidaste tu contraseña?” al intentar iniciar sesión**
+  - **Tarea evaluada:** Iniciar sesión
+  - **Recomendación:** Añadir un enlace “Olvidé mi contraseña” en el formulario de login que inicie el flujo de restablecimiento por email.
+
+- **Problema #2: Los botones “Register Company” y “Register User” compiten visualmente con Login**
+  - **Tarea evaluada:** Iniciar sesión
+  - **Recomendación:** Degradar visualmente los enlaces de registro (texto más discreto) y destacar únicamente el botón de Login.
+
+- **Problema #3: “Quick Actions” en texto plano carecen de botón o icono, pasan desapercibidas**
+  - **Tarea evaluada:** Acceso rápido a acciones (nuevo pedido, rastrear, historial)
+  - **Recomendación:** Convertir cada acción en un botón o card con icono para mejorar la descubribilidad.
+
+- **Problema #4: Historial de Operaciones vacío no muestra mensaje “No hay operaciones registradas”**
+  - **Tarea evaluada:** Consultar historial de operaciones
+  - **Recomendación:** Mostrar texto e icono que indiquen “No hay operaciones registradas” cuando no haya datos.
+
+- **Problema #5: El placeholder de búsqueda en Mis Órdenes (“producto, destino o cantidad”) es confuso**
+  - **Tarea evaluada:** Buscar pedido
+  - **Recomendación:** Ajustar a “producto, destino o ID de pedido” para eliminar ambigüedad.
 
 # 6. Conclusiones
 
