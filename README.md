@@ -4273,6 +4273,110 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 
 Como se evidencia, el equipo ha trabajado colaborativamente, respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente como participación de todos los miembros del equipo.
 
+## 5.3. Validation interview
+
+### 5.3.1. Diseño de Entrevistas.
+
+### Objetivo de la Entrevista
+Validar la usabilidad, claridad y efectividad de TrackLab desde la perspectiva de sus dos segmentos clave (Cliente Final y Administrador Interno), asegurando que los flujos críticos sean intuitivos, las tareas logísticas se realicen sin fricciones y la interfaz ofrezca el feedback adecuado en cada paso.
+
+### Elementos de Validación
+
+##### Landing Page
+Se evaluará si el mensaje principal comunica claramente el valor de la plataforma, si las llamadas a la acción invitan a registrarse o iniciar sesión, y si el diseño es responsivo y funcional en desktop, tablet y móvil.
+
+##### Aplicación Web
+Se observará la interacción en flujos críticos (login, creación de pedidos, búsqueda y filtrado de órdenes, historial de operaciones, gestión interna, contenedores y planificación de rutas), midiendo la claridad de las pantallas, la detección de errores, el uso de estados vacíos (“sin datos”) y la calidad de las confirmaciones y feedback visual.
+
+### User Flows a Validar
+
+#### Para el Segmento Cliente Final
+
+1. Inicio de sesión
+   - Evaluación de la claridad de los campos, validaciones en tiempo real y feedback de carga.
+
+2. reación de pedido (wizard)
+   - Evaluación de la navegación paso a paso, estado de los botones Next y consistencia de idioma.
+
+3. Búsqueda y filtrado de órdenes
+   - Evaluación del uso del buscador, comprensión del placeholder y feedback en caso de resultados vacíos.
+
+4. Consulta de historial de operaciones
+   - Evaluación de la interpretación de la línea de tiempo, nomenclatura de nodos/etapas y mensajes “sin datos”.
+
+#### Para el Segmento Administrador Interno
+
+1. Gestión de usuarios
+   - Evaluación del filtrado por rol, claridad de acciones (editar, bloquear) y disponibilidad de tooltips.
+
+2. Gestión de vehículos y bodegas
+   - Evaluación del cambio de vista (lista/cuadrícula), uso de filtros de zona y tipo, y marcadores en el mapa.
+
+3. Gestión de contenedores
+   - Evaluación del flujo Crear → Añadir ítems → Ver eliminados → Cerrar contenedor con confirmación.
+
+4. Planificación de rutas
+   - Evaluación de la adición y reordenamiento de nodos, visualización en el mapa, guardado de rutas y estado de las pestañas Plan/Saved.
+
+### Formato de Registro de la Entrevista
+
+##### Datos del Entrevistado
+- **Nombre completo**
+- **Edad**
+- **Ciudad de residencia**
+- **Segmento (Cliente Final / Administrador Interno)**
+- **Dispositivo utilizado (desktop, tablet, móvil)**
+
+#### Preguntas para el Segmento Cliente Final
+
+__Inicio de sesión__
+- ¿Fue claro el formulario de inicio de sesión?
+- ¿Qué ocurrió cuando ingresaste mal tus credenciales?
+- ¿Percibiste algún indicador de carga o mensaje de error?
+
+__Creación de pedido__
+- ¿Encontraste intuitivo el flujo paso a paso del wizard?
+- ¿Notaste cuándo el botón “Next” estaba activo o deshabilitado?
+- ¿Las instrucciones y etiquetas estaban en el idioma correcto?
+
+__Búsqueda y filtrado de órdenes__
+- ¿El placeholder del buscador te indicó claramente qué podías buscar?
+- ¿Qué sucedió cuando no obtuviste resultados?
+- ¿Cómo describirías tu experiencia filtrando órdenes?
+
+__Consulta de historial de operaciones__
+- ¿Fue fácil interpretar la línea de tiempo y los “nodos”?
+- ¿El sistema te avisó cuando no había operaciones registradas?
+- ¿Qué mejorarías en la visualización del historial?
+
+#### Preguntas para el Segmento Administrador Interno
+
+__Gestión de usuarios__
+- ¿Pudiste filtrar por rol sin dificultad?
+- ¿Fue claro el proceso para editar o bloquear un usuario?
+- ¿Echarías en falta tooltips o ayudas en los iconos de acción?
+
+__Gestión de vehículos y bodegas__
+- ¿Te resultó sencillo cambiar entre vista lista y cuadrícula?
+- ¿Encontraste intuitivos los filtros de zona geográfica y tipo de almacén?
+- En el mapa, ¿supiste ubicar tus bodegas y entender los marcadores?
+
+__Gestión de contenedores__
+- ¿Comprendiste el flujo Crear contenedor → Añadir ítems → Cerrar?
+- ¿Recibiste feedback al eliminar elementos o al cerrar el contenedor?
+- ¿Te pareció necesaria una confirmación antes de cerrar?
+
+__Planificación de rutas__
+- ¿Fue fácil añadir y reordenar nodos en la lista de paradas?
+- ¿Pudiste ver la ruta reflejada en el mapa sin confusiones?
+- ¿Encontraste claro el proceso para guardar rutas y cambiar entre pestañas?
+
+
+### 5.3.2. Registro de entrevistas.
+
+### 5.3.3. Evaluaciones según heurísticas.
+
+
 # 6. Conclusiones
 
 ## 6.1. Conclusiones
