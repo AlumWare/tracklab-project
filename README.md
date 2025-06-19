@@ -4273,6 +4273,24 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 
 Como se evidencia, el equipo ha trabajado colaborativamente, respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente como participación de todos los miembros del equipo.
 
+### 5.2.3. Sprint 3
+
+### 5.2.3.1. Sprint Planning 3
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+
+### 5.2.3.3. Sprint Backlog 3
+
+### 5.2.3.4. Development Evidence for Sprint Review
+
+### 5.2.3.5. Execution Evidence for Sprint Review
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+### 5.2.3.8. Team Collaboration Insights during Sprint
+
 ## 5.3. Validation interview
 
 ### 5.3.1. Diseño de Entrevistas.
