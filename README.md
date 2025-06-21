@@ -38,7 +38,8 @@
 | 1.0       | 06/04/2025 | Iglesias Pérez, Sergio Sebastián | Creación del repositorio |
 | 1.1       | 13/04/2025 | Roman Cruz, Natalia Bertha       | Capítulos I (sin entrevistas), Capítulo II (ubiquitous language) y Capítulo 3 (hasta 3.2) |
 | 1.2       | 25/04/2025 | Céspedes, Baldeón, Iglesias, Roman, Solano| Implementación de los capítulos IV y V - Entrevistas, Ubiquitous anguage y Capítulo III completados|
-| 1.3       | 13/05/2025 | Céspedes, Baldeón, Iglesias, Roman, Solano| Capítulo V complerado - sprint II junto a evidencias |
+| 2.0       | 13/05/2025 | Céspedes, Baldeón, Iglesias, Roman, Solano| Capítulo V complerado - sprint II junto a evidencias |
+| 3.0       | 20/06/2025 | Céspedes, Baldeón, Iglesias, Roman, Solano| Sprint III junto a evidencias, análisis de heurísticas y entrevistas de validación |
 
 ---
 
@@ -60,6 +61,34 @@ Para el desarrollo del informe pertinente a la TB1, se dividió la implementaci�
 
 El proceso de colaboración durante el informe se realizó tanto con commits como compartiendo avances a través de documentos de google. 
 
+**TP**
+
+Para el desarrollo del informe pertinente al TP, se dividió la implementación de sencciones de la siguiente forma entre los integrantes del grupo:
+
+| **Integrantes**                  | **Tareas asignadas** |
+| ---------------------------------|----------------------|
+| Roman Cruz, Natalia Bertha       | Creación de componentes, creación de entidades, aplicación de router e i18n, aplicación fakeApi y mockApi |
+| Solano Armas, Angelo Hector      | Creación de componentes, creación de entidades, aplicación de router e i18n, aplicación fakeApi |
+| Iglesias Pérez, Sergio Sebastián | Creación de componentes, creación de entidades, aplicación de router e i18n, aplicación fakeApi y mockApi |
+| Baldeón Vivar, Santiago Armando  |Creación de componentes, creación de entidades, aplicación de router e i18n, aplicación fakeApi, edición del video |
+| Céspedes Pillco, Jarod Jack      | Creación de componentes, creación de entidades, aplicación de router e i18n, aplicación fakeApi, Services Documentation Evidence for Sprint Review |
+
+El proceso de colaboración durante el informe se realizó tanto con commits en el repositorio del landing, como en el del front-end y el del report.
+
+**TB2**
+
+Para el desarrollo del informe pertinente a la TB1, se dividió la implementación de sencciones de la siguiente forma entre los integrantes del grupo:
+
+| **Integrantes**                  | **Tareas asignadas** |
+| ---------------------------------|----------------------|
+| Roman Cruz, Natalia Bertha       | Planificación y redacción del tercer sprint, correcciones finales del código de backend, apoyo en el diseño de diagramas |
+| Solano Armas, Angelo Hector      | Implementación de los bounded context, revisión de los endpoints |
+| Iglesias Pérez, Sergio Sebastián | Implementación de los bounded context, desarrollo de los diagramas, despliegue del backend y database |
+| Baldeón Vivar, Santiago Armando  | Planificación y redacción del tercer sprint, correcciones finales del código de backend, edición del video |
+| Céspedes Pillco, Jarod Jack      | Planificación y redacción del tercer sprint, apoyo en el diseño de diagramas |
+
+El proceso de colaboración durante el informe se realizó tanto con commits en el backend como en el repositorio del report.
+
 ---
 
 ## Github Collaboration Insights
@@ -73,13 +102,27 @@ Se puede identificar a los integrantes como:
 - Baldeón Vivar, Santiago Armando: Santibal11
 - Céspedes Pillco, Jarod Jack: PruebaJJC
 
-Asimismo, se explican las ramas que tenemos hasta el momento: FALTA COMPLETAR E IMAGEN
+Asimismo, se explican las ramas que tenemos hasta el momento: 
 - main: Aún no se encuentra representada, pues se hace un merge en cada entrega al ser la rama principal del proyecto.
 - develop: Representada por la rama blanca. Se trata de la rama principal para el proceso del desarrollo del proyecto.
 - readme: Representada por la rama morada. Se trata de la rama en la que se han estado realizando las modificaciones al informe.
 
+__Report repository__
+
 <div>
   <p><img src="assets/md-images/network.png" alt="Network Graph TB1" width="700px" /></p>
+</div>
+
+__Frontend Repository__
+
+<div>
+  <p><img src="assets/md-images/network-front.png" alt="Network Graph TP" width="700px" /></p>
+</div>
+
+__Backeend Repository__
+
+<div>
+  <p><img src="assets/md-images/network-back.png" alt="Network Graph TB2" width="700px" /></p>
 </div>
 
 Los siguientes gráficos muestran analíticos en cuanto a los commits que cada integrante del grupo ha estado realizando en el repositorio.
@@ -99,18 +142,127 @@ __TP__
 <div>
   <p><img src="assets/md-images/commits - readme TP.png" alt="Network Graph TP" width="700px" /></p>
 </div>
- <p><img src="assets/md-images/graficos - readme TP.png" alt="Network Graph TP" width="700px" /></p>
 <div>
-  
+   <p><img src="assets/md-images/graficos - readme TP.png" alt="Network Graph TP" width="700px" /</p>
 </div>
+
+__TB2__
+
+<div>
+  <p><img src="assets/md-images/commits - readme TB2.png" alt="Network Graph TB2" width="700px" /></p>
+</div>
+<div>
+   <p><img src="assets/md-images/graficos - readme TB2.png" alt="Network Graph TB2" width="700px" /</p>
+</div>
+
 ---
 
 ## Students Outcomes
 
-| Criterios específicos | Acciones realizadas | Conclusiones |
-| ---------------------- | ------------------- | ------------ |
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Roman Cruz, Natalia Bertha**<br>TB1<br>- Antecedentes y problemática<br>- Lean UX Problem Statements<br>- Análisis de entrevistas<br>- Needfinding<br>- Requirements Specification<br>- Organization Systems<br>- Labeling Systems<br>- Web Applications Wireflow Diagrams<br>- Domain-Driven Software Architecture<br>- Software Object-Oriented Design<br>- Database Design<br>- Team Collaboration Insights during Sprint<br>- Landing page<br>- Conclusiones<br>- Recomendaciones<br>-<br>TP<br>-Vistas de la aplicación web<br>-Sprint Planning 2<br>-Aspect Leaders and Collaborators<br><br>**Solano Armas, Angelo Hector**<br>TB1<br>- Assumptions<br>- Hypothesis statements<br>- Análisis de entrevistas<br>- Needfinding<br>- Requirements Specification<br>- Searching and Navigation Systems<br>- Wireframes<br>- Domain-Driven Software Architecture<br>- Database Diagram<br>- Class Diagram<br>- Aspect Leaders and Collaborators<br>- Development Evidence for Sprint<br>- Landing page<br><br>-<br>TP<br>-Vistas de la aplicación web<br>-Execution Evidence for Sprint Review<br>-Services Documentation Evidence for Sprint Review<br><br>**Iglesias Pérez, Sergio Sebastián**<br>TB1<br>- Descripción del Startup<br>- Segmentos objetivos<br>- Registro de entrevistas<br>- Style Guidelines<br>- Wireframes<br>- Mockup<br>- Prototype<br>- Context Diagram<br>- Software Development Environment Configuration<br>- Landing page<br>-<br>TP<br>-Vistas de la aplicación web<br>-Sprint Planning 2<br>-Evidence for Sprint Review<br><br>**Baldeón Vivar, Santiago Armando**<br>TB1<br>- Canvas<br>- Diseño de entrevistas<br>- Style Guidelines<br>- Wireframes<br>- Mockup<br>- Class Dictionary<br>- Source Code Style Guide & Conventions<br>- Sprint Backlog 1<br>- Edición del video<br><br>-<br>TP<br>-Vistas de la aplicación web<br>-Software Deployment<br>-Evidence for Sprint Review <br><br>**Céspedes Pillco, Jarod Jack**<br>TB1<br>- Competidores<br>- SEO Tags and Meta Tags<br>- User Flow Diagrams<br>- Software Configuration Management<br>- Services Documentation Evidence for Sprint Review-<br>TP<br>-Vistas de la aplicación web<br>-Sprint 2<br>-Team Collaboration Insights during <br><br> | Al haber concluido con la primera entrega, podemos concluir que logramos coordinar nuestros tiempos y responsabilidades como equipo para apoyarnos entre todos y presentar un trabajo que cumpla con todos los requisitos especificados. Establecimos una coordinación óptima que nos permitió profundizar los conocimientos aplicados, así como practicar nuevas habilidades apoyándonos uno al otro.<br><br> Al haber concluido con la entrega del TP, consolidamos la colaboración como el eje central de nuestro equipo, logrando una distribución equilibrada de responsabilidades y una comunicación constante. Esta dinámica de trabajo nos permitió cumplir oportunamente con los entregables y fortalecer nuestras habilidades técnicas, abarcando desde el diseño de interfaces hasta la implementación funcional de vistas clave en la aplicación web. |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Roman Cruz, Natalia Bertha**<br>TB1<br>- Antecedentes y problemática<br>- Lean UX Problem Statements<br>- Análisis de entrevistas<br>- Needfinding<br>- Requirements Specification<br>- Organization Systems<br>- Labeling Systems<br>- Web Applications Wireflow Diagrams<br>- Domain-Driven Software Architecture<br>- Software Object-Oriented Design<br>- Database Design<br>- Team Collaboration Insights during Sprint<br>- Landing page<br>- Conclusiones<br>- Recomendaciones<br><br>-<br>TP<br>-Vistas de la aplicación web<br>-Sprint Planning 2<br>-Aspect Leaders and Collaborators<br><br>**Solano Armas, Angelo Hector**<br>TB1<br>- Assumptions<br>- Hypothesis statements<br>- Análisis de entrevistas<br>- Needfinding<br>- Requirements Specification<br>- Searching and Navigation Systems<br>- Wireframes<br>- Domain-Driven Software Architecture<br>- Database Diagram<br>- Class Diagram<br>- Aspect Leaders and Collaborators<br>- Development Evidence for Sprint<br>- Landing page<br><br>-<br>TP<br>-Vistas de la aplicación web<br>-Execution Evidence for Sprint Review<br>-Services Documentation Evidence for Sprint Review<br><br>**Iglesias Pérez, Sergio Sebastián**<br>TB1<br>- Descripción del Startup<br>- Segmentos objetivos<br>- Registro de entrevistas<br>- Style Guidelines<br>- Wireframes<br>- Mockup<br>- Prototype<br>- Context Diagram<br>- Software Development Environment Configuration<br>- Landing page<br><br>-<br>TP<br>-Vistas de la aplicación web<br>-Sprint Planning 2<br>-Evidence for Sprint Review<br><br>**Baldeón Vivar, Santiago Armando**<br>TB1<br>- Canvas<br>- Diseño de entrevistas<br>- Style Guidelines<br>- Wireframes<br>- Mockup<br>- Class Dictionary<br>- Source Code Style Guide & Conventions<br>- Sprint Backlog 1<br>- Edición del video<br><br>-<br>TP<br>-Vistas de la aplicación web<br>-Software Deployment<br>-Evidence for Sprint Review <br><br>**Céspedes Pillco, Jarod Jack**<br>TB1<br>- Competidores<br>- SEO Tags and Meta Tags<br>- User Flow Diagrams<br>- Software Configuration Management<br>- Services Documentation Evidence for Sprint Review-<br>TP<br>-Vistas de la aplicación web<br>-Sprint 2<br>-Team Collaboration Insights during <br><br>| Al término de la TB1, podemos concluir que conseguimos formar un entorno de colaboración, a través del cual podíamos realizar consultas entre compañeros mientras nos asegurábamos de cumplir con nuestros aportes a tiempo y de llegar a alcanzar nuestros objetivos de aprendizaje iniciales. Por otro lado, consideramos que la planificación, aunque siempre puede mejorarse, nos ayudó a tener suficiente tiempo como para volver a revisar ciertos detalles y mejorar la calidad de la entrega.<br><br>Al término de la TP, podemos concluir que la planificación detallada del sprint y el enfoque en objetivos compartidos nos permitieron mantener una línea de trabajo organizada y proactiva. Al apoyarnos mutuamente en la resolución de retos técnicos y en la revisión continua de avances, logramos alcanzar un resultado que refleja tanto el aprendizaje colectivo como el compromiso individual con la calidad del proyecto. |
+<table>
+  <thead>
+    <tr>
+      <th>Criterios específicos</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta</strong></td>
+      <td>
+        <strong>Roman Cruz, Natalia Bertha</strong><br><br>
+        <strong>TB1</strong><br>
+        Durante el desarrollo del TB1 me encargué de la mayor parte de los elementos Lean UX a presentar. Organicé y dividí las tareas del grupo, así como también planteé y dirigí las reuniones. En esas reuniones, compartí mis avances y brindé retroalimentación a mis compañeros sobre los suyos. Estas acciones me permitieron asumir un rol activo de liderazgo colaborativo, ya que ayudé a alinear el trabajo del equipo y fomentar una mejora constante entre todos.<br><br>
+        <strong>TP</strong><br>
+        En la entrega parcial trabajé en conjunto con uno de mis compañeros para definir los componentes, entidades y páginas que serían desarrolladas. Luego presentamos esto al equipo para coordinar la distribución de tareas y fijar tiempos de entrega y revisión. Esta experiencia me permitió consolidar mi liderazgo compartido, al fomentar una toma de decisiones en equipo y asegurar que cada integrante tuviera claridad sobre sus responsabilidades.<br><br>
+        <strong>TB2</strong><br>
+        Durante la elaboración del TB2 me encargué de revisar el código, planificar la organización del grupo y de dar feedback a mis compañeros. Esto me ayudó a practicar mis habilidades de liderazgo y a comprender las ideas de los demás, de forma que llegamos a acuerdos y cada persona pudo hacerse cargo de la parte que prefirió.<br><br>
+        <strong>Solano Armas, Angelo Hector</strong><br><br>
+        <strong>TB1</strong><br>
+        Durante el TB1 me encargué de los assumptions, las hipótesis, el análisis de entrevistas, el needfinding, la especificación de requisitos, los sistemas de navegación y búsqueda, los wireframes, la arquitectura basada en dominios, el diagrama de base de datos y el diagrama de clases. También participé en la definición de líderes de aspectos y en la recopilación de evidencias del desarrollo del sprint. Además, contribuí en el diseño de la landing page.<br><br>
+        <strong>TP</strong><br>
+        Para el TP desarrollé vistas de la aplicación web, recopilé evidencias del sprint y documenté los servicios implementados. Esto me ayudó a afianzar mi rol como apoyo técnico para el equipo, contribuyendo a mantener un desarrollo ordenado y eficiente.
+<br><br>
+        <strong>TB2</strong><br>
+        Durante el TB2 apoyé con la elaboración de diagramas y la planificación para implementar el código. También colaboré en grandes partes del desarrollo cuando fue necesario. Estas actividades me ayudaron a organizarme mejor, entender cómo avanzar en equipo y aportar al cumplimiento de nuestras metas comunes.<br><br>
+        <strong>Iglesias Pérez, Sergio Sebastián</strong><br><br>
+        <strong>TB1</strong><br>
+        En el TB1 participé en la redacción de la descripción de la startup, los segmentos objetivos y el registro de entrevistas. También trabajé en los lineamientos de estilo, wireframes, mockup, prototipo, diagrama de contexto, la configuración del entorno de desarrollo y la landing page. Este proceso me ayudó a entender la importancia de establecer una identidad clara del proyecto desde el inicio y a coordinar con mis compañeros para asegurar coherencia en el diseño y el desarrollo.<br><br>
+        <strong>TP</strong><br>
+        Durante la TP me enfoqué en el desarrollo de vistas de la aplicación, la planificación del sprint 2 y la recopilación de evidencias. Esto me permitió aplicar mis habilidades de organización y trabajar constantemente en la mejora del producto, manteniendo la coordinación con el resto del equipo.<br><br>
+        <strong>TB2</strong><br>
+        Durante el TB2 estuve involucrado en el trabajo de planificación e implementación del código, así como en el desarrollo de los diagramas. Esta participación me permitió mantener una buena organización personal y aportar de manera efectiva al trabajo colectivo.<br><br>
+        <strong>Baldeón Vivar, Santiago Armando</strong><br><br>
+        <strong>TB1</strong><br>
+        Me encargué del Canvas, el diseño de entrevistas, los lineamientos de estilo, wireframes, mockup, diccionario de clases, guía de estilo para el código fuente, el Sprint Backlog 1 y la edición del video. Estas tareas me ayudaron a colaborar desde distintas áreas, facilitando la documentación del avance del equipo y asegurando la calidad visual y técnica de nuestras entregas.<br><br>
+        <strong>TP</strong><br>
+        Desarrollé vistas de la aplicación web, participé en el despliegue del software y reuní evidencias del sprint. Esto fortaleció mi habilidad para integrarme en la etapa de implementación y aportar soluciones concretas junto a mis compañeros.<br><br>
+        <strong>TB2</strong><br>
+        En el TB2 colaboré en la planificación del trabajo, la creación de diagramas y apoyé en el desarrollo del código cuando fue necesario. Gracias a estas tareas, pude aportar al orden del grupo, entender mejor cómo avanzar juntos y cumplir con lo que nos propusimos.<br><br>
+        <strong>Céspedes Pillco, Jarod Jack</strong><br><br>
+        <strong>TB1</strong><br>
+        Durante el TB1 elaboré el análisis de competidores, configuré las etiquetas SEO y metatags, diseñé los diagramas de flujo de usuario, me encargué de la gestión de configuración del software y documenté los servicios. A través de estas acciones, me involucré activamente en la estructura técnica del proyecto, aportando en áreas de visibilidad y funcionamiento interno.<br><br>
+        <strong>TP</strong><br>
+        En el TP desarrollé vistas de la aplicación, participé en el sprint 2 y compartí observaciones sobre la colaboración del equipo. Estas actividades me ayudaron a tener una visión más amplia del trabajo grupal y a reforzar mi compromiso con los objetivos comunes.<br><br>
+        <strong>TB2</strong><br>
+        Durante el TB2 brindé apoyo en la elaboración de diagramas y en la planificación para organizar el desarrollo del código. También participé en partes de la codificación. Esta experiencia me ayudó a trabajar de forma más estructurada, comunicarme mejor con mis compañeros y contribuir al avance ordenado del equipo.
+      </td>
+      <td>
+        Al haber concluido con la primera entrega, logramos coordinar tiempos y responsabilidades como equipo para apoyarnos entre todos y cumplir con todos los requisitos. Establecimos una coordinación óptima que nos permitió profundizar conocimientos y practicar nuevas habilidades con apoyo mutuo.<br><br>
+        Al haber concluido con la entrega del TP, consolidamos la colaboración como el eje central de nuestro equipo, logrando una distribución equilibrada de responsabilidades y una comunicación constante. Esta dinámica de trabajo nos permitió cumplir oportunamente con los entregables y fortalecer nuestras habilidades técnicas, abarcando desde el diseño de interfaces hasta la implementación funcional de vistas clave en la aplicación web.<br><br>
+        Al terminar el TB2, aplicamos un enfoque incremental, distribuyendo el proyecto en partes manejables. Implementamos planificación, retroalimentación continua y validación del código, mejorando la calidad del producto y adaptándonos eficazmente a los cambios.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</strong></td>
+      <td>
+        <strong>Roman Cruz, Natalia Bertha</strong><br><br>
+        <strong>TB1</strong><br>
+        Para el TB1, después de haber organizado reuniones con mis compañeros y asegurarme de que todos conocían sus tareas, establecí una lista de mis tareas personales pendientes para revisar mi avance y asegurarme de cumplir todo a tiempo. Además, propuse una lista general con todas las tareas del equipo, en la cual cada miembro podía marcar las que completaba. Esto fomentó la transparencia y el sentido de responsabilidad grupal. Estas acciones me ayudaron a crear un entorno organizado, donde cada uno podía trabajar a su ritmo, pero sabiendo lo que quedaba pendiente y promoviendo el compromiso conjunto.<br><br>
+        <strong>TP</strong><br>
+        Para el trabajo parcial, junto a uno de mis compañeros propuse el uso de la herramienta Jira. Esto permitió que el equipo pudiera ver el estado de avance, tomar tareas según su disponibilidad y establecer fechas meta. Esta dinámica promovió un ambiente inclusivo donde todos pudimos organizarnos mejor, mantenernos al tanto de los progresos y ajustar el ritmo de trabajo de forma colaborativa.<br><br>
+        <strong>TB2</strong><br>
+        Durante la elaboración del TB2 me encargué de revisar el código, planificar la organización del grupo y dar feedback a mis compañeros. Esto me ayudó a practicar mis habilidades de liderazgo y a comprender las ideas de los demás, de forma que llegamos a acuerdos y cada persona pudo hacerse cargo de la parte que prefirió. Gracias a estas actividades, pude fortalecer mi capacidad para liderar un entorno colaborativo y mantener un equipo motivado y alineado hacia los mismos objetivos.<br><br>
+        <strong>Solano Armas, Angelo Hector</strong><br><br>
+        <strong>TB1</strong><br>
+        Durante el TB1 participé activamente en la planificación de las tareas y me aseguré de avanzar a buen ritmo para mantener el cronograma. Estuve siempre dispuesto a resolver dudas de mis compañeros y aportar en las decisiones técnicas. Estas acciones fortalecieron un entorno colaborativo donde todos nos sentíamos cómodos compartiendo ideas y progresos.<br><br>
+        <strong>TP</strong><br>
+        En el trabajo parcial organicé mis tiempos y prioricé entregables clave para que el equipo tuviera una base sobre la cual avanzar. Participar en un entorno colaborativo e inclusivo me ayudó a planificar mejor mis tareas y cumplir con los objetivos comunes sin perder calidad en mis aportes.<br><br>
+        <strong>TB2</strong><br>
+        Durante el TB2 participé como integrante del equipo, apoyando en la validación de criterios, elaboración de diagramas y la implementación del código. Estas tareas me permitieron mantenerme alineado con el ritmo del grupo y colaborar en un ambiente inclusivo, donde cada aporte era valorado y necesario para cumplir nuestras metas.<br><br>
+        <strong>Iglesias Pérez, Sergio Sebastián</strong><br><br>
+        <strong>TB1</strong><br>
+        Durante el TB1 organicé mi trabajo siguiendo los acuerdos del equipo, y mantuve una comunicación constante para resolver dudas y recibir sugerencias. Pude enfocarme en lo que me tocaba y también estar atento a cómo íbamos avanzando como grupo. Esta actitud me ayudó a comprender cómo aportar en un entorno colaborativo sin dejar de ser responsable con mis propios objetivos.<br><br>
+        <strong>TP</strong><br>
+        En la TP fui parte activa de las sesiones de planificación, lo que me permitió tomar tareas que se alineaban con mis fortalezas y también apoyar a mis compañeros en aspectos donde necesitaban ayuda. Esta colaboración constante me permitió cumplir con mis metas individuales y también contribuir a que el equipo avance según lo planeado.<br><br>
+        <strong>TB2</strong><br>
+        En el TB2 fui parte de un equipo donde todos colaboramos en validar los criterios incluidos en el código, generar los diagramas necesarios y aportar en la implementación. Estas actividades me ayudaron a trabajar de forma más organizada y a valorar el aporte de cada miembro, fomentando un entorno de confianza y cumplimiento de objetivos comunes.<br><br>
+        <strong>Baldeón Vivar, Santiago Armando</strong><br><br>
+        <strong>Baldeón Vivar, Santiago Armando</strong><br><br>
+        <strong>TB1</strong><br>
+        Para el TB1 organicé mis tareas a partir del backlog del equipo y coordiné con mis compañeros para poder entregar a tiempo. Siempre estuve abierto a comentarios y ofrecí ayuda cuando alguien del grupo necesitaba apoyo. Estas acciones me ayudaron a reforzar un ambiente de confianza y trabajo colaborativo, que facilitó el cumplimiento de nuestros objetivos.<br><br>
+        <strong>TP</strong><br>
+        En la TP organicé mi avance en función de los deadlines del equipo y colaboré activamente en los despliegues, lo cual nos permitió tener una visión clara del progreso. Esta planificación me ayudó a cumplir con lo esperado y mantenerme alineado al ritmo de trabajo del grupo.<br><br>
+        <strong>TB2</strong><br>
+        Durante el TB2 trabajé en conjunto con mis compañeros en tareas como la validación de los criterios de calidad del código, la elaboración de diagramas y la codificación. Gracias a estas actividades, logré mejorar mi organización personal y reforzar el trabajo en equipo, contribuyendo a un entorno colaborativo con metas claras.<br><br>
+        <strong>Céspedes Pillco, Jarod Jack</strong><br><br>
+        <strong>TB1</strong><br>
+        Durante el TB1 participé activamente en la planificación semanal y llevé un control propio de mis avances. Además, me comuniqué con los demás para resolver dudas y asegurarme de estar alineado. Estas acciones me ayudaron a comprender mejor cómo trabajar dentro de un equipo con metas comunes, cumpliendo mi rol de manera responsable.<br><br>
+        <strong>TP</strong><br>
+        En el TP colaboré en la organización del sprint y mantuve actualizado mi estado en Jira. Esto ayudó a que el equipo tuviera claridad sobre lo que faltaba y pudiéramos adaptarnos si había dificultades. Esta dinámica de planificación y comunicación me ayudó a trabajar de forma ordenada y contribuir efectivamente al logro de los objetivos del equipo.<br><br>
+        <strong>TB2</strong><br>
+        En el TB2 participé como miembro activo del grupo, aportando a la elaboración de diagramas, validación de criterios y codificación. Esta experiencia me permitió entender cómo planificar en función de objetivos compartidos y trabajar de manera conjunta en un ambiente inclusivo y eficiente.<br><br>
+      </td>
+      <td>
+        Al término de la TB1, podemos concluir que conseguimos formar un entorno de colaboración, a través del cual podíamos realizar consultas entre compañeros mientras nos asegurábamos de cumplir con nuestros aportes a tiempo y de llegar a alcanzar nuestros objetivos de aprendizaje iniciales. Por otro lado, consideramos que la planificación, aunque siempre puede mejorarse, nos ayudó a tener suficiente tiempo como para volver a revisar ciertos detalles y mejorar la calidad de la entrega.<br><br>
+       Al término de la TP, podemos concluir que la planificación detallada del sprint y el enfoque en objetivos compartidos nos permitieron mantener una línea de trabajo organizada y proactiva. Al apoyarnos mutuamente en la resolución de retos técnicos y en la revisión continua de avances, logramos alcanzar un resultado que refleja tanto el aprendizaje colectivo como el compromiso individual con la calidad del proyecto.<br><br>
+        Al concluir el TB2, aprendimos a mantener un entorno inclusivo, participar activamente en la validación de tareas, usar diagramas para clarificar procesos y coordinar la implementación. Esto nos enseñó a planificar con objetivos claros y a cumplirlos en equipo.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 ---
 
@@ -201,6 +353,17 @@ __TP__
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.6. [Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.7. [Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.8. [Team Collaboration Insights during Sprint 2](#5228-team-collaboration-insights-during-sprint-2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3. [Sprint 3](#523-sprint-3)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.1. [Sprint Planning 3](#5231-sprint-planning-3)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.2. [Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.3. [Sprint Backlog 3](#5233-sprint-backlog-3)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.4. [Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.5. [Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.6. [Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.7. [Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.8. [Team Collaboration Insights during Sprint 3](#5238-team-collaboration-insights-during-sprint-3)
+
           
 6. __[Conclusiones](#Conclusiones)__  
   6.1. [Conclusiones](#61-conclusiones)  
@@ -4272,6 +4435,731 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 - [Repositorio del frontend en GitHub](https://github.com/AlumWare/tracklab-frontend)
 
 Como se evidencia, el equipo ha trabajado colaborativamente, respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente como participación de todos los miembros del equipo.
+
+### 5.2.3. Sprint 3
+
+### 5.2.3.1. Sprint Planning 3
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Sprint #</th>
+      <td>Sprint 3</td>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <td>2024-06-01</td>
+    </tr>
+    <tr>
+      <th>Time</th>
+      <td>11:08 PM</td>
+    </tr>
+    <tr>
+      <th>Location</th>
+      <td>Reunión virtual a través de Discord</td>
+    </tr>
+    <tr>
+      <th>Prepared by</th>
+      <td>Roman Cruz, Natalia Bertha e Iglesias Pérez, Sergio Sebastián</td>
+    </tr>
+    <tr>
+      <th>Attendees (to planning meeting)</th>
+      <td>Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando y Céspedes Pillco, Jarod Jack</td>
+    </tr>
+    <tr>
+      <th>Sprint 1 Review Summary</th>
+      <td>In the previous sprint, we focused on improving our landing page performance, but also on deploying and showing to users the first working version of our web application.</td>
+    </tr>
+    <tr>
+      <th>Sprint 2 Goal</th>
+      <td>Our focus now is on deploying the first version of our application backend, including our core bounded contexts and main endpoints. We would also try to connect our frontend and backend</td>
+    </tr>
+    <tr>
+      <th>Sprint 2 Velocity</th>
+      <td>25 story points</td>
+    </tr>
+    <tr>
+      <th>Sum of Story Points</th>
+      <td>25 story points</td>
+    </tr>
+  </table>
+</div>
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+
+En este sprint se busca completar la landing page de TrackLab, incluyendo el diseño y su despliegue. Para lograr una correcta comunicación, se ha creado la matriz de liderazgo y colaboración (LACX), en la cual se define quien lidera y quien colabora en cada aspecto del sprint.
+
+| Team Member                         | GitHub username     | Diseño Backend  | Despliegue Backend |
+|------------------------------------|----------------------|----------------------|--------------------------|
+| Roma Cruz, Natalia Bertha          | natRC2005            | L                    | C                        |
+| Sonano Armas, Angelo Hector        | Angelo5214           | C                    | C                        |
+| Iglesias Perez, Sergio Sebastian   | ghostrider101218     | C                    | L                        |
+| Baldeon Vivar, Santiago Armando    | Santibal11           | C                    | C                        |
+| Céspedes Pillco, Jarod Jack        | PruebaJJC            | C                    | C                        |
+
+### 5.2.3.3. Sprint Backlog 3
+
+El objetivo principal del Sprint 2 es desarrollar y desplegar una primera versión del frontend de nuestro proyecto TrackLab. A continuación se muestra una captura de algunos de los componentes que se buscan trabajar en este Sprint con su código correspondiente y estado.
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Sprint #</th>
+      <th>Task ID</th>
+      <th>Task Title</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T01</td>
+      <td>Resource Value objects</td>
+      <td>Roman Cruz, Natalia Bertha</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T02</td>
+      <td>Order Value objects</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T03</td>
+      <td>Tracking Value objects</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T04</td>
+      <td>Iam Value objects</td>
+      <td>Roman Cruz, Natalia Berth</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T05</td>
+      <td>Resource Entities</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T06</td>
+      <td>Order Entities</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T07</td>
+      <td>Tracking Entities</td>
+      <td>Roman Cruz, Natalia Berth</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T08</td>
+      <td>Resource Controllers</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T09</td>
+      <td>Tracking Controllers</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T10</td>
+      <td>Order Controllers</td>
+      <td>Roman Cruz, Natalia Bertha</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T11</td>
+      <td>Iam Controllers</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T12</td>
+      <td>Security Implemmentation</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T13</td>
+      <td>Commands</td>
+      <td>Roman Cruz, Natalia Bertha</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T14</td>
+      <td>Queries</td>
+      <td>Iglesias Perez, Sergio Sebastian</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T15</td>
+      <td>Eepositories</td>
+      <td>Roman Cruz, Natalia Bertha</td>
+      <td>Done</td>
+    </tr>
+  </table>
+</div>
+
+### 5.2.3.4. Development Evidence for Sprint Review
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>tracking</td>
+      <td>1843882</td>
+      <td>Merge pull request #12 from AlumWare/tracking</td>
+      <td>N/A</td>
+      <td>2025-06-20</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>tracking</td>
+      <td>5c361d2</td>
+      <td>Modificación de endpoints en controller</td>
+      <td>N/A</td>
+      <td>2025-06-20</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>tracking</td>
+      <td>e687a64</td>
+      <td>feat: Erase welcome endpoint</td>
+      <td>N/A</td>
+      <td>2025-06-20</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>tracking</td>
+      <td>3eb2b9e</td>
+      <td>feat: Change controllers titles to plural</td>
+      <td>N/A</td>
+      <td>2025-06-20</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>tracking</td>
+      <td>d1648c9</td>
+      <td>Merge pull request #11 from AlumWare/tracking</td>
+      <td>N/A</td>
+      <td>2025-06-18</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>tracking</td>
+      <td>78db775</td>
+      <td>feat: add Tracking bounded context</td>
+      <td>N/A</td>
+      <td>2025-06-18</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>order</td>
+      <td>e6a00d5</td>
+      <td>Merge pull request #10 from AlumWare/order</td>
+      <td>N/A</td>
+      <td>2025-06-17</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>order</td>
+      <td>874dea2</td>
+      <td>feat(order): implementación de order</td>
+      <td>N/A</td>
+      <td>2025-06-17</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>Resources-implementation</td>
+      <td>4a2be9e</td>
+      <td>Merge pull request #9 from AlumWare/Resources-implementation</td>
+      <td>N/A</td>
+      <td>2025-06-17</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>Resources-implementation</td>
+      <td>e6bdd49</td>
+      <td>feat: implementación de product</td>
+      <td>N/A</td>
+      <td>2025-06-17</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>revert-7-Resources-implementation</td>
+      <td>f03f975</td>
+      <td>Merge pull request #8 from AlumWare/revert-7-Resources-implementation</td>
+      <td>N/A</td>
+      <td>2025-06-17</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>develop</td>
+      <td>eebc5c3</td>
+      <td>Revert "Merge pull request #6 from AlumWare/develop"</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>Resources-implementation</td>
+      <td>0c8ac5f</td>
+      <td>Merge pull request #7 from AlumWare/Resources-implementation</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>develop</td>
+      <td>d85f755</td>
+      <td>Merge pull request #6 from AlumWare/develop</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>Resources-implementation</td>
+      <td>da48940</td>
+      <td>Merge pull request #5 from AlumWare/Resources-implementation</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>main/develop</td>
+      <td>b6a172c</td>
+      <td>Cambios en Tenant Token</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>N/A</td>
+      <td>dc14d0a</td>
+      <td>q?</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>develop</td>
+      <td>54c7994</td>
+      <td>Merge branch 'develop' of github.com:AlumWare/tracklab-backend into develop</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>N/A</td>
+      <td>140ec4d</td>
+      <td>feature: controllers implemented. Shared tenant context available</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>Resources-implementation</td>
+      <td>ec54921</td>
+      <td>Merge pull request #4 from AlumWare/Resources-implementation</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>N/A</td>
+      <td>58ff8cb</td>
+      <td>Remove compiled binaries (bin/) from version control</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>N/A</td>
+      <td>fc77ef2</td>
+      <td>Actualización: mejoras en backend y ajustes de modelos</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>Resources-implementation</td>
+      <td>12f11e5</td>
+      <td>Merge pull request #3 from AlumWare/Resources-implementation</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>N/A</td>
+      <td>fe538f3</td>
+      <td>Remove obj/ from version control</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>develop</td>
+      <td>7bff9bb</td>
+      <td>Aplicación de cambios desde develop: ajustes en migraciones, configuración y lógica</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+  </table>
+</div>
+
+### 5.2.3.5. Execution Evidence for Sprint Review
+
+En nuestro tercer sprint, comenzamos a implementar nuestros endpoints y los visulizamos y probamos a tráves de swagger como se evidencia a continuación:
+
+<div align="center">
+  <img src="assets/md-images/swagger1.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger2.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger3.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger4.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger5.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger6.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger7.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger8.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger9.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger10.jpg" alt="login-view.png" width="700px">
+</div>
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Para guardar nuestra base de datos estamos utilizando la herramienta MySQL, y para visualizar la misma nos apoyamos de MySQLWorkbench. A continuación, mostramos algunas imágenes de nuestra base de datos funcionando después de haber sido creada por nuestro programa que usa lenguaje C#
+
+<div align="center">
+  <img src="assets/md-images/database1.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/database2.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/database3.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/database4.jpg" alt="login-view.png" width="700px">
+</div>
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+A continuación, se explicará como hemos desarrollado la parte del despliegue para nuestro backend.
+
+Primero, creamos el servidor MySQL y asignamos el nombre del servidor y el plan que va a seguir el servidor de base de datos.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack1.jpg" alt="login-view.png" width="700px">
+</div>
+
+Luego, configuramos la autenticación por medio de MySQL colocando usuario y contraseña.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack2.jpg" alt="login-view.png" width="700px">
+</div>
+
+A continuación, configuramos las redes para lograr tener acceso a cualquier recurso dentro de nuestra cuenta de Azure. Además, agregamos una regla para poder usar nuestra propia IP.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack3.jpg" alt="login-view.png" width="700px">
+</div>
+
+Aquí, mostramos la validación que nos pide confirmar para crear la base de datos.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack4.jpg" alt="login-view.png" width="700px">
+</div>
+
+Ahora, tenemos nuestro esquema TrackLabDB creado, por lo que podremos usarlo para nuestro backend.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack5.jpg" alt="login-view.png" width="700px">
+</div>
+
+Aquí, se muestran los datos para poder conectarnos.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack6.jpg" alt="login-view.png" width="700px">
+</div>
+
+Consiguientemente, creamos el app service, siendo para este caso una aplicación web .NET 9.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack7.jpg" alt="login-view.png" width="700px">
+</div>
+
+Ahora, lo conectamos a nuestro repositorio de forma que cada vez que se haga un push a la rama main este se actualice.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack8.jpg" alt="login-view.png" width="700px">
+</div>
+
+Para finalizar, confirmamos la creación.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack9.jpg" alt="login-view.png" width="700px">
+</div>
+
+### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la primera versión del frontend de nuestro proyecto TrackLab, dividiéndose por secciones según la vista y funcionalidad definida previamente.   
+A continuación, se detalla la participación específica de cada integrante del equipo:
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Nombre</th>
+      <th>Actividades</th>
+    </tr>
+    <tr>
+      <td>Roman Cruz, Natalia Bertha</td>
+      <td>Revisión y ajuste final de código, elaboración de informe y planificación de Sprint 3</td>
+    </tr>
+    <tr>
+      <td>Solano Armas, Angelo Héctor</td>
+      <td>Codificación de bounded contexts, revisión de avances de integrantes</td>
+    </tr>
+    <tr>
+      <td>Iglesias Pérez, Sergio Sebastián</td>
+      <td>Implementación de seguridad (bounded Iam), diseño de diagramas</td>
+    </tr>
+    <tr>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Registro de entrevistas y heurísticas, edición de video about the product</td>
+    </tr>
+    <tr>
+      <td>Céspedes Pillco, Jarod Jack</td>
+      <td>Apoyo en el diseño de diagramas</td>
+    </tr>
+  </table>
+</div>
+
+> **Nota:** Algunos integrantes colaboraron en secciones compartidas para asegurar consistencia en diseño y funcionalidad.
+
+##### Evidencia de Colaboración en GitHub:
+
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+<div align="center">
+  <img src="assets/md-images/graficosCollabSprint3.png" alt="team-collaboration-sprint-3.png" width="700px">
+</div>
+
+##### Repositorio del trabajo:
+
+- [Repositorio del backend en GitHub](https://tracklab-api.azurewebsites.net/swagger/index.html)
+
+Como se evidencia, el equipo ha trabajado colaborativamente, respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente como participación de todos los miembros del equipo.
+
+## 5.3. Validation interview
+
+### 5.3.1. Diseño de Entrevistas.
+
+### Objetivo de la Entrevista
+Validar la usabilidad, claridad y efectividad de TrackLab desde la perspectiva de sus dos segmentos clave (Cliente Final y Administrador Interno), asegurando que los flujos críticos sean intuitivos, las tareas logísticas se realicen sin fricciones y la interfaz ofrezca el feedback adecuado en cada paso.
+
+### Elementos de Validación
+
+##### Landing Page
+Se evaluará si el mensaje principal comunica claramente el valor de la plataforma, si las llamadas a la acción invitan a registrarse o iniciar sesión, y si el diseño es responsivo y funcional en desktop, tablet y móvil.
+
+##### Aplicación Web
+Se observará la interacción en flujos críticos (login, creación de pedidos, búsqueda y filtrado de órdenes, historial de operaciones, gestión interna, contenedores y planificación de rutas), midiendo la claridad de las pantallas, la detección de errores, el uso de estados vacíos (“sin datos”) y la calidad de las confirmaciones y feedback visual.
+
+### User Flows a Validar
+
+#### Para el Segmento Cliente Final
+
+1. Inicio de sesión
+   - Evaluación de la claridad de los campos, validaciones en tiempo real y feedback de carga.
+
+2. reación de pedido (wizard)
+   - Evaluación de la navegación paso a paso, estado de los botones Next y consistencia de idioma.
+
+3. Búsqueda y filtrado de órdenes
+   - Evaluación del uso del buscador, comprensión del placeholder y feedback en caso de resultados vacíos.
+
+4. Consulta de historial de operaciones
+   - Evaluación de la interpretación de la línea de tiempo, nomenclatura de nodos/etapas y mensajes “sin datos”.
+
+#### Para el Segmento Administrador Interno
+
+1. Gestión de usuarios
+   - Evaluación del filtrado por rol, claridad de acciones (editar, bloquear) y disponibilidad de tooltips.
+
+2. Gestión de vehículos y bodegas
+   - Evaluación del cambio de vista (lista/cuadrícula), uso de filtros de zona y tipo, y marcadores en el mapa.
+
+3. Gestión de contenedores
+   - Evaluación del flujo Crear → Añadir ítems → Ver eliminados → Cerrar contenedor con confirmación.
+
+4. Planificación de rutas
+   - Evaluación de la adición y reordenamiento de nodos, visualización en el mapa, guardado de rutas y estado de las pestañas Plan/Saved.
+
+### Formato de Registro de la Entrevista
+
+##### Datos del Entrevistado
+- **Nombre completo**
+- **Edad**
+- **Ciudad de residencia**
+- **Segmento (Cliente Final / Administrador Interno)**
+- **Dispositivo utilizado (desktop, tablet, móvil)**
+
+#### Preguntas para el Segmento Cliente Final
+
+__Inicio de sesión__
+- ¿Fue claro el formulario de inicio de sesión?
+- ¿Qué ocurrió cuando ingresaste mal tus credenciales?
+- ¿Percibiste algún indicador de carga o mensaje de error?
+
+__Creación de pedido__
+- ¿Encontraste intuitivo el flujo paso a paso del wizard?
+- ¿Notaste cuándo el botón “Next” estaba activo o deshabilitado?
+- ¿Las instrucciones y etiquetas estaban en el idioma correcto?
+
+__Búsqueda y filtrado de órdenes__
+- ¿El placeholder del buscador te indicó claramente qué podías buscar?
+- ¿Qué sucedió cuando no obtuviste resultados?
+- ¿Cómo describirías tu experiencia filtrando órdenes?
+
+__Consulta de historial de operaciones__
+- ¿Fue fácil interpretar la línea de tiempo y los “nodos”?
+- ¿El sistema te avisó cuando no había operaciones registradas?
+- ¿Qué mejorarías en la visualización del historial?
+
+#### Preguntas para el Segmento Administrador Interno
+
+__Gestión de usuarios__
+- ¿Pudiste filtrar por rol sin dificultad?
+- ¿Fue claro el proceso para editar o bloquear un usuario?
+- ¿Echarías en falta tooltips o ayudas en los iconos de acción?
+
+__Gestión de vehículos y bodegas__
+- ¿Te resultó sencillo cambiar entre vista lista y cuadrícula?
+- ¿Encontraste intuitivos los filtros de zona geográfica y tipo de almacén?
+- En el mapa, ¿supiste ubicar tus bodegas y entender los marcadores?
+
+__Gestión de contenedores__
+- ¿Comprendiste el flujo Crear contenedor → Añadir ítems → Cerrar?
+- ¿Recibiste feedback al eliminar elementos o al cerrar el contenedor?
+- ¿Te pareció necesaria una confirmación antes de cerrar?
+
+__Planificación de rutas__
+- ¿Fue fácil añadir y reordenar nodos en la lista de paradas?
+- ¿Pudiste ver la ruta reflejada en el mapa sin confusiones?
+- ¿Encontraste claro el proceso para guardar rutas y cambiar entre pestañas?
+
+
+### 5.3.2. Registro de entrevistas.
+
+### 5.3.3. Evaluaciones según heurísticas.
+
+**Información del proyecto:**
+- **Carrera:** Ingeniería de Software
+- **Curso:** Aplicaciones Web
+- **Auditor:** TrackLab
+- **Cliente:** TrackLab
+- **Aplicación:** TrackLab
+
+**Tareas a evaluar por segmento:**
+
+- **Cliente final:**
+  - Iniciar sesión (login)
+  - Crear un pedido (wizard)
+  - Buscar y filtrar pedidos
+  - Consultar historial de operaciones
+
+- **Administrador interno:**
+  - Gestionar contenedores (añadir items, cerrar)
+  - Planificar y guardar rutas
+  - Ver y filtrar bodegas en el mapa
+  - Navegar entre módulos de administración (usuarios, vehículos, almacenes)
+
+**Nivel de severidad de los problemas:**
+
+| #  | Problema                                                          | Escala de severidad | Heurística                              | Tarea evaluada                        |
+|----|-------------------------------------------------------------------|---------------------|-----------------------------------------|---------------------------------------|
+| 1  | Falta enlace “¿Olvidaste tu contraseña?” al intentar iniciar sesión | 4                   | Prevención de errores / Ayuda y documentación | Iniciar sesión                        |
+| 2  | Los botones “Register Company” y “Register User” compiten visualmente con Login | 2                   | Minimalismo / Consistencia y estándares  | Iniciar sesión                        |
+| 3  | “Quick Actions” en texto plano carecen de botón o icono, pasan desapercibidas | 1                   | Consistencia visual                     | Acceso rápido a acciones (nuevo pedido, rastrear, historial) |
+| 4  | Historial de Operaciones vacío no muestra mensaje “No hay operaciones registradas” | 2                   | Visibilidad del estado del sistema      | Consultar historial de operaciones   |
+| 5  | El placeholder de búsqueda en Mis Órdenes (“producto, destino o cantidad”) es confuso | 2                   | Correspondencia entre el sistema y el mundo real | Buscar pedido                         |
+
+**Detalle de problemas:**
+
+- **Problema #1: Falta enlace “¿Olvidaste tu contraseña?” al intentar iniciar sesión**
+  - **Tarea evaluada:** Iniciar sesión
+  - **Recomendación:** Añadir un enlace “Olvidé mi contraseña” en el formulario de login que inicie el flujo de restablecimiento por email.
+
+- **Problema #2: Los botones “Register Company” y “Register User” compiten visualmente con Login**
+  - **Tarea evaluada:** Iniciar sesión
+  - **Recomendación:** Degradar visualmente los enlaces de registro (texto más discreto) y destacar únicamente el botón de Login.
+
+- **Problema #3: “Quick Actions” en texto plano carecen de botón o icono, pasan desapercibidas**
+  - **Tarea evaluada:** Acceso rápido a acciones (nuevo pedido, rastrear, historial)
+  - **Recomendación:** Convertir cada acción en un botón o card con icono para mejorar la descubribilidad.
+
+- **Problema #4: Historial de Operaciones vacío no muestra mensaje “No hay operaciones registradas”**
+  - **Tarea evaluada:** Consultar historial de operaciones
+  - **Recomendación:** Mostrar texto e icono que indiquen “No hay operaciones registradas” cuando no haya datos.
+
+- **Problema #5: El placeholder de búsqueda en Mis Órdenes (“producto, destino o cantidad”) es confuso**
+  - **Tarea evaluada:** Buscar pedido
+  - **Recomendación:** Ajustar a “producto, destino o ID de pedido” para eliminar ambigüedad.
 
 # 6. Conclusiones
 
