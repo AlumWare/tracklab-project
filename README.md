@@ -39,6 +39,7 @@
 | 1.1       | 13/04/2025 | Roman Cruz, Natalia Bertha       | Capítulos I (sin entrevistas), Capítulo II (ubiquitous language) y Capítulo 3 (hasta 3.2) |
 | 1.2       | 25/04/2025 | Céspedes, Baldeón, Iglesias, Roman, Solano| Implementación de los capítulos IV y V - Entrevistas, Ubiquitous anguage y Capítulo III completados|
 | 2.0       | 13/05/2025 | Céspedes, Baldeón, Iglesias, Roman, Solano| Capítulo V complerado - sprint II junto a evidencias |
+| 3.0       | 20/06/2025 | Céspedes, Baldeón, Iglesias, Roman, Solano| Sprint III junto a evidencias, análisis de heurísticas y entrevistas de validación |
 
 ---
 
@@ -60,6 +61,34 @@ Para el desarrollo del informe pertinente a la TB1, se dividió la implementaci�
 
 El proceso de colaboración durante el informe se realizó tanto con commits como compartiendo avances a través de documentos de google. 
 
+**TP**
+
+Para el desarrollo del informe pertinente al TP, se dividió la implementación de sencciones de la siguiente forma entre los integrantes del grupo:
+
+| **Integrantes**                  | **Tareas asignadas** |
+| ---------------------------------|----------------------|
+| Roman Cruz, Natalia Bertha       | Creación de componentes, creación de entidades, aplicación de router e i18n, aplicación fakeApi y mockApi |
+| Solano Armas, Angelo Hector      | Creación de componentes, creación de entidades, aplicación de router e i18n, aplicación fakeApi |
+| Iglesias Pérez, Sergio Sebastián | Creación de componentes, creación de entidades, aplicación de router e i18n, aplicación fakeApi y mockApi |
+| Baldeón Vivar, Santiago Armando  |Creación de componentes, creación de entidades, aplicación de router e i18n, aplicación fakeApi, edición del video |
+| Céspedes Pillco, Jarod Jack      | Creación de componentes, creación de entidades, aplicación de router e i18n, aplicación fakeApi, Services Documentation Evidence for Sprint Review |
+
+El proceso de colaboración durante el informe se realizó tanto con commits en el repositorio del landing, como en el del front-end y el del report.
+
+**TB2**
+
+Para el desarrollo del informe pertinente a la TB1, se dividió la implementación de sencciones de la siguiente forma entre los integrantes del grupo:
+
+| **Integrantes**                  | **Tareas asignadas** |
+| ---------------------------------|----------------------|
+| Roman Cruz, Natalia Bertha       | Planificación y redacción del tercer sprint, correcciones finales del código de backend, apoyo en el diseño de diagramas |
+| Solano Armas, Angelo Hector      | Implementación de los bounded context, revisión de los endpoints |
+| Iglesias Pérez, Sergio Sebastián | Implementación de los bounded context, desarrollo de los diagramas, despliegue del backend y database |
+| Baldeón Vivar, Santiago Armando  | Planificación y redacción del tercer sprint, correcciones finales del código de backend, edición del video |
+| Céspedes Pillco, Jarod Jack      | Planificación y redacción del tercer sprint, apoyo en el diseño de diagramas |
+
+El proceso de colaboración durante el informe se realizó tanto con commits en el backend como en el repositorio del report.
+
 ---
 
 ## Github Collaboration Insights
@@ -78,8 +107,22 @@ Asimismo, se explican las ramas que tenemos hasta el momento:
 - develop: Representada por la rama blanca. Se trata de la rama principal para el proceso del desarrollo del proyecto.
 - readme: Representada por la rama morada. Se trata de la rama en la que se han estado realizando las modificaciones al informe.
 
+__Report repository__
+
 <div>
   <p><img src="assets/md-images/network.png" alt="Network Graph TB1" width="700px" /></p>
+</div>
+
+__Frontend Repository__
+
+<div>
+  <p><img src="assets/md-images/network-front.png" alt="Network Graph TP" width="700px" /></p>
+</div>
+
+__Backeend Repository__
+
+<div>
+  <p><img src="assets/md-images/network-back.png" alt="Network Graph TB2" width="700px" /></p>
 </div>
 
 Los siguientes gráficos muestran analíticos en cuanto a los commits que cada integrante del grupo ha estado realizando en el repositorio.
@@ -99,10 +142,19 @@ __TP__
 <div>
   <p><img src="assets/md-images/commits - readme TP.png" alt="Network Graph TP" width="700px" /></p>
 </div>
- <p><img src="assets/md-images/graficos - readme TP.png" alt="Network Graph TP" width="700px" /></p>
 <div>
-  
+   <p><img src="assets/md-images/graficos - readme TP.png" alt="Network Graph TP" width="700px" /</p>
 </div>
+
+__TB2__
+
+<div>
+  <p><img src="assets/md-images/commits - readme TB2.png" alt="Network Graph TB2" width="700px" /></p>
+</div>
+<div>
+   <p><img src="assets/md-images/graficos - readme TB2.png" alt="Network Graph TB2" width="700px" /</p>
+</div>
+
 ---
 
 ## Students Outcomes
