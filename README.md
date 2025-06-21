@@ -4989,6 +4989,16 @@ A continuación, se detalla la participación específica de cada integrante del
   </table>
 </div>
 
+> **Nota:** Algunos integrantes colaboraron en secciones compartidas para asegurar consistencia en diseño y funcionalidad.
+
+##### Evidencia de Colaboración en GitHub:
+
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+<div align="center">
+  <img src="assets/md-images/graficosCollabSprint3.png" alt="team-collaboration-sprint-3.png" width="700px">
+</div>
+
 ## 5.3. Validation interview
 
 ### 5.3.1. Diseño de Entrevistas.
