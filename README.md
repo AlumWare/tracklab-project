@@ -4340,6 +4340,51 @@ Como se evidencia, el equipo ha trabajado colaborativamente, respetando el flujo
 
 ### 5.2.3.1. Sprint Planning 3
 
+<div align="center">
+  <table>
+    <tr>
+      <th>Sprint #</th>
+      <td>Sprint 3</td>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <td>2024-06-01</td>
+    </tr>
+    <tr>
+      <th>Time</th>
+      <td>11:08 PM</td>
+    </tr>
+    <tr>
+      <th>Location</th>
+      <td>Reunión virtual a través de Discord</td>
+    </tr>
+    <tr>
+      <th>Prepared by</th>
+      <td>Roman Cruz, Natalia Bertha e Iglesias Pérez, Sergio Sebastián</td>
+    </tr>
+    <tr>
+      <th>Attendees (to planning meeting)</th>
+      <td>Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando y Céspedes Pillco, Jarod Jack</td>
+    </tr>
+    <tr>
+      <th>Sprint 1 Review Summary</th>
+      <td>In the previous sprint, we focused on improving our landing page performance, but also on deploying and showing to users the first working version of our web application.</td>
+    </tr>
+    <tr>
+      <th>Sprint 2 Goal</th>
+      <td>Our focus now is on deploying the first version of our application backend, including our core bounded contexts and main endpoints. We would also try to connect our frontend and backend</td>
+    </tr>
+    <tr>
+      <th>Sprint 2 Velocity</th>
+      <td>25 story points</td>
+    </tr>
+    <tr>
+      <th>Sum of Story Points</th>
+      <td>25 story points</td>
+    </tr>
+  </table>
+</div>
+
 ### 5.2.3.2. Aspect Leaders and Collaborators
 
 ### 5.2.3.3. Sprint Backlog 3
