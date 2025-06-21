@@ -2885,49 +2885,59 @@ En TrackLab, aplicar DDD nos permite aislar responsabilidades (tracking, manejo 
 Este diagrama muestra en una única vista al sistema Tracklab, sus actores principales y los sistemas externos con los que interactúa:
 
 <div>
-  <p align="center"><img src="assets/md-images/c4-model/tracklab-c1-diagram.png" alt="c1: System Context.png" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/c4-model/c1-system-context.png" alt="c1: System Context.png" width="700px" /></p>
 </div>
 
 ### 4.6.2. Software Architecture Container  Diagram
 
-En el C2, se hace "zoom" dentro de el sistema, y se identifican los contenedores. En este caso, con fines de mostrar la aplicación de Domain Driven Design, se añadieron 6 contenedores lógicos representados por hexágonos, los bounded context, pues el API Application es un monolito.
+En el C2, se hace "zoom" dentro de el sistema, y se identifican los contenedores.
 
 <div>
-  <p align="center"><img src="assets/md-images/c4-model/tracklab-c2-diagram.png" alt="c1: System Context.png" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/c4-model/c2-container-diagram.png" alt="c2: Containers diagram.png" width="700px" /></p>
 </div>
 
 ### 4.6.3. Software Architecture Components  Diagram
 
-En el C3, exploramos más a detalle cada uno de los contenedores que hemos identificado. En este caso, realizamos el C3 para los contenedores lógicos (bounded context)
+En el C3, exploramos más a detalle el API Application y el SPA. Adicionalment,e realizamos el C3 para los contenedores lógicos (bounded context)
 
-* Security Context: 
+*Frontend Components:
 <div>
-  <p align="center"><img src="assets/md-images/c4-model/tracklab-c3-security-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/c4-model/c3-front-components.png" alt="c3: Frontend Components.png" width="700px" /></p>
 </div>
 
-* Billing Context:
+* API Application: 
 <div>
-  <p align="center"><img src="assets/md-images/c4-model/tracklab-c3-billing-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
-</div>
-
-* Notification Context: 
-<div>
-  <p align="center"><img src="assets/md-images/c4-model/tracklab-c3-notification-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/c4-model/c3-contexts.png" alt="c3: API Applications Components.png" width="700px" /></p>
 </div>
 
 * Resource Context:
 <div>
-  <p align="center"><img src="assets/md-images/c4-model/tracklab-c3-resource-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/c4-model/c3-resource-context.png" alt="c3: Resource Context Components.png" width="700px" /></p>
 </div>
 
 * Tracking Context:
 <div>
-  <p align="center"><img src="assets/md-images/c4-model/tracklab-c3-tracking-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/c4-model/c3-tracking-context.png" alt="c3: Tracking Context Components.png" width="700px" /></p>
 </div>
 
 * Order Context:
 <div>
-  <p align="center"><img src="assets/md-images/c4-model/tracklab-c3-order-context-diagram.png" alt="c3: System Context Components.png" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/c4-model/c3-order-context.png" alt="c3: Order Context Components.png" width="700px" /></p>
+</div>
+
+* Iam Context: 
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/c3-iam-context.png" alt="c3: IAM Context Components.png" width="700px" /></p>
+</div>
+
+* Billing Context:
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/c3-billing-context.png" alt="c3: Billing Context Components.png" width="700px" /></p>
+</div>
+
+* Notification Context: 
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/c3-notification-context.png" alt="c3: Notification Context Components.png" width="700px" /></p>
 </div>
 
 
@@ -2935,10 +2945,37 @@ En el C3, exploramos más a detalle cada uno de los contenedores que hemos ident
 
 ### 4.7.1. Class Diagrams
 
-Diagrama de clases basado en bounded contexts:
+Diseñamos el diagrama de clases para cada uno de los bounded context y para el spa.
 
+* Spa:
+* Shared Context:
 <div>
-  <p align="center"><img src="assets/md-images/class-diagram/tracklab-class-diagram.png" alt="Class Diagram" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/class-diagram/front-class-diagram.png" alt="Frontend class diagram.png" width="700px" /></p>
+</div>
+
+* Shared Context:
+<div>
+  <p align="center"><img src="assets/md-images/class-diagram/shared-class-diagram.png" alt="Shared class diagram.png" width="700px" /></p>
+</div>
+
+* Resource Context:
+<div>
+  <p align="center"><img src="assets/md-images/class-diagram/resource-class-diagram.png" alt="Resource class diagram.png" width="700px" /></p>
+</div>
+
+* Tracking Context:
+<div>
+  <p align="center"><img src="assets/md-images/class-diagram/tracking-class-diagram.png" alt="Tracking class diagram.png" width="700px" /></p>
+</div>
+
+* Order Context:
+<div>
+  <p align="center"><img src="assets/md-images/class-diagram/order-class-diagram.png" alt="Order class diagram.png" width="700px" /></p>
+</div>
+
+* Iam Context:
+<div>
+  <p align="center"><img src="assets/md-images/class-diagram/iam-class-diagram.png" alt="IAM class diagram.png" width="700px" /></p>
 </div>
 
 ### 4.7.2. Class Dictionary
@@ -3536,7 +3573,7 @@ A continuación se documentan todas las clases, interfaces y enums del diagrama 
 ### 4.8.1. Database Diagram
 
 <div>
-  <p align="center"><img src="assets/md-images/db-diagram/tracklab-db-diagram.png" alt="c3: Execution Context Components.png" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/db-diagram/database-diagram.png" alt=".png" width="700px" /></p>
 </div>
 
 # 5. Capítulo V: Product Implementation, Validation & Deployment
