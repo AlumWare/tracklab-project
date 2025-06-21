@@ -4487,13 +4487,415 @@ Como se evidencia, el equipo ha trabajado colaborativamente, respetando el flujo
 
 ### 5.2.3.2. Aspect Leaders and Collaborators
 
+En este sprint se busca completar la landing page de TrackLab, incluyendo el diseño y su despliegue. Para lograr una correcta comunicación, se ha creado la matriz de liderazgo y colaboración (LACX), en la cual se define quien lidera y quien colabora en cada aspecto del sprint.
+
+| Team Member                         | GitHub username     | Diseño Backend  | Despliegue Backend |
+|------------------------------------|----------------------|----------------------|--------------------------|
+| Roma Cruz, Natalia Bertha          | natRC2005            | L                    | C                        |
+| Sonano Armas, Angelo Hector        | Angelo5214           | C                    | C                        |
+| Iglesias Perez, Sergio Sebastian   | ghostrider101218     | C                    | L                        |
+| Baldeon Vivar, Santiago Armando    | Santibal11           | C                    | C                        |
+| Céspedes Pillco, Jarod Jack        | PruebaJJC            | C                    | C                        |
+
 ### 5.2.3.3. Sprint Backlog 3
+
+El objetivo principal del Sprint 2 es desarrollar y desplegar una primera versión del frontend de nuestro proyecto TrackLab. A continuación se muestra una captura de algunos de los componentes que se buscan trabajar en este Sprint con su código correspondiente y estado.
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Sprint #</th>
+      <th>Task ID</th>
+      <th>Task Title</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T01</td>
+      <td>Resource Value objects</td>
+      <td>Roman Cruz, Natalia Bertha</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T02</td>
+      <td>Order Value objects</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T03</td>
+      <td>Tracking Value objects</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T04</td>
+      <td>Iam Value objects</td>
+      <td>Roman Cruz, Natalia Berth</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T05</td>
+      <td>Resource Entities</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T06</td>
+      <td>Order Entities</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T07</td>
+      <td>Tracking Entities</td>
+      <td>Roman Cruz, Natalia Berth</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T08</td>
+      <td>Resource Controllers</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T09</td>
+      <td>Tracking Controllers</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T10</td>
+      <td>Order Controllers</td>
+      <td>Roman Cruz, Natalia Bertha</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T11</td>
+      <td>Iam Controllers</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T12</td>
+      <td>Security Implemmentation</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T13</td>
+      <td>Commands</td>
+      <td>Roman Cruz, Natalia Bertha</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T14</td>
+      <td>Queries</td>
+      <td>Iglesias Perez, Sergio Sebastian</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>T15</td>
+      <td>Eepositories</td>
+      <td>Roman Cruz, Natalia Bertha</td>
+      <td>Done</td>
+    </tr>
+  </table>
+</div>
 
 ### 5.2.3.4. Development Evidence for Sprint Review
 
+<div align="center">
+  <table>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>tracking</td>
+      <td>1843882</td>
+      <td>Merge pull request #12 from AlumWare/tracking</td>
+      <td>N/A</td>
+      <td>2025-06-20</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>tracking</td>
+      <td>5c361d2</td>
+      <td>Modificación de endpoints en controller</td>
+      <td>N/A</td>
+      <td>2025-06-20</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>tracking</td>
+      <td>e687a64</td>
+      <td>feat: Erase welcome endpoint</td>
+      <td>N/A</td>
+      <td>2025-06-20</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>tracking</td>
+      <td>3eb2b9e</td>
+      <td>feat: Change controllers titles to plural</td>
+      <td>N/A</td>
+      <td>2025-06-20</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>tracking</td>
+      <td>d1648c9</td>
+      <td>Merge pull request #11 from AlumWare/tracking</td>
+      <td>N/A</td>
+      <td>2025-06-18</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>tracking</td>
+      <td>78db775</td>
+      <td>feat: add Tracking bounded context</td>
+      <td>N/A</td>
+      <td>2025-06-18</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>order</td>
+      <td>e6a00d5</td>
+      <td>Merge pull request #10 from AlumWare/order</td>
+      <td>N/A</td>
+      <td>2025-06-17</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>order</td>
+      <td>874dea2</td>
+      <td>feat(order): implementación de order</td>
+      <td>N/A</td>
+      <td>2025-06-17</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>Resources-implementation</td>
+      <td>4a2be9e</td>
+      <td>Merge pull request #9 from AlumWare/Resources-implementation</td>
+      <td>N/A</td>
+      <td>2025-06-17</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>Resources-implementation</td>
+      <td>e6bdd49</td>
+      <td>feat: implementación de product</td>
+      <td>N/A</td>
+      <td>2025-06-17</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>revert-7-Resources-implementation</td>
+      <td>f03f975</td>
+      <td>Merge pull request #8 from AlumWare/revert-7-Resources-implementation</td>
+      <td>N/A</td>
+      <td>2025-06-17</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>develop</td>
+      <td>eebc5c3</td>
+      <td>Revert "Merge pull request #6 from AlumWare/develop"</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>Resources-implementation</td>
+      <td>0c8ac5f</td>
+      <td>Merge pull request #7 from AlumWare/Resources-implementation</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>develop</td>
+      <td>d85f755</td>
+      <td>Merge pull request #6 from AlumWare/develop</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>Resources-implementation</td>
+      <td>da48940</td>
+      <td>Merge pull request #5 from AlumWare/Resources-implementation</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>main/develop</td>
+      <td>b6a172c</td>
+      <td>Cambios en Tenant Token</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>N/A</td>
+      <td>dc14d0a</td>
+      <td>q?</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>develop</td>
+      <td>54c7994</td>
+      <td>Merge branch 'develop' of github.com:AlumWare/tracklab-backend into develop</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>N/A</td>
+      <td>140ec4d</td>
+      <td>feature: controllers implemented. Shared tenant context available</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>Resources-implementation</td>
+      <td>ec54921</td>
+      <td>Merge pull request #4 from AlumWare/Resources-implementation</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>N/A</td>
+      <td>58ff8cb</td>
+      <td>Remove compiled binaries (bin/) from version control</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>N/A</td>
+      <td>fc77ef2</td>
+      <td>Actualización: mejoras en backend y ajustes de modelos</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>Resources-implementation</td>
+      <td>12f11e5</td>
+      <td>Merge pull request #3 from AlumWare/Resources-implementation</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>N/A</td>
+      <td>fe538f3</td>
+      <td>Remove obj/ from version control</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+    <tr>
+      <td>AlumWare/tracklab-backend</td>
+      <td>develop</td>
+      <td>7bff9bb</td>
+      <td>Aplicación de cambios desde develop: ajustes en migraciones, configuración y lógica</td>
+      <td>N/A</td>
+      <td>2025-06-16</td>
+    </tr>
+  </table>
+</div>
+
 ### 5.2.3.5. Execution Evidence for Sprint Review
 
+En nuestro tercer sprint, comenzamos a implementar nuestros endpoints y los visulizamos y probamos a tráves de swagger como se evidencia a continuación:
+
+<div align="center">
+  <img src="assets/md-images/swagger1.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger2.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger3.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger4.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger5.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger6.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger7.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger8.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger9.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger10.jpg" alt="login-view.png" width="700px">
+</div>
+
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Para guardar nuestra base de datos estamos utilizando la herramienta MySQL, y para visualizar la misma nos apoyamos de MySQLWorkbench. A continuación, mostramos algunas imágenes de nuestra base de datos funcionando después de haber sido creada por nuestro programa que usa lenguaje C#
+
+<div align="center">
+  <img src="assets/md-images/database1.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/database2.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/database3.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/database4.jpg" alt="login-view.png" width="700px">
+</div>
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
