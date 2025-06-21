@@ -4899,7 +4899,95 @@ Para guardar nuestra base de datos estamos utilizando la herramienta MySQL, y pa
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+A continuación, se explicará como hemos desarrollado la parte del despliegue para nuestro backend.
+
+Primero, creamos el servidor MySQL y asignamos el nombre del servidor y el plan que va a seguir el servidor de base de datos.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack1.jpg" alt="login-view.png" width="700px">
+</div>
+
+Luego, configuramos la autenticación por medio de MySQL colocando usuario y contraseña.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack2.jpg" alt="login-view.png" width="700px">
+</div>
+
+A continuación, configuramos las redes para lograr tener acceso a cualquier recurso dentro de nuestra cuenta de Azure. Además, agregamos una regla para poder usar nuestra propia IP.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack3.jpg" alt="login-view.png" width="700px">
+</div>
+
+Aquí, mostramos la validación que nos pide confirmar para crear la base de datos.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack4.jpg" alt="login-view.png" width="700px">
+</div>
+
+Ahora, tenemos nuestro esquema TrackLabDB creado, por lo que podremos usarlo para nuestro backend.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack5.jpg" alt="login-view.png" width="700px">
+</div>
+
+Aquí, se muestran los datos para poder conectarnos.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack6.jpg" alt="login-view.png" width="700px">
+</div>
+
+Consiguientemente, creamos el app service, siendo para este caso una aplicación web .NET 9.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack7.jpg" alt="login-view.png" width="700px">
+</div>
+
+Ahora, lo conectamos a nuestro repositorio de forma que cada vez que se haga un push a la rama main este se actualice.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack8.jpg" alt="login-view.png" width="700px">
+</div>
+
+Para finalizar, confirmamos la creación.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack9.jpg" alt="login-view.png" width="700px">
+</div>
+
 ### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la primera versión del frontend de nuestro proyecto TrackLab, dividiéndose por secciones según la vista y funcionalidad definida previamente.   
+A continuación, se detalla la participación específica de cada integrante del equipo:
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Nombre</th>
+      <th>Actividades</th>
+    </tr>
+    <tr>
+      <td>Roman Cruz, Natalia Bertha</td>
+      <td>Revisión y ajuste final de código, elaboración de informe y planificación de Sprint 3</td>
+    </tr>
+    <tr>
+      <td>Solano Armas, Angelo Héctor</td>
+      <td>Codificación de bounded contexts, revisión de avances de integrantes</td>
+    </tr>
+    <tr>
+      <td>Iglesias Pérez, Sergio Sebastián</td>
+      <td>Implementación de seguridad (bounded Iam), diseño de diagramas</td>
+    </tr>
+    <tr>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Registro de entrevistas y heurísticas, edición de video about the product</td>
+    </tr>
+    <tr>
+      <td>Céspedes Pillco, Jarod Jack</td>
+      <td>Apoyo en el diseño de diagramas</td>
+    </tr>
+  </table>
+</div>
 
 ## 5.3. Validation interview
 
