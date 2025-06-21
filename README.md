@@ -4999,6 +4999,12 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
   <img src="assets/md-images/graficosCollabSprint3.png" alt="team-collaboration-sprint-3.png" width="700px">
 </div>
 
+##### Repositorio del trabajo:
+
+- [Repositorio del backend en GitHub](https://tracklab-api.azurewebsites.net/swagger/index.html)
+
+Como se evidencia, el equipo ha trabajado colaborativamente, respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente como participación de todos los miembros del equipo.
+
 ## 5.3. Validation interview
 
 ### 5.3.1. Diseño de Entrevistas.
