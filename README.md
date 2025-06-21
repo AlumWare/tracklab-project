@@ -5143,6 +5143,88 @@ __Planificación de rutas__
 
 ### 5.3.2. Registro de entrevistas.
 
+### Entrevista 1:  
+**Operarios**
+
+| **Nombre Entrevistado**       | Jairo Benavente                   |
+|------------------------------|------------------------------------|
+| **Edad**                     | 25 Años                            |
+| **Profesión**                | logistica - administrador interno  |
+| **Departamento**             | Lima, Perú                         |
+| **Duración de la Entrevista**| 07:25 min                          |
+
+### Análisis de la Entrevista
+
+| **Sección**                               | **Observación** |
+|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Gestión de usuarios**                   | Jairo comentó que el filtrado por rol fue claro y sencillo. Sin embargo, sugirió la inclusión de **tooltips** para los iconos de acción, lo que ayudaría a los usuarios nuevos a entender mejor lo que están haciendo, especialmente cuando se edita o bloquea un usuario.                                                                                                                                                          |
+| **Gestión de vehículos y bodegas**        | Jairo encontró muy intuitivo el cambio entre vistas de lista y cuadrícula. Los filtros de zona geográfica y tipo de almacén fueron fáciles de usar. Sin embargo, en el mapa, le costó un poco identificar las bodegas, sugiriendo que los marcadores sean más descriptivos o que tengan un color o ícono distinto para mejorar la identificación rápida. |
+| **Gestión de contenedores**               | El flujo de crear un contenedor, añadir ítems y cerrarlo fue claro para Jairo. Apreció la **confirmación** al cerrar contenedores, ya que le dio seguridad de que el proceso se había completado correctamente. Jairo también destacó que la confirmación antes de cerrar un contenedor es útil, ya que asegura que todo esté bien hecho. |
+| **Planificación de rutas**                | Jairo encontró fácil añadir y reordenar nodos en la lista de paradas. La visualización de la ruta en el mapa fue clara y le ayudó a entender el recorrido sin confusión. Además, el proceso de guardar rutas y cambiar entre pestañas también fue rápido y directo, sin dificultad para encontrar las opciones necesarias.                                             |
+
+### Entrevista 2:  
+**Operarios**
+
+| **Nombre Entrevistado**       | George Coronel                     |
+|------------------------------|------------------------------------|
+| **Edad**                     | 40 Años                            |
+| **Profesión**                | logistica - administrador interno  |
+| **Departamento**             | Lima, Perú                         |
+| **Duración de la Entrevista**| 04:46 min                          |
+
+### Análisis de la Entrevista
+
+| **Sección**                               | **Observación**  |
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Gestión de usuarios**                   | George no tuvo mayores dificultades al filtrar por rol, ya que el proceso fue bastante directo y claro desde el principio. Aun así, mencionó que al principio dudó un poco si lo estaba haciendo bien, pero rápidamente se dio cuenta de que el sistema es intuitivo y fácil de manejar. En cuanto a la edición y bloqueo de usuarios, la interfaz está bien diseñada, pero sugeriría la inclusión de **tooltips** o descripciones emergentes para aumentar la seguridad del usuario. |
+| **Gestión de vehículos y bodegas**        | La experiencia de George con la gestión de vehículos y bodegas fue bastante positiva. Cambiar entre la vista lista y cuadrícula no le resultó en absoluto complicado, y además, destacó la flexibilidad de poder ajustar la vista según sus necesidades. Los filtros de zona geográfica y tipo de almacén también fueron sencillos de usar, lo que facilitó mucho la tarea de encontrar lo que buscaba. Sin embargo, en el mapa, George sugirió que los marcadores sean más **visuales** y específicos para mejorar la identificación de las bodegas. |
+| **Gestión de contenedores**               | El flujo de trabajo para crear contenedores, añadir ítems y cerrarlos le pareció muy claro y fácil de seguir. Al principio pensó que podría ser un proceso más complejo, pero rápidamente entendió que era mucho más simple de lo que imaginaba. Además, la confirmación al eliminar o cerrar contenedores le dio tranquilidad, y George opinó que este paso de **confirmación** es necesario, especialmente cuando se gestionan varios contenedores de manera simultánea. |
+| **Planificación de rutas**                | La planificación de rutas fue otro de los puntos destacados en su entrevista. George no tuvo inconvenientes al añadir o reordenar nodos en la lista de paradas. La interfaz para mover los nodos le pareció muy práctica y fácil de usar. En cuanto al mapa, pudo ver la ruta reflejada sin confusiones, lo que le permitió tener claridad en cuanto a la distribución de las paradas. Finalmente, el proceso para guardar las rutas y cambiar entre pestañas fue igualmente fluido, lo que facilitó aún más la gestión de las rutas. |
+
+
+### Entrevista 3:  
+**Supervisores**
+
+| **Nombre Entrevistado**       | Matias Salcedo                   |
+|------------------------------|------------------------------------|
+| **Edad**                     | 25 Años                            |
+| **Profesión**                | logistica - Cliente final          |
+| **Departamento**             | Lima, Perú                         |
+| **Duración de la Entrevista**| 04:39 min                          |
+
+### Análisis de la Entrevista
+
+| **Sección**                               | **Observación**       |
+|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Inicio de sesión**                      | Matías destacó que el formulario de inicio de sesión fue bastante claro y estructurado. No tuvo ningún problema al ingresar sus credenciales, y cuando cometió un error, el mensaje de error fue lo suficientemente claro como para que supiera exactamente lo que había ocurrido. Este tipo de retroalimentación le permitió continuar sin duda alguna sobre si estaba haciendo algo mal. |
+|                                           | Además, mencionó que los indicadores de carga y los mensajes adicionales fueron útiles, especialmente cuando cometió un error al ingresar las credenciales. La claridad en los mensajes de error mejoró la experiencia de usuario y le dio seguridad durante el proceso. |
+| **Creación de pedido**                    | El flujo de la creación de pedidos le pareció intuitivo y fácil de seguir. Matías destacó que todo estaba bien organizado en cada sección, lo que le permitió avanzar sin dificultad. En cuanto al botón "Next", apreció que estuviera deshabilitado hasta que completara un paso importante como añadir un artículo, lo que le dio mayor certeza de que estaba completando correctamente el proceso antes de continuar. |
+|                                           | Las instrucciones y etiquetas estaban en español y fueron claras, lo que hizo que el proceso fuera aún más fluido para él. No encontró confusión en ninguna de las indicaciones durante el uso de la herramienta. |
+| **Búsqueda y filtrado de órdenes**        | Matías comentó que el sistema de búsqueda fue muy claro. El **placeholder** le indicó exactamente lo que podía buscar, eliminando cualquier tipo de duda sobre cómo utilizar la función. Cuando la búsqueda no dio resultados, el sistema le informó de forma clara y directa, lo que evitó que se quedara con dudas sobre si había hecho algo mal. |
+|                                           | En cuanto a los filtros de órdenes, la experiencia fue igualmente positiva. Matías los encontró fáciles de usar y los resultados fueron rápidos, lo que le permitió encontrar lo que necesitaba sin complicaciones. |
+| **Consulta de historial de operaciones**  | Matías explicó que la línea de tiempo y los **nodos** en el historial de operaciones fueron muy fáciles de entender. La información estaba organizada de manera clara, lo que facilitó la interpretación del historial sin esfuerzo adicional. |
+|                                           | Además, cuando no había operaciones registradas, el sistema mostró un mensaje claro, evitando confusión. En cuanto a mejoras, sugirió agregar un **filtro adicional** por tipo o fecha, lo cual sería útil para navegar de manera más rápida si se tiene un historial de operaciones extenso. |
+
+### Entrevista 4:  
+**Supervisores**
+
+| **Nombre Entrevistado**       | Miguel Perez                      |
+|------------------------------|------------------------------------|
+| **Edad**                     | 24 Años                            |
+| **Profesión**                | Logistica - Cliente final                         |
+| **Departamento**             | Lima, Perú                         |
+| **Duración de la Entrevista**| 04:52 min                          |
+
+### Análisis de la Entrevista
+
+| **Sección**                               | **Observación**       |
+|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Inicio de sesión**                      | Miguel encontró el formulario de inicio de sesión claro y bien organizado, sin complicaciones. Cuando cometió un error al ingresar las credenciales, el mensaje de error fue inmediato, lo cual evitó cualquier confusión sobre lo que estaba haciendo mal. Además, apreció los indicadores de carga y los mensajes adicionales que le ayudaron a entender lo sucedido. |
+| **Creación de pedido**                    | El flujo de la creación de pedidos fue muy intuitivo para Miguel, quien siguió los pasos sin problemas. Destacó lo útil que fue el sistema al deshabilitar el botón "Next" hasta que todos los pasos fueran completados correctamente. Las instrucciones estaban claras y bien redactadas en español, lo que facilitó el proceso sin ninguna duda. |
+| **Búsqueda y filtrado de órdenes**        | La experiencia de Miguel con la búsqueda y filtrado de órdenes fue positiva. El **placeholder** en el buscador era claro y directo. En caso de no encontrar resultados, el sistema le dio feedback inmediato, evitando confusiones. También destacó la facilidad de los filtros, que le permitieron encontrar rápidamente lo que necesitaba. |
+| **Consulta de historial de operaciones**  | Miguel encontró muy fácil interpretar la línea de tiempo y los **nodos** del historial de operaciones, gracias a la organización clara y detallada. Apreció también el mensaje de notificación cuando no había operaciones registradas. Sugerió la adición de un filtro extra para mejorar la navegación, especialmente en historiales largos. |
+
+
 ### 5.3.3. Evaluaciones según heurísticas.
 
 **Información del proyecto:**
