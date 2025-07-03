@@ -749,9 +749,9 @@ A continuación, realizamos un análisis competitivo para identificar oportunida
     </tr>
     <tr>
       <td>Precios & Costos</td>
-      <td>Modelo de suscripción con tarifas ajustadas según la cantidad de productores o el volumen de exportación.</td>
-      <td>Planes ajustados al tamaño de la planta y el volumen de procesamiento de productos.</td>
-      <td>Modelo de licenciamiento y suscripción mensual según la cantidad de usuarios.</td>
+      <td>Modelo de suscripción con tarifas ajustadas según la cantidad de productores o el volumen de exportación.<br><br>Plan básico: $500-800/mes<br>Plan Emprendedor: $1,000-1,500/mes<br>Plan Empresarial: $2,000-3,000/mes</td>
+      <td>Planes ajustados al tamaño de la planta y el volumen de procesamiento de productos.<br><br>Plantas pequeñas/medianas: $800-1,200/mes o $8,000-12,000 anual<br>Plantas grandes: $1,500-2,500/mes o $18,000-30,000 anual</td>
+      <td>Modelo de licenciamiento y suscripción mensual según la cantidad de usuarios.<br><br>Pymes: $1,200-1,800/mes<br>Distribuidoras medianas/grandes: $2,000-3,500/mes<br>Empresas grandes o transnacionales: $5,000-8,000/mes</td>
     </tr>
     <tr>
       <td>Canales de Distribución (web / móvil)</td>
