@@ -1789,6 +1789,197 @@ Las epics y user stories nos sirven para traducir aquellas ideas y necesidades q
     <td>EP</td>
   </tr>
   <tr>
+<td>TS01</td>
+<td>Post Sign Up</td>
+<td>Como un usuario nuevo en la plataforma TrackLab Quiero registrar una cuenta con una API Para tener acceso a la aplicación</td>
+<td>Escenario 1: Solicitud válida<br>Dado a que me encuentro en la API de Registro de Nueva Cuenta<br>Cuando envío una solicitud de registro con datos válidos y correctos Entonces recibo un mensaje de confirmación y me crea una cuenta nueva<br><br>Escenario 2: Solicitud inválida<br>Dado a que me encuentro en la API de Registro de Nueva Cuenta<br>Cuando envío una solicitud de registro con datos inválidos e incorrectos Entonces recibo un mensaje de error y me piden ingresar datos correctos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS02</td>
+<td>Post Sign In</td>
+<td>Como usuario que ya tiene una cuenta en la aplicación TrackLab Quiero iniciar sesión mediante una API de inicio de sesión Para poder ingresar a mi cuenta y empezar a trabajar en la plataforma</td>
+<td>Escenario 1: Solicitud válida<br>Dado a que tengo acceso a la API de inicio de sesión<br>Cuando envío una solicitud con datos correctos Entonces la solicitud es aprobada y la aplicación carga los datos de mi cuenta<br><br>Escenario 2: Solicitud inválida<br>Dado a que tengo acceso a la API de inicio de sesión<br>Cuando envío una solicitud con datos incorrectos Entonces la solicitud es rechazada, se muestra un mensaje de error y me sugieren ingresar los datos correctos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS03</td>
+<td>Post Users</td>
+<td></td>
+<td></td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS04</td>
+<td>Get All Users</td>
+<td>Como administrador en la aplicación TrackLab Quiero obtener una lista de todos los usuarios existentes mediante una API de busqueda de usuarios Para poder ver y administrar las cuentas</td>
+<td>Escenario 1: Solicitud de Usuarios<br>Dado a que tengo acceso a la API de busqueda de usuarios<br>Cuando envío una solicitud<br>Entonces la aplicación me muestra una lista de los usuarios que tiene la plataforma actualmente</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS05</td>
+<td>Get User By Id</td>
+<td>Como administrador en la plataforma TrackLab Quiero obtener los datos de un usuario al ingresar un ID en específico mediante un API Para poder editar y configurar</td>
+<td>Escenario 1: Solicitud válida<br>Dado a que tengo acceso a la API de busqueda de usuarios<br>Cuando envío una solicitud con un ID válido o existente Entonces la aplicación busca al usuario y me lo muestra como único resultado<br><br>Escenario 2: Solicitud inválida<br>Dado a que tengo acceso a la API de obtención de usuarios<br>Cuando envío una solicitud con un ID inválido o inexistente<br>Entonces la plataforma me devuelve un mensaje de error</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS06</td>
+<td>Get User Profile</td>
+<td>Como empresa usuaria en la plataforma TrackLab Quiero ver el perfil de mi cuenta mediante una API Para poder visualizar y realizar cambios</td>
+<td>Escenario 1: Solicitud de Perfil<br>Dado a que tengo acceso a la API de perfil<br>Cuando envío una solicitud para poder entrar al perfil de la cuenta<br>Entonces la aplicación me redirecciona y muestra el perfil</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS07</td>
+<td>Get Containers</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero ver una lista de todos los containers que manejo mediante una API para poder visualizarlos</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de busqueda de contenedores<br>Cuando envío la solicitud con los datos correctos<br>Entonces se crea una lista de contenedores que soy dueño<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de busqueda de contenedores<br>Cuando envío la solicitud con datos incorrectos<br>Entonces me aparece un mensaje de error indicando que ingrese datos correctos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS08</td>
+<td>Post Containers</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero registrar nuevos contenedores mediante una API para poder ingresarlos</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de registro de contenedores<br>Cuando envío la solicitud de registro con los datos correctos<br>Entonces el contenedor se registro en la base de datos y envía un mensaje de confirmación<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de registro de contenedores<br>Cuando envío la solicitud de registro con los datos incorrectos<br>Entonces el sistema devuelve un mensaje de error</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS109</td>
+<td>Get Container By Id</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero buscar un contenedor en especifico mediante un API de busqueda de contenedores para poder buscarlo por su ID</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de busqueda de contenedores<br>Cuando ingreso un ID especifico válido o existente<br>Entonces el sistema devuelve los datos del contenedor</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS10</td>
+<td>Put Node In Container By Id</td>
+<td></td>
+<td></td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS11</td>
+<td>Get All Employees</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero conseguir una lista de todos los empleados que tengo mediante un API para buscar a mis empleados</td>
+<td>Escenario 1: Solicitud<br>Dado a que tengo acceso a la API de busqueda de empleados<br>Cuando envío la solicitud<br>Entonces el sistema devuelve una lista con todos los empleados</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS12</td>
+<td>Post Employees</td>
+<td>Como empresa usuario de la plataforma TrackLab Quiero registrar a un empleado mediante un API para ingresarlo en la aplicación</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de registro de empleado<br>Cuando envío la solicitud con datos correctos<br>Entonces el sistema registra al nuevo empleado en la base de datos y devuelve un mensaje de confirmación<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de registro de empleados<br>Cuando envío la solitud con datos incorrectos<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese datos correcto</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS13</td>
+<td>Get Employee By Id</td>
+<td>Como empresa usuario de la plataforma TrackLab Quiero buscar a un empleado por ID mediante una API para buscarlo en la aplicación</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de busqueda de empleados<br>Cuando envío la solicitud con un ID válido o existente<br>Entonces el sistema devuelve los datos del empleado buscado<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de busqueda de empleados<br>Cuando envío la solicitud con un ID inválido o inexistente<br>Entonces el sistema devuelve un mensaje de error y sugiere usar ingresar un ID válido</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS14</td>
+<td>Put Employee By Id</td>
+<td>Como empresa usuario de la plataforma TrackLab Quiero actualizar los datos de un empleado mediante una API para buscarlo por ID en la aplicación</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de actualización de datos de empleados<br>Cuando envío la solicitud de actualización con datos correctos y válidos<br>Entonces el sistema devuelve un mensaje de confirmación y la acción se refleja en la base de datos<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de actualización de datos de empleados<br>Cuando envío la solicitud de actualización con datos incorrectos e inválidos<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese datos correctos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS15</td>
+<td>Delete Employee By Id</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero eliminar a un empleado mediante una API para poder borrarlo usando su ID</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de eliminación de empleados<br>Cuando envío la solicitud con un ID válido y existente<br>Entonces el sistema borra al empleado de la base de datos y devuelve un mensaje de confirmación<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de eliminación de empleados<br>Cuando envío la solicitud con un ID inválido e inexistente<br>Entonces el sistema devuelve un mensaje de error y sugiere usar un ID válido o existente</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS16</td>
+<td>Put Employee Status By Id</td>
+<td>Como empresa usuario de la plataforma TrackLab Quiero actualizar el estado de un empleado mediante una API para editarla cuando se necesite</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de actualización de estado de empleado<br>Cuando envió la solicitud con un ID y estado válidos y existentes<br>Entonces el sistema devuelve un mensaje de confirmación y el cambio se refleja en la base de datos<br><br>Escenario 2: Solicitud Inválida<br>Dado que tengo acceso a la API de actualización de estado de empleado<br>Cuando envío la solicitud con un ID y estado inválidos e inexistentes<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese un ID válido</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS17</td>
+<td>Get Health Public</td>
+<td></td>
+<td></td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS18</td>
+<td>Get Health Protected</td>
+<td></td>
+<td></td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS19</td>
+<td>Get Health Admin</td>
+<td></td>
+<td></td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS20</td>
+<td>Get All Orders</td>
+<td>Como una empresa usuario de la plataforma TrackLab Quiero obtener una lista con todas las ordenes mediante un API para que me muestre cuando lo necesite</td>
+<td>Escenario 1: Solicitud Válida<br>Dado que tengo acceso a la API de obtención de órdenes<br>Cuando envío la solicitud con datos válidos<br>Entonces el sistema me devuelve una lista con todas las órdenes que tengo<br><br>Escenario 2: Solicitud Inválida<br>Dado que tengo acceso a la API de obtención de órdenes<br>Cuando envío la solicitud con datos inválidos<br>Entonces el sistema devuelve un mensaje de error y sugiere que use datos válidos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS21</td>
+<td>Post Orders</td>
+<td>Como una empresa usuario de la plataforma TrackLab Quiero crear órdenes mediante una API para facilitar el registro</td>
+<td>Escenario 1: Solicitud Válida<br>Dado que tengo acceso a la API de creación de órdenes<br>Cuando envío la solicitud con datos correctos y válidos<br>Entonces el sistema me devuelve un mensaje de confirmación y la order se registra en la base de datos<br><br>Escenario 2: Solicitud Inválida<br>Dado que tengo acceso a la API de creación de órdenes<br>Cuando envío la solicitud con datos incorrectos e inválidos<br>Entonces el sistema me devuelve un mensaje de error y sugiere que ingrese datos correctos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS22</td>
+<td>Get Order By Id</td>
+<td>Como una empresa usuario de la plataforma TrackLab Quiero obtener los datos de una orden mediante una API para buscarlo por su ID</td>
+<td>Escenario 1: Solicitud Válida<br>Dado que tengo acceso a la API de busqueda de órdenes<br>Cuando envío la solicitud con un ID válido y existente<br>Entonces el sistema devuelve los datos de la orden buscada<br><br>Escenario 2: Solicitud Inválida<br>Dado que tengo acceso a la API de busqueda de órdenes<br>Cuando envío la solicitud con un ID inválido e inexistente<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese un ID válido y existente</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS23</td>
+<td>Delete Order By Id</td>
+<td>Como una empresa usuario de la plataforma TrackLab Quiero eliminar una orden mediante una API para usarlo cuando lo necesite</td>
+<td>Escenario 1: Solicitud Válida<br>Dado que tengo acceso a la API de eliminación de órdenes<br>Cuando envío la solicitud con un ID válido y existente<br>Entonces el sistema elimina la orden de la base de datos y devuelve un mensaje de confirmación<br><br>Escenario 2: Solicitud Inválida<br>Dado que tengo acceso a la API de eliminación de órdenes<br>Cuando envío la solicitud con un ID inválido e inexistente<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese in ID válido</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS24</td>
+<td>Put Order Status By Id</td>
+<td>Como empresa usuario de la plataforma TrackLab Quiero actualizar el estado de una orden mediante una API para editarla cuando se necesite</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de actualización de estado de orden<br>Cuando envió la solicitud con un ID y estado válidos y existentes<br>Entonces el sistema devuelve un mensaje de confirmación y el cambio se refleja en la base de datos<br><br>Escenario 2: Solicitud Inválida<br>Dado que tengo acceso a la API de actualización de estado de orden<br>Cuando envío la solicitud con un ID y estado inválidos e inexistentes<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese un ID válido</td>
+<td>No corresponde</td>
+</tr>
+  <tr>
     <td>TS01</td>
     <td>Post Supplier company</td>
     <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero registrar una nueva empresa proveedora mediante una API Para visualizar las empresas proveedoras afiliadas a nuestra aplicación</td>
