@@ -4821,15 +4821,15 @@ Como se evidencia, el equipo ha trabajado colaborativamente, respetando el flujo
       <td>Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando y Céspedes Pillco, Jarod Jack</td>
     </tr>
     <tr>
-      <th>Sprint 1 Review Summary</th>
+      <th>Sprint 2 Review Summary</th>
       <td>In the previous sprint, we focused on improving our landing page performance, but also on deploying and showing to users the first working version of our web application.</td>
     </tr>
     <tr>
-      <th>Sprint 2 Goal</th>
+      <th>Sprint 3 Goal</th>
       <td>Our focus now is on deploying the first version of our application backend, including our core bounded contexts and main endpoints. We would also try to connect our frontend and backend</td>
     </tr>
     <tr>
-      <th>Sprint 2 Velocity</th>
+      <th>Sprint 3 Velocity</th>
       <td>25 story points</td>
     </tr>
     <tr>
@@ -4853,7 +4853,7 @@ En este sprint se busca completar la landing page de TrackLab, incluyendo el dis
 
 ### 5.2.3.3. Sprint Backlog 3
 
-El objetivo principal del Sprint 2 es desarrollar y desplegar una primera versión del frontend de nuestro proyecto TrackLab. A continuación se muestra una captura de algunos de los componentes que se buscan trabajar en este Sprint con su código correspondiente y estado.
+El objetivo principal del Sprint 3 es desarrollar y desplegar una primera versión del frontend de nuestro proyecto TrackLab. A continuación se muestra una captura de algunos de los componentes que se buscan trabajar en este Sprint con su código correspondiente y estado.
 
 <div align="center">
   <table>
@@ -5309,7 +5309,7 @@ Para finalizar, confirmamos la creación.
   <img src="assets/md-images/despliegueBack9.jpg" alt="login-view.png" width="700px">
 </div>
 
-### 5.2.3.8. Team Collaboration Insights during Sprint
+### 5.2.3.8. Team Collaboration Insights during Sprint 3
 
 Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la primera versión del frontend de nuestro proyecto TrackLab, dividiéndose por secciones según la vista y funcionalidad definida previamente.   
 A continuación, se detalla la participación específica de cada integrante del equipo:
@@ -5596,6 +5596,266 @@ __Planificación de rutas__
 - **Problema #5: El placeholder de búsqueda en Mis Órdenes (“producto, destino o cantidad”) es confuso**
   - **Tarea evaluada:** Buscar pedido
   - **Recomendación:** Ajustar a “producto, destino o ID de pedido” para eliminar ambigüedad.
+
+### 5.2.4. Sprint 4
+
+### 5.2.4.1. Sprint Planning 4
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Sprint #</th>
+      <td>Sprint 4</td>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <td>2025-06-30</td>
+    </tr>
+    <tr>
+      <th>Time</th>
+      <td>06:47 PM</td>
+    </tr>
+    <tr>
+      <th>Location</th>
+      <td>Reunión virtual a través de Discord</td>
+    </tr>
+    <tr>
+      <th>Prepared by</th>
+      <td>Roman Cruz, Natalia Bertha e Iglesias Pérez, Sergio Sebastián</td>
+    </tr>
+    <tr>
+      <th>Attendees (to planning meeting)</th>
+      <td>Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando y Céspedes Pillco, Jarod Jack</td>
+    </tr>
+    <tr>
+      <th>Sprint 3 Review Summary</th>
+      <td>In the previous sprint, we focused on deploying the first version of our application backend, our core bounded contexts, main endpointsIn the previous sprint and tried to connect our frontend and backend together.</td>
+    </tr>
+    <tr>
+      <th>Sprint 4 Goal</th>
+      <td>Our focus now is on deploying the definitive version of our application backend, improving our core bounded contexts and main endpoints, also adding a few more. And reinforce the connection between our frontend and backend.</td>
+    </tr>
+    <tr>
+      <th>Sprint 4 Velocity</th>
+      <td>25 story points</td>
+    </tr>
+    <tr>
+      <th>Sum of Story Points</th>
+      <td>25 story points</td>
+    </tr>
+  </table>
+</div>
+
+### 5.2.4.2. Aspect Leaders and Collaborators
+
+En este sprint se busca mejorar y completar el backend de TrackLab, incluyendo su correcto despliegue. Para lograr una correcta comunicación, se ha creado la matriz de liderazgo y colaboración (LACX), en la cual se define quien lidera y quien colabora en cada aspecto del sprint.
+
+| Team Member                        | GitHub username      | Diseño Backend       | Despliegue Backend       |
+|------------------------------------|----------------------|----------------------|--------------------------|
+| Roma Cruz, Natalia Bertha          | natRC2005            | L                    | C                        |
+| Sonano Armas, Angelo Hector        | Angelo5214           | C                    | C                        |
+| Iglesias Perez, Sergio Sebastian   | ghostrider101218     | C                    | L                        |
+| Baldeon Vivar, Santiago Armando    | Santibal11           | C                    | C                        |
+| Céspedes Pillco, Jarod Jack        | PruebaJJC            | C                    | C                        |
+
+### 5.2.4.3. Sprint Backlog 4
+
+El objetivo principal del Sprint 4 es mejorar y culminar con la implementación del backend de nuestro proyecto TrackLab.
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Sprint #</th>
+      <th>Task ID</th>
+      <th>Task Title</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+    <tr>
+      <td>Sprint 4</td>
+      <td>T01</td>
+      <td>Resource Value objects</td>
+      <td>Roman Cruz, Natalia Bertha</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 4</td>
+      <td>T02</td>
+      <td>Order Value objects</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 4</td>
+      <td>T03</td>
+      <td>Tracking Value objects</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 4</td>
+      <td>T04</td>
+      <td>Iam Value objects</td>
+      <td>Roman Cruz, Natalia Berth</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 4</td>
+      <td>T05</td>
+      <td>Resource Entities</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 4</td>
+      <td>T06</td>
+      <td>Order Entities</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 4</td>
+      <td>T07</td>
+      <td>Tracking Entities</td>
+      <td>Roman Cruz, Natalia Berth</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 4</td>
+      <td>T08</td>
+      <td>Resource Controllers</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 4</td>
+      <td>T09</td>
+      <td>Tracking Controllers</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 4</td>
+      <td>T10</td>
+      <td>Order Controllers</td>
+      <td>Roman Cruz, Natalia Bertha</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 4</td>
+      <td>T11</td>
+      <td>Iam Controllers</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 4</td>
+      <td>T12</td>
+      <td>Security Implemmentation</td>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 4</td>
+      <td>T13</td>
+      <td>Commands</td>
+      <td>Roman Cruz, Natalia Bertha</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 4</td>
+      <td>T14</td>
+      <td>Queries</td>
+      <td>Iglesias Perez, Sergio Sebastian</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 4</td>
+      <td>T15</td>
+      <td>Repositories</td>
+      <td>Roman Cruz, Natalia Bertha</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 4</td>
+      <td>T16</td>
+      <td>Exceptions</td>
+      <td>Céspedes Pillco, Jarod Jack</td>
+      <td>Done</td>
+    </tr>
+  </table>
+</div>
+
+### 5.2.4.4. Development Evidence for Sprint Review
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </table>
+</div>
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint 4
+
+Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la mejora y desarrollo del backend de nuestro proyecto TrackLab, dividiéndose por secciones según la funcionalidad definida previamente.   
+A continuación, se detalla la participación específica de cada integrante del equipo:
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Nombre</th>
+      <th>Actividades</th>
+    </tr>
+    <tr>
+      <td>Roman Cruz, Natalia Bertha</td>
+      <td>Revisión y ajuste final de código, elaboración de informe y planificación de Sprint 4</td>
+    </tr>
+    <tr>
+      <td>Solano Armas, Angelo Héctor</td>
+      <td>Codificación de bounded contexts, revisión de avances de integrantes</td>
+    </tr>
+    <tr>
+      <td>Iglesias Pérez, Sergio Sebastián</td>
+      <td>Mejora del frontend, implementación de seguridad (bounded Iam)</td>
+    </tr>
+    <tr>
+      <td>Baldeón Vivar, Santiago Armando</td>
+      <td>Ajuste del código frontend, edición de video about the product</td>
+    </tr>
+    <tr>
+      <td>Céspedes Pillco, Jarod Jack</td>
+      <td>Definición e implementación de excepciones, redacción de las TS</td>
+    </tr>
+  </table>
+</div>
+
+> **Nota:** Algunos integrantes colaboraron en secciones compartidas para asegurar consistencia en diseño y funcionalidad.
+
+##### Evidencia de Colaboración en GitHub:
+
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+<div align="center">
+  <img src="assets/md-images/graficosCollabSprint4.png" alt="team-collaboration-sprint-4.png" width="700px">
+</div>
+
+##### Repositorio del trabajo:
+
+- [Repositorio del backend en GitHub](https://tracklab-api.azurewebsites.net/swagger/index.html)
+
+Como se evidencia, el equipo ha trabajado colaborativamente, respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente como participación de todos los miembros del equipo.
 
 # 6. Conclusiones
 
