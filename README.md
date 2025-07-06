@@ -1807,8 +1807,8 @@ Las epics y user stories nos sirven para traducir aquellas ideas y necesidades q
 <tr>
 <td>TS03</td>
 <td>Post Users</td>
-<td></td>
-<td></td>
+<td>Como administrador en la aplicación TrackLab Quiero registrar usuarios manualmente mediante un API para poder usarlo cuando sea necesario</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de registro manual de usuarios<br>Cuando envío una solicitud con datos correctos<br>Entonces el sistema guarda al nuevo usuario en la base de datos y devuelve un mensaje de éxito<br><br>Escenario 2: Solicitud Inválida<br>Dado que tengo acceso a la API de registro manual de usuarios<br>Cuando envío la solicitud con datos incorrectos<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese datos correctos</td>
 <td>No corresponde</td>
 </tr>
 
@@ -1863,8 +1863,8 @@ Las epics y user stories nos sirven para traducir aquellas ideas y necesidades q
 <tr>
 <td>TS10</td>
 <td>Put Node In Container By Id</td>
-<td></td>
-<td></td>
+<td>Como empresa usuario de la plataforma TrackLab Quiero asigna un nodo en un contenedor en específico mediante un API para poder buscarlo por su ID</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de asignacion de nodos en contenedores<br>Cuando ingreso ambos ID's, de contenedor y de nodo, válidos y existentes<br>Entonces el sistema asigna el nodo al contenedor y devuelve un mensaje de éxito<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de asignación de nodos en contenedores<br>Cuando ingreso ambos ID's, de contenedor y de nodo, inválidos e inexistentes<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese ID's válidos</td>
 <td>No corresponde</td>
 </tr>
 
@@ -1919,24 +1919,24 @@ Las epics y user stories nos sirven para traducir aquellas ideas y necesidades q
 <tr>
 <td>TS17</td>
 <td>Get Health Public</td>
-<td></td>
-<td></td>
+<td>Como usuario en la plataforma TrackLab Quiero ver mi salud en tiempo real mediante una API para poder visualizarlo cuando sea necesario</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de visualización de salud en tiempo real<br>Cuando envío una solicitud con los datos correctos<br>Entonces el sistema devuelve el detalle de mi salud<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de visualización de salud en tiempo real<br>Cuando envío una solicitud con datos incorrectos<br>Entonces el sistema devuelve un mensaje de error e indica que ingrese datos correctos</td>
 <td>No corresponde</td>
 </tr>
 
 <tr>
 <td>TS18</td>
 <td>Get Health Protected</td>
-<td></td>
-<td></td>
+<td>Como empresa usuario en la plataforma TrackLab Quiero ver la salud en tiempo real de los empleados mediante una API para poder visualizarlo cuando sea necesario</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de visualización de salud en tiempo real<br>Cuando envío una solicitud con los datos correctos<br>Entonces el sistema devuelve una lista de los detalles de la salud de cada empleado existente<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de visualización de salud en tiempo real<br>Cuando envío una solicitud con datos incorrectos<br>Entonces el sistema devuelve un mensaje de error e indica que ingrese datos correctos</td>
 <td>No corresponde</td>
 </tr>
 
 <tr>
 <td>TS19</td>
 <td>Get Health Admin</td>
-<td></td>
-<td></td>
+<td>Como administrador en la plataforma TrackLab Quiero ver la salud en tiempo real de los empleados mediante una API para poder visualizarlo cuando sea necesario</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de visualización de salud en tiempo real<br>Cuando envío una solicitud con los datos correctos<br>Entonces el sistema devuelve una lista de los detalles de la salud de cada empleado existente<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de visualización de salud en tiempo real<br>Cuando envío una solicitud con datos incorrectos<br>Entonces el sistema devuelve un mensaje de error e indica que ingrese datos correctos</td>
 <td>No corresponde</td>
 </tr>
 
@@ -1979,104 +1979,230 @@ Las epics y user stories nos sirven para traducir aquellas ideas y necesidades q
 <td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de actualización de estado de orden<br>Cuando envió la solicitud con un ID y estado válidos y existentes<br>Entonces el sistema devuelve un mensaje de confirmación y el cambio se refleja en la base de datos<br><br>Escenario 2: Solicitud Inválida<br>Dado que tengo acceso a la API de actualización de estado de orden<br>Cuando envío la solicitud con un ID y estado inválidos e inexistentes<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese un ID válido</td>
 <td>No corresponde</td>
 </tr>
-  <tr>
-    <td>TS01</td>
-    <td>Post Supplier company</td>
-    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero registrar una nueva empresa proveedora mediante una API Para visualizar las empresas proveedoras afiliadas a nuestra aplicación</td>
-    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de registro de empresas proveedoras<br> Cuando envío una solicitud con datos válidos de una nueva empresa proveedora<br> Entonces la empresa proveedora se registra exitosamente en la base de datos <br> Y recibo un mensaje de confirmación<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de registro de empresas proveedoras<br> Cuando envío una solicitud con datos inválidos de una nueva empresa proveedora<br> Entonces la solicitud es rechazada<br> Y recibo un mensaje de error adecuado</td>
-    <td>No corresponde</td>
-  </tr>
-  <tr>
-    <td>TS02</td>
-    <td>Get Supplier company</td>
-    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de una empresa proveedora mediante una API Para mostrarla cuando se solicite</td>
-    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de obtención de información de empresas proveedoras<br> Cuando solicito la información de una empresa proveedora existente<br> Entonces recibo la información de la empresa proveedora en el formato esperado<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de obtención de información de empresas proveedoras<br> Cuando solicito la información de una empresa proveedora que no existe<br> Entonces recibo un mensaje de error adecuado</td>
-    <td>No corresponde</td>
-  </tr>
-  <tr>
-    <td>TS03</td>
-    <td>Post Client company</td>
-    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero registrar una nueva empresa cliente mediante una API Para visualizar las empresas cliente afiliadas a nuestra aplicación</td>
-    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de registro de empresas cliente<br> Cuando envío una solicitud con datos válidos de una nueva empresa cliente<br> Entonces la empresa cliente se registra exitosamente en la base de datos <br> Y recibo un mensaje de confirmación<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de registro de empresas cliente<br> Cuando envío una solicitud con datos inválidos de una nueva empresa cliente<br> Entonces la solicitud es rechazada<br> Y recibo un mensaje de error adecuado</td>
-    <td>No corresponde</td>
-  </tr>
-  <tr>
-    <td>TS04</td>
-    <td>Get Client company</td>
-    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de una empresa cliente mediante una API Para mostrarla cuando se solicite</td>
-    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de obtención de información de empresas cliente<br> Cuando solicito la información de una empresa cliente existente<br> Entonces recibo la información de la empresa cliente en el formato esperado<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de obtención de información de empresas cliente<br> Cuando solicito la información de una empresa cliente que no existe<br> Entonces recibo un mensaje de error adecuado</td>
-    <td>No corresponde</td>
-  </tr>
-  <tr>
-    <td>TS05</td>
-    <td>Post User</td>
-    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero registrar un nuevo usuario mediante una API Para visualizar los usuarios afiliados a nuestra aplicación</td>
-    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de registro de usuarios<br> Cuando envío una solicitud con datos válidos de un nuevo usuario<br> Entonces el usuario se registra exitosamente en la base de datos<br> Y recibo un mensaje de confirmación<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de registro de usuarios<br> Cuando envío una solicitud con datos inválidos de un nuevo usuario<br> Entonces la solicitud es rechazada<br> Y recibo un mensaje de error adecuado</td>
-    <td>No corresponde</td>
-  </tr>
-  <tr>
-    <td>TS06</td>
-    <td>Get User</td>
-    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de un usuario mediante una API Para mostrarla cuando se solicite</td>
-    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de obtención de información de usuarios<br> Cuando solicito la información de un usuario existente<br> Entonces recibo la información del usuario en el formato esperado<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de obtención de información de usuarios<br> Cuando solicito la información de un usuario que no existe<br> Entonces recibo un mensaje de error adecuado</td>
-    <td>No corresponde</td>
-  </tr>
-  <tr>
-    <td>TS07</td>
-    <td>Post Payment Card</td>
-    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero registrar la información de pago de las empresa proveedora mediante una API Para guardar la información para futuros pagos</td>
-    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de registro de tarjetas de pago<br> Cuando envío una solicitud con datos válidos de una tarjeta de pago de una empresa proveedora<br> Entonces la tarjeta de pago se registra exitosamente en la base de datos<br> Y recibo un mensaje de confirmación<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de registro de tarjetas de pago<br> Cuando envío una solicitud con datos inválidos de una tarjeta de pago de una empresa proveedora<br> Entonces la solicitud es rechazada<br> Y recibo un mensaje de error adecuado</td>
-    <td>No corresponde</td>
-  </tr>
-  <tr>
-    <td>TS08</td>
-    <td>Get Payment Card</td>
-    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de pago de las empresas proveedoras mediante una API Para recibir los pagos en la aplicación cuando sea necesario</td>
-    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de obtención de información de tarjetas de pago<br> Cuando solicito la información de tarjeta de pago registrada de una empresa proveedora<br> Entonces recibo la información de la tarjeta de pago en el formato esperado<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de obtención de información de tarjetas de pago<br> Cuando solicito la información de tarjeta de pago de una empresa proveedora sin tarjeta de pago registrada<br> Entonces recibo un mensaje de error indicando que no existen tarjetas de pago registradas</td>
-    <td>No corresponde</td>
-  </tr>
-  <tr>
-    <td>TS09</td>
-    <td>Get company by type</td>
-    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de las empresas mediante una API Para brindar la diferenciación de funcionalidades en la aplicación según su tipo</td>
-    <td>Escenario 1: Tipo válido<br> Dado que tengo acceso a la API de obtención de empresas por tipo<br> Cuando solicito la información de empresas por un tipo existente<br> Entonces recibo la información de las empresas en el formato esperado<br><br> Escenario 2: Tipo inválido<br> Dado que tengo acceso a la API de obtención de empresas por tipo<br> Cuando solicito la información de empresas por un tipo inexistente<br> Entonces recibo un mensaje de error adecuado</td>
-    <td>No corresponde</td>
-  </tr>
-  <tr>
-    <td>TS10</td>
-    <td>Post order</td>
-    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero registrar un nuevo pedido mediante una API Para mantener el registro de los pedidos</td>
-    <td>Escenario 1: Registro válido<br> Dado que tengo acceso a la API de registro de pedidos<br> Cuando envío una solicitud con datos válidos de un nuevo pedido<br> Entonces el pedido se registra exitosamente en la base de datos<br> Y recibo un mensaje de confirmación<br><br> Escenario 2: Registro inválido<br> Dado que tengo acceso a la API de registro de pedidos<br> Cuando envío una solicitud con datos inválidos de un nuevo pedido<br> Entonces la solicitud es rechazada<br> Y recibo un mensaje de error adecuado</td>
-    <td>No corresponde</td>
-  </tr>
-  <tr>
-    <td>TS11</td>
-    <td>Get order</td>
-    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de los pedidos mediante una API Para mostrarla en la aplicación cuando se solicite</td>
-    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de obtención de información de pedidos<br> Cuando solicito la información de un pedido existente<br> Entonces recibo la información del pedido en el formato esperado<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de obtención de información de pedidos<br> Cuando solicito la información de un pedido que no existe<br> Entonces recibo un mensaje de error adecuado</td>
-    <td>No corresponde</td>
-  </tr>
-  <tr>
-    <td>TS12</td>
-    <td>Get order by state</td>
-    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información los pedidos según su estado mediante una API Para mostrarla en la aplicación cuando se solicite</td>
-    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de obtención de información de pedidos según su estado<br> Cuando solicito la información de pedidos según un estado existente<br> Entonces recibo la información de los pedidos en dicho estado en el formato esperado<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de obtención de información de pedidos según su estado<br> Cuando solicito la información de pedidos según un estado inexistente<br> Entonces recibo un mensaje de error adecuado</td>
-    <td>No corresponde</td>
-  </tr>
-  <tr>
-    <td>TS13</td>
-    <td>Get order by Client company</td>
-    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de qué empresa cliente registró un pedido mediante una API Para mostrarla en la aplicación cuando se solicite</td>
-    <td>Escenario 1: Solicitud válida<br> Dado que tengo acceso a la API de obtención de información de pedidos por empresa cliente<br> Cuando solicito la información de qué empresa cliente registra un pedido<br> Entonces recibo la información de las empresas cliente en el formato esperado<br><br> Escenario 2: Solicitud inválida<br> Dado que tengo acceso a la API de obtención de información de pedidos por empresa cliente<br> Cuando solicito la información de qué empresa cliente registra un pedido<br> Y no existen registros<br> Entonces recibo un mensaje indicando que no existen registros de empresas clientes realizando pedidos</td>
-    <td>No corresponde</td>
-  </tr>
-  <tr>
-    <td>TS14</td>
-    <td>Get order by QR code</td>
-    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de un pedido según su código QR Para usarla en la aplicación cuando sea necesario</td>
-    <td>Escenario 1: QR válido<br> Dado que tengo acceso a la API de obtención de información de pedidos según código QR<br> Cuando solicito la información de un pedido usando un código QR válido<br> Entonces recibo la información del pedido en el formato esperado<br><br> Escenario 2: QR inválido<br> Dado que tengo acceso a la API de obtención de información de pedidos según código QR<br> Cuando solicito la información de un pedido usando un código QR inválido<br> Entonces recibo un mensaje de error adecuado</td>
-    <td>No corresponde</td>
-  </tr>
+
+<tr>
+<td>TS25</td>
+<td>Get All Positions</td>
+<td>Como empresa usuario de la plataforma TrackLab Quiero ver todas las posiciones mediante una API para poder visualizar cuando se necesite</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de buscador de posiciones<br>Cuando envío la solicitud con datos válidos<br>Entonces el sistema me devuelve una lista con todas las posición que tengo<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de buscador de posiciones<br>Cuando envío la solicitud con datos inválidos e inexistentes<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese datos correctos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS26</td>
+<td>Post Positions</td>
+<td>Como empresa usuario de la plataforma TrackLab Quiero registrar una nueva posición mediante un API para poder anexarlo cuando se necesite</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de registro de posiciones<br>Cuando envio la solicitud con datos correctos<br>Entonces el sistema registra la nueva posición en la base de datos y devuelve un mensaje de confirmación<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de registro de posiciones<br>Cuando envío la solicitud con datos incorrectos<br>Entonces el sistema devuelve un mensaje de error e indica que ingrese datos válidos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS27</td>
+<td>Get Position By Id</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero buscar una posición en particular mediante una API para poder ubicarlo con su ID</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de busqueda de posiciones<br>Cuando envío la solicitud con un ID válido y existente<br>Entonces el sistema me devuelve los datalles de la posición seleccionada<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de busqueda de posiciones<br>Cuando envío la solicitud con un ID inválido e inexistente<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese un ID válido</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS28</td>
+<td>Put Position By Id</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero modificar los datos de una posición en particular mediante una API para poder ubicarlo por su ID</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de actualización de posiciones<br>Cuando envío una solicitud con un ID y datos válidos<br>Entonces el sistema aplica los cambios en la base de datos y devuelve un mensaje de éxito<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de actualización de posiciones<br>Cuando envío una solicitud con un ID y datos inválidos e incorrectos<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese datos correctos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS29</td>
+<td>Delete Position By Id</td>
+<td>Como empresa usuario de la plataforma TrackLab Quiero eliminar una posición en particulara mediante una API para poder ubicarlo por su ID</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de eliminación de posiciones<br>Cuando envío una solicitud con un ID válido y existente<br>Entonces el sistema elimina la posición de la base de datos y devuelve un mensaje de éxito</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS30</td>
+<td>Get All Products</td>
+<td>Como empresa usuario de la plataforma TrackLab Quiero ver todos los productos que tengo mediante un API para visualizarlos cuando se necesite</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de obtención de datos de productos<br>Cuando envío una solicitud con datos correctos<br>Entonces el sistema devuelve una lista con todos los productos<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de obtención de datos de productos<br>Cuando envío una solicitud con datos incorrectos<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese datos correctos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS31</td>
+<td>Post Products</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero registrar un nuevo producto mediante una API para poder anexarlo cuando se requiera</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de registro de productos<br>Cuando envío la solicitud con datos válidos<br>Entonces el sistema guarda el producto en la base de datos y devuelve un mensaje de éxito</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS32</td>
+<td>Get Product By Id</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero buscar un producto en específico mediante una API para poder ubicarlo por su ID</td>
+<td>Escenario 1: Solicitud Válida<br>Dado que tengo acceso a la API de búsqueda de productos<br>Cuando envío la solicitud con un ID válido y existente<br>Entonces el sistema me devuelve el detalle del producto<br><br>Escenario 2: Solicitud Inválida<br>Dado que tengo acceso a la API de búsqueda de productos<br>Cuando envío la solicitud con un ID inválido e inexistente<br>Entonces el sistema me devuelve un mensaje de error y sugiere que ingrese un ID válido</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS33</td>
+<td>Put Product By Id</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero editar el detalle de un producto en específico mediante una API para poder ubicarlo con su ID</td>
+<td>Escenario 1: Solicitud Válida<br>Dado que tengo acceso a la API de actualización de datos de productos<br>Cuando ingreso un ID y datos válidos<br>Entonces el sistema devuelve un mensaje de confirmación y refleja los cambios en la base de datos<br><br>Escenario 2: Solicitud Inválida<br>Dado que tengo acceso a la API de actualización de datos de productos<br>Cuando ingreso un ID y datos inválidos<br>Entonces el sistema devuelve un mensaje de error y recomienda ingresar datos válidos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS34</td>
+<td>Delete Product By Id</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero eliminar un producto en específico mediante una API para poder ubicarlo con su ID</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de eliminación de prouctos<br>Cuando ingreso un ID válido y existente<br>Entonces el sistema remueve el producto de la base de datos y devuelve un mensaje de éxito<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de eliminación de productos<br>Cuando ingreso un ID inválido e inexistente<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese un ID válido</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS35</td>
+<td>Get All Routes</td>
+<td>Como empresa usuario de la plataforma TrackLab Quiero ver todas las rutas que tengo mediante un API para poder visualizarlos cuando se necesite</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de obtención de rutas<br>Cuando envío la solicitud con datos correctos<br>Entonces el sistema devuelve una lista con todos las rutas<br><br>Escenario 2: Solicitud Inválida<br>Dado que tengo acceso a la API de obtención de rutas<br>Cuando envío una solicitud con datos incorrectos<br>Entonces el sistema devuelve un mensaje de error y sugiere que envíe datos correctos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS36</td>
+<td>Post Routes</td>
+<td>Como empresa usuario de la plataforma TrackLab Quiero registrar una nueva ruta mediante un API para poder anexarla cuando se requiera</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de registro de rutas<br>Cuando envío una solicitud con datos correctos<br>Entonces el sistema guarda la nueva ruta en la base de datos y devuelve un mensaje de éxito<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de registro de rutas<br>Cuando envío una solicitud con datos incorrectos<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese datos correctos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS37</td>
+<td>Get Route By Id</td>
+<td>Como empresa usuario de la plataforma TrackLab Quiero buscar una ruta en específico mediante un API para ubicarlo por su ID</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de busqueda de rutas<br>Cuando envío una solicitud con un ID válido y existente<br>Entonces el sistema devuelve los detalles de la ruta<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de busqueda de rutas<br>Cuando envío una solicitud con un ID inválido e inexistente<br>Entonces el sistema devuelve un mensaje de error e indica que ingrese un ID válido</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS38</td>
+<td>Post Nodes In Routes By Id</td>
+<td>Como empresa usuario de la aplicación TrackLab quiero adicionar un nuevo nodo en una ruta especifica mediante un API para poder agregarlo cuando se necesite</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de adición de nodos en rutas<br>Cuando envío una solicitud con un ID y datos válidos<br>Entonces el sistema agrega al nodo en la ruta elegida, refleja los cambios en la base de datos y devuelve un mensaje de éxito<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de adición de nodos en rutas<br>Cuando envío una solicitud con un ID y datos inválidos<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese dato correctos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS39</td>
+<td>Post Orders In Routes By Id</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero asignar una orden a una ruta en específico mediante un API para poder hacerlo cuando se necesite</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de asignación de ordenes en rutas<br>Cuando ingreso un ID de una ruta y otro ID de una orden válidas y existentes<br>Entonces el sistema asigna la orden en la ruta y devuelve un mensaje de éxito<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de asignación de ordenes en rutas<br>Cuando ingreso un ID de una ruta y otro ID de una order inválidas e inexistentes<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese ID's válidas</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS40</td>
+<td>Get All Tracking Events</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero ver todos los eventos de trazabilidad mediante un API para poder observarlos</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de obtención de eventos de trazabilidad<br>Cuando envío una solicitud con datos correctos<br>Entonces el sistema devuelve una lista de todos los eventos de trazabilidad existentes<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de obtención de eventos de trazabilidad<br>Cuando envío una solicitud con datos incorrectos<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese datos válidos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS41</td>
+<td>Get Tracking Events By Id</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero buscar un evento de trazabilidad en específico mediante una API para poder buscarlo por su ID</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de búsqueda de eventos de trazabilidad<br>Cuando envio una solicitud con un ID válido y existente<br>Entonces el sistema me devuelve el detalle del evento seleccionado<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de búsqueda de eventos de trazabilidad<br>Cuando envío una solicitud con un ID inválido e inexistente<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese un ID válido</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS42</td>
+<td>Post Tracking Events</td>
+<td>Como empresa usuario de la plataforma TrackLab Quiero registrar un nuevo evento de trazabilidad mediante una API para poder hacerlo cuando se requiera</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de registro de eventos de trazabilidad<br>Cuando envío una solicitud con datos correctos<br>Entonces el sistema registra el evento en la base de datos<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de registro de eventos de trazabilidad<br>Cuando envío una solicitud con datos incorrectos<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese datos correctos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS43</td>
+<td>Get All Vehicles</td>
+<td>Como empresa usuario de la plataforma TrackLab Quiero ver todos los vehiculos que poseo mediante un API para poder usarlo cuando lo requiera</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de obtención de vehículos<br>Cuando envío una solicitud con datos correctos<br>Entonces el sistema devuelve una lista de todos los vehículos<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de obtención de vehículos<br>Cuando envío una solicitud con datos incorrectos<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingresemos datos correctos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS44</td>
+<td>Post Vehicles</td>
+<td>Como empresa usuario de la platafoma TrackLab Quiero registrar un nuevo vehiculo mediante una API para poder usarlo registrar cuando se requiera</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de registro de vehiculos<br>Cuando envío una solicitud con datos válidos<br>Entonces el sistema guarda el nuevo vehiculo en la base de datos y devuelve un mensaje de éxito<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de registro de vehiculos<br>Cuando envío una solicitud con datos inválidos<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese datos válidos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS45</td>
+<td>Get Vehicle By Id</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero buscar un vehiculo en específico mediante una API para poder ubicarlo por su ID</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de búsqueda de vehículos<br>Cuando envío una solicitud con un ID válido y existente<br>Entonces el sistema devuelve los detalles del vehículo seleccionado<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de búsqueda de vehículos<br>Cuando envío una solicitud con un ID inválido e inexistente<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese un ID válido
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS46</td>
+<td>Put Vehicle By Id</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero editar los datos de un vehículo en específico mediante una API para poder hacerlo cuando se requiera</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de actualización de datos de vehículos<br>Cuando envío una solicitud con un ID y datos válidos<br>Entonces el sistema refleja los cambios en la base de datos y devuelve un mensaje de éxito<br><br></td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS47</td>
+<td>Delete Vehicle By Id</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero eliminar un vehiculo en específico mediante un API para poder usarlo cuando se requiera</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de eliminación de vehiculos<br>Cuando envío una solicitud con un ID válido y existente<br>Entonces el sistema elimina el vehiculo de la base de datos y devuelve un mensaje de éxito<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de eliminación de vehículos<br>Cuando envío una solicitud con un ID inválido e inexistente<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese un ID válido</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS48</td>
+<td>Get All Warehouses</td>
+<td>Como empresa usuario de la plataforma TrackLab Quiero ver todos los warehouses que poseo mediante un API para poder usarlo cuando lo requiera</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de obtención de warehouses<br>Cuando envío una solicitud con datos correctos<br>Entonces el sistema devuelve una lista de todos los warehouses<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de obtención de warehouses<br>Cuando envío una solicitud con datos incorrectos<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingresemos datos correctos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS49</td>
+<td>Post Warehouses</td>
+<td>Como empresa usuario de la platafoma TrackLab Quiero registrar un nuevo vehiculo mediante una API para poder usarlo registrar cuando se requiera</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de registro de warehouses<br>Cuando envío una solicitud con datos válidos<br>Entonces el sistema guarda el nuevo warehouse en la base de datos y devuelve un mensaje de éxito<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de registro de warehouses<br>Cuando envío una solicitud con datos inválidos<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese datos válidos</td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS50</td>
+<td>Get Warehouse By Id</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero buscar un warehouse en específico mediante una API para poder ubicarlo por su ID</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de búsqueda de warehouses<br>Cuando envío una solicitud con un ID válido y existente<br>Entonces el sistema devuelve los detalles del warehouse seleccionado<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de búsqueda de warehouses<br>Cuando envío una solicitud con un ID inválido e inexistente<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese un ID válido
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS51</td>
+<td>Put Warehouse By Id</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero editar el detalle de un warehouse en específico mediante una API para poder hacerlo cuando se requiera</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de actualización de datos de warehouses<br>Cuando envío una solicitud con un ID y datos válidos<br>Entonces el sistema refleja los cambios en la base de datos y devuelve un mensaje de éxito<br><br></td>
+<td>No corresponde</td>
+</tr>
+
+<tr>
+<td>TS52</td>
+<td>Delete Warehouse By Id</td>
+<td>Como empresa usuario de la aplicación TrackLab Quiero eliminar un warehouse en específico mediante un API para poder usarlo cuando se requiera</td>
+<td>Escenario 1: Solicitud Válida<br>Dado a que tengo acceso a la API de eliminación de warehouses<br>Cuando envío una solicitud con un ID válido y existente<br>Entonces el sistema elimina el warehouse de la base de datos y devuelve un mensaje de éxito<br><br>Escenario 2: Solicitud Inválida<br>Dado a que tengo acceso a la API de eliminación de warehouses<br>Cuando envío una solicitud con un ID inválido e inexistente<br>Entonces el sistema devuelve un mensaje de error y sugiere que ingrese un ID válido</td>
+<td>No corresponde</td>
+</tr>
 </table>
 
 ## 3.3 Impact Mapping
