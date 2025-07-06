@@ -1627,13 +1627,32 @@ Las epics y user stories nos sirven para traducir aquellas ideas y necesidades q
     <td>Escenario 1: Ingreso a pantalla de productos<br> Dado que el administrador de la empresa cliente ha ingresado a la aplicación con su cuenta<br> Cuando el administrador de la empresa cliente seleccione la opción “Productos”<br> Entonces el sistema lo redirigirá a la pantalla de productos<br><br> Escenario 2: Visualización de detalles de un producto<br> Dado que el administrador de la empresa cliente se encuentra dentro de la pantalla de Productos<br> Cuando el administrador de la empresa cliente seleccione uno de los productos presentados<br> Entonces el sistema mostrará el perfil de producto<br><br> Escenario 3: Selección de un producto<br> Dado que el administrador de la empresa cliente se encuentra dentro del perfil de un producto<br> Cuando el administrador de la empresa cliente ingrese un número mayor a cero en el recuadro “Cantidad”<br> Y el administrador de la empresa cliente seleccione la opción “Agregar a pedido”<br> Entonces el sistema guardará el registro de ese producto con la cantidad seleccionada como posible pedido</td>
     <td>EP04</td>
   </tr>
-  <tr>
-    <td>US06</td>
-    <td>Búsqueda de productos disponibles</td>
-    <td>Como administrador de la empresa cliente Quiero buscar productos mediante palabras Para encontrar los productos que deseo en menos tiempo</td>
-    <td>Escenario 1: Ingreso a pantalla de productos<br> Dado que el administrador de la empresa cliente ha ingresado a la aplicación con su cuenta<br> Cuando el administrador de la empresa cliente seleccione la opción “Productos”<br> Entonces el sistema lo redirigirá a la pantalla de productos<br><br> Escenario 2: Búsqueda exitosa de un producto<br> Dado que el administrador de la empresa cliente se encuentra dentro de la pantalla de productos<br> Cuando el administrador de la empresa cliente seleccione la barra de búsqueda<br> Y el administrador de la empresa cliente ingrese texto en la barra de búsqueda<br> Y el administrador de la empresa cliente presione el ícono de lupa<br> Y el sistema encuentre productos que coinciden con la búsqueda<br> Entonces el sistema mostrará todos los productos cuyo nombre coincide con el texto ingresado<br><br> Escenario 3: Búsqueda no exitosa de un producto<br> Dado que el administrador de la empresa cliente se encuentra dentro de la pantalla de productos<br> Cuando el administrador de la empresa cliente seleccione la barra de búsqueda<br> Y el administrador de la empresa cliente ingrese texto en la barra de búsqueda<br> Y el administrador de la empresa cliente presione el ícono de lupa<br> Y el sistema no encuentre productos que coinciden con la búsqueda<br> Entonces el sistema mostrará el mensaje “No se han encontrado coincidencias”</td>
-    <td>EP04</td>
-  </tr>
+ <tr>
+  <td>US06</td>
+  <td>Filtrado de productos por nombre o categoría</td>
+  <td>Como administrador de la empresa cliente Quiero filtrar productos por nombre o categoría Para encontrar los productos que deseo en menos tiempo</td>
+  <td>
+    Escenario 1: Ingreso a pantalla de productos<br>
+    Dado que el administrador de la empresa cliente ha ingresado a la aplicación con su cuenta<br>
+    Cuando el administrador de la empresa cliente seleccione la opción “Productos”<br>
+    Entonces el sistema lo redirigirá a la pantalla de productos<br><br>
+    Escenario 2: Filtrado por nombre de producto<br>
+    Dado que el administrador de la empresa cliente se encuentra dentro de la pantalla de productos<br>
+    Cuando el administrador de la empresa cliente ingrese texto en la barra de búsqueda<br>
+    Y el administrador de la empresa cliente presione el ícono de lupa<br>
+    Y el sistema encuentre productos cuyo nombre coincida<br>
+    Entonces el sistema mostrará los productos encontrados según el nombre ingresado<br><br>
+    Escenario 3: Filtrado por categoría<br>
+    Dado que el administrador de la empresa cliente se encuentra dentro de la pantalla de productos<br>
+    Cuando el administrador de la empresa cliente seleccione una categoría en el filtro<br>
+    Entonces el sistema mostrará todos los productos que pertenezcan a esa categoría<br><br>
+    Escenario 4: Sin coincidencias<br>
+    Dado que el administrador de la empresa cliente ha realizado una búsqueda por nombre o categoría<br>
+    Cuando el sistema no encuentre coincidencias<br>
+    Entonces el sistema mostrará el mensaje “No se han encontrado coincidencias”
+  </td>
+  <td>EP04</td>
+</tr>
   <tr>
     <td>US07</td>
     <td>Registro de datos de envío</td>
@@ -1725,13 +1744,23 @@ Las epics y user stories nos sirven para traducir aquellas ideas y necesidades q
     <td>Escenario 1: Visualización de datos de salida<br> Dado que el administrador de la empresa proveedora ha ingresado a la aplicación con su cuenta <br> Cuando el administrador de la empresa proveedora seleccione la opción “Dashboard” dentro del perfil de un pedido<br> Entonces el sistema mostrará el dashboard con los datos de salida del envío<br><br> Escenario 2: Información en tiempo real<br> Dado que el administrador de la empresa proveedora se encuentra dentro del Dashboard <br> Y que el estado del pedido ha sido actualizado a “En proceso”<br> Cuando el administrador de la empresa proveedora observe la sección “Ubicación en tiempo real”<br> Entonces el administrador de la empresa proveedora verá el mapa con el punto de ubicación del transporte que lleva la carga en movimiento<br><br> Escenario 3: Actualización de estado de la carga<br> Dado que el administrador de la empresa proveedora se encuentra dentro del Dashboard <br> Y que el estado del pedido ha sido actualizado a “En proceso”<br> Cuando el administrador de la empresa proveedora visualice la sección “Estado de la carga”<br> Entonces el  administrador de la empresa proveedora podrá ver si el estado sigue siendo “Óptimo” o si ocurre un problema que atender</td>
     <td>EP07</td>
   </tr>
-  <tr>
-    <td>US20</td>
-    <td>Respuesta a consultas de compradores</td>
-    <td>Como administrador de la empresa proveedora Quiero contestar las consultas de los compradores Para mantenerlos informados y confiados en cuanto a su entrega</td>
-    <td>Escenario 1: Notificación de mensaje<br> Dado que un administrador de la empresa cliente ha enviado una consulta<br> Y que el administrador de la empresa proveedora se encuentra dentro de la aplicación<br> Cuando el administrador de la empresa proveedora se dirija a la sección “Notificaciones”<br> Entonces el administrador de la empresa proveedora podrá ver la notificación de nuevo mensaje indicando el pedido del que viene<br><br> Escenario 2: Ingreso a consulta<br> Dado que el administrador de la empresa proveedora se encuentra dentro de la sección “Notificaciones”<br> Cuando el administrador de la empresa proveedora seleccione la notificación de un mensaje<br> Entonces el sistema lo redirigirá al Dashboard del pedido sobre el que se manda el mensaje<br> Y el sistema mostrará el mensaje en la parte inferior<br><br> Escenario 3: Responder consulta<br> Dado que el administrador de la empresa proveedora ha seleccionado un mensaje<br> Y que el sistema lo redirigió al Dashboard del pedido<br> Cuando el administrador de la empresa proveedora ingrese su respuesta en el cuadro de texto<br> Y el administrador de la empresa proveedora seleccione la opción “Responder”<br> Entonces el sistema enviará su respuesta al administrador de la empresa cliente</td>
-    <td>EP07</td>
-  </tr>
+ <tr>
+  <td>US20</td>
+  <td>Envío de respuestas por correo electrónico</td>
+  <td>Como administrador de la empresa proveedora Quiero responder las consultas de los compradores por correo electrónico Para mantenerlos informados sobre sus pedidos sin necesidad de ingresar a la aplicación</td>
+  <td>
+    Escenario 1: Recepción de consulta por correo<br>
+    Dado que un administrador de la empresa cliente ha enviado una consulta desde la aplicación<br>
+    Y que el sistema ha configurado notificaciones por correo<br>
+    Cuando se genere una nueva consulta<br>
+    Entonces el sistema enviará un correo al administrador de la empresa proveedora con los detalles del pedido y la consulta<br><br>
+    Escenario 2: Redacción de respuesta<br>
+    Dado que el administrador de la empresa proveedora ha recibido un correo de consulta<br>
+    Cuando redacte su respuesta directamente desde Gmail<br>
+    Entonces podrá responder al correo manteniendo la cadena del mensaje<br><br>
+  </td>
+  <td>EP07</td>
+</tr>
   <tr>
     <td>US21</td>
     <td>Registro de empresa proveedora</td>
@@ -1748,41 +1777,27 @@ Las epics y user stories nos sirven para traducir aquellas ideas y necesidades q
   </tr>
   <tr>
     <td>US23</td>
-    <td>Registro de administrador</td>
-    <td>Como administrador de una empresa con cuenta existente Quiero registrarme dentro la aplicación Para utilizarla como miembro de la empresa</td>
-    <td>Escenario 1: Creación de cuenta<br> Dado que el administrador de una empresa con cuenta existente se encuentra en el landing page <br> Y que el administrador de una empresa con cuenta existente ha seleccionado la opción “Crear cuenta”<br> Y que el administrador de una empresa con cuenta existente ha seleccionado la opción “Empleado” como tipo de cuenta<br> Cuando el administrador de una empresa con cuenta existente ingrese correctamente el RUC y contraseña de la cuenta de la empresa<br> Y el administrador de una empresa con cuenta existente seleccione la opción “Continuar”<br> Entonces el sistema lo redirigirá a la sección “Cuenta de empleado”<br><br> Escenario 2: Cuenta de empleado<br> Dado que el administrador de una empresa con cuenta existente se encuentra en la sección “Cuenta de empleado”<br> Cuando el administrador de una empresa con cuenta existente ingrese un número de usuario, correo electrónico y contraseña válidos<br> Y el administrador de una empresa con cuenta existente seleccione la opción crear<br> Entonces el sistema creará su cuenta<br> Y el sistema guardará su información en la base de datos</td>
-    <td>EP08</td>
-  </tr>
-  <tr>
-    <td>US24</td>
     <td>Visualización de panel en tiempo real</td>
     <td>Como administrador de la empresa cliente Quiero visualizar los datos de mi pedido en tiempo real Para monitorear su entrega</td>
     <td>Escenario 1: Ingreso a dashboard<br> Dado que el administrador de la empresa cliente ha ingresado a la aplicación con su cuenta <br> Cuando el administrador de la empresa cliente seleccione la opción “Dashboard”<br> Entonces el sistema mostrará el dashboard con los datos del envío<br><br> Escenario 2: Actualización de datos<br> Dado que el administrador de la empresa cliente se encuentra dentro del “Dashboard de su pedido”<br> Cuando el pedido se encuentre en estado “En proceso”<br> Entonces el sistema mostrará los datos de salida del pedido<br> Y el sistema actualizará la información del trayecto del pedido en tiempo real (estado de la carga, ubicación)</td>
     <td>EP09</td>
   </tr>
   <tr>
-    <td>US25</td>
+    <td>US24</td>
     <td>Registro de consulta en el panel de gestión</td>
     <td>Como administrador de la empresa cliente Quiero escribir consultas hacia la empresa proveedora Para resolver mis dudas o preocupaciones sobre mi pedido</td>
     <td>Escenario 1: Creación de consulta<br> Dado que el administrador de la empresa cliente se encuentra en el dashboard de su pedido<br> Cuando el administrador de la empresa cliente seleccione la opción “Enviar mensaje”<br> Entonces el sistema abrirá una sección para ingresar texto<br><br> Escenario 2: Envío de consulta<br> Dado que el administrador de la empresa cliente se encuentra dentro del Dashboard<br> Y que el administrador de la empresa cliente ha seleccionado la opción “Enviar mensaje”<br> Y que el administrador de la empresa cliente ha ingresado texto<br> Cuando el administrador de la empresa cliente seleccione la opción “Enviar”<br> Entonces el sistema enviará su mensaje a la empresa proveedora</td>
     <td>EP09</td>
   </tr>
   <tr>
-    <td>US26</td>
-    <td>Registro de datos de llegada</td>
-    <td>Como administrador de la empresa proveedora Quiero poder registrar los datos de llegada del pedido Para asegurarme de que no sufrió desperfectos durante el trayecto</td>
-    <td>Escenario 1: Datos de llegada válidos<br> Dado que el envío ha llegado a su destino<br> Cuando el envío sea revisado<br> Y el administrador de la empresa proveedora registre los datos de llegada<br> Y el sistema verifique que los datos de llegada coinciden con los datos de salida<br> Entonces el sistema actualizará el estado del pedido a “Entregado”<br><br> Escenario 2: Datos de llegada inválidos<br> Dado que el envío ha llegado a su destino<br> Cuando el envío sea revisado<br> Y el administrador de la empresa proveedora registre los datos de llegada<br> Y el sistema verifique que los datos de llegada no coinciden con los datos de salida<br> Entonces el sistema mostrará los datos que no coinciden</td>
-    <td>EP10</td>
-  </tr>
-  <tr>
-    <td>US27</td>
+    <td>US25</td>
     <td>Confirmación de recepción del cliente</td>
     <td>Como administrador de la empresa cliente Quiero confirmar que recibí mi pedido conforme Para culminar con el proceso de envío</td>
     <td>Escenario 1: Pedido recibido conforme<br> Dado que el administrador de la empresa cliente ha recibido el pedido según lo solicitado<br> Cuando el administrador de la empresa cliente seleccione la opción “Pedido recibido conforme” dentro del Dashboard<br> Entonces el sistema actualizará el estado del pedido a “Culminado”<br><br> Escenario 2: Pedido recibido inconforme<br> Dado que el administrador de la empresa cliente ha recibido el pedido no según lo solicitado<br> Cuando el administrador de la empresa cliente seleccione la opción “Pedido recibido inconforme” dentro del Dashboard<br> Entonces el sistema enviará el caso a la empresa proveedora para ser revisado</td>
     <td>EP10</td>
   </tr>
   <tr>
-    <td>US28</td>
+    <td>US26</td>
     <td>Cierre del envío</td>
     <td>Como administrador de la empresa proveedora Quiero cerra el envío una vez entregado Para que este no interfiera con los pedidos incompletos</td>
     <td>Escenario 1: Pedido culminado<br> Dado que el pedido se encuentra en estado “Culminado”<br> Cuando el administrador de la empresa proveedora seleccione la opción “Cerrar pedido” dentro del Dashboard<br> Y el administrador de la empresa proveedora seleccione la opción emergente “Confirmar cierre”<br> Entonces el Dashboard se cerrará<br> Y el pedido ya no aparecerá en la lista de pedidos.<br><br> Escenario 2: Pedido no culminado<br> Dado que el pedido se encuentra en estado “Culminado”<br> Cuando el administrador de la empresa proveedora seleccione la opción “Cerrar pedido” dentro del Dashboard<br> Y el administrador de la empresa proveedora seleccione la opción emergente “Revertir cierre”<br> Entonces el administrador de la empresa proveedora volverá al Dashboard</td>
@@ -4821,15 +4836,15 @@ Como se evidencia, el equipo ha trabajado colaborativamente, respetando el flujo
       <td>Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando y Céspedes Pillco, Jarod Jack</td>
     </tr>
     <tr>
-      <th>Sprint 2 Review Summary</th>
+      <th>Sprint 1 Review Summary</th>
       <td>In the previous sprint, we focused on improving our landing page performance, but also on deploying and showing to users the first working version of our web application.</td>
     </tr>
     <tr>
-      <th>Sprint 3 Goal</th>
+      <th>Sprint 2 Goal</th>
       <td>Our focus now is on deploying the first version of our application backend, including our core bounded contexts and main endpoints. We would also try to connect our frontend and backend</td>
     </tr>
     <tr>
-      <th>Sprint 3 Velocity</th>
+      <th>Sprint 2 Velocity</th>
       <td>25 story points</td>
     </tr>
     <tr>
@@ -4853,7 +4868,7 @@ En este sprint se busca completar la landing page de TrackLab, incluyendo el dis
 
 ### 5.2.3.3. Sprint Backlog 3
 
-El objetivo principal del Sprint 3 es desarrollar y desplegar una primera versión del frontend de nuestro proyecto TrackLab. A continuación se muestra una captura de algunos de los componentes que se buscan trabajar en este Sprint con su código correspondiente y estado.
+El objetivo principal del Sprint 2 es desarrollar y desplegar una primera versión del frontend de nuestro proyecto TrackLab. A continuación se muestra una captura de algunos de los componentes que se buscan trabajar en este Sprint con su código correspondiente y estado.
 
 <div align="center">
   <table>
@@ -5309,7 +5324,7 @@ Para finalizar, confirmamos la creación.
   <img src="assets/md-images/despliegueBack9.jpg" alt="login-view.png" width="700px">
 </div>
 
-### 5.2.3.8. Team Collaboration Insights during Sprint 3
+### 5.2.3.8. Team Collaboration Insights during Sprint
 
 Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la primera versión del frontend de nuestro proyecto TrackLab, dividiéndose por secciones según la vista y funcionalidad definida previamente.   
 A continuación, se detalla la participación específica de cada integrante del equipo:
@@ -5596,266 +5611,6 @@ __Planificación de rutas__
 - **Problema #5: El placeholder de búsqueda en Mis Órdenes (“producto, destino o cantidad”) es confuso**
   - **Tarea evaluada:** Buscar pedido
   - **Recomendación:** Ajustar a “producto, destino o ID de pedido” para eliminar ambigüedad.
-
-### 5.2.4. Sprint 4
-
-### 5.2.4.1. Sprint Planning 4
-
-<div align="center">
-  <table>
-    <tr>
-      <th>Sprint #</th>
-      <td>Sprint 4</td>
-    </tr>
-    <tr>
-      <th>Date</th>
-      <td>2025-06-30</td>
-    </tr>
-    <tr>
-      <th>Time</th>
-      <td>06:47 PM</td>
-    </tr>
-    <tr>
-      <th>Location</th>
-      <td>Reunión virtual a través de Discord</td>
-    </tr>
-    <tr>
-      <th>Prepared by</th>
-      <td>Roman Cruz, Natalia Bertha e Iglesias Pérez, Sergio Sebastián</td>
-    </tr>
-    <tr>
-      <th>Attendees (to planning meeting)</th>
-      <td>Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando y Céspedes Pillco, Jarod Jack</td>
-    </tr>
-    <tr>
-      <th>Sprint 3 Review Summary</th>
-      <td>In the previous sprint, we focused on deploying the first version of our application backend, our core bounded contexts, main endpointsIn the previous sprint and tried to connect our frontend and backend together.</td>
-    </tr>
-    <tr>
-      <th>Sprint 4 Goal</th>
-      <td>Our focus now is on deploying the definitive version of our application backend, improving our core bounded contexts and main endpoints, also adding a few more. And reinforce the connection between our frontend and backend.</td>
-    </tr>
-    <tr>
-      <th>Sprint 4 Velocity</th>
-      <td>25 story points</td>
-    </tr>
-    <tr>
-      <th>Sum of Story Points</th>
-      <td>25 story points</td>
-    </tr>
-  </table>
-</div>
-
-### 5.2.4.2. Aspect Leaders and Collaborators
-
-En este sprint se busca mejorar y completar el backend de TrackLab, incluyendo su correcto despliegue. Para lograr una correcta comunicación, se ha creado la matriz de liderazgo y colaboración (LACX), en la cual se define quien lidera y quien colabora en cada aspecto del sprint.
-
-| Team Member                        | GitHub username      | Diseño Backend       | Despliegue Backend       |
-|------------------------------------|----------------------|----------------------|--------------------------|
-| Roma Cruz, Natalia Bertha          | natRC2005            | L                    | C                        |
-| Sonano Armas, Angelo Hector        | Angelo5214           | C                    | C                        |
-| Iglesias Perez, Sergio Sebastian   | ghostrider101218     | C                    | L                        |
-| Baldeon Vivar, Santiago Armando    | Santibal11           | C                    | C                        |
-| Céspedes Pillco, Jarod Jack        | PruebaJJC            | C                    | C                        |
-
-### 5.2.4.3. Sprint Backlog 4
-
-El objetivo principal del Sprint 4 es mejorar y culminar con la implementación del backend de nuestro proyecto TrackLab.
-
-<div align="center">
-  <table>
-    <tr>
-      <th>Sprint #</th>
-      <th>Task ID</th>
-      <th>Task Title</th>
-      <th>Assigned To</th>
-      <th>Status</th>
-    </tr>
-    <tr>
-      <td>Sprint 4</td>
-      <td>T01</td>
-      <td>Resource Value objects</td>
-      <td>Roman Cruz, Natalia Bertha</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 4</td>
-      <td>T02</td>
-      <td>Order Value objects</td>
-      <td>Solano Armas, Angelo Hector</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 4</td>
-      <td>T03</td>
-      <td>Tracking Value objects</td>
-      <td>Baldeón Vivar, Santiago Armando</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 4</td>
-      <td>T04</td>
-      <td>Iam Value objects</td>
-      <td>Roman Cruz, Natalia Berth</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 4</td>
-      <td>T05</td>
-      <td>Resource Entities</td>
-      <td>Baldeón Vivar, Santiago Armando</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 4</td>
-      <td>T06</td>
-      <td>Order Entities</td>
-      <td>Solano Armas, Angelo Hector</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 4</td>
-      <td>T07</td>
-      <td>Tracking Entities</td>
-      <td>Roman Cruz, Natalia Berth</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 4</td>
-      <td>T08</td>
-      <td>Resource Controllers</td>
-      <td>Solano Armas, Angelo Hector</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 4</td>
-      <td>T09</td>
-      <td>Tracking Controllers</td>
-      <td>Solano Armas, Angelo Hector</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 4</td>
-      <td>T10</td>
-      <td>Order Controllers</td>
-      <td>Roman Cruz, Natalia Bertha</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 4</td>
-      <td>T11</td>
-      <td>Iam Controllers</td>
-      <td>Baldeón Vivar, Santiago Armando</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 4</td>
-      <td>T12</td>
-      <td>Security Implemmentation</td>
-      <td>Baldeón Vivar, Santiago Armando</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 4</td>
-      <td>T13</td>
-      <td>Commands</td>
-      <td>Roman Cruz, Natalia Bertha</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 4</td>
-      <td>T14</td>
-      <td>Queries</td>
-      <td>Iglesias Perez, Sergio Sebastian</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 4</td>
-      <td>T15</td>
-      <td>Repositories</td>
-      <td>Roman Cruz, Natalia Bertha</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 4</td>
-      <td>T16</td>
-      <td>Exceptions</td>
-      <td>Céspedes Pillco, Jarod Jack</td>
-      <td>Done</td>
-    </tr>
-  </table>
-</div>
-
-### 5.2.4.4. Development Evidence for Sprint Review
-
-<div align="center">
-  <table>
-    <tr>
-      <th>Repository</th>
-      <th>Branch</th>
-      <th>Commit ID</th>
-      <th>Commit Message</th>
-      <th>Commit Message Body</th>
-      <th>Committed on (Date)</th>
-    </tr>
-  </table>
-</div>
-
-#### 5.2.4.5. Execution Evidence for Sprint Review
-
-#### 5.2.4.6. Services Documentation Evidence for Sprint Review
-
-#### 5.2.4.7. Software Deployment Evidence for Sprint Review
-
-#### 5.2.4.8. Team Collaboration Insights during Sprint 4
-
-Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la mejora y desarrollo del backend de nuestro proyecto TrackLab, dividiéndose por secciones según la funcionalidad definida previamente.   
-A continuación, se detalla la participación específica de cada integrante del equipo:
-
-<div align="center">
-  <table>
-    <tr>
-      <th>Nombre</th>
-      <th>Actividades</th>
-    </tr>
-    <tr>
-      <td>Roman Cruz, Natalia Bertha</td>
-      <td>Revisión y ajuste final de código, elaboración de informe y planificación de Sprint 4</td>
-    </tr>
-    <tr>
-      <td>Solano Armas, Angelo Héctor</td>
-      <td>Codificación de bounded contexts, revisión de avances de integrantes</td>
-    </tr>
-    <tr>
-      <td>Iglesias Pérez, Sergio Sebastián</td>
-      <td>Mejora del frontend, implementación de seguridad (bounded Iam)</td>
-    </tr>
-    <tr>
-      <td>Baldeón Vivar, Santiago Armando</td>
-      <td>Ajuste del código frontend, edición de video about the product</td>
-    </tr>
-    <tr>
-      <td>Céspedes Pillco, Jarod Jack</td>
-      <td>Definición e implementación de excepciones, redacción de las TS</td>
-    </tr>
-  </table>
-</div>
-
-> **Nota:** Algunos integrantes colaboraron en secciones compartidas para asegurar consistencia en diseño y funcionalidad.
-
-##### Evidencia de Colaboración en GitHub:
-
-A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
-
-<div align="center">
-  <img src="assets/md-images/graficosCollabSprint4.png" alt="team-collaboration-sprint-4.png" width="700px">
-</div>
-
-##### Repositorio del trabajo:
-
-- [Repositorio del backend en GitHub](https://tracklab-api.azurewebsites.net/swagger/index.html)
-
-Como se evidencia, el equipo ha trabajado colaborativamente, respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente como participación de todos los miembros del equipo.
 
 # 6. Conclusiones
 
