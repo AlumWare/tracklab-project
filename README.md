@@ -4836,15 +4836,15 @@ Como se evidencia, el equipo ha trabajado colaborativamente, respetando el flujo
       <td>Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando y Céspedes Pillco, Jarod Jack</td>
     </tr>
     <tr>
-      <th>Sprint 1 Review Summary</th>
+      <th>Sprint 2 Review Summary</th>
       <td>In the previous sprint, we focused on improving our landing page performance, but also on deploying and showing to users the first working version of our web application.</td>
     </tr>
     <tr>
-      <th>Sprint 2 Goal</th>
+      <th>Sprint 3 Goal</th>
       <td>Our focus now is on deploying the first version of our application backend, including our core bounded contexts and main endpoints. We would also try to connect our frontend and backend</td>
     </tr>
     <tr>
-      <th>Sprint 2 Velocity</th>
+      <th>Sprint 3 Velocity</th>
       <td>25 story points</td>
     </tr>
     <tr>
@@ -4868,7 +4868,7 @@ En este sprint se busca completar la landing page de TrackLab, incluyendo el dis
 
 ### 5.2.3.3. Sprint Backlog 3
 
-El objetivo principal del Sprint 2 es desarrollar y desplegar una primera versión del frontend de nuestro proyecto TrackLab. A continuación se muestra una captura de algunos de los componentes que se buscan trabajar en este Sprint con su código correspondiente y estado.
+El objetivo principal del Sprint 3 es desarrollar y desplegar una primera versión del frontend de nuestro proyecto TrackLab. A continuación se muestra una captura de algunos de los componentes que se buscan trabajar en este Sprint con su código correspondiente y estado.
 
 <div align="center">
   <table>
@@ -5912,74 +5912,66 @@ El objetivo principal del Sprint 4 es mejorar y culminar con la implementación 
     <tr>
       <td>AlumWare/tracklab-backend</td>
       <td>develop</td>
-      <td></td>
-      <td></td>
+      <td>a005d46</td>
+      <td>Avance en la lógica al 60%, ajustes en conexión y tablas SQL</td>
       <td>N/A</td>
-      <td></td>
+      <td>2025-07-04</td>
     </tr>
     <tr>
       <td>AlumWare/tracklab-backend</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>develop</td>
+      <td>f31ccf8</td>
+      <td>exceptions implementation part one defined 39 exceptions</td>
       <td>N/A</td>
-      <td></td>
+      <td>2025-07-03</td>
     </tr>
     <tr>
       <td>AlumWare/tracklab-backend</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>develop</td>
+      <td>7a682a3</td>
+      <td>Merge pull request #23 from AlumWare/Resources-implementation</td>
       <td>N/A</td>
-      <td></td>
+      <td>2025-07-03</td>
     </tr>
     <tr>
       <td>AlumWare/tracklab-backend</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>develop</td>
+      <td>081a3f2</td>
+      <td>Merge pull request #22 from AlumWare/conexion-sql-tablas</td>
       <td>N/A</td>
-      <td></td>
+      <td>2025-07-03</td>
     </tr>
     <tr>
       <td>AlumWare/tracklab-backend</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>develop</td>
+      <td>f1e4950</td>
+      <td>Merge pull request #21 from AlumWare/revert-7-Resources-implementation</td>
       <td>N/A</td>
-      <td></td>
+      <td>2025-07-03</td>
     </tr>
     <tr>
       <td>AlumWare/tracklab-backend</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>develop</td>
+      <td>56a1647</td>
+      <td>Merge pull request #20 from AlumWare/develop</td>
       <td>N/A</td>
-      <td></td>
+      <td>2025-07-03</td>
     </tr>
     <tr>
       <td>AlumWare/tracklab-backend</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>develop</td>
+      <td>ddc0764</td>
+      <td>Merge pull request #14 from AlumWare/audits</td>
       <td>N/A</td>
-      <td></td>
+      <td>2025-07-01</td>
     </tr>
     <tr>
       <td>AlumWare/tracklab-backend</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>develop</td>
+      <td>4adfd85</td>
+      <td>Merge pull request #13 from AlumWare/tracking</td>
       <td>N/A</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>AlumWare/tracklab-backend</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>N/A</td>
-      <td></td>
+      <td>4adfd85</td>
     </tr>
   </table>
 </div>
