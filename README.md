@@ -6033,9 +6033,107 @@ El objetivo principal del Sprint 4 es mejorar y culminar con la implementación 
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
+En el cuarto sprint, comenzamos a implementar nuestros endpoints y los visulizamos y probamos a tráves de swagger como se evidencia a continuación:
+
+<div align="center">
+  <img src="assets/md-images/swagger1.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger2.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger3.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger4.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger5.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger6.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger7.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger8.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger9.jpg" alt="login-view.png" width="700px">
+</div>
+
+<div align="center">
+  <img src="assets/md-images/swagger10.jpg" alt="login-view.png" width="700px">
+</div>
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+A continuación, se explicará como hemos desarrollado la parte de nuestro backend.
+
+Primero, creamos el servidor MySQL y asignamos el nombre del servidor y el plan que va a seguir el servidor de base de datos.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack1.jpg" alt="login-view.png" width="700px">
+</div>
+
+Luego, configuramos la autenticación por medio de MySQL colocando usuario y contraseña.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack2.jpg" alt="login-view.png" width="700px">
+</div>
+
+A continuación, configuramos las redes para lograr tener acceso a cualquier recurso dentro de nuestra cuenta de Azure. Además, agregamos una regla para poder usar nuestra propia IP.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack3.jpg" alt="login-view.png" width="700px">
+</div>
+
+Aquí, mostramos la validación que nos pide confirmar para crear la base de datos.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack4.jpg" alt="login-view.png" width="700px">
+</div>
+
+Ahora, tenemos nuestro esquema TrackLabDB creado, por lo que podremos usarlo para nuestro backend.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack5.jpg" alt="login-view.png" width="700px">
+</div>
+
+Aquí, se muestran los datos para poder conectarnos.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack6.jpg" alt="login-view.png" width="700px">
+</div>
+
+Consiguientemente, creamos el app service, siendo para este caso una aplicación web .NET 9.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack7.jpg" alt="login-view.png" width="700px">
+</div>
+
+Ahora, lo conectamos a nuestro repositorio de forma que cada vez que se haga un push a la rama main este se actualice.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack8.jpg" alt="login-view.png" width="700px">
+</div>
+
+Para finalizar, confirmamos la creación.
+
+<div align="center">
+  <img src="assets/md-images/despliegueBack9.jpg" alt="login-view.png" width="700px">
+</div>
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint 4
 
