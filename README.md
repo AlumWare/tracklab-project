@@ -202,6 +202,8 @@ __TF__
         En la entrega parcial trabajé en conjunto con uno de mis compañeros para definir los componentes, entidades y páginas que serían desarrolladas. Luego presentamos esto al equipo para coordinar la distribución de tareas y fijar tiempos de entrega y revisión. Esta experiencia me permitió consolidar mi liderazgo compartido, al fomentar una toma de decisiones en equipo y asegurar que cada integrante tuviera claridad sobre sus responsabilidades.<br><br>
         <strong>TB2</strong><br>
         Durante la elaboración del TB2 me encargué de revisar el código, planificar la organización del grupo y de dar feedback a mis compañeros. Esto me ayudó a practicar mis habilidades de liderazgo y a comprender las ideas de los demás, de forma que llegamos a acuerdos y cada persona pudo hacerse cargo de la parte que prefirió.<br><br>
+        <strong>TF</strong><br>
+        Durante el TF en la planificación del sprint y en la revisión y ajuste final del código del backend. Estas actividades me ayudaron a entender cómo organizarme y trabajar en equipo, a cumplir nuestras metas comunes.<br><br>
         <strong>Solano Armas, Angelo Hector</strong><br><br>
         <strong>TB1</strong><br>
         Durante el TB1 me encargué de los assumptions, las hipótesis, el análisis de entrevistas, el needfinding, la especificación de requisitos, los sistemas de navegación y búsqueda, los wireframes, la arquitectura basada en dominios, el diagrama de base de datos y el diagrama de clases. También participé en la definición de líderes de aspectos y en la recopilación de evidencias del desarrollo del sprint. Además, contribuí en el diseño de la landing page.<br><br>
@@ -210,6 +212,8 @@ __TF__
 <br><br>
         <strong>TB2</strong><br>
         Durante el TB2 apoyé con la elaboración de diagramas y la planificación para implementar el código. También colaboré en grandes partes del desarrollo cuando fue necesario. Estas actividades me ayudaron a organizarme mejor, entender cómo avanzar en equipo y aportar al cumplimiento de nuestras metas comunes.<br><br>
+        <strong>TF</strong><br>
+         Durante el TF2 me encargué de mejorar la implementación de los bounding contexts. Tambíen estuve corrigiendo algunas partes del informe. Esto me permitió aplicar técnicas de organización y de trabajo en equipo. Con el fin de alcanzar nuestras metas en común.<br><br>
         <strong>Iglesias Pérez, Sergio Sebastián</strong><br><br>
         <strong>TB1</strong><br>
         En el TB1 participé en la redacción de la descripción de la startup, los segmentos objetivos y el registro de entrevistas. También trabajé en los lineamientos de estilo, wireframes, mockup, prototipo, diagrama de contexto, la configuración del entorno de desarrollo y la landing page. Este proceso me ayudó a entender la importancia de establecer una identidad clara del proyecto desde el inicio y a coordinar con mis compañeros para asegurar coherencia en el diseño y el desarrollo.<br><br>
@@ -217,6 +221,8 @@ __TF__
         Durante la TP me enfoqué en el desarrollo de vistas de la aplicación, la planificación del sprint 2 y la recopilación de evidencias. Esto me permitió aplicar mis habilidades de organización y trabajar constantemente en la mejora del producto, manteniendo la coordinación con el resto del equipo.<br><br>
         <strong>TB2</strong><br>
         Durante el TB2 estuve involucrado en el trabajo de planificación e implementación del código, así como en el desarrollo de los diagramas. Esta participación me permitió mantener una buena organización personal y aportar de manera efectiva al trabajo colectivo.<br><br>
+        <strong>TF</strong><br>
+        Durante el TF estuve haciendo correcciones en el frontend y backend del proyecto, en este último estuve implementado características faltantes. Esto me permitió aplicar buenas técnicas de organización y de trabajo en conjunto, manteniendo en orden al equipo.<br><br>
         <strong>Baldeón Vivar, Santiago Armando</strong><br><br>
         <strong>TB1</strong><br>
         Me encargué del Canvas, el diseño de entrevistas, los lineamientos de estilo, wireframes, mockup, diccionario de clases, guía de estilo para el código fuente, el Sprint Backlog 1 y la edición del video. Estas tareas me ayudaron a colaborar desde distintas áreas, facilitando la documentación del avance del equipo y asegurando la calidad visual y técnica de nuestras entregas.<br><br>
@@ -224,18 +230,23 @@ __TF__
         Desarrollé vistas de la aplicación web, participé en el despliegue del software y reuní evidencias del sprint. Esto fortaleció mi habilidad para integrarme en la etapa de implementación y aportar soluciones concretas junto a mis compañeros.<br><br>
         <strong>TB2</strong><br>
         En el TB2 colaboré en la planificación del trabajo, la creación de diagramas y apoyé en el desarrollo del código cuando fue necesario. Gracias a estas tareas, pude aportar al orden del grupo, entender mejor cómo avanzar juntos y cumplir con lo que nos propusimos.<br><br>
+        <strong>TF</strong><br>
+        En el TF participé en ajustar partes del código del frontend. Además estuve a cargo de la edición del video. Estas tareas me ayudaron a entender mejor el trabajo en equipo y a cumplir con las tareas asignadas.<br><br>
         <strong>Céspedes Pillco, Jarod Jack</strong><br><br>
         <strong>TB1</strong><br>
         Durante el TB1 elaboré el análisis de competidores, configuré las etiquetas SEO y metatags, diseñé los diagramas de flujo de usuario, me encargué de la gestión de configuración del software y documenté los servicios. A través de estas acciones, me involucré activamente en la estructura técnica del proyecto, aportando en áreas de visibilidad y funcionamiento interno.<br><br>
         <strong>TP</strong><br>
         En el TP desarrollé vistas de la aplicación, participé en el sprint 2 y compartí observaciones sobre la colaboración del equipo. Estas actividades me ayudaron a tener una visión más amplia del trabajo grupal y a reforzar mi compromiso con los objetivos comunes.<br><br>
         <strong>TB2</strong><br>
-        Durante el TB2 brindé apoyo en la elaboración de diagramas y en la planificación para organizar el desarrollo del código. También participé en partes de la codificación. Esta experiencia me ayudó a trabajar de forma más estructurada, comunicarme mejor con mis compañeros y contribuir al avance ordenado del equipo.
+        Durante el TB2 brindé apoyo en la elaboración de diagramas y en la planificación para organizar el desarrollo del código. También participé en partes de la codificación. Esta experiencia me ayudó a trabajar de forma más estructurada, comunicarme mejor con mis compañeros y contribuir al avance ordenado del equipo.<br><br>
+        <strong>TF</strong><br>
+        Durante el TF estuve a cargo de la definición de excepciones en el backend. Además fui el encargado de completar los TS y a redactar el sprint 4. Estas actividades me ayudaron a entender mejor cómo trabajar en equipo, a cumplir con las tareas asignadas y a ser puntual con las entregas.
       </td>
       <td>
         Al haber concluido con la primera entrega, logramos coordinar tiempos y responsabilidades como equipo para apoyarnos entre todos y cumplir con todos los requisitos. Establecimos una coordinación óptima que nos permitió profundizar conocimientos y practicar nuevas habilidades con apoyo mutuo.<br><br>
         Al haber concluido con la entrega del TP, consolidamos la colaboración como el eje central de nuestro equipo, logrando una distribución equilibrada de responsabilidades y una comunicación constante. Esta dinámica de trabajo nos permitió cumplir oportunamente con los entregables y fortalecer nuestras habilidades técnicas, abarcando desde el diseño de interfaces hasta la implementación funcional de vistas clave en la aplicación web.<br><br>
-        Al terminar el TB2, aplicamos un enfoque incremental, distribuyendo el proyecto en partes manejables. Implementamos planificación, retroalimentación continua y validación del código, mejorando la calidad del producto y adaptándonos eficazmente a los cambios.
+        Al terminar el TB2, aplicamos un enfoque incremental, distribuyendo el proyecto en partes manejables. Implementamos planificación, retroalimentación continua y validación del código, mejorando la calidad del producto y adaptándonos eficazmente a los cambios.<br><br>
+        Al haber concluido con la entrega del TF, logramos coordinar tiempos y responsabilidades como equipo para conseguir cumplir con todas los requisitos. También logramos pulir nuestro producto y mejorar en algunos aspectos tecnológicos.
       </td>
     </tr>
     <tr>
@@ -248,6 +259,8 @@ __TF__
         Para el trabajo parcial, junto a uno de mis compañeros propuse el uso de la herramienta Jira. Esto permitió que el equipo pudiera ver el estado de avance, tomar tareas según su disponibilidad y establecer fechas meta. Esta dinámica promovió un ambiente inclusivo donde todos pudimos organizarnos mejor, mantenernos al tanto de los progresos y ajustar el ritmo de trabajo de forma colaborativa.<br><br>
         <strong>TB2</strong><br>
         Durante la elaboración del TB2 me encargué de revisar el código, planificar la organización del grupo y dar feedback a mis compañeros. Esto me ayudó a practicar mis habilidades de liderazgo y a comprender las ideas de los demás, de forma que llegamos a acuerdos y cada persona pudo hacerse cargo de la parte que prefirió. Gracias a estas actividades, pude fortalecer mi capacidad para liderar un entorno colaborativo y mantener un equipo motivado y alineado hacia los mismos objetivos.<br><br>
+        <strong>TF</strong><br>
+        Durante la elaboración del TF me encargué de supervisar el código, apoyar en la redacción del informe y a planificar la organización del grupo. Esto me ayudó a mejorar mis habilidades de liderazgo, a organizar las tareas y a comprender las ideas de los demás.<br><br>
         <strong>Solano Armas, Angelo Hector</strong><br><br>
         <strong>TB1</strong><br>
         Durante el TB1 participé activamente en la planificación de las tareas y me aseguré de avanzar a buen ritmo para mantener el cronograma. Estuve siempre dispuesto a resolver dudas de mis compañeros y aportar en las decisiones técnicas. Estas acciones fortalecieron un entorno colaborativo donde todos nos sentíamos cómodos compartiendo ideas y progresos.<br><br>
@@ -255,6 +268,8 @@ __TF__
         En el trabajo parcial organicé mis tiempos y prioricé entregables clave para que el equipo tuviera una base sobre la cual avanzar. Participar en un entorno colaborativo e inclusivo me ayudó a planificar mejor mis tareas y cumplir con los objetivos comunes sin perder calidad en mis aportes.<br><br>
         <strong>TB2</strong><br>
         Durante el TB2 participé como integrante del equipo, apoyando en la validación de criterios, elaboración de diagramas y la implementación del código. Estas tareas me permitieron mantenerme alineado con el ritmo del grupo y colaborar en un ambiente inclusivo, donde cada aporte era valorado y necesario para cumplir nuestras metas.<br><br>
+        <strong>TF</strong><br>
+        Durante el TF participé como integrante del equipo, apoyando en la mejora de la codificación de los bounding context, así como terminar de implementarlos. Estar tareas me ayudaron a mantenerme en ritmo con el resto del equipo, con el fin de lograr nuestras metas<br><br>
         <strong>Iglesias Pérez, Sergio Sebastián</strong><br><br>
         <strong>TB1</strong><br>
         Durante el TB1 organicé mi trabajo siguiendo los acuerdos del equipo, y mantuve una comunicación constante para resolver dudas y recibir sugerencias. Pude enfocarme en lo que me tocaba y también estar atento a cómo íbamos avanzando como grupo. Esta actitud me ayudó a comprender cómo aportar en un entorno colaborativo sin dejar de ser responsable con mis propios objetivos.<br><br>
@@ -262,7 +277,8 @@ __TF__
         En la TP fui parte activa de las sesiones de planificación, lo que me permitió tomar tareas que se alineaban con mis fortalezas y también apoyar a mis compañeros en aspectos donde necesitaban ayuda. Esta colaboración constante me permitió cumplir con mis metas individuales y también contribuir a que el equipo avance según lo planeado.<br><br>
         <strong>TB2</strong><br>
         En el TB2 fui parte de un equipo donde todos colaboramos en validar los criterios incluidos en el código, generar los diagramas necesarios y aportar en la implementación. Estas actividades me ayudaron a trabajar de forma más organizada y a valorar el aporte de cada miembro, fomentando un entorno de confianza y cumplimiento de objetivos comunes.<br><br>
-        <strong>Baldeón Vivar, Santiago Armando</strong><br><br>
+        <strong>TF</strong><br>
+        En la TF fui parte activa de las sesiones de codificación e implementación de seguridad, lo que me permitió tomar tareas que se alineaban con mis fortalezas y también apoyar a mis compañeros en aspectos donde necesitaban ayuda. Esta colaboración constante me permitió cumplir con mis metas individuales y también contribuir a que el equipo avance según lo planeado.<br><br>
         <strong>Baldeón Vivar, Santiago Armando</strong><br><br>
         <strong>TB1</strong><br>
         Para el TB1 organicé mis tareas a partir del backlog del equipo y coordiné con mis compañeros para poder entregar a tiempo. Siempre estuve abierto a comentarios y ofrecí ayuda cuando alguien del grupo necesitaba apoyo. Estas acciones me ayudaron a reforzar un ambiente de confianza y trabajo colaborativo, que facilitó el cumplimiento de nuestros objetivos.<br><br>
@@ -270,6 +286,8 @@ __TF__
         En la TP organicé mi avance en función de los deadlines del equipo y colaboré activamente en los despliegues, lo cual nos permitió tener una visión clara del progreso. Esta planificación me ayudó a cumplir con lo esperado y mantenerme alineado al ritmo de trabajo del grupo.<br><br>
         <strong>TB2</strong><br>
         Durante el TB2 trabajé en conjunto con mis compañeros en tareas como la validación de los criterios de calidad del código, la elaboración de diagramas y la codificación. Gracias a estas actividades, logré mejorar mi organización personal y reforzar el trabajo en equipo, contribuyendo a un entorno colaborativo con metas claras.<br><br>
+        <strong>TF</strong><br>
+        Durante el TF trabajé a la par con mis compañeros de equipo en las tareas asignadas como ajustar el código del frontend y en la edición del video. Gracias a estas actividades, logré cumplir con lo asignado y seguir el ritmo de mi equipo.<br><br>
         <strong>Céspedes Pillco, Jarod Jack</strong><br><br>
         <strong>TB1</strong><br>
         Durante el TB1 participé activamente en la planificación semanal y llevé un control propio de mis avances. Además, me comuniqué con los demás para resolver dudas y asegurarme de estar alineado. Estas acciones me ayudaron a comprender mejor cómo trabajar dentro de un equipo con metas comunes, cumpliendo mi rol de manera responsable.<br><br>
@@ -277,11 +295,14 @@ __TF__
         En el TP colaboré en la organización del sprint y mantuve actualizado mi estado en Jira. Esto ayudó a que el equipo tuviera claridad sobre lo que faltaba y pudiéramos adaptarnos si había dificultades. Esta dinámica de planificación y comunicación me ayudó a trabajar de forma ordenada y contribuir efectivamente al logro de los objetivos del equipo.<br><br>
         <strong>TB2</strong><br>
         En el TB2 participé como miembro activo del grupo, aportando a la elaboración de diagramas, validación de criterios y codificación. Esta experiencia me permitió entender cómo planificar en función de objetivos compartidos y trabajar de manera conjunta en un ambiente inclusivo y eficiente.<br><br>
+        <strong>TF</strong><br>
+        En el TF participé activamente en el equipo, ayudando en la corrección de los TS y en la definiciones de excepciones. Esta experiencia me fue útil para lograr mantener el ritmo y estar a la par con mis compañeros de equipo.
       </td>
       <td>
         Al término de la TB1, podemos concluir que conseguimos formar un entorno de colaboración, a través del cual podíamos realizar consultas entre compañeros mientras nos asegurábamos de cumplir con nuestros aportes a tiempo y de llegar a alcanzar nuestros objetivos de aprendizaje iniciales. Por otro lado, consideramos que la planificación, aunque siempre puede mejorarse, nos ayudó a tener suficiente tiempo como para volver a revisar ciertos detalles y mejorar la calidad de la entrega.<br><br>
        Al término de la TP, podemos concluir que la planificación detallada del sprint y el enfoque en objetivos compartidos nos permitieron mantener una línea de trabajo organizada y proactiva. Al apoyarnos mutuamente en la resolución de retos técnicos y en la revisión continua de avances, logramos alcanzar un resultado que refleja tanto el aprendizaje colectivo como el compromiso individual con la calidad del proyecto.<br><br>
-        Al concluir el TB2, aprendimos a mantener un entorno inclusivo, participar activamente en la validación de tareas, usar diagramas para clarificar procesos y coordinar la implementación. Esto nos enseñó a planificar con objetivos claros y a cumplirlos en equipo.
+        Al concluir el TB2, aprendimos a mantener un entorno inclusivo, participar activamente en la validación de tareas, usar diagramas para clarificar procesos y coordinar la implementación. Esto nos enseñó a planificar con objetivos claros y a cumplirlos en equipo.<br><br>
+        Al concluir el TF, aprendimos a mantener un entorno equilibrado e inclusive, a participar en conjunto en la revisión de tareas y a mantener una buena organización. Al ejercer esto, logramos alcanzar un resultado que refleja tanto el aprendizaje colectivo como el compromiso individual con la calidad del proyecto
       </td>
     </tr>
   </tbody>
