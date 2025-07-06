@@ -6050,7 +6050,7 @@ A continuación, se detalla la participación específica de cada integrante del
     </tr>
     <tr>
       <td>Roman Cruz, Natalia Bertha</td>
-      <td>Revisión y ajuste final de código, elaboración de informe y planificación de Sprint 4</td>
+      <td>Revisión y ajuste final de código, elaboración de informe y planificación del Sprint 4</td>
     </tr>
     <tr>
       <td>Solano Armas, Angelo Héctor</td>
@@ -6058,7 +6058,7 @@ A continuación, se detalla la participación específica de cada integrante del
     </tr>
     <tr>
       <td>Iglesias Pérez, Sergio Sebastián</td>
-      <td>Mejora del frontend, implementación de seguridad (bounded Iam)</td>
+      <td>Mejora del frontend, completar el código del backend, implementación de seguridad</td>
     </tr>
     <tr>
       <td>Baldeón Vivar, Santiago Armando</td>
@@ -6066,7 +6066,7 @@ A continuación, se detalla la participación específica de cada integrante del
     </tr>
     <tr>
       <td>Céspedes Pillco, Jarod Jack</td>
-      <td>Definición e implementación de excepciones, redacción de las TS</td>
+      <td>Definición e implementación de excepciones, redacción de las TS y planificación del Sprint 4</td>
     </tr>
   </table>
 </div>
