@@ -37,9 +37,10 @@
 | --------- | ---------- | ------- | ----------------------------- |
 | 1.0       | 06/04/2025 | Iglesias Pérez, Sergio Sebastián | Creación del repositorio |
 | 1.1       | 13/04/2025 | Roman Cruz, Natalia Bertha       | Capítulos I (sin entrevistas), Capítulo II (ubiquitous language) y Capítulo 3 (hasta 3.2) |
-| 1.2       | 25/04/2025 | Céspedes, Baldeón, Iglesias, Roman, Solano| Implementación de los capítulos IV y V - Entrevistas, Ubiquitous anguage y Capítulo III completados|
-| 2.0       | 13/05/2025 | Céspedes, Baldeón, Iglesias, Roman, Solano| Capítulo V complerado - sprint II junto a evidencias |
-| 3.0       | 20/06/2025 | Céspedes, Baldeón, Iglesias, Roman, Solano| Sprint III junto a evidencias, análisis de heurísticas y entrevistas de validación |
+| 1.2       | 25/04/2025 | Céspedes, Baldeón, Iglesias, Roman, Solano | Implementación de los capítulos IV y V - Entrevistas, Ubiquitous anguage y Capítulo III completados|
+| 2.0       | 13/05/2025 | Céspedes, Baldeón, Iglesias, Roman, Solano | Capítulo V complerado - sprint II junto a evidencias |
+| 3.0       | 20/06/2025 | Céspedes, Baldeón, Iglesias, Roman, Solano | Sprint III junto a evidencias, análisis de heurísticas y entrevistas de validación |
+| 4.0       | 06/07/2025 | Céspedes, Baldeón, Iglesias, Roman, Solano | Sprint IV junto a evidencias |
 
 ---
 
@@ -49,7 +50,7 @@ URL del repositorio para el reporte del proyecto: https://github.com/AlumWare/tr
 
 **TB1**
 
-Para el desarrollo del informe pertinente a la TB1, se dividió la implementación de sencciones de la siguiente forma entre los integrantes del grupo:
+Para el desarrollo del informe pertinente a la TB1, se dividió la implementación de secciones de la siguiente forma entre los integrantes del grupo:
 
 | **Integrantes**                  | **Tareas asignadas** |
 | ---------------------------------|----------------------|
@@ -63,7 +64,7 @@ El proceso de colaboración durante el informe se realizó tanto con commits com
 
 **TP**
 
-Para el desarrollo del informe pertinente al TP, se dividió la implementación de sencciones de la siguiente forma entre los integrantes del grupo:
+Para el desarrollo del informe pertinente al TP, se dividió la implementación de secciones de la siguiente forma entre los integrantes del grupo:
 
 | **Integrantes**                  | **Tareas asignadas** |
 | ---------------------------------|----------------------|
@@ -77,7 +78,7 @@ El proceso de colaboración durante el informe se realizó tanto con commits en 
 
 **TB2**
 
-Para el desarrollo del informe pertinente a la TB1, se dividió la implementación de sencciones de la siguiente forma entre los integrantes del grupo:
+Para el desarrollo del informe pertinente a la TB2, se dividió la implementación de secciones de la siguiente forma entre los integrantes del grupo:
 
 | **Integrantes**                  | **Tareas asignadas** |
 | ---------------------------------|----------------------|
@@ -88,6 +89,20 @@ Para el desarrollo del informe pertinente a la TB1, se dividió la implementaci�
 | Céspedes Pillco, Jarod Jack      | Planificación y redacción del tercer sprint, apoyo en el diseño de diagramas |
 
 El proceso de colaboración durante el informe se realizó tanto con commits en el backend como en el repositorio del report.
+
+**TF**
+
+Para el desarrollo del informe pertinente al TF, se dividió la implementación de secciones de la siguiente forma entre los integrantes del grupo:
+
+| **Integrantes**                  | **Tareas asignadas** |
+|----------------------------------|----------------------|
+| Roman Cruz, Natalia Bertha       | Planificación y redacción del cuarto sprint, correcciones finales del código de backend |
+| Solano Armas, Angelo Hector      | Correcciones y mejora del código del backend |
+| Iglesias Pérez, Sergio Sebastián | Correcciones y mejora del código de frontend y backend, despliegue de los mismos y del database |
+| Baldeón Vivar, Santiago Armando  | Correcciones finales del código de backend, edición del video |
+| Céspedes Pillco, Jarod Jack      | Planificación y redacción del cuarto sprint, apoyo en el código de backend |
+
+El proceso de colaboración durante el informe se realizó tanto con commits en el frontend y backend como en el repositorio del report.
 
 ---
 
@@ -119,7 +134,7 @@ __Frontend Repository__
   <p><img src="assets/md-images/network-front.png" alt="Network Graph TP" width="700px" /></p>
 </div>
 
-__Backeend Repository__
+__Backend Repository__
 
 <div>
   <p><img src="assets/md-images/network-back.png" alt="Network Graph TB2" width="700px" /></p>
@@ -153,6 +168,15 @@ __TB2__
 </div>
 <div>
    <p><img src="assets/md-images/graficos - readme TB2.png" alt="Network Graph TB2" width="700px" /</p>
+</div>
+
+__TF__
+
+<div>
+  <p><img src="assets/md-images/commits-readme TF.png" alt="Network Graph TF" width="700px" /></p>
+</div>
+<div>
+   <p><img src="assets/md-images/graficos-readme TF.png" alt="Network Graph TF" width="700px" /</p>
 </div>
 
 ---
