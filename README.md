@@ -6066,6 +6066,18 @@ __Diseño visual agradable y organizado__
 
 Al diseñar nuestros wireframes y mockups decidimos emplear patrones de diseño que nos ayudaran a mostrar la información de forma ordenada, pero sin sobrecargar la vista del usuario. De este modo, logramos que el usuario logre ingresar a las secciones que le interesan sin dificultad. Al mismo tiempo, se incluyen opciones precisas que facilitan la navegación.
 
+__Funcionalidades precisas__
+
+Hemos concluido que las funcionalidades que hemos implementando en nuestro backend son las ideales para que el usuario pueda utilizar la aplicación sin dificultades, de forma que obtenga cualquier información que desee mediante las queries propuestas.
+
+__Registro acorde con el negocio__
+
+Podemos concluir que hemos aplicado correctamente las reglas de negocio especificadas y necesarias para Tracklab, dado que se considera que los datos de ID no puedan ser nulos, así como que no se puedan realizar registros con datos incoherentes o faltantes. Esto eleva el valor de nuestro producto y ayudará a las empresas que lo usen a cometer menos errores en su gestión.
+
+__Aplicación de DDD__
+
+Finalmente, concluimos que logramos aplicar satisfactoriamente los conceptos y organización de Domain Driven Design, lo que nos permitió prestar más atención a los detalles importantes de nuestra idea y código, así como nos ayudó a fraccionar nuestro concepto en Bounded Context que pudimos trabajar en conjunto y progresivamente, llegando a un resultado óptimo.
+
 ## 6.2. Recomendaciones
 
 Al haber finalizado esta entrega del presente trabajo, nos gustaría ofrecer algunas recomendaciones frente a puntos que nos hubiera gustado modificar o hacia los que nos gustaría expandir la idea centrar en un futuro:
@@ -6075,6 +6087,10 @@ Al haber finalizado esta entrega del presente trabajo, nos gustaría ofrecer alg
 - Realizar reuniones mensuales con un representante por cada empresa que haya contratado alguno de los planes que ofrecemos para pedirle sugerencias de mejoras hacia la aplicación, así como nos reporte posibles problemas o dificultades que hayan surgido. Así, logramos mejorar los aspectos que más les interesan a los usuarios de forma precisa y podremos evaluar su evolución de forma cercana.
 
 - Agregar una alerta hacia las empresas consumidoras que las notifique cuando un material o producto que han estado buscando ha sido agregado o se encuentra en oferta. De la misma manera, podría implementarse inteligencia artificial para armar ejemplares de pedidos hacia las empresas clientes mensualmente. Esto aumentaría las transacciones al facilitarle a las empresas el proceso de búsqueda y selección de productos, por lo que sería más atractivo para las empresas proveedoras contratar nuestro producto.
+
+- Incluir herramientas adicionales que optimicen la capacidad y gestión de la base de datos de forma que, al contener una mayor cantidad de datos, los accesos a la base de datos no se ralenticen, evitando que las empresas sufran malestar o demoras.
+
+- Incluir un sistema de cámaras dentro de los transportes de carga que pueda detectar movimientos o acciones irregulares en general, de forma que se eviten accidentes ante actos peligrosos o se detecte inmediatamente si un paquete no está siguiendo el camino que le corresponde de forma que pueda volver y evitar perderse.
 
 # 7. Bibliografía 
 
