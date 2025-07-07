@@ -5594,6 +5594,43 @@ __Planificación de rutas__
 | **Búsqueda y filtrado de órdenes**        | La experiencia de Miguel con la búsqueda y filtrado de órdenes fue positiva. El **placeholder** en el buscador era claro y directo. En caso de no encontrar resultados, el sistema le dio feedback inmediato, evitando confusiones. También destacó la facilidad de los filtros, que le permitieron encontrar rápidamente lo que necesitaba. |
 | **Consulta de historial de operaciones**  | Miguel encontró muy fácil interpretar la línea de tiempo y los **nodos** del historial de operaciones, gracias a la organización clara y detallada. Apreció también el mensaje de notificación cuando no había operaciones registradas. Sugerió la adición de un filtro extra para mejorar la navegación, especialmente en historiales largos. |
 
+### Entrevista 5:  
+**Supervisores**
+
+| **Nombre Entrevistado**       | Fabricio Buselleu                      |
+|------------------------------|------------------------------------|
+| **Edad**                     | 25 Años                            |
+| **Profesión**                | Logistica - Cliente final                         |
+| **Departamento**             | Lima, Perú                         |
+| **Duración de la Entrevista**| 04:11 min                          |
+
+### Análisis de la Entrevista
+
+| **Sección**                               | **Observación**       |
+|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Inicio de sesión**                      | El formulario de inicio de sesión fue claro y sencillo, con campos bien identificados y etiquetas comprensibles. Cuando se ingresaron credenciales incorrectas, el sistema mostró un mensaje de error claro. También se mostró un indicador de carga al cargar la página, lo que mejoró la experiencia. |
+| **Creación de pedido**                    | El flujo paso a paso del wizard fue intuitivo, con etapas claramente señaladas y botones de navegación fáciles de seguir. El cambio de color en el botón "Next" indicó claramente cuándo estaba disponible para continuar, y las instrucciones y etiquetas estaban en el idioma correcto y eran claras. |
+| **Búsqueda y filtrado de órdenes**        | El placeholder del buscador indicó claramente qué tipo de órdenes se podían buscar, lo que ayudó a orientar la búsqueda. Cuando no se obtuvieron resultados, el sistema mostró un mensaje amigable, evitando confusión. Filtrar órdenes fue fluido, con filtros fáciles de usar y resultados que se actualizaban rápidamente. |
+| **Consulta de historial de operaciones**  | La línea de tiempo y los nodos fueron fáciles de interpretar gracias a su disposición gráfica clara. El sistema avisó cuando no había operaciones registradas, con un mensaje claro. Se sugiere agregar un filtro más avanzado para revisar operaciones por fechas o categorías específicas. |
+
+### Entrevista 6:  
+**Supervisores**
+
+| **Nombre Entrevistado**       | Mariana González                      |
+|------------------------------|------------------------------------|
+| **Edad**                     | 25 Años                            |
+| **Profesión**                | logistica - administrador interno                      |
+| **Departamento**             | Lima, Perú                         |
+| **Duración de la Entrevista**| 03:18 min                          |
+
+### Análisis de la Entrevista
+
+| **Sección**                               | **Observación**       |
+|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Gestión de usuarios**                   | Mariana encontró que filtrar por rol fue sencillo, con filtros claros y rápidos. El proceso para editar o bloquear usuarios fue intuitivo y no presentó dificultades. No echó en falta tooltips o ayudas en los iconos de acción, ya que los íconos eran descriptivos y las acciones se comprendían fácilmente. |
+| **Gestión de vehículos y bodegas**        | Mariana encontró fácil cambiar entre la vista lista y cuadrícula, con un cambio rápido y claro. Los filtros de zona geográfica y tipo de almacén fueron intuitivos y la ayudaron a encontrar la información de manera rápida. Además, no tuvo problemas para ubicar las bodegas en el mapa y los marcadores eran fáciles de identificar. |
+| **Gestión de contenedores**               | Mariana comprendió sin dificultad el flujo de trabajo para crear un contenedor, añadir ítems y cerrarlo. El feedback recibido al eliminar elementos y cerrar el contenedor fue adecuado, lo que le dio confianza en el sistema. No consideró necesario un mensaje de confirmación antes de cerrar el contenedor, ya que el proceso era claro. |
+| **Planificación de rutas**                | Mariana destacó la facilidad de añadir y reordenar nodos en la lista de paradas, solo tuvo que arrastrar los nodos. La visualización de la ruta en el mapa fue clara y no generó confusión. Además, el proceso para guardar rutas y cambiar entre pestañas fue rápido y fluido, sin interrupciones. |
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
