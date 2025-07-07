@@ -3314,6 +3314,10 @@ En el C3, exploramos más a detalle el API Application y el SPA. Adicionalment,e
 Diseñamos el diagrama de clases para cada uno de los bounded context y para el spa.
 
 * Spa:
+<div>
+  <p align="center"><img src="assets/md-images/spa-diagram.jpg" alt="SPA diagram.jpg" width="700px" /></p>
+</div>
+
 * Shared Context:
 <div>
   <p align="center"><img src="assets/md-images/class-diagram/front-class-diagram.png" alt="Frontend class diagram.png" width="700px" /></p>
