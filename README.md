@@ -2475,27 +2475,6 @@ Enlace para acceder a [Miro](https://miro.com/app/board/uXjVICzj2Tg=/?share_link
     <td>Como administrador de la empresa proveedora Quiero cerra el envío una vez entregado Para que registrar la entrega exitosa y que este no interfiera con los pedidos incompletos</td>
     <td>1</td>
   </tr>
-  <tr>
-    <td>27</td>
-    <td>TS02</td>
-    <td>Get Supplier company</td>
-    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero obtener la información de una empresa proveedora mediante una API Para mostrarla cuando se solicite</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>28</td>
-    <td>TS03</td>
-    <td>Post Client company</td>
-    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero registrar una nueva empresa cliente mediante una API Para visualizar las empresas cliente afiliadas a nuestra aplicación</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>29</td>
-    <td>TS05</td>
-    <td>Post User</td>
-    <td>Como desarrollador que trabaja en la aplicación de TrackLab Quiero registrar un nuevo usuario mediante una API Para visualizar los usuarios afiliados a nuestra aplicación</td>
-    <td>3</td>
-  </tr>
 </table>
 
 
