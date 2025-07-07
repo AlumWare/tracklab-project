@@ -6097,6 +6097,63 @@ En el cuarto sprint, comenzamos a implementar nuestros endpoints y los visulizam
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
+| Módulo          | Endpoint                                 | Acción                         | Verbo HTTP | Sintaxis                                 | Parámetros principales             |
+|----------------|------------------------------------------|--------------------------------|------------|------------------------------------------|------------------------------------|
+| Authentication | /api/v1/Authentication/sign-up           | Registro de usuario            | POST       | /api/v1/Authentication/sign-up           | nombre, correo, contraseña         |
+| Authentication | /api/v1/Authentication/sign-in           | Inicio de sesión               | POST       | /api/v1/Authentication/sign-in           | correo, contraseña                 |
+| Authentication | /api/v1/Authentication/users             | Crear usuario                  | POST       | /api/v1/Authentication/users             | datos usuario                      |
+| Authentication | /api/v1/Authentication/users             | Listar usuarios                | GET        | /api/v1/Authentication/users             | Ninguno                            |
+| Authentication | /api/v1/Authentication/users/{id}        | Obtener usuario por ID         | GET        | /api/v1/Authentication/users/{id}        | id                                 |
+| Authentication | /api/v1/Authentication/profile           | Obtener perfil                 | GET        | /api/v1/Authentication/profile           | Token JWT                          |
+| Container      | /api/containers                          | Listar contenedores            | GET        | /api/containers                          | Ninguno                            |
+| Container      | /api/containers                          | Crear contenedor               | POST       | /api/containers                          | datos del contenedor               |
+| Container      | /api/containers/{id}                     | Obtener contenedor por ID      | GET        | /api/containers/{id}                     | id                                 |
+| Container      | /api/containers/{id}/node                | Actualizar nodo de contenedor  | PUT        | /api/containers/{id}/node                | id, nodo                           |
+| Employee       | /api/v1/employees                        | Listar empleados               | GET        | /api/v1/employees                        | Ninguno                            |
+| Employee       | /api/v1/employees                        | Crear empleado                 | POST       | /api/v1/employees                        | datos del empleado                 |
+| Employee       | /api/v1/employees/{id}                   | Obtener empleado               | GET        | /api/v1/employees/{id}                   | id                                 |
+| Employee       | /api/v1/employees/{id}                   | Actualizar empleado            | PUT        | /api/v1/employees/{id}                   | id, datos actualizados             |
+| Employee       | /api/v1/employees/{id}                   | Eliminar empleado              | DELETE     | /api/v1/employees/{id}                   | id                                 |
+| Employee       | /api/v1/employees/{id}/status            | Actualizar estado              | PUT        | /api/v1/employees/{id}/status            | id, nuevo estado                   |
+| Health         | /api/v1/Health/public                    | Ping público                   | GET        | /api/v1/Health/public                    | Ninguno                            |
+| Health         | /api/v1/Health/protected                 | Ping protegido                 | GET        | /api/v1/Health/protected                 | Token JWT                          |
+| Health         | /api/v1/Health/admin                     | Ping admin                     | GET        | /api/v1/Health/admin                     | Token Admin                        |
+| Order          | /api/orders                              | Listar órdenes                 | GET        | /api/orders                              | Ninguno                            |
+| Order          | /api/orders                              | Crear orden                    | POST       | /api/orders                              | datos de la orden                  |
+| Order          | /api/orders/{id}                         | Obtener orden                  | GET        | /api/orders/{id}                         | id                                 |
+| Order          | /api/orders/{id}                         | Eliminar orden                 | DELETE     | /api/orders/{id}                         | id                                 |
+| Order          | /api/orders/{id}/items                   | Agregar ítems a orden          | POST       | /api/orders/{id}/items                   | id, ítems                          |
+| Order          | /api/orders/{id}/status                  | Actualizar estado              | PUT        | /api/orders/{id}/status                  | id, nuevo estado                   |
+| Position       | /api/v1/positions                        | Listar posiciones              | GET        | /api/v1/positions                        | Ninguno                            |
+| Position       | /api/v1/positions                        | Crear posición                 | POST       | /api/v1/positions                        | datos de posición                  |
+| Position       | /api/v1/positions/{id}                   | Obtener posición               | GET        | /api/v1/positions/{id}                   | id                                 |
+| Position       | /api/v1/positions/{id}                   | Actualizar posición            | PUT        | /api/v1/positions/{id}                   | id, datos                          |
+| Position       | /api/v1/positions/{id}                   | Eliminar posición              | DELETE     | /api/v1/positions/{id}                   | id                                 |
+| Product        | /api/products                            | Listar productos               | GET        | /api/products                            | Ninguno                            |
+| Product        | /api/products                            | Crear producto                 | POST       | /api/products                            | datos del producto                 |
+| Product        | /api/products/{id}                       | Obtener producto               | GET        | /api/products/{id}                       | id                                 |
+| Product        | /api/products/{id}                       | Actualizar producto            | PUT        | /api/products/{id}                       | id, datos                          |
+| Product        | /api/products/{id}                       | Eliminar producto              | DELETE     | /api/products/{id}                       | id                                 |
+| Route          | /api/routes                              | Listar rutas                   | GET        | /api/routes                              | Ninguno                            |
+| Route          | /api/routes                              | Crear ruta                     | POST       | /api/routes                              | datos ruta                         |
+| Route          | /api/routes/{id}                         | Obtener ruta                   | GET        | /api/routes/{id}                         | id                                 |
+| Route          | /api/routes/{id}/nodes                   | Agregar nodos                  | POST       | /api/routes/{id}/nodes                   | id, nodos                          |
+| Route          | /api/routes/{id}/orders                  | Asignar órdenes a ruta         | POST       | /api/routes/{id}/orders                  | id, órdenes                        |
+| TrackingEvent  | /api/tracking-events                     | Listar eventos                 | GET        | /api/tracking-events                     | Ninguno                            |
+| TrackingEvent  | /api/tracking-events                     | Registrar evento               | POST       | /api/tracking-events                     | datos del evento                   |
+| TrackingEvent  | /api/tracking-events/{id}                | Obtener evento                 | GET        | /api/tracking-events/{id}                | id                                 |
+| Vehicle        | /api/v1/vehicles                         | Listar vehículos               | GET        | /api/v1/vehicles                         | Ninguno                            |
+| Vehicle        | /api/v1/vehicles                         | Crear vehículo                 | POST       | /api/v1/vehicles                         | datos del vehículo                 |
+| Vehicle        | /api/v1/vehicles/{id}                    | Obtener vehículo               | GET        | /api/v1/vehicles/{id}                    | id                                 |
+| Vehicle        | /api/v1/vehicles/{id}                    | Actualizar vehículo            | PUT        | /api/v1/vehicles/{id}                    | id, datos                          |
+| Vehicle        | /api/v1/vehicles/{id}                    | Eliminar vehículo              | DELETE     | /api/v1/vehicles/{id}                    | id                                 |
+| Warehouse      | /api/v1/warehouses                       | Listar almacenes               | GET        | /api/v1/warehouses                       | Ninguno                            |
+| Warehouse      | /api/v1/warehouses                       | Crear almacén                  | POST       | /api/v1/warehouses                       | datos del almacén                  |
+| Warehouse      | /api/v1/warehouses/{id}                  | Obtener almacén                | GET        | /api/v1/warehouses/{id}                  | id                                 |
+| Warehouse      | /api/v1/warehouses/{id}                  | Actualizar almacén             | PUT        | /api/v1/warehouses/{id}                  | id, datos                          |
+| Warehouse      | /api/v1/warehouses/{id}                  | Eliminar almacén               | DELETE     | /api/v1/warehouses/{id}                  | id                                 |
+
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
 A continuación, se explicará como hemos desarrollado la parte de nuestro backend.
