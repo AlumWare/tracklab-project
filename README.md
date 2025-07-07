@@ -2330,7 +2330,7 @@ Enlace para acceder a [Miro](https://miro.com/app/board/uXjVICzj2Tg=/?share_link
   </tr>
   <tr>
     <td>6</td>
-    <td><US05/td>
+    <td>US05</td>
     <td>Visualización de productos disponibles</td>
     <td>Como administrador de la empresa cliente Quiero visualizar los productos disponibles y su información Para decidir cuales comprar</td>
     <td>5</td>
