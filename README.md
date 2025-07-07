@@ -6326,7 +6326,7 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 
 - Video exposición TB1: [https://youtu.be/Jf3-NGdk-AU](https://youtu.be/Jf3-NGdk-AU)
 - Video exposición TP: [https://drive.google.com/file/d/1EmziaM_jdIH5AsfrZgj7ZG7ffUs4D35T/view?usp=sharing](https://drive.google.com/file/d/1EmziaM_jdIH5AsfrZgj7ZG7ffUs4D35T/view?usp=sharing)
-- vide exposición TF:[https://drive.google.com/file/d/1XwBKRBzxKjJyNwVZZbXP5NhGoVXA8izB/view](https://drive.google.com/file/d/1XwBKRBzxKjJyNwVZZbXP5NhGoVXA8izB/view?usp=sharing)
+- Video exposición TF:[https://drive.google.com/file/d/1XwBKRBzxKjJyNwVZZbXP5NhGoVXA8izB/view](https://drive.google.com/file/d/1XwBKRBzxKjJyNwVZZbXP5NhGoVXA8izB/view?usp=sharing)
 - Landing Page desplegado del proyecto: [https://purple-bay-07e3cfa0f.6.azurestaticapps.net](https://purple-bay-07e3cfa0f.6.azurestaticapps.net)
 - Repositorio de la Landing Page: [https://github.com/AlumWare/tracklab-landing-page](https://github.com/AlumWare/tracklab-landing-page)
 - Documentación del Proyecto: [https://github.com/AlumWare/tracklab-project](https://github.com/AlumWare/tracklab-project)
@@ -6336,5 +6336,5 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 - Entrevistas realizadas: [https://drive.google.com/file/d/1EmhqOBzWtVKcfsdwAvuag5Rv_YjDLzFW/view?usp=sharing](https://drive.google.com/file/d/1EmhqOBzWtVKcfsdwAvuag5Rv_YjDLzFW/view?usp=sharing)  
 - Backend del proyecto (Swagger API): [https://tracklab-api.azurewebsites.net/swagger/index.html](https://tracklab-api.azurewebsites.net/swagger/index.html)
 - Repositorio de diagramas del proyecto: [https://github.com/AlumWare/tracklab-docs](https://github.com/AlumWare/tracklab-docs)
-- video de entrevistas :[https://drive.google.com/file/d/1EmhqOBzWtVKcfsdwAvuag5Rv_YjDLzFW/view](https://drive.google.com/file/d/1EmhqOBzWtVKcfsdwAvuag5Rv_YjDLzFW/view?usp=sharing)
-- video de About the Product:[https://drive.google.com/file/d/1s7A0pv8YCBAQ65nQ2DfR5rNq9h1PGEVg/view](https://drive.google.com/file/d/1s7A0pv8YCBAQ65nQ2DfR5rNq9h1PGEVg/view)
+- Video de entrevistas :[https://drive.google.com/file/d/1EmhqOBzWtVKcfsdwAvuag5Rv_YjDLzFW/view](https://drive.google.com/file/d/1EmhqOBzWtVKcfsdwAvuag5Rv_YjDLzFW/view?usp=sharing)
+- Video de About the Product:[https://drive.google.com/file/d/1s7A0pv8YCBAQ65nQ2DfR5rNq9h1PGEVg/view](https://drive.google.com/file/d/1s7A0pv8YCBAQ65nQ2DfR5rNq9h1PGEVg/view)
